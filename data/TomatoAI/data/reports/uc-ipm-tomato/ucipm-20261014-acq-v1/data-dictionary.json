@@ -1,0 +1,16 @@
+{
+  "schema_version": "ucipm-research-1.0",
+  "parser": "ucipm-html-1.0",
+  "source_id": "stable survey source ID; publication/part separate; representations are not independent votes",
+  "snapshot_sha256": "SHA-256 of actual HTML bytes only; null when no snapshot; policy preflight not corpus",
+  "section_locator": "DOM CSS nth-of-type path before chrome removal; anchor retained when present",
+  "text_en": "original English; whitespace normalization only; no scientific/units/negation editing",
+  "blocks": "headings, paragraphs, nested ordered/unordered lists, table rows/cells/spans/header IDs/footnotes and links",
+  "updated_original": "prior survey string with explicit basis; parsed_date null; never HTTP Last-Modified/footer year",
+  "rights": "five purpose-specific statuses; no generic domain license; resource evidence required",
+  "context": "California and surveyed role; field/garden scope differs; missing inputs not inferred from labels",
+  "review": "domain pending; translation not_translated; reviewer null; display/advice/training false",
+  "processing": "cleaned_technical only after structural/schema checks and processing rights; no advice-ready implication",
+  "acquisition": "downloaded/reused/metadata_only/blocked/not_attempted_batch_stopped; mutually exclusive per corpus item",
+  "flags": "overlapping indicators; never added to resource counts"
+}

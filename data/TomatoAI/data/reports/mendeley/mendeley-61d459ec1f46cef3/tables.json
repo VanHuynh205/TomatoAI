@@ -1,0 +1,490 @@
+[
+  {
+    "table": "csv",
+    "source_file": "tomato irrigation dataset.csv",
+    "source_sha256": "376c12753e37c9803df4669ae9f8a99331e4d358a3c336ad3ba93d64a4ac01ca",
+    "source_records": 3000,
+    "retained_records": 3000,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 3000,
+    "source_headers": [
+      "Temperature [_ C] ",
+      "Humidity [%]",
+      "Soil moisture",
+      "Reference evapotranspiration",
+      "Evapotranspiration",
+      "Crop Coefficient",
+      "Crop Coefficient stage",
+      "Nitrogen [mg/kg]",
+      "Phosphorus [mg/kg]",
+      "Potassium",
+      "Solar Radiation ghi",
+      "Wind Speed",
+      "Days of planted",
+      "pH"
+    ],
+    "normalized_fields": [
+      "Temperature [_ C]",
+      "Humidity [%]",
+      "Soil moisture",
+      "Reference evapotranspiration",
+      "Evapotranspiration",
+      "Crop Coefficient",
+      "Crop Coefficient stage",
+      "Nitrogen [mg/kg]",
+      "Phosphorus [mg/kg]",
+      "Potassium",
+      "Solar Radiation ghi",
+      "Wind Speed",
+      "Days of planted",
+      "pH"
+    ],
+    "field_kind_counts": {
+      "decimal_text": 39000,
+      "category": 3000
+    },
+    "missing_per_field": {},
+    "zeros_per_field": {},
+    "numeric_ranges_audit_only": {
+      "Temperature [_ C]": [
+        "18",
+        "32"
+      ],
+      "Humidity [%]": [
+        "60",
+        "98.2"
+      ],
+      "Soil moisture": [
+        "120.09",
+        "699.99"
+      ],
+      "Reference evapotranspiration": [
+        "1.227436382",
+        "1099.324756"
+      ],
+      "Evapotranspiration": [
+        "1.306435363",
+        "899.8149776"
+      ],
+      "Crop Coefficient": [
+        "0.42",
+        "1.5"
+      ],
+      "Nitrogen [mg/kg]": [
+        "44",
+        "119"
+      ],
+      "Phosphorus [mg/kg]": [
+        "15",
+        "109"
+      ],
+      "Potassium": [
+        "22",
+        "139"
+      ],
+      "Solar Radiation ghi": [
+        "4.49",
+        "804"
+      ],
+      "Wind Speed": [
+        "0.65",
+        "4.2"
+      ],
+      "Days of planted": [
+        "1",
+        "130"
+      ],
+      "pH": [
+        "0.91",
+        "12.26"
+      ]
+    },
+    "category_counts": {
+      "Crop Coefficient stage": {
+        "Initial Stage": 167,
+        "Development Stage": 129,
+        "Mid stage": 2501,
+        "Last stage": 203
+      }
+    },
+    "duplicate_value_groups": 12,
+    "duplicate_value_records": 40,
+    "duplicate_value_surplus": 28,
+    "unique_timestamps": 0,
+    "duplicate_timestamp_groups": 0,
+    "duplicate_timestamp_records": 0,
+    "timestamp_decreases": 0,
+    "timestamp_min_max_naive": null,
+    "constant_fields": [],
+    "cell_operations": {
+      "parse_numeric_text_preserve_precision": 39000
+    },
+    "flags_overlapping": {
+      "research_only_semantics_and_independence_unverified": 3000
+    }
+  },
+  {
+    "table": "json",
+    "source_file": "tomato_water_sensor_data.json",
+    "source_sha256": "5f6d4182ea8382658dcf396a1a9ad1843508e60ad16ca578292e30984b89dd0e",
+    "source_records": 393,
+    "retained_records": 393,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 393,
+    "source_headers": [
+      "temperature",
+      "humidity",
+      "moistureValue",
+      "moisturePercentage",
+      "hauntValue",
+      "hauntVoltageValue",
+      "sunlightValue",
+      "ultrasonicDurationMinute",
+      "ultrasonicDistanceValue",
+      "tomatoWaterVolumeFirstWeek",
+      "tomatoWaterVolumeSecondWeek",
+      "fruitWaterVolume",
+      "maxTomatoHumidity",
+      "minTomatoHumidity",
+      "minTomatoMoisture",
+      "maxTomatoMoisture",
+      "maxTomatoTemperatureSeedGermination",
+      "minTomatoTemperatureSeedGermination",
+      "minTomatoTemperatureFruitSet",
+      "optimalTomatoTemperature",
+      "waterFlow_rate",
+      "waterVolume_liter",
+      "latitude",
+      "longitude",
+      "driperBetweenDistance",
+      "dataSpeedRate",
+      "dataVolumeKbps",
+      "windSpeedVal",
+      "elevationValue",
+      "solarRadiation_ghi_val",
+      "evapotranspirationValue",
+      "cropCoffiecient",
+      "reference_eto",
+      "dayOfYearNumber",
+      "irrigation_needed_value",
+      "motorValue",
+      "dateTimeAdded"
+    ],
+    "normalized_fields": [
+      "temperature",
+      "humidity",
+      "moistureValue",
+      "moisturePercentage",
+      "hauntValue",
+      "hauntVoltageValue",
+      "sunlightValue",
+      "ultrasonicDurationMinute",
+      "ultrasonicDistanceValue",
+      "tomatoWaterVolumeFirstWeek",
+      "tomatoWaterVolumeSecondWeek",
+      "fruitWaterVolume",
+      "maxTomatoHumidity",
+      "minTomatoHumidity",
+      "minTomatoMoisture",
+      "maxTomatoMoisture",
+      "maxTomatoTemperatureSeedGermination",
+      "minTomatoTemperatureSeedGermination",
+      "minTomatoTemperatureFruitSet",
+      "optimalTomatoTemperature",
+      "waterFlow_rate",
+      "waterVolume_liter",
+      "latitude",
+      "longitude",
+      "driperBetweenDistance",
+      "dataSpeedRate",
+      "dataVolumeKbps",
+      "windSpeedVal",
+      "elevationValue",
+      "solarRadiation_ghi_val",
+      "evapotranspirationValue",
+      "cropCoffiecient",
+      "reference_eto",
+      "dayOfYearNumber",
+      "irrigation_needed_value",
+      "motorValue",
+      "dateTimeAdded"
+    ],
+    "field_kind_counts": {
+      "decimal_text": 14148,
+      "naive_datetime": 393
+    },
+    "missing_per_field": {},
+    "zeros_per_field": {
+      "waterFlow_rate": 386,
+      "waterVolume_liter": 386,
+      "irrigation_needed_value": 379,
+      "motorValue": 379,
+      "dataSpeedRate": 5
+    },
+    "numeric_ranges_audit_only": {
+      "temperature": [
+        "27.7",
+        "38.2"
+      ],
+      "humidity": [
+        "63.4",
+        "92.9"
+      ],
+      "moistureValue": [
+        "331",
+        "632"
+      ],
+      "moisturePercentage": [
+        "38.22",
+        "67.64"
+      ],
+      "hauntValue": [
+        "270",
+        "540"
+      ],
+      "hauntVoltageValue": [
+        "1.32",
+        "2.64"
+      ],
+      "sunlightValue": [
+        "76",
+        "222"
+      ],
+      "ultrasonicDurationMinute": [
+        "8E-7",
+        "0.00006376666666666667"
+      ],
+      "ultrasonicDistanceValue": [
+        "0.82",
+        "65.62"
+      ],
+      "tomatoWaterVolumeFirstWeek": [
+        "0.0163871",
+        "0.0163871"
+      ],
+      "tomatoWaterVolumeSecondWeek": [
+        "0.0245806",
+        "0.0245806"
+      ],
+      "fruitWaterVolume": [
+        "0.0294967",
+        "0.0294967"
+      ],
+      "maxTomatoHumidity": [
+        "90.0",
+        "90.0"
+      ],
+      "minTomatoHumidity": [
+        "40.0",
+        "40.0"
+      ],
+      "minTomatoMoisture": [
+        "50.0",
+        "50.0"
+      ],
+      "maxTomatoMoisture": [
+        "90.0",
+        "90.0"
+      ],
+      "maxTomatoTemperatureSeedGermination": [
+        "33.0",
+        "33.0"
+      ],
+      "minTomatoTemperatureSeedGermination": [
+        "11.0",
+        "11.0"
+      ],
+      "minTomatoTemperatureFruitSet": [
+        "18.0",
+        "18.0"
+      ],
+      "optimalTomatoTemperature": [
+        "28.0",
+        "28.0"
+      ],
+      "waterFlow_rate": [
+        "0.0",
+        "2.3"
+      ],
+      "waterVolume_liter": [
+        "0.0",
+        "1.48"
+      ],
+      "latitude": [
+        "24.6848223",
+        "24.6848223"
+      ],
+      "longitude": [
+        "92.7510458",
+        "92.7510458"
+      ],
+      "driperBetweenDistance": [
+        "25",
+        "25"
+      ],
+      "dataSpeedRate": [
+        "0.0",
+        "0.27"
+      ],
+      "dataVolumeKbps": [
+        "0.00000947478209020534",
+        "0.11765164441209998"
+      ],
+      "windSpeedVal": [
+        "0.82",
+        "2.58"
+      ],
+      "elevationValue": [
+        "67.0",
+        "67.0"
+      ],
+      "solarRadiation_ghi_val": [
+        "19",
+        "937"
+      ],
+      "evapotranspirationValue": [
+        "5.330076384316318",
+        "158.55878473611546"
+      ],
+      "cropCoffiecient": [
+        "1.15",
+        "1.15"
+      ],
+      "reference_eto": [
+        "4.634849029840277",
+        "137.87720411836128"
+      ],
+      "dayOfYearNumber": [
+        "208",
+        "214"
+      ],
+      "irrigation_needed_value": [
+        "0",
+        "111.67032752774057"
+      ],
+      "motorValue": [
+        "0",
+        "1"
+      ]
+    },
+    "category_counts": {},
+    "duplicate_value_groups": 60,
+    "duplicate_value_records": 152,
+    "duplicate_value_surplus": 92,
+    "unique_timestamps": 30,
+    "duplicate_timestamp_groups": 23,
+    "duplicate_timestamp_records": 386,
+    "timestamp_decreases": 0,
+    "timestamp_min_max_naive": [
+      "2023-07-27T17:50:10",
+      "2023-08-02T19:43:48"
+    ],
+    "constant_fields": [
+      {
+        "field": "tomatoWaterVolumeFirstWeek",
+        "distinct_normalized_values": 1,
+        "value": "0.0163871",
+        "role_unverified": true
+      },
+      {
+        "field": "tomatoWaterVolumeSecondWeek",
+        "distinct_normalized_values": 1,
+        "value": "0.0245806",
+        "role_unverified": true
+      },
+      {
+        "field": "fruitWaterVolume",
+        "distinct_normalized_values": 1,
+        "value": "0.0294967",
+        "role_unverified": true
+      },
+      {
+        "field": "maxTomatoHumidity",
+        "distinct_normalized_values": 1,
+        "value": "90.0",
+        "role_unverified": true
+      },
+      {
+        "field": "minTomatoHumidity",
+        "distinct_normalized_values": 1,
+        "value": "40.0",
+        "role_unverified": true
+      },
+      {
+        "field": "minTomatoMoisture",
+        "distinct_normalized_values": 1,
+        "value": "50.0",
+        "role_unverified": true
+      },
+      {
+        "field": "maxTomatoMoisture",
+        "distinct_normalized_values": 1,
+        "value": "90.0",
+        "role_unverified": true
+      },
+      {
+        "field": "maxTomatoTemperatureSeedGermination",
+        "distinct_normalized_values": 1,
+        "value": "33.0",
+        "role_unverified": true
+      },
+      {
+        "field": "minTomatoTemperatureSeedGermination",
+        "distinct_normalized_values": 1,
+        "value": "11.0",
+        "role_unverified": true
+      },
+      {
+        "field": "minTomatoTemperatureFruitSet",
+        "distinct_normalized_values": 1,
+        "value": "18.0",
+        "role_unverified": true
+      },
+      {
+        "field": "optimalTomatoTemperature",
+        "distinct_normalized_values": 1,
+        "value": "28.0",
+        "role_unverified": true
+      },
+      {
+        "field": "latitude",
+        "distinct_normalized_values": 1,
+        "value": "24.6848223",
+        "role_unverified": true
+      },
+      {
+        "field": "longitude",
+        "distinct_normalized_values": 1,
+        "value": "92.7510458",
+        "role_unverified": true
+      },
+      {
+        "field": "driperBetweenDistance",
+        "distinct_normalized_values": 1,
+        "value": "25",
+        "role_unverified": true
+      },
+      {
+        "field": "elevationValue",
+        "distinct_normalized_values": 1,
+        "value": "67.0",
+        "role_unverified": true
+      },
+      {
+        "field": "cropCoffiecient",
+        "distinct_normalized_values": 1,
+        "value": "1.15",
+        "role_unverified": true
+      }
+    ],
+    "cell_operations": {
+      "JSON_number_to_exact_decimal_text": 14148,
+      "ISO_naive_datetime_no_timezone": 393
+    },
+    "flags_overlapping": {
+      "research_only_semantics_and_independence_unverified": 393
+    }
+  }
+]

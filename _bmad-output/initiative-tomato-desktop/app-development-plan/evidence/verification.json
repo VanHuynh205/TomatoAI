@@ -1,0 +1,149 @@
+{
+  "plan_version": "adp-20261014-v1",
+  "verified_local": "2026-10-15T00:03:25",
+  "kind": "documentation_and_official_ticket_runtime_only",
+  "passed": true,
+  "checks": {
+    "task_coverage": {
+      "passed": true,
+      "details": {
+        "tasks": 22,
+        "official_stories": 22
+      }
+    },
+    "phase_coverage": {
+      "passed": true,
+      "details": {
+        "phases": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ]
+      }
+    },
+    "dependency_graph": {
+      "passed": true,
+      "details": {
+        "edges": 30,
+        "missing": [],
+        "extra": []
+      }
+    },
+    "requirements_traceability": {
+      "passed": true,
+      "details": {
+        "FR": 14,
+        "NFR": 10,
+        "source_story_test_mapping_preserved": true
+      }
+    },
+    "capability_contract_preserved": {
+      "passed": true,
+      "details": {
+        "capabilities": 9,
+        "intent_and_success_unchanged": true
+      }
+    },
+    "spec_companions": {
+      "passed": true,
+      "details": {
+        "count": 15,
+        "missing": []
+      }
+    },
+    "local_document_links": {
+      "passed": true,
+      "details": {
+        "checked": 63,
+        "missing": []
+      }
+    },
+    "markdown_table_structure": {
+      "passed": true,
+      "details": {
+        "errors": [],
+        "documents": 7
+      }
+    },
+    "official_runtime_status": {
+      "passed": true,
+      "details": {
+        "epics": 6,
+        "stories": 22,
+        "states": [
+          "planned"
+        ],
+        "problems": {
+          "problems": [],
+          "unpinned_after": [],
+          "undeclared_after": [],
+          "order_conflict": []
+        }
+      }
+    },
+    "official_next": {
+      "passed": true,
+      "details": {
+        "ready": [
+          "EPA.S01"
+        ],
+        "blocked": 21
+      }
+    },
+    "protected_artifacts_preserved": {
+      "passed": true,
+      "details": {
+        "protected_files": 34,
+        "registry_files": 1,
+        "ticket_stores": 7,
+        "integration_files": 26,
+        "unexpected_changes": [],
+        "intentional_document_changes": [
+          {
+            "path": "PRODUCT.md",
+            "changed": true
+          },
+          {
+            "path": "planning/tomato-desktop/README.md",
+            "changed": true
+          },
+          {
+            "path": "_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/spec-tomato-desktop.md",
+            "changed": true
+          },
+          {
+            "path": "_bmad-output/initiative-tomato-desktop/initiative-tomato-desktop.md",
+            "changed": true
+          }
+        ]
+      }
+    },
+    "planning_scope": {
+      "passed": true,
+      "details": {
+        "no_login": true,
+        "training_and_guidance_explicit": true,
+        "future_test_commands_not_reported_as_run": true
+      }
+    }
+  },
+  "failed_checks": [],
+  "commands_run": [
+    "uv run _bmad/method/scripts/tickets.py status _bmad-output/initiative-tomato-desktop",
+    "uv run _bmad/method/scripts/tickets.py next _bmad-output/initiative-tomato-desktop",
+    "uv run python - (CSV derivation and structural/preservation checks)"
+  ],
+  "not_run": [
+    "app unit/native/E2E/build tests (app absent; documentation-only request)",
+    "training/model validation (future work; grouping and content approval still blocked)",
+    "fresh rehash of whole raw datasets (out of scope)"
+  ],
+  "historical_evidence": "pi-20261014-v1 import hashes and prior reconciliation are historical; deliberate spec/initiative/memlog update must not overwrite old evidence."
+}

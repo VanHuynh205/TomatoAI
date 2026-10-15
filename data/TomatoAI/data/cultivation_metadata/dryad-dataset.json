@@ -1,0 +1,312 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wm37pvn33"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wm37pvn33/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/446657"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wm37pvn33/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.wm37pvn33",
+  "id": 183960,
+  "storageSize": 159125,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Data from: Effects of different irrigation lower limits and combined application of reduced nitrogen with organic fertilizer on spring-season tomatoes (<em>Solanum lycopersicum</em>)",
+  "authors": [
+    {
+      "firstName": "Hai-jie",
+      "lastName": "Li",
+      "email": "834514145@qq.com",
+      "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+      "affiliationROR": "https://ror.org/0201w0c54",
+      "affiliations": [
+        {
+          "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+          "identifier": "https://ror.org/0201w0c54"
+        }
+      ],
+      "orcid": "0009-0001-3989-0536"
+    },
+    {
+      "firstName": "Yuan",
+      "lastName": "Huang",
+      "email": "13494515@qq.com",
+      "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+      "affiliationROR": "https://ror.org/0201w0c54",
+      "affiliations": [
+        {
+          "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+          "identifier": "https://ror.org/0201w0c54"
+        }
+      ],
+      "orcid": "0009-0001-3989-0536",
+      "order": 1
+    },
+    {
+      "firstName": "Jing-xin",
+      "lastName": "Yu",
+      "email": "646803157@qq.com",
+      "affiliation": "Beijing Academy of Agriculture and Forestry Sciences",
+      "affiliationROR": "https://ror.org/04trzn023",
+      "affiliations": [
+        {
+          "organization": "Beijing Academy of Agriculture and Forestry Sciences",
+          "identifier": "https://ror.org/04trzn023"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Guo-ying",
+      "lastName": "Tian",
+      "email": "17731175112@189.cn",
+      "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+      "affiliationROR": "https://ror.org/0201w0c54",
+      "affiliations": [
+        {
+          "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+          "identifier": "https://ror.org/0201w0c54"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Xin-na",
+      "lastName": "Gao",
+      "email": "414808686@qq.com",
+      "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+      "affiliationROR": "https://ror.org/0201w0c54",
+      "affiliations": [
+        {
+          "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+          "identifier": "https://ror.org/0201w0c54"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Yi-fan",
+      "lastName": "Kang",
+      "email": "850441912@qq.com",
+      "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+      "affiliationROR": "https://ror.org/0201w0c54",
+      "affiliations": [
+        {
+          "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+          "identifier": "https://ror.org/0201w0c54"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Ya-ru",
+      "lastName": "Du",
+      "email": "290320989@qq.com",
+      "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+      "affiliationROR": "https://ror.org/0201w0c54",
+      "affiliations": [
+        {
+          "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+          "identifier": "https://ror.org/0201w0c54"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Yang-yang",
+      "lastName": "Wu",
+      "email": "1020826392@qq.com",
+      "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+      "affiliationROR": "https://ror.org/0201w0c54",
+      "affiliations": [
+        {
+          "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+          "identifier": "https://ror.org/0201w0c54"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Ying-ru",
+      "lastName": "Yang",
+      "email": "1979266305@qq.com",
+      "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+      "affiliationROR": "https://ror.org/0201w0c54",
+      "affiliations": [
+        {
+          "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+          "identifier": "https://ror.org/0201w0c54"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "abstract": "<p>Greenhouse tomatoes (<em>Solanum lycopersicum</em>) are a high-value cash crop globally; however, inefficient water and nitrogen management in greenhouse systems often leads to resource waste, environmental risks, and reduced yield/quality, thereby posing challenges for sustainable cultivation. Herein, we aimed to optimize water and fertilizer management for spring greenhouse tomatoes by investigating how different irrigation lower limits, combined with reduced nitrogen and organic fertilizer, affect photosynthetic performance, yield, fruit quality, and water<strong>–</strong>nitrogen use efficiency. A three-factor experiment was conducted in 2024. Treatments included two irrigation levels <strong>(L)</strong> [75–90% field capacity (FC<strong>;</strong> L1) and 85–90% FC (L2), where FC refers to the soil field capacity]; two basal organic fertilizer application<strong> </strong>rates <strong>(O)</strong> [high (O1: 400 kg decomposed sheep manure) and low (O2: 280 kg decomposed sheep manure)]; and three topdressing nitrate<strong>-</strong>nitrogen levels <strong>(N)</strong> [conventional (N1: 352.14 kg·hm⁻²), 20% reduced (N2: 281.72 kg·hm⁻²), and 40% reduced (N3: 211.29 kg·hm⁻²)]. Data were analyzed using three-way ANOVA, principal component analysis (for photosynthetic and quality traits), and entropy-weighted TOPSIS (comprehensive evaluation)<strong>.</strong> The first-level indicators in the system included photosynthetic indicators (F1), yield indicators (F2), quality indicators (F3), water use indicators (F4), partial factor productivity of nitrogen (F5), and nitrogen–phosphorus–potassium accumulation (F6). The results revealed that the treatments L2, N3 and O2 can increase the average yield of tomatoes, and the combination of L2 (85%–90% FC), O2 (low organic fertilizer), and N2 (20% reduced nitrogen) not only displayed the highest levels of vitamin C (21.46 mg/100g) and soluble solids content (5.62%) in fruits but also exhibited the highest total nitrogen content in fruits, stems, and leaves across all treatments<strong>,</strong> surpassing the lowest-performing treatment by 62.83%. Consequently, this treatment yielded the highest comprehensive performance.</p>\n",
+  "funders": [
+    {
+      "organization": "Hebei Provincial Fund Project for the Transformation of Agricultural Scientific  and Technological Achievements",
+      "identifierType": "ror",
+      "identifier": "",
+      "awardNumber": "2025JNZ-A11",
+      "awardDescription": "",
+      "awardTitle": "Hebei Provincial Fund Project for the Transformation of Agricultural Scientific  and Technological Achievements",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Agricultural irrigation",
+    "Tomatoes",
+    "fertilizer"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p><strong>Experimental site and greenhouse details</strong></p>\n<p>This study was conducted at the Shijiazhuang Academy of Agriculture Sciences Experimental Base (114°36′E, 37°37′N). Formal work permission for on-site access was not required for this experiment, as the test site is a public research platform managed by the Shijiazhuang Academy of Agriculture and Forestry Sciences, and the research activities comply with the platform's default research access regulations. The solar greenhouse used in the experiment had a steel frame structure, measuring 90 m in length, 8.0 m in width, and 4.5 m in height. The thickness of the rear wall was 0.5 m, and the structure was covered with polyethylene film (light transmittance approximately 85%). The greenhouse was equipped with top and bottom ventilation openings, along with two circulation fans installed on the east wall to regulate internal temperature and humidity according to external conditions. The total planting area was 489 m². The planting area was 489 m². The soil at the test site was loam, and the physical properties and nutrient contents of the soil at a depth of 0–40 cm are shown in Table 1.</p>\n<p><strong>Table1. Soil physical and chemical properties.</strong></p>\n<table>\n<thead>\n<tr>\n<th align=\"left\"><strong>Depth (cm)</strong></th>\n<th align=\"left\"><strong>Organic matter(g/kg)</strong></th>\n<th align=\"left\"><strong>Available nitrogen (mg/kg)</strong></th>\n<th align=\"left\"><strong>Available phosphorus(mg/kg)</strong></th>\n<th align=\"left\"><strong>Available potassium (mg/kg)</strong></th>\n<th align=\"left\"><strong>pH</strong></th>\n<th align=\"left\"><strong>Electrical conductivity (µS/cm)</strong></th>\n<th align=\"left\"><strong>Soil properties</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"left\">0–40</td>\n<td align=\"left\">5.79</td>\n<td align=\"left\">31.65</td>\n<td align=\"left\">17.45</td>\n<td align=\"left\">326.5</td>\n<td align=\"left\">7.24</td>\n<td align=\"left\">84.05</td>\n<td align=\"left\">Loam</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Test materials and experimental design    </strong></p>\n<p>The tomato variety used in the test was ‘Onuo,’ a new pink-fruited tomato cultivar. The plants exhibited vigorous growth, adequate heat tolerance, strong disease resistance, and suitability for cultivation in early spring and summer. The test tomatoes were planted on March 14, 2024, the experiment began on April 1, and the vines were pulled on June 24; thus, the total growth period was 102 days.</p>\n<p>The tested organic fertilizer was decomposed sheep manure (N+P₂O₅+K₂O content ≥4.87%, organic matter content ≥18.4%), and the chemical fertilizers were urea (nitrogen content 46%) and potassium sulfate (K₂O content 52%). According to the experimental design, the total amount of organic fertilizer for different treatments was applied as base fertilizer, and the nitrogen fertilizer was applied five times in equal amounts with irrigation water at different growth stages of tomato, including the reviving stage, flowering and fruit-setting stage, fruit expansion stage, peak fruiting stage, and late harvesting stage. Each plot was applied with an equal amount of potassium fertilizer as the base fertilizer (13.48 kg/hm²). The agricultural management measures between treatments were the same.</p>\n<p>In this study, we employed two different irrigation levels (L): 75–90% FC (L1) and 85–90% FC (L2); two base fertilizer levels with high organic matter (O1, 400 kg decomposed sheep manure) and low organic matter (O2, 280 kg decomposed sheep manure); and three topdressing levels using urea (N): conventional nitrogen levels (N1, 352.14 kg/hm²), 20% reduction in nitrogen levels (N2, 281.72 kg/hm²), and 40% reduction in nitrogen levels (N3, 211.29 kg/hm²). The experiment was conducted in a three-factor factorial design, with a total of 12 treatments (Table 2), and each treatment was replicated thrice. Two buffer rows were left between treatments. The cultivation used a wide-narrow row system with planting beds dug 0.2 m deep, 0.6 m wide, and 6.7 m long. The plant spacing was 0.33 m, with narrow rows spaced 0.4 m apart and wide rows 1.1 m apart. Drip irrigation was employed with emitters spaced 0.3 m apart, and one drip tape was laid per row.</p>\n<p>Soil moisture content (volumetric fraction) was monitored using a multi-profile 3D soil moisture monitoring device (Agricore Technology, China). The device was installed at the midpoint of each plot's north-south axis, 15 cm away from tomato plants on the ridges. According to the technical specifications of NY∕T 3678–2020 (Determination of Field Capacity of Soil by Enclosure Flooding Instrument Method), the maximum water-holding capacity (volumetric fraction) of the tested soil was calculated. The field capacity (hereinafter referred to as FC) of the 0–40 cm soil layer in each plot was measured. The monitoring data were transmitted in real time to the management platform (<a href=\"http://210.12.220.75:15002/login\">http://210.12.220.75:15002/login</a>). Specifically, the irrigation control module integrated in the platform establishes a stable network connection with the irrigation controller. The irrigation activation condition, i.e., the lower irrigation threshold, is configured through the platform; when the data monitored by the sensors reach the preset parameters, the platform sends an irrigation command to the irrigation controller, and the irrigation process will be terminated automatically once the upper irrigation threshold (90% FC) is achieved.</p>\n<p><strong>Table 2. An experimental design, including a total of 12 different treatment groups.</strong></p>\n<table>\n<thead>\n<tr>\n<th align=\"left\"><strong>Treatment</strong></th>\n<th align=\"left\"><strong>Organic fertilizer (O, kg)</strong></th>\n<th align=\"left\"><strong>Irrigation lower limit (L, %FC)</strong></th>\n<th align=\"left\"><strong>Nitrogen fertilizer (N, kg/hm²)</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"left\"><strong>T1</strong></td>\n<td align=\"left\">O1:400</td>\n<td align=\"left\">L1:75</td>\n<td align=\"left\">N1:352.14</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>T2</strong></td>\n<td align=\"left\">O1:400</td>\n<td align=\"left\">L1:75</td>\n<td align=\"left\">N2:281.72</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>T3</strong></td>\n<td align=\"left\">O1:400</td>\n<td align=\"left\">L1:75</td>\n<td align=\"left\">N3:211.29</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>T4</strong></td>\n<td align=\"left\">O1:400</td>\n<td align=\"left\">L2:85</td>\n<td align=\"left\">N1:352.14</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>T5</strong></td>\n<td align=\"left\">O1:400</td>\n<td align=\"left\">L2:85</td>\n<td align=\"left\">N2:281.72</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>T6</strong></td>\n<td align=\"left\">O1:400</td>\n<td align=\"left\">L2:85</td>\n<td align=\"left\">N3:211.29</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>T7</strong></td>\n<td align=\"left\">O2:280</td>\n<td align=\"left\">L1:75</td>\n<td align=\"left\">N1:352.14</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>T8</strong></td>\n<td align=\"left\">O2:280</td>\n<td align=\"left\">L1:75</td>\n<td align=\"left\">N2:281.72</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>T9</strong></td>\n<td align=\"left\">O2:280</td>\n<td align=\"left\">L1:75</td>\n<td align=\"left\">N3:211.29</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>T10</strong></td>\n<td align=\"left\">O2:280</td>\n<td align=\"left\">L2:85</td>\n<td align=\"left\">N1:352.14</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>T11</strong></td>\n<td align=\"left\">O2:280</td>\n<td align=\"left\">L2:85</td>\n<td align=\"left\">N2:281.72</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>T12</strong></td>\n<td align=\"left\">O2:280</td>\n<td align=\"left\">L2:85</td>\n<td align=\"left\">N3:211.29</td>\n</tr>\n</tbody>\n</table>\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0354927"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-06-09",
+  "lastModificationDate": "2026-06-09",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.wm37pvn33",
+  "changedFields": [
+    "title",
+    "authors",
+    [
+      {
+        "index": 0,
+        "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+        "affiliationROR": "https://ror.org/0201w0c54",
+        "affiliations": [
+          {
+            "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+            "identifier": "https://ror.org/0201w0c54"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+        "affiliationROR": "https://ror.org/0201w0c54",
+        "affiliations": [
+          {
+            "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+            "identifier": "https://ror.org/0201w0c54"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "affiliationROR": "https://ror.org/04trzn023",
+        "affiliations": [
+          {
+            "organization": "Beijing Academy of Agriculture and Forestry Sciences",
+            "identifier": "https://ror.org/04trzn023"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+        "affiliationROR": "https://ror.org/0201w0c54",
+        "affiliations": [
+          {
+            "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+            "identifier": "https://ror.org/0201w0c54"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+        "affiliationROR": "https://ror.org/0201w0c54",
+        "affiliations": [
+          {
+            "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+            "identifier": "https://ror.org/0201w0c54"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+        "affiliationROR": "https://ror.org/0201w0c54",
+        "affiliations": [
+          {
+            "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+            "identifier": "https://ror.org/0201w0c54"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+        "affiliationROR": "https://ror.org/0201w0c54",
+        "affiliations": [
+          {
+            "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+            "identifier": "https://ror.org/0201w0c54"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+        "affiliationROR": "https://ror.org/0201w0c54",
+        "affiliations": [
+          {
+            "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+            "identifier": "https://ror.org/0201w0c54"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "affiliation": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+        "affiliationROR": "https://ror.org/0201w0c54",
+        "affiliations": [
+          {
+            "organization": "Shijiazhuang Academy of Agriculture and Forestry Sciences",
+            "identifier": "https://ror.org/0201w0c54"
+          }
+        ]
+      }
+    ],
+    "methods",
+    "related_identifiers",
+    [
+      {
+        "index": 0,
+        "id": "https://doi.org/10.1371/journal.pone.0354927",
+        "type": "primary_article",
+        "relation": "iscitedby"
+      }
+    ],
+    "data_files"
+  ],
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 0,
+    "downloads": 1,
+    "citations": 0
+  }
+}

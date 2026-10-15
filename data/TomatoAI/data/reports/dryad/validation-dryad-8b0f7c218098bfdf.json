@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "run_id": "dryad-8b0f7c218098bfdf",
+  "openpyxl": "3.1.5",
+  "raw_files_verified": 5,
+  "reference_files_verified": 5,
+  "independent_nonempty_cells_verified": 3119,
+  "serialized_ledger_cells": 36223,
+  "formula_and_cache_cells_verified": 108,
+  "records_verified": 508,
+  "physical_source_rows": 253,
+  "raw_unchanged": true,
+  "no_formula_evaluation_or_workbook_save": true,
+  "source_semantics_approved": false
+}

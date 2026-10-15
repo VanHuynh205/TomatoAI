@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Scripts\\python.exe",
+    "scripts/knowledge/publish.py"
+  ],
+  "exit_code": 2,
+  "stderr": "",
+  "expected_exit": 2,
+  "empty_content": true
+}

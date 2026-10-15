@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-14T21:41:03.2475751+07:00",
+  "input_files": 42,
+  "changed_inputs": [],
+  "sealed_files": 25,
+  "seal_mismatches": [],
+  "scope": "Referenced source snapshots and sealed review artifacts only; no raw corpus rehash or product tests",
+  "changed_input_count": 0,
+  "seal_mismatch_count": 0
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "scripts/data/clean_wur.py",
+    "sha256": "ec5f21db10aa90084d3a6555f102323dc430b3ac20b970d415d2b29f122c2f7b"
+  },
+  {
+    "file": "scripts/data/wur-config.json",
+    "sha256": "2684d1d73cc3caa429595bc10bf29d5dcf0b659f62a629493d6dc4fbf554ada7"
+  },
+  {
+    "file": "scripts/data/test_clean_wur.py",
+    "sha256": "9cc7ddbdee80072d47f9fda9bcc7e9ab7264ec25ae96b72b90335fc86739b79d"
+  },
+  {
+    "file": "scripts/data/verify_wur.py",
+    "sha256": "250250eadc68354d8b04daa70e8a4f76077adbb15aabf2e428604c960504768d"
+  },
+  {
+    "file": "data/TomatoAI/data/dataset-registry.json",
+    "sha256": "2422f51202d1ff2fc9a786a0890cfbcfa15abcc8e117ede3876e60ea33cd36f0"
+  },
+  {
+    "file": "data/TomatoAI/data/reports/wur/README.md",
+    "sha256": "b88ddc8bcb69d05ab625b32099975e2bb280dd4db86ed9928916fb9b62c51c5d"
+  },
+  {
+    "file": "data/TomatoAI/data/reports/wur/registry-before-20261014T141208.json",
+    "sha256": "1685d3fe32d7421f207a78ba737195e98b8a1f9174e1f3efe2a746005bac6841"
+  },
+  {
+    "file": "data/TomatoAI/data/reports/wur/registry-verification-wur-7439c4f996527052.json",
+    "sha256": "d974ae1c294a83b84d490e7615a50e2f23c9d109f71d5710c17674e1396bd3ae"
+  },
+  {
+    "file": "data/TomatoAI/data/reports/wur/tests-wur-7439c4f996527052.txt",
+    "sha256": "6722fec9ddaafeacf0440b73cdadc12f831674958de4309a8d3a1c5fe5f0b632"
+  },
+  {
+    "file": "data/TomatoAI/data/reports/wur/validation-wur-7439c4f996527052.json",
+    "sha256": "52da94165078ff01ec4b9ea3e748594bf1d80dd3db273a5d4a596d6626f3dbdc"
+  }
+]

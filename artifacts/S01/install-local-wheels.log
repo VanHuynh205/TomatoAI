@@ -1,0 +1,6 @@
+Using Python 3.12.14 environment at: .venv-phase0
+Resolved 2 packages in 4ms
+Prepared 2 packages in 3.56s
+Installed 2 packages in 983ms
+ + numpy==2.5.4 (from file:///C:/Users/admin/Downloads/DACN_CayCaChua/artifacts/S01/wheels/numpy-2.5.4-cp312-cp312-win_amd64.whl)
+ + pyside6-essentials==6.12.0 (from file:///C:/Users/admin/Downloads/DACN_CayCaChua/artifacts/S01/wheels/pyside6_essentials-6.12.0-cp310-abi3-win_amd64.whl)

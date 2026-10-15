@@ -1,0 +1,465 @@
+[
+  {
+    "claim_id": "ir-claim:bacterial_spot:cultural:0",
+    "canonical_condition_id": "TOM_BACTERIAL_SPOT",
+    "card_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "original_pointer": "/content_en/management/cultural/0",
+    "text_en": "Use certified disease-free seed and transplants.",
+    "existing_source_check": "source_checked_candidate",
+    "existing_evidence": [
+      {
+        "title": "UF/IFAS PP353 Bacterial Spot of Tomato",
+        "url": "https://ask.ifas.ufl.edu/publication/PP353",
+        "section": "Causal organisms; Cultural Practices",
+        "limit": "Florida; không xác nhận đăng ký hóa chất tại Việt Nam; rotation không chứng minh thời lượng 3–4 năm của card.",
+        "source_id": "bacterial",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Authority supports principle; expert/context and VI review still pending.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/agriculture/tomato/bacterial-spot/"
+    ],
+    "uc_ipm_section": "Management > Cultural Control",
+    "survey_result": "corroborates_principle",
+    "assessment_vi": "UC hỗ trợ pathogen-free seed/disease-free transplants when possible; không chứng minh certified supply tại Việt Nam.",
+    "required_context": "California field/greenhouse; quality of propagation material",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "6e4d26ee491a342186ceed4eeb4ee462910e52a958d8703fb91710d219ce4d4a",
+    "original_card_sha256": "82ced735a81b0430bb57293a39382a9480903b1eeebd0102629af944a99e8ea6",
+    "new_evidence": []
+  },
+  {
+    "claim_id": "ir-claim:bacterial_spot:cultural:1",
+    "canonical_condition_id": "TOM_BACTERIAL_SPOT",
+    "card_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "original_pointer": "/content_en/management/cultural/1",
+    "text_en": "Practice a 3-4 year crop rotation with non-solanaceous crops.",
+    "existing_source_check": "partial_support_context_pending",
+    "existing_evidence": [
+      {
+        "title": "UF/IFAS PP353 Bacterial Spot of Tomato",
+        "url": "https://ask.ifas.ufl.edu/publication/PP353",
+        "section": "Causal organisms; Cultural Practices",
+        "limit": "Florida; không xác nhận đăng ký hóa chất tại Việt Nam; rotation không chứng minh thời lượng 3–4 năm của card.",
+        "source_id": "bacterial",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Partial/absent specific support; do not infer application, duration, efficacy or local legality.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/agriculture/tomato/bacterial-spot/",
+      "https://ipm.ucanr.edu/agriculture/tomato/crop-rotation/"
+    ],
+    "uc_ipm_section": "Cultural Control; Crop Rotation table > Bacterial spot",
+    "survey_result": "duration_difference_unresolved",
+    "assessment_vi": "UC nonhost rotation và bảng 1 or more; card 3–4 năm. Khác mức cụ thể/bối cảnh, không bác bỏ hoặc sửa số năm.",
+    "required_context": "California cropping/host history; old UF/IFAS evidence lacks exact 3–4-year support",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "6e4d26ee491a342186ceed4eeb4ee462910e52a958d8703fb91710d219ce4d4a",
+    "original_card_sha256": "82ced735a81b0430bb57293a39382a9480903b1eeebd0102629af944a99e8ea6",
+    "new_evidence": []
+  },
+  {
+    "claim_id": "ir-claim:early_blight:cultural:5",
+    "canonical_condition_id": "TOM_EARLY_BLIGHT",
+    "card_id": "pex:disease_kb/tomato/early_blight.json",
+    "original_pointer": "/content_en/management/cultural/5",
+    "text_en": "Avoid overhead irrigation; use drip irrigation instead.",
+    "existing_source_check": "source_checked_candidate",
+    "existing_evidence": [
+      {
+        "title": "University of Minnesota Extension: Early blight in tomato and potato",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato",
+        "section": "Causal pathogens; Cultural management",
+        "limit": "Khuyến nông Minnesota; loại lá có điều kiện và giới hạn; không chứng minh mọi chế phẩm hay lịch Việt Nam.",
+        "source_id": "early",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Authority supports principle; expert/context and VI review still pending.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/agriculture/tomato/early-blight/",
+      "https://ipm.ucanr.edu/home-and-landscape/tomato/cultural-tips/index.html"
+    ],
+    "uc_ipm_section": "Comments on the Disease; Watering Tomato",
+    "survey_result": "general_principle_addition",
+    "assessment_vi": "Cơ chế free moisture và garden tránh overhead có hỗ trợ; Management Early Blight không ghi drip riêng. Không nâng source_check.",
+    "required_context": "Coastal/rain-prone California; garden watering versus disease-specific management",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "116b99489eb11c4fdaafbc5bf1f3eadfde8f97da089cbfa8005d0c47ef19df22",
+    "original_card_sha256": "fe419e5f7bd62dd765945bdcbaffe6b6119ba49af5425ee2f82767faeaa5ad53",
+    "new_evidence": []
+  },
+  {
+    "claim_id": "ir-claim:healthy:cultural:3",
+    "canonical_condition_id": "TOM_HEALTHY",
+    "card_id": "pex:disease_kb/tomato/healthy.json",
+    "original_pointer": "/content_en/management/cultural/3",
+    "text_en": "Use well-drained soil and apply balanced fertilizer.",
+    "existing_source_check": "partial_support_context_pending",
+    "existing_evidence": [
+      {
+        "title": "University of Minnesota Extension: Growing tomatoes",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+        "section": "Planting; Watering; Managing diseases",
+        "limit": "Chăm sóc cơ bản theo điều kiện trồng; dinh dưỡng cần căn cứ đất; nhãn lá khỏe không bảo đảm toàn cây không bệnh.",
+        "source_id": "healthy",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Partial/absent specific support; do not infer application, duration, efficacy or local legality.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/home-and-landscape/tomato/cultural-tips/index.html",
+      "https://ipm.ucanr.edu/agriculture/tomato/fertilization/"
+    ],
+    "uc_ipm_section": "Site selection / Soil recommendation; Soil Testing / Nutrient Monitoring",
+    "survey_result": "conditional_support",
+    "assessment_vi": "Đất thoát nước có căn cứ; balanced fertilizer phải dựa đất/mô/giai đoạn. Không suy thiếu phân từ Healthy.",
+    "required_context": "Soil drainage and lab tests; California agricultural soils versus garden",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "89a50caefe302b04ac61b3ccfd35f43054335be3ad5bf63eb8a9cd0025cddb83",
+    "original_card_sha256": "d99524ce48f562ca0943990e3cced2f12b30a26e7428bd4c1ade2a1d1ccb80a1",
+    "new_evidence": []
+  },
+  {
+    "claim_id": "ir-claim:late_blight:cultural:2",
+    "canonical_condition_id": "TOM_LATE_BLIGHT",
+    "card_id": "pex:disease_kb/tomato/late_blight.json",
+    "original_pointer": "/content_en/management/cultural/2",
+    "text_en": "Avoid overhead irrigation; use drip irrigation to keep foliage dry.",
+    "existing_source_check": "source_checked_candidate",
+    "existing_evidence": [
+      {
+        "title": "University of Minnesota Extension: Late blight",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight",
+        "section": "Pathogen; How to manage late blight",
+        "limit": "Water mold; khuyến cáo home/farm khác nhau; loại cây chỉ áp dụng theo tình trạng đã xác minh.",
+        "source_id": "late",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Authority supports principle; expert/context and VI review still pending.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/agriculture/tomato/late-blight/",
+      "https://ipm.ucanr.edu/home-and-landscape/tomato/cultural-tips/index.html"
+    ],
+    "uc_ipm_section": "Management; Watering Tomato",
+    "survey_result": "corroborates_principle_with_conditions",
+    "assessment_vi": "UC bệnh tránh sprinkler if possible; garden nêu drip/furrow và không ướt lá. Giữ điều kiện, không lượng/lịch.",
+    "required_context": "Humid/rain conditions; irrigation system and plant stress",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "7dd880416b12b60d2e8f7f8caf4ca5c2c09a47530a016e12b3965a2c9b0dacf6",
+    "original_card_sha256": "70b3802fe831d78ef7fbb902399c8176f9fe4ea8c71d308e8ead388edf19f94c",
+    "new_evidence": []
+  },
+  {
+    "claim_id": "ir-claim:leaf_mold:cultural:3",
+    "canonical_condition_id": "TOM_LEAF_MOLD",
+    "card_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "original_pointer": "/content_en/management/cultural/3",
+    "text_en": "In greenhouses, ensure adequate ventilation to lower relative humidity, especially in the morning.",
+    "existing_source_check": "partial_support_context_pending",
+    "existing_evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato leaf mold",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold",
+        "section": "Passalora fulva; Cultural management",
+        "limit": "Greenhouse/high tunnel; resistance phụ thuộc chủng; không xác nhận hiệu quả mọi chế phẩm.",
+        "source_id": "mold",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Partial/absent specific support; do not infer application, duration, efficacy or local legality.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/agriculture/tomato/",
+      "https://ipm.ucanr.edu/home-and-landscape/tomato/"
+    ],
+    "uc_ipm_section": "Tomato disease indexes; bounded official search",
+    "survey_result": "no_new_specific_support",
+    "assessment_vi": "Không có trang Passalora được tìm thấy; Gray Mold không xác minh ventilation nhất là buổi sáng cho Leaf Mold.",
+    "required_context": "Existing UMN protected cultivation evidence retained; exact morning condition unresolved",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "52a8c08a99e4e7349e711e937698a06f9eddb7083956503ba14e483a92961945",
+    "original_card_sha256": "897fa46394c874fc8bffe0afbae5617560d7745b817c2ca3ad0d373078a2ea1c",
+    "new_evidence": []
+  },
+  {
+    "claim_id": "ir-claim:septoria_leaf_spot:cultural:4",
+    "canonical_condition_id": "TOM_SEPTORIA",
+    "card_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+    "original_pointer": "/content_en/management/cultural/4",
+    "text_en": "Use drip irrigation or soaker hoses to avoid wetting foliage.",
+    "existing_source_check": "source_checked_candidate",
+    "existing_evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato leaves with spots",
+        "url": "https://apps.extension.umn.edu/garden/diagnose/plant/vegetable/tomato/leavesspots.html",
+        "section": "Septoria; Early blight; Late blight; Bacterial spot",
+        "limit": "Dấu hiệu tham khảo; không xác minh nhãn từng ảnh PlantVillage.",
+        "source_id": "diagnosis",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      },
+      {
+        "title": "University of Maryland Extension: Septoria Leaf Spot of Tomatoes",
+        "url": "https://www.extension.umd.edu/resource/septoria-leaf-spot-tomatoes",
+        "section": "Prevention and management",
+        "limit": "Garden guidance; không xác nhận số năm rotation hay hoạt chất tại Việt Nam.",
+        "source_id": "septoria",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Authority supports principle; expert/context and VI review still pending.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/agriculture/tomato/",
+      "https://ipm.ucanr.edu/home-and-landscape/tomato/cultural-tips/index.html"
+    ],
+    "uc_ipm_section": "Disease index; Watering Tomato",
+    "survey_result": "general_principle_only",
+    "assessment_vi": "Garden hỗ trợ tránh ướt lá, không xác minh Septoria riêng; không xóa source_checked_candidate đã có UMD/UMN.",
+    "required_context": "Garden principle; no new Septoria lycopersici tomato page",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "ed9c0a7e796960ef1c0000e15b186858b6a836f78fc7b734a5dd3dc2ecdf8984",
+    "original_card_sha256": "7f74020fda254cbe3bd85ece3664be0b774d829d26654c56a190db284660a1de",
+    "new_evidence": []
+  },
+  {
+    "claim_id": "ir-claim:target_spot:cultural:3",
+    "canonical_condition_id": "TOM_TARGET_SPOT",
+    "card_id": "pex:disease_kb/tomato/target_spot.json",
+    "original_pointer": "/content_en/management/cultural/3",
+    "text_en": "Avoid overhead watering to minimize leaf wetness; use drip irrigation.",
+    "existing_source_check": "partial_support_context_pending",
+    "existing_evidence": [
+      {
+        "title": "UF/IFAS PP351 Target Spot of Tomato in Florida",
+        "url": "https://ask.ifas.ufl.edu/publication/PP351",
+        "section": "Corynespora cassiicola; Integrated Management; leaf wetness",
+        "limit": "Florida; phổ ký chủ rộng; 16–44 giờ leaf wetness không phải ngưỡng phổ quát để bác bỏ 8 giờ trong mọi điều kiện.",
+        "source_id": "target",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Partial/absent specific support; do not infer application, duration, efficacy or local legality.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/agriculture/tomato/",
+      "https://ipm.ucanr.edu/home-and-landscape/tomato/cultural-tips/index.html"
+    ],
+    "uc_ipm_section": "Disease index; Watering Tomato",
+    "survey_result": "general_principle_only",
+    "assessment_vi": "Không có trang Corynespora tomato; garden care chỉ phụ trợ; UF/IFAS hiện có giữ nguyên.",
+    "required_context": "Broad host range; cannot infer numeric leaf-wetness threshold",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "45dce16d0bf9a3e743565785a647e5d40856b0f8903439ff3291a816ea546724",
+    "original_card_sha256": "48c627b71e6c85f70b5556896e0eabdf0b2660b48fb097fde3d3fe7875e973d7",
+    "new_evidence": []
+  },
+  {
+    "claim_id": "ir-claim:mosaic_virus:chemical:1",
+    "canonical_condition_id": "TOM_MOSAIC",
+    "card_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "original_pointer": "/content_en/management/chemical/1",
+    "text_en": "insecticides can be used to control potential vectors like aphids, but are ineffective against mechanical transmission",
+    "existing_source_check": "held_specific_risk",
+    "existing_evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato viruses",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses",
+        "section": "ToMV/TMV; Symptoms; Prevention and management",
+        "limit": "ToMV và TMV khác nhau; xét nghiệm cần cho kết luận chắc chắn; không suy ra virus cụ thể từ triệu chứng lá.",
+        "source_id": "mosaic",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Aphids không chứng minh là vector ToMV; danh tính card đang mâu thuẫn TMV/ToMV.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/agriculture/tomato/tobacco-mosaic/"
+    ],
+    "uc_ipm_section": "Comments on the Disease",
+    "survey_result": "contradicts_vector_assumption",
+    "assessment_vi": "UC nói tobamoviruses không lây bởi insect/nematode/fungal vectors. Aphid advice không có căn cứ cho ToMV/TMV; giữ hold.",
+    "required_context": "Specific tobamovirus group, distinct from aphid-transmitted other mosaic viruses",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "e1c41cff82cb18471ecf6a2be5aa0376515cb2d8cced2ac04f341d9255fb4549",
+    "original_card_sha256": "488d3d66dba5f0d45928580d7a3d1913ff00bf5263243b0e5b3ca6623088523c",
+    "new_evidence": []
+  },
+  {
+    "claim_id": "ir-claim:mosaic_virus:cultural:1",
+    "canonical_condition_id": "TOM_MOSAIC",
+    "card_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "original_pointer": "/content_en/management/cultural/1",
+    "text_en": "practice strict sanitation (wash hands with soap, disinfect tools with 10% bleach solution)",
+    "existing_source_check": "held_specific_risk",
+    "existing_evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato viruses",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses",
+        "section": "ToMV/TMV; Symptoms; Prevention and management",
+        "limit": "ToMV và TMV khác nhau; xét nghiệm cần cho kết luận chắc chắn; không suy ra virus cụ thể từ triệu chứng lá.",
+        "source_id": "mosaic",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Có bleach 10%; chưa xác minh nồng độ, thời gian tiếp xúc và an toàn địa phương. Không đưa vào hướng dẫn.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/agriculture/tomato/tobacco-mosaic/"
+    ],
+    "uc_ipm_section": "Management",
+    "survey_result": "sanitation_only_concentration_unverified",
+    "assessment_vi": "UC yêu cầu sanitation nhưng không nêu bleach 10%, dung dịch gốc hoặc thời gian tiếp xúc. Giữ cả câu held.",
+    "required_context": "Seed/handled transplants/fresh-market; no chemical disinfection recipe approved",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "e1c41cff82cb18471ecf6a2be5aa0376515cb2d8cced2ac04f341d9255fb4549",
+    "original_card_sha256": "488d3d66dba5f0d45928580d7a3d1913ff00bf5263243b0e5b3ca6623088523c",
+    "new_evidence": []
+  },
+  {
+    "claim_id": "ir-claim:spider_mites:cultural:1",
+    "canonical_condition_id": "TOM_SPIDER_MITE",
+    "card_id": "pex:disease_kb/tomato/spider_mites.json",
+    "original_pointer": "/content_en/management/cultural/1",
+    "text_en": "Use overhead watering or misting to periodically raise humidity and wash off mites.",
+    "existing_source_check": "held_specific_risk",
+    "existing_evidence": [
+      {
+        "title": "UC IPM: Spider Mites",
+        "url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/",
+        "section": "Identification; Cultural control; Natural enemies",
+        "limit": "Nhận diện loài cần quan sát; rửa bằng nước ở quy mô vườn không tương đương lịch phun/misting định kỳ.",
+        "source_id": "mite",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Rửa mites trong vườn không chứng minh lịch overhead/misting; xung đột giữ lá khô, cần ngữ cảnh.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/home-and-landscape/spider-mites/",
+      "https://ipm.ucanr.edu/agriculture/tomato/late-blight/",
+      "https://ipm.ucanr.edu/home-and-landscape/tomato/cultural-tips/index.html"
+    ],
+    "uc_ipm_section": "Quick Tips > How do I control spider mites?; Cultural Control; Late blight Management; Watering Tomato",
+    "survey_result": "context_conflict_unresolved",
+    "assessment_vi": "Quick Tips có spray/mist mặt dưới lá và Cultural Control rửa mạnh trong vườn/cây nhỏ. Không đồng nghĩa tưới overhead tăng ẩm chung; tomato/late blight tránh ướt lá.",
+    "required_context": "Garden/small fruit trees versus wet-disease risk, timing, drying and confirmed mites; hold remains",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "dc45aaba7b03aaf74db32b2a0a5333a1f9056f010725bb73e55a27310604e22a",
+    "original_card_sha256": "8f49b88562d655931bcd8c0142cb612c3d5084da70cd06a406685462f6f3e216",
+    "new_evidence": []
+  },
+  {
+    "claim_id": "ir-claim:yellow_leaf_curl_virus:cultural:3",
+    "canonical_condition_id": "TOM_YELLOW_CURL",
+    "card_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "original_pointer": "/content_en/management/cultural/3",
+    "text_en": "Implement a host-free period by removing all tomato and weed hosts between cropping seasons.",
+    "existing_source_check": "partial_support_context_pending",
+    "existing_evidence": [
+      {
+        "title": "UC IPM: Tomato Yellow Leaf Curl",
+        "url": "https://ipm.ucanr.edu/agriculture/tomato/tomato-yellow-leaf-curl/",
+        "section": "Symptoms; Comments; Management",
+        "limit": "California; loại cây khi incidence thấp; host-free period cần phối hợp địa phương, không tự gán từ một ảnh.",
+        "source_id": "yellow",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "existing_reason": "Partial/absent specific support; do not infer application, duration, efficacy or local legality.",
+    "uc_ipm_urls": [
+      "https://ipm.ucanr.edu/agriculture/tomato/tomato-yellow-leaf-curl/",
+      "https://ipm.ucanr.edu/agriculture/tomato/whiteflies/"
+    ],
+    "uc_ipm_section": "After the Growing Season; Cultural Control",
+    "survey_result": "regional_scope_missing",
+    "assessment_vi": "UC host-free là regional, might be useful, crops depend on agroecosystem. Claim bỏ điều kiện vùng và mức chắc chắn; giữ partial.",
+    "required_context": "Region without true winter; coordinated host crops/weeds and vector ecology",
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "display_allowed": false,
+    "changes_to_existing_ledger": false,
+    "current_run_check": "not_rechecked_without_snapshot",
+    "reviewer": null,
+    "safe_for_advice": false,
+    "original_source_sha256": "44e771c051a46c3418ead39cabd341c8a739fdce7b0c3981f38753b104349167",
+    "original_card_sha256": "df60073dc82ebed984ff9e60b25ed89856cdca73a81e401aa6c6e6cadf21c078",
+    "new_evidence": []
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "filename": "pyside6_essentials-6.12.0-cp310-abi3-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/03/61/9a7e32a37b224f68506785bfb0f288d516098ec71681782d72b695a6c95d/pyside6_essentials-6.12.0-cp310-abi3-win_amd64.whl",
+    "sha256": "c9a95102aa23c1f86516a30d5a9be37552d324eee7e567eb7508973f1218cb42"
+  },
+  {
+    "filename": "numpy-2.5.4-cp312-cp312-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/12/33/fefe62073dc8acfd0f2b9ed7c003af2f50aa61555e113e6db02b8f79f145/numpy-2.5.4-cp312-cp312-win_amd64.whl",
+    "sha256": "a7b1b6353e36a7e50de2973a38d705c88ee93adcf120673cee7f45a4a3fa223a"
+  }
+]

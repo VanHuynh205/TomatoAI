@@ -1,0 +1,13 @@
+{
+  "scopes": {
+    "PlantVillage": 18270,
+    "PlantExpertVQA-tomato": 39,
+    "WUR": 46,
+    "Dryad": 5,
+    "Mendeley": 2
+  },
+  "files_checked": 18362,
+  "equals_intake_count": true,
+  "hashes_match_same_cleaning_baselines": true,
+  "limits": "same file-set/bytes/SHA256 baseline scope; not label review or integrity before baseline"
+}

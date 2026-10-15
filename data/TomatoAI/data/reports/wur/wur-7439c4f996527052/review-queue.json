@@ -1,0 +1,1873 @@
+[
+  {
+    "source_file": "source_files/AICU/CropParameters.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      3
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/CropParameters.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 15,
+      "per_column": {
+        "Cum_trusses": 5,
+        "Stem_elong": 5,
+        "Stem_thick": 5
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/CropParameters.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "AICU",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_sp_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_vip_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/GreenhouseClimate.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 572468,
+      "per_column": {
+        "assim_sp": 47006,
+        "co2_dos": 2,
+        "co2_sp": 41125,
+        "dx_sp": 47076,
+        "int_blue_sp": 14,
+        "int_blue_vip": 24176,
+        "int_farred_sp": 14,
+        "int_farred_vip": 24176,
+        "int_red_sp": 14,
+        "int_red_vip": 24176,
+        "int_white_sp": 14,
+        "int_white_vip": 24176,
+        "scr_blck_sp": 46814,
+        "scr_enrg_sp": 46698,
+        "t_grow_min_sp": 47809,
+        "t_heat_sp": 33319,
+        "t_rail_min_sp": 47076,
+        "t_vent_sp": 27810,
+        "water_sup_intervals_sp_min": 41981,
+        "window_pos_lee_sp": 47004,
+        "AssimLight": 71,
+        "BlackScr": 71,
+        "CO2air": 71,
+        "Cum_irr": 71,
+        "EC_drain_PC": 71,
+        "EnScr": 71,
+        "HumDef": 71,
+        "PipeGrow": 71,
+        "PipeLow": 71,
+        "Rhair": 71,
+        "Tair": 71,
+        "Tot_PAR": 71,
+        "VentLee": 71,
+        "Ventwind": 71,
+        "assim_vip": 71,
+        "co2_vip": 71,
+        "dx_vip": 71,
+        "pH_drain_PC": 71,
+        "scr_blck_vip": 71,
+        "scr_enrg_vip": 71,
+        "t_grow_min_vip": 71,
+        "t_heat_vip": 71,
+        "t_rail_min_vip": 71,
+        "t_ventlee_vip": 71,
+        "t_ventwind_vip": 71,
+        "water_sup": 71,
+        "water_sup_intervals_vip_min": 71,
+        "window_pos_lee_vip": 71
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/GreenhouseClimate.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "AICU",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/GrodanSens.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 13830,
+      "per_column": {
+        "EC_slab1": 2305,
+        "EC_slab2": 2305,
+        "WC_slab1": 2305,
+        "WC_slab2": 2305,
+        "t_slab1": 2305,
+        "t_slab2": 2305
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/GrodanSens.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "AICU",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      4
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      6
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      7
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      9
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      10
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/LabAnalysis.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "AICU",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/Production.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 2,
+      "per_column": {
+        "Nr_fruits_ClassA": 2
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/Production.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "AICU",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/Resources.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "AICU",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/TomQuality.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/TomQuality.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 2,
+      "per_column": {
+        "DMC_fruit": 2
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/AICU/TomQuality.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "AICU",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/CropParameters.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      3
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/CropParameters.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 15,
+      "per_column": {
+        "Cum_trusses": 5,
+        "Stem_elong": 5,
+        "Stem_thick": 5
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/CropParameters.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Automatoes",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_sp_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_vip_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/GreenhouseClimate.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 112496,
+      "per_column": {
+        "assim_sp": 785,
+        "co2_dos": 2,
+        "co2_sp": 754,
+        "dx_sp": 718,
+        "int_blue_sp": 173,
+        "int_blue_vip": 22152,
+        "int_farred_sp": 14,
+        "int_farred_vip": 22152,
+        "int_red_sp": 173,
+        "int_red_vip": 22152,
+        "int_white_sp": 14,
+        "int_white_vip": 22152,
+        "scr_blck_sp": 783,
+        "scr_enrg_sp": 785,
+        "t_grow_min_sp": 1505,
+        "t_heat_sp": 706,
+        "t_rail_min_sp": 787,
+        "t_vent_sp": 12576,
+        "water_sup_intervals_sp_min": 1410,
+        "window_pos_lee_sp": 715,
+        "AssimLight": 71,
+        "BlackScr": 71,
+        "CO2air": 71,
+        "Cum_irr": 71,
+        "EC_drain_PC": 71,
+        "EnScr": 71,
+        "HumDef": 71,
+        "PipeGrow": 71,
+        "PipeLow": 71,
+        "Rhair": 71,
+        "Tair": 71,
+        "Tot_PAR": 71,
+        "VentLee": 71,
+        "Ventwind": 71,
+        "assim_vip": 71,
+        "co2_vip": 71,
+        "dx_vip": 71,
+        "pH_drain_PC": 71,
+        "scr_blck_vip": 71,
+        "scr_enrg_vip": 71,
+        "t_grow_min_vip": 71,
+        "t_heat_vip": 71,
+        "t_rail_min_vip": 71,
+        "t_ventlee_vip": 71,
+        "t_ventwind_vip": 71,
+        "water_sup": 71,
+        "water_sup_intervals_vip_min": 71,
+        "window_pos_lee_vip": 71
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/GreenhouseClimate.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Automatoes",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/GrodanSens.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 13956,
+      "per_column": {
+        "EC_slab1": 2326,
+        "EC_slab2": 2326,
+        "WC_slab1": 2326,
+        "WC_slab2": 2326,
+        "t_slab1": 2326,
+        "t_slab2": 2326
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/GrodanSens.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Automatoes",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      4
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      6
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      7
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      9
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      10
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/LabAnalysis.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Automatoes",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/Production.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 1,
+      "per_column": {
+        "Nr_fruits_ClassA": 1
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/Production.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Automatoes",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/Resources.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Automatoes",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/TomQuality.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/TomQuality.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 2,
+      "per_column": {
+        "DMC_fruit": 2
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Automatoes/TomQuality.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Automatoes",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/CropParameters.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      3
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/CropParameters.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 15,
+      "per_column": {
+        "Cum_trusses": 5,
+        "Stem_elong": 5,
+        "Stem_thick": 5
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/CropParameters.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Digilog",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_sp_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_vip_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/GreenhouseClimate.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 87877,
+      "per_column": {
+        "assim_sp": 537,
+        "co2_dos": 2,
+        "co2_sp": 516,
+        "dx_sp": 516,
+        "int_blue_sp": 954,
+        "int_blue_vip": 18935,
+        "int_farred_sp": 954,
+        "int_farred_vip": 18935,
+        "int_red_sp": 954,
+        "int_red_vip": 18935,
+        "int_white_sp": 14,
+        "int_white_vip": 18935,
+        "scr_blck_sp": 532,
+        "scr_enrg_sp": 533,
+        "t_grow_min_sp": 1277,
+        "t_heat_sp": 517,
+        "t_rail_min_sp": 539,
+        "t_vent_sp": 522,
+        "water_sup_intervals_sp_min": 1246,
+        "window_pos_lee_sp": 545,
+        "AssimLight": 71,
+        "BlackScr": 71,
+        "CO2air": 71,
+        "Cum_irr": 71,
+        "EC_drain_PC": 62,
+        "EnScr": 71,
+        "HumDef": 71,
+        "PipeGrow": 71,
+        "PipeLow": 71,
+        "Rhair": 71,
+        "Tair": 71,
+        "Tot_PAR": 71,
+        "VentLee": 71,
+        "Ventwind": 71,
+        "assim_vip": 71,
+        "co2_vip": 71,
+        "dx_vip": 71,
+        "pH_drain_PC": 71,
+        "scr_blck_vip": 71,
+        "scr_enrg_vip": 71,
+        "t_grow_min_vip": 71,
+        "t_heat_vip": 71,
+        "t_rail_min_vip": 71,
+        "t_ventlee_vip": 71,
+        "t_ventwind_vip": 71,
+        "water_sup": 71,
+        "water_sup_intervals_vip_min": 71,
+        "window_pos_lee_vip": 71
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/GreenhouseClimate.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Digilog",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/GrodanSens.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 13926,
+      "per_column": {
+        "EC_slab1": 2321,
+        "EC_slab2": 2321,
+        "WC_slab1": 2321,
+        "WC_slab2": 2321,
+        "t_slab1": 2321,
+        "t_slab2": 2321
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/GrodanSens.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Digilog",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      4
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      6
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      7
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      9
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      10
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/LabAnalysis.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Digilog",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/Production.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Digilog",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/Resources.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Digilog",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/TomQuality.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/TomQuality.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 2,
+      "per_column": {
+        "DMC_fruit": 2
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Digilog/TomQuality.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Digilog",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/CropParameters.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      3
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/CropParameters.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 15,
+      "per_column": {
+        "Cum_trusses": 5,
+        "Stem_elong": 5,
+        "Stem_thick": 5
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/CropParameters.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "IUACAAS",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_sp_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_vip_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/GreenhouseClimate.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 266404,
+      "per_column": {
+        "assim_sp": 2440,
+        "co2_dos": 2,
+        "co2_sp": 2441,
+        "dx_sp": 2459,
+        "int_blue_sp": 240,
+        "int_blue_vip": 26160,
+        "int_farred_sp": 240,
+        "int_farred_vip": 26160,
+        "int_red_sp": 240,
+        "int_red_vip": 26160,
+        "int_white_sp": 14,
+        "int_white_vip": 26160,
+        "scr_blck_sp": 2322,
+        "scr_enrg_sp": 47073,
+        "t_grow_min_sp": 47233,
+        "t_heat_sp": 2186,
+        "t_rail_min_sp": 47075,
+        "t_vent_sp": 2204,
+        "water_sup_intervals_sp_min": 1162,
+        "window_pos_lee_sp": 2445,
+        "AssimLight": 71,
+        "BlackScr": 71,
+        "CO2air": 71,
+        "Cum_irr": 71,
+        "EC_drain_PC": 71,
+        "EnScr": 71,
+        "HumDef": 71,
+        "PipeGrow": 71,
+        "PipeLow": 71,
+        "Rhair": 71,
+        "Tair": 71,
+        "Tot_PAR": 71,
+        "VentLee": 71,
+        "Ventwind": 71,
+        "assim_vip": 71,
+        "co2_vip": 71,
+        "dx_vip": 71,
+        "pH_drain_PC": 71,
+        "scr_blck_vip": 71,
+        "scr_enrg_vip": 71,
+        "t_grow_min_vip": 71,
+        "t_heat_vip": 71,
+        "t_rail_min_vip": 71,
+        "t_ventlee_vip": 71,
+        "t_ventwind_vip": 71,
+        "water_sup": 71,
+        "water_sup_intervals_vip_min": 71,
+        "window_pos_lee_vip": 71
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/GreenhouseClimate.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "IUACAAS",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/GrodanSens.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 13926,
+      "per_column": {
+        "EC_slab1": 2321,
+        "EC_slab2": 2321,
+        "WC_slab1": 2321,
+        "WC_slab2": 2321,
+        "t_slab1": 2321,
+        "t_slab2": 2321
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/GrodanSens.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "IUACAAS",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      4
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      6
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      7
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      9
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      10
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/LabAnalysis.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "IUACAAS",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/Production.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 2,
+      "per_column": {
+        "avg_nr_harvested_trusses": 1,
+        "Truss development time": 1
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/Production.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "IUACAAS",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/Resources.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "IUACAAS",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/TomQuality.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/TomQuality.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 2,
+      "per_column": {
+        "DMC_fruit": 2
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/IUACAAS/TomQuality.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "IUACAAS",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/CropParameters.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      3
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/CropParameters.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 16,
+      "per_column": {
+        "Cum_trusses": 5,
+        "stem_dens": 1,
+        "Stem_elong": 5,
+        "Stem_thick": 5
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/CropParameters.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Reference",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_sp_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_vip_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/GreenhouseClimate.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 197532,
+      "per_column": {
+        "assim_sp": 1944,
+        "co2_dos": 2,
+        "co2_sp": 1522,
+        "dx_sp": 1585,
+        "int_blue_sp": 198,
+        "int_blue_vip": 22397,
+        "int_farred_sp": 14,
+        "int_farred_vip": 22397,
+        "int_red_sp": 198,
+        "int_red_vip": 22397,
+        "int_white_sp": 14,
+        "int_white_vip": 22397,
+        "scr_blck_sp": 1940,
+        "scr_enrg_sp": 1939,
+        "t_grow_min_sp": 47809,
+        "t_heat_sp": 1946,
+        "t_rail_min_sp": 1617,
+        "t_vent_sp": 1960,
+        "water_sup_intervals_sp_min": 41308,
+        "window_pos_lee_sp": 1960,
+        "AssimLight": 71,
+        "BlackScr": 71,
+        "CO2air": 71,
+        "Cum_irr": 71,
+        "EC_drain_PC": 71,
+        "EnScr": 71,
+        "HumDef": 71,
+        "PipeGrow": 71,
+        "PipeLow": 71,
+        "Rhair": 71,
+        "Tair": 71,
+        "Tot_PAR": 71,
+        "VentLee": 71,
+        "Ventwind": 71,
+        "assim_vip": 71,
+        "co2_vip": 71,
+        "dx_vip": 71,
+        "pH_drain_PC": 71,
+        "scr_blck_vip": 71,
+        "scr_enrg_vip": 71,
+        "t_grow_min_vip": 71,
+        "t_heat_vip": 71,
+        "t_rail_min_vip": 71,
+        "t_ventlee_vip": 71,
+        "t_ventwind_vip": 71,
+        "water_sup": 71,
+        "water_sup_intervals_vip_min": 71,
+        "window_pos_lee_vip": 71
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/GreenhouseClimate.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Reference",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/GrodanSens.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 13836,
+      "per_column": {
+        "EC_slab1": 2306,
+        "EC_slab2": 2306,
+        "WC_slab1": 2306,
+        "WC_slab2": 2306,
+        "t_slab1": 2306,
+        "t_slab2": 2306
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/GrodanSens.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Reference",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      4
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      6
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      7
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      9
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      10
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/LabAnalysis.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Reference",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/Production.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "timestamp_outside_own_climate_span_retained"
+    ],
+    "source_records": [
+      1
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/Production.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 3,
+      "per_column": {
+        "avg_nr_harvested_trusses": 1,
+        "Nr_fruits_ClassA": 2
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/Production.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Reference",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/Resources.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Reference",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/TomQuality.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/TomQuality.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 2,
+      "per_column": {
+        "DMC_fruit": 2
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Reference/TomQuality.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Reference",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/CropParameters.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      3
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/CropParameters.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 15,
+      "per_column": {
+        "Cum_trusses": 5,
+        "Stem_elong": 5,
+        "Stem_thick": 5
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/CropParameters.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "TheAutomators",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_sp_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/GreenhouseClimate.csv",
+    "reason": "unit_or_alias_unresolved",
+    "details": {
+      "column": "water_sup_intervals_vip_min",
+      "matching_dictionary_entries": 0
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/GreenhouseClimate.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 92603,
+      "per_column": {
+        "assim_sp": 566,
+        "co2_dos": 2,
+        "co2_sp": 644,
+        "dx_sp": 652,
+        "int_blue_sp": 14,
+        "int_blue_vip": 20726,
+        "int_farred_sp": 14,
+        "int_farred_vip": 20726,
+        "int_red_sp": 14,
+        "int_red_vip": 20726,
+        "int_white_sp": 14,
+        "int_white_vip": 20726,
+        "scr_blck_sp": 554,
+        "scr_enrg_sp": 564,
+        "t_grow_min_sp": 1288,
+        "t_heat_sp": 540,
+        "t_rail_min_sp": 561,
+        "t_vent_sp": 542,
+        "water_sup_intervals_sp_min": 1182,
+        "window_pos_lee_sp": 560,
+        "AssimLight": 71,
+        "BlackScr": 71,
+        "CO2air": 71,
+        "Cum_irr": 71,
+        "EC_drain_PC": 71,
+        "EnScr": 71,
+        "HumDef": 71,
+        "PipeGrow": 71,
+        "PipeLow": 71,
+        "Rhair": 71,
+        "Tair": 71,
+        "Tot_PAR": 71,
+        "VentLee": 71,
+        "Ventwind": 71,
+        "assim_vip": 71,
+        "co2_vip": 71,
+        "dx_vip": 71,
+        "pH_drain_PC": 71,
+        "scr_blck_vip": 71,
+        "scr_enrg_vip": 71,
+        "t_grow_min_vip": 71,
+        "t_heat_vip": 71,
+        "t_rail_min_vip": 71,
+        "t_ventlee_vip": 71,
+        "t_ventwind_vip": 71,
+        "water_sup": 71,
+        "water_sup_intervals_vip_min": 71,
+        "window_pos_lee_vip": 71
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/GreenhouseClimate.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "TheAutomators",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/GrodanSens.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 13860,
+      "per_column": {
+        "EC_slab1": 2310,
+        "EC_slab2": 2310,
+        "WC_slab1": 2310,
+        "WC_slab2": 2310,
+        "t_slab1": 2310,
+        "t_slab2": 2310
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/GrodanSens.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "TheAutomators",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      4
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      6
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      7
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      9
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/LabAnalysis.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      10
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/LabAnalysis.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "TheAutomators",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/Production.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 1,
+      "per_column": {
+        "Nr_fruits_ClassA": 1
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/Production.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "TheAutomators",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/Resources.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "TheAutomators",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/TomQuality.csv",
+    "reason": "record_temporal_or_duplicate_flag",
+    "details": [
+      "interval_differs_from_documented_cadence"
+    ],
+    "source_records": [
+      8
+    ],
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/TomQuality.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 2,
+      "per_column": {
+        "DMC_fruit": 2
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/TheAutomators/TomQuality.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "TheAutomators",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Weather/Weather.csv",
+    "reason": "missing_values_retained",
+    "details": {
+      "cells": 710,
+      "per_column": {
+        "AbsHumOut": 71,
+        "Iglob": 71,
+        "PARout": 71,
+        "Pyrgeo": 71,
+        "RadSum": 71,
+        "Rain": 71,
+        "Rhout": 71,
+        "Tout": 71,
+        "Winddir": 71,
+        "Windsp": 71
+      }
+    },
+    "source_records": null,
+    "action": "retain; resolve from source evidence before reuse"
+  },
+  {
+    "source_file": "source_files/Weather/Weather.csv",
+    "reason": "epoch_timezone_and_experiment_scope_unverified",
+    "details": {
+      "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+      "team": "Weather",
+      "group_basis": "source directory; not randomized replicate/treatment label",
+      "independence": "not established"
+    },
+    "source_records": "all",
+    "action": "retain; resolve from source evidence before reuse"
+  }
+]

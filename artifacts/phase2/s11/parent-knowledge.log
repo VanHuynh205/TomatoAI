@@ -1,0 +1,24 @@
+test_approval_and_unsafe_context_injection (test_curation.CurationTests.test_approval_and_unsafe_context_injection) ... ok
+test_cli_creates_once_and_preserves_existing_paths (test_curation.CurationTests.test_cli_creates_once_and_preserves_existing_paths) ... ok
+test_duplicate_json_keys_nan_and_oversize_rejected (test_curation.CurationTests.test_duplicate_json_keys_nan_and_oversize_rejected) ... ok
+test_editorial_references_keys_actor_and_blank_vi_rejected (test_curation.CurationTests.test_editorial_references_keys_actor_and_blank_vi_rejected) ... ok
+test_exact_selection_rejects_unknown_duplicate_wrong_condition_pointer (test_curation.CurationTests.test_exact_selection_rejects_unknown_duplicate_wrong_condition_pointer) ... ok
+test_lesson_keys_and_source_hashes (test_curation.CurationTests.test_lesson_keys_and_source_hashes) ... ok
+test_real_tracer_exact_en_provenance_and_all_ten_refused (test_curation.CurationTests.test_real_tracer_exact_en_provenance_and_all_ten_refused) ... ok
+test_stale_file_and_editorial_hashes (test_curation.CurationTests.test_stale_file_and_editorial_hashes) ... ok
+test_cli_stdout_refusal_and_inputs_unchanged (test_publication.PublicationTests.test_cli_stdout_refusal_and_inputs_unchanged) ... ok
+test_exact_schema_and_no_skip_flag (test_publication.PublicationTests.test_exact_schema_and_no_skip_flag) ... ok
+test_full_draft_hash_catches_nested_content_and_metadata_drift (test_publication.PublicationTests.test_full_draft_hash_catches_nested_content_and_metadata_drift) ... ok
+test_genuine_pending_dossier_reports_independent_blockers (test_publication.PublicationTests.test_genuine_pending_dossier_reports_independent_blockers) ... ok
+test_invalid_draft_is_typed_and_empty (test_publication.PublicationTests.test_invalid_draft_is_typed_and_empty) ... ok
+test_missing_and_invalid_approvals_are_typed (test_publication.PublicationTests.test_missing_and_invalid_approvals_are_typed) ... ok
+test_negative_approval_metadata_cannot_approve_or_self_review (test_publication.PublicationTests.test_negative_approval_metadata_cannot_approve_or_self_review) ... ok
+test_pending_review_metadata_and_stale_review_hash_rejected (test_publication.PublicationTests.test_pending_review_metadata_and_stale_review_hash_rejected) ... ok
+test_policy_and_draft_pins_cannot_be_replaced (test_publication.PublicationTests.test_policy_and_draft_pins_cannot_be_replaced) ... ok
+test_rejected_evidence_and_nonselected_kind_stay_blocked (test_publication.PublicationTests.test_rejected_evidence_and_nonselected_kind_stay_blocked) ... ok
+test_specific_unsafe_content_refusals_even_with_other_blockers (test_publication.PublicationTests.test_specific_unsafe_content_refusals_even_with_other_blockers) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 6.959s
+
+OK

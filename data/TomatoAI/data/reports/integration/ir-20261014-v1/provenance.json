@@ -1,0 +1,100 @@
+{
+  "version": "ir-20261014-v1",
+  "registry_sha256": "3062d84311ab8dd6f524d3807829b918fd5f4c303549ba6c94aa7d73e9df828a",
+  "decisions_sha256": "471578a56756089ec1ad981c3f4ce61577f2886a3a1f7344482385e5c57be4d5",
+  "mapping_input_sha256": "ef4deb152c6c3983ef428ff0f0036ac33ae56cb16ec359ebd0c5807ac8020abd",
+  "class_source_sha256": "0cd1665023c50d5da94e7507b4e6e46d8d995d3f73ef029be9c438581e16ed30",
+  "card_files": [
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/bacterial_spot.json",
+      "sha256": "a094f436ce181cea0d04c8954a18bc4be694f2c217f600a314fdd29fb7076fe4"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/cercospora_leaf_spot.json",
+      "sha256": "e7b7e92b23993e6dc775143daec40112d8e6af09ca088b975624296acf5074c2"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/early_blight.json",
+      "sha256": "43405f6dea3045f367a2e95041bea3e9ea1d2828ecdb175e4507169daa6a03b7"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/flea_beetle_injury.json",
+      "sha256": "2aa3e2fae37140f235f34e9904ab2eeca1a88209f1ef59532edff382802a0029"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/fusarium_wilt.json",
+      "sha256": "5c579dcac566fde8c5f885ea308b58124452a45c718b7b5663ae4dfe9ecd2a2e"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/healthy.json",
+      "sha256": "67293d2b1407563f69165391997f2abc979e67a82653399b0b1f352797bbe7cf"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/late_blight.json",
+      "sha256": "125edf6314f60d640c9ca4d52f68bf245127752bc9cd50d6ccd792d4cd3e79be"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/leaf_curl_virus.json",
+      "sha256": "6821b1fbe3386cceef93dd15be5303b6581b00557a7ee2e252bbe4f771413c4a"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/leaf_miner.json",
+      "sha256": "514719459c09e521c6f3acf55dbcd6567718135a079a3b6e4d4a0dd409fe73fb"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/leaf_mold.json",
+      "sha256": "78c26a1746895e521f77ab034e9fb5e00c9e231290c714bb998fbbb78cb1b541"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/mosaic_virus.json",
+      "sha256": "6b76a3b89bb03e7b641fde6d3f56e99508dc34a524fff78f6912e5d469da4b91"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/pest_damage.json",
+      "sha256": "55b2ec9a26f3281b46273f3de6c65dcfe2cd4028431fc50dac4f0be2c3be6ad0"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/septoria_leaf_spot.json",
+      "sha256": "ccb94ef907aabada792ad2fe788cb8eb12437db820c6da69cfa02cd51529dcce"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/spider_mites.json",
+      "sha256": "03fb210c7e24eaa8c87c4594dcbe0ecfb53fea583da9b52f4d8e15231439e67c"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/target_spot.json",
+      "sha256": "a281acc678fc1e2c8f83dbf922eb81a7b1d5c5858d41a3efa6f2b3daee9265a6"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/yellow_leaf_curl_virus.json",
+      "sha256": "b4e27730b0cd03bb1f9df8508672d0c31c1555381a4e9fb86bd4fd0756d0d7be"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/yellowing_symptom.json",
+      "sha256": "0d4df0aa6a414d2e560aaa98f80d47151771fdfb66be301110aba0ed38091a3b"
+    }
+  ],
+  "change_log": [
+    "New derivative review only; no source mapping/card/class index changed.",
+    "9 identity links source-checked, 1 ToMV/TMV candidate held; no expert or translation approval granted."
+  ],
+  "code_and_helper_files": [
+    {
+      "path": "scripts/data/review_integration.py",
+      "sha256": "2e868470c6dfbaf9675a6ca4f29a8ae9ef8bf404279c34df9626695d3d236aad"
+    },
+    {
+      "path": "scripts/data/test_review_integration.py",
+      "sha256": "3fe00ae074b930a03c85f82bd7139b2c68ac85330f961ff103af03e3c7e43042"
+    },
+    {
+      "path": "scripts/data/clean_plantexpert.py",
+      "sha256": "13084f96ff8025f407e27e703ec3b43d81677d4ec8746fdf15b895e727be217c"
+    },
+    {
+      "path": "scripts/data/clean_plantvillage.py",
+      "sha256": "3f7ca6bd1c38cc5a1b1c82d59a58af82012ceb67984799fcbdabdbd79b787900"
+    }
+  ],
+  "planning_change": "README current checkpoint inserted; all 12 planning documents retain ID sets; remaining documents hash-identical; original README bytes archived."
+}

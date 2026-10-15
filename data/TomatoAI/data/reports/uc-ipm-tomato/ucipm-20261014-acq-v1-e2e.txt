@@ -1,0 +1,14 @@
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ Run Errors 1 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+ ERROR  configuration error CONFIG_NOT_FOUND (config)
+no e2e.config.ts or e2e.config.mts found in C:\Users\admin\Downloads\DACN_CayCaChua\frontend or its parent directories; run e2e init to create one, or pass --config <path>
+
+
+ Test Files  no test files
+      Tests  no tests executed
+     Errors  1 error
+   Start at  19:00:09
+   Duration  5ms
+     Report  (not written)
+

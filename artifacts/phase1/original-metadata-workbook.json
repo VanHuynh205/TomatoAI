@@ -1,0 +1,32 @@
+{
+  "archive": "data\\TomatoAI\\data\\raw\\plantvillage\\leaf_grouping\\Google Leaf Counts.zip",
+  "archive_sha256": "587459ca04c4ccf3acafdc3d6e0b26a34fcec389dd78e1d7b434bc92a3468b20",
+  "member": "Google Leaf Counts/Tomato Leaf Counts.xlsx",
+  "member_sha256": "79658fb2b732fae23aa2ab266cff4a761f605fb32489f6962025c7dc2e2acaf5",
+  "shared_string_count": 12824,
+  "sheet_names_verbatim": [
+    "YLCV Virus",
+    "Target Spot Bacteria",
+    "Spider Mite Damage Insect",
+    "Septoria Leaf Spot Fungus",
+    "Leaf Mold Fungus",
+    "Late Blight Water Mold",
+    "Bacterial Spot Bacteria",
+    "Early Blight Fungus",
+    "Healthy"
+  ],
+  "prefix_counts": {
+    "Com.G_FL": 1404,
+    "TgS": 0,
+    "mosaic": 0,
+    "TmV": 0,
+    "TomV": 0
+  },
+  "conclusions": [
+    "No target-image TgS prefix or mosaic sheet found in this workbook",
+    "Source wording Target Spot Bacteria is not an accepted taxonomy decision",
+    "Numeric filename overlap does not establish leaf identity; aliases remain unapplied"
+  ],
+  "formulas_executed": false,
+  "files_extracted": 0
+}

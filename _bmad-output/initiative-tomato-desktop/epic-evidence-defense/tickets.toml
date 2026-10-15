@@ -1,0 +1,43 @@
+# Approved 2026-10-14; entries planned, no leaf/build plan yet.
+
+[[entry]]
+id = "S16"
+type = "story"
+title = "external/challenge evidence"
+description = "External/challenge evidence hoặc missing-evidence report"
+verify = "Không download phiên này; không ground truth thì chưa đo/qualitative, không bịa accuracy; T06/T17"
+risk = "high"
+covers = ["CAP-8"]
+after = ["EPB.S09"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = true
+optional = false
+known_uncertainty = "External nguồn/quyền/ground truth độc lập chưa có; nếu thiếu chỉ xuất missing-evidence/qualitative, không bịa accuracy."
+
+[[entry]]
+id = "S17"
+type = "story"
+title = "care/usability/learning evaluation"
+description = "Care/usability/learning evidence hoặc missing-evidence log"
+verify = "Có người/role thật mới claim user/expert study; tách khỏi F1 ảnh; T07–T09/T14/T17"
+risk = "high"
+covers = ["CAP-4", "CAP-6", "CAP-8"]
+after = ["EPD.S12", "EPE.S13"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = true
+optional = false
+known_uncertainty = "Reviewer/role/consent/participants chưa có; nếu thiếu xuất log chưa đánh giá, không coi đó là efficacy acceptance."
+
+[[entry]]
+id = "S19"
+type = "story"
+title = "báo cáo và bảo vệ"
+description = "Nhận core release S18, final metrics S15 và evidence hoặc blocker report S16/S17, tạo báo cáo/slide/demo/evidence index và rehearsal."
+verify = "T20 kiểm traceability/giới hạn; S16/S17 thiếu phải hiện công khai, không gán done nghiên cứu; không chờ S20"
+risk = "high"
+covers = ["CAP-9"]
+after = ["EPE.S18", "S16", "S17"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = true
+optional = false
+known_uncertainty = "Rubric/deadline và mức evidence thực có còn thiếu; báo cáo phân biệt kết quả/blocker thật."

@@ -1,0 +1,111 @@
+{
+  "verified_at": "2026-10-14T12:06:29.047292+00:00",
+  "passed": true,
+  "run_id": "ucipm-20261014-acq-v1",
+  "corpus_status": "blocked",
+  "counts": {
+    "acquisition": {
+      "not_attempted_batch_stopped": 21
+    },
+    "processing": {
+      "not_applicable": 21
+    }
+  },
+  "checks": [
+    {
+      "name": "unit-tests",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/data",
+        "-p",
+        "test_collect_ucipm.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "reports/uc-ipm-tomato/ucipm-20261014-acq-v1-unit-tests.txt",
+      "sha256": "1b23e29900b7899f5a99a6205d074e875f70eaf392577efc0eecaea816a45b2d"
+    },
+    {
+      "name": "integration-tests",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/data",
+        "-p",
+        "test_review_integration.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "reports/uc-ipm-tomato/ucipm-20261014-acq-v1-integration-tests.txt",
+      "sha256": "9d0a4a0da6140ac628782b9a65e46bec68bfe428419069b7eb33c33e4291e1e1"
+    },
+    {
+      "name": "lint",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "scripts/data/collect_ucipm.py",
+        "scripts/data/test_collect_ucipm.py",
+        "scripts/data/verify_ucipm.py"
+      ],
+      "exit_code": 0,
+      "log": "reports/uc-ipm-tomato/ucipm-20261014-acq-v1-lint.txt",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+    },
+    {
+      "name": "compile",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-m",
+        "py_compile",
+        "scripts/data/collect_ucipm.py",
+        "scripts/data/test_collect_ucipm.py",
+        "scripts/data/verify_ucipm.py"
+      ],
+      "exit_code": 0,
+      "log": "reports/uc-ipm-tomato/ucipm-20261014-acq-v1-compile.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "protected_files_stat_checked": 55097,
+  "protected_files_sha256_checked": 278,
+  "media_rehashed": false,
+  "raw_snapshot_count": 0,
+  "offline_transform_replay": {
+    "run": "ucipm-20261014-acq-v1",
+    "reused": true,
+    "offline_transform_check": true,
+    "counts": {
+      "acquisition": {
+        "not_attempted_batch_stopped": 21
+      },
+      "processing": {
+        "not_applicable": 21
+      }
+    }
+  },
+  "mapping_rows": 10,
+  "claim_sample": 12,
+  "full_172_claim_review": false,
+  "e2e": {
+    "command": "npx --no-install e2e run --output ../tmp/ucipm-e2e",
+    "exit_code": 2,
+    "error": "CONFIG_NOT_FOUND",
+    "tests_executed": 0,
+    "frontend_url": null,
+    "reason": "No e2e.config.ts/mts; Python data CLI changes only",
+    "log": "reports/uc-ipm-tomato/ucipm-20261014-acq-v1-e2e.txt",
+    "sha256": "58bff5e1697c11ea9f9d326a0ef0c9e60da4ae7bc69e90f730edfe823d704513"
+  },
+  "registry_old_entries_unchanged": true,
+  "registry_updated": true
+}

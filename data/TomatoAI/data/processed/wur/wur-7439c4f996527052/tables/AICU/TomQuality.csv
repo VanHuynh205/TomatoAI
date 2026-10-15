@@ -1,0 +1,9 @@
+record_id,source_record,time_excel_serial,Flavour,TSS,Acid,%Juice,Bite,Weight,DMC_fruit
+wur:AICU:TomQuality:000001,1,43880,80,9.0,14.5,67,219,9,
+wur:AICU:TomQuality:000002,2,43894,74,8.3,13.6,60,277,10.10,
+wur:AICU:TomQuality:000003,3,43908,71,8.3,12.1,53,285,11.40,8.73
+wur:AICU:TomQuality:000004,4,43922,76,8.9,13.3,58,334,10.0,9.07
+wur:AICU:TomQuality:000005,5,43936,73,8.9,12.5,51,290,11.0,8.71
+wur:AICU:TomQuality:000006,6,43950,77,8.9,13.3,62,265,10.3,9.25
+wur:AICU:TomQuality:000007,7,43964,79,9.13,12.1,64,188,11.13,8.88
+wur:AICU:TomQuality:000008,8,43980,72,8.1,10.7,57,175,16.8,8.96

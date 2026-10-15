@@ -1,0 +1,34 @@
+[
+  {
+    "path": "PRODUCT.md",
+    "sha256": "0992beac691b2f120e9484312f0b2048fb0844b2042a6131304e6020c8062ca9"
+  },
+  {
+    "path": "docs/development/decisions.md",
+    "sha256": "8acc996b6e3f9240251bdf9e4209929340855ca9e1b61f301e66b63a645c358b"
+  },
+  {
+    "path": "_bmad-output/initiative-tomato-desktop/app-development-plan/app-development-plan.md",
+    "sha256": "2df08f56bba7b3fd49876eff8f9dd35b57d6b504678600faf6b11e95b6b2a294"
+  },
+  {
+    "path": "_bmad-output/initiative-tomato-desktop/app-development-plan/engineering-contracts.md",
+    "sha256": "2de71c7b0aec2159c6f9670c88309afb4518538b99e5fd547711a4320364aa14"
+  },
+  {
+    "path": "_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md",
+    "sha256": "2298bd03381c60d9ed3df8b0383969978a7cb54578de7854c477c2e5a8f52e2d"
+  },
+  {
+    "path": "_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.csv",
+    "sha256": "6f74915356bc44da00421b92f68c9e2eb8dd02ce7c8fe19fbd6d695da8adbe10"
+  },
+  {
+    "path": "artifacts/phase2/README.md",
+    "sha256": "58af9054c4f19362460d64da2b120c0b463ef04086dc2d83cca60af261d9800e"
+  },
+  {
+    "path": "artifacts/phase2/publication-review-checklist.md",
+    "sha256": "4f81a87842008ce54de93e78cd490ba0115a4622db38d1a4c5b9d5b5c951cbd8"
+  }
+]

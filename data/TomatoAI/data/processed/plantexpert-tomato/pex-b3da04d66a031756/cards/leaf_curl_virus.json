@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+  "content_language": "en",
+  "source": {
+    "file": "disease_kb/tomato/leaf_curl_virus.json",
+    "pointer": "/",
+    "sha256": "ac7434ae5f3e8cb9e567eb63b1e46856dda08db1544be45fc25729c78d86e1d5",
+    "disease_id_original": "tomato.disease_viral.leaf_curl_virus"
+  },
+  "content_en": {
+    "schema_version": "1.0.0",
+    "disease_id": "tomato.disease_viral.leaf_curl_virus",
+    "aliases": [
+      "TLCV",
+      "Tomato leaf curl disease"
+    ],
+    "crop": {
+      "common_name": "tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "family": "Solanaceae"
+    },
+    "condition": {
+      "common_name": "Leaf Curl Virus",
+      "scientific_name": "Tomato leaf curl virus",
+      "alt_names": [
+        "TLCV",
+        "Tomato leaf curl"
+      ],
+      "pathogen": {
+        "type": "disease_viral",
+        "taxonomy": {
+          "kingdom": "Viruses",
+          "phylum": "",
+          "class": "",
+          "order": "",
+          "family": "Geminiviridae",
+          "genus": "Begomovirus",
+          "species": "Tomato leaf curl virus complex"
+        }
+      }
+    },
+    "issue_type": "disease_viral",
+    "transmission": {
+      "vectors": [
+        "Whiteflies (Bemisia tabaci)"
+      ],
+      "dispersal": [
+        "Movement of viruliferous whiteflies",
+        "Transport of infected seedlings or plants"
+      ],
+      "overwintering": [
+        "In infected perennial host plants (including weeds)",
+        "In adult whiteflies in warm climates"
+      ]
+    },
+    "environmental_risk": {
+      "risk_factors": [
+        "High whitefly populations",
+        "Warm, dry weather conditions that favor whitefly reproduction and migration",
+        "Proximity to infected fields or alternative weed hosts"
+      ],
+      "temp_c_day": [
+        25,
+        35
+      ],
+      "temp_c_night": [],
+      "relative_humidity_pct": [],
+      "leaf_wetness_hours_threshold": 0
+    },
+    "severity_rubric": {
+      "unit": "qualitative",
+      "mild": "Slight upward curling on leaves of a few branches. Minor yellowing may be present. No significant plant stunting.",
+      "moderate": "Most leaves on the plant show distinct upward curling and yellowing. Plant is visibly stunted compared to healthy plants of the same age.",
+      "severe": "Entire plant is severely stunted with a bushy appearance. Leaves are small, thickened, leathery, and strongly cupped upward. Little to no fruit production.",
+      "notes": "Severity is assessed based on the degree of plant stunting and the proportion of foliage showing characteristic curling, yellowing, and deformation. Early infection leads to more severe symptoms."
+    },
+    "symptoms": {
+      "leaves": [
+        "Distinct upward curling or cupping of leaf margins.",
+        "Leaves become thickened, leathery, and brittle to the touch.",
+        "General yellowing (chlorosis) of foliage, sometimes with green veins.",
+        "Reduction in leaf size (microphylla).",
+        "Veins on the underside of leaves may turn purple in some varieties."
+      ],
+      "stems": [
+        "Shortened internodes, giving the plant a compact, bushy appearance."
+      ],
+      "fruit": [
+        "Significant reduction in fruit set.",
+        "Failure to produce fruit if infected at an early stage.",
+        "Fruits that do develop may be smaller than normal and of poor quality."
+      ],
+      "roots": [
+        "Root system is often underdeveloped due to overall stunting of the plant."
+      ],
+      "whole_plant": [
+        "Severe stunting is a primary characteristic, especially with early infection.",
+        "Overall bushy and compact growth habit."
+      ],
+      "signs_microscopic_or_visible": [
+        "Presence of adult whiteflies or their nymphs, often found on the undersides of leaves."
+      ]
+    },
+    "lookalikes": [
+      {
+        "condition_name": "Yellow Leaf Curl Virus",
+        "condition_id": "tomato.disease_viral.yellow_leaf_curl_virus",
+        "key_differences": [
+          "Symptoms are nearly identical and often indistinguishable in the field; requires molecular testing for confirmation.",
+          "TYLCV typically causes more intense, brilliant yellowing of leaf margins compared to some TLCV strains.",
+          "TYLCV often results in more severe stunting and a more pronounced upward cupping of the leaves.",
+          "TLCV may sometimes cause more leaf distortion and blistering than typical TYLCV."
+        ]
+      },
+      {
+        "condition_name": "Mosaic Virus",
+        "condition_id": "tomato.disease_viral.mosaic_virus",
+        "key_differences": [
+          "Mosaic virus causes mottled light green/yellow and dark green patches on leaves, not the uniform yellowing and upward curl of TLCV.",
+          "TLCV causes leaves to become thick and leathery; mosaic virus does not typically cause this change in texture.",
+          "Mosaic virus can cause 'fernleaf' symptoms (narrowing of leaves), which is distinct from the cupping caused by TLCV.",
+          "Severe stunting and a bushy habit are hallmarks of TLCV, while stunting in mosaic virus is often less pronounced."
+        ]
+      }
+    ],
+    "management": {
+      "cultural": [
+        "Use virus-free, certified transplants.",
+        "Control whitefly populations by installing insect-proof nets on nurseries and greenhouses.",
+        "Promptly remove and destroy infected plants (roguing) to reduce inoculum.",
+        "Manage weed hosts in and around the field that can harbor the virus and vectors.",
+        "Use reflective (e.g., silver) plastic mulches to repel whiteflies."
+      ],
+      "biological": [
+        "Conserve and encourage natural enemies of whiteflies, such as predatory beetles, lacewings, and parasitic wasps."
+      ],
+      "chemical": [
+        "Apply systemic insecticides at planting to protect young seedlings.",
+        "Use targeted foliar insecticides to manage whitefly populations, rotating chemical classes to prevent resistance.",
+        "Apply horticultural oils or insecticidal soaps to suppress whitefly nymphs and adults."
+      ],
+      "notes": "Management is entirely preventive and focuses on controlling the whitefly vector. Once a plant is infected, it cannot be cured."
+    },
+    "qa_seeds": {
+      "verification_templates": [
+        "Does this plant show evidence of leaf curl virus?",
+        "Can you see upwardly curled, cupped leaves on this tomato plant?",
+        "Is the plant in the image visibly stunted compared to how a healthy one should look?",
+        "Are the leaves thickened and yellow?",
+        "Does this tomato plant have a bushy appearance due to shortened internodes?"
+      ],
+      "attribute_templates": [
+        "What direction are the leaves curling?",
+        "Describe the texture of the affected leaves.",
+        "What is the overall growth habit of this plant?",
+        "What color are the most affected leaves?",
+        "Are the leaves smaller or larger than normal?",
+        "Are there any signs of the insect vector, such as whiteflies?"
+      ],
+      "diagnosis_templates": [
+        "Given the severe stunting, leathery leaves, and upward curling, what viral disease is this?",
+        "A tomato plant with yellowed, cupped leaves and a bushy habit is likely infected with what whitefly-transmitted virus?",
+        "What is the most likely diagnosis for a field of stunted tomato plants with thickened, curled foliage?"
+      ],
+      "counterfactual_templates": [
+        "If the leaves showed a mottled green pattern instead of uniform curling, what disease might it be?",
+        "What would this plant look like if the symptoms were caused by spider mites instead of a virus?",
+        "If this plant were healthy, how would its size and leaf shape differ?"
+      ],
+      "severity_templates": [
+        "Based on the degree of stunting and leaf deformation, would you classify this infection as mild, moderate, or severe?",
+        "Is the entire plant affected, or are symptoms confined to a few branches?",
+        "How significant is the stunting on this plant?"
+      ],
+      "confounders": [
+        "Could these symptoms be caused by herbicide damage?",
+        "How would you distinguish this from tomato mosaic virus?",
+        "Is it possible this is tomato yellow leaf curl virus instead of the general leaf curl virus?"
+      ]
+    },
+    "data_requirements": {
+      "min_resolution_px": 600,
+      "min_roi_fraction": 0.4,
+      "lighting_notes": "Use even, diffuse light. Avoid harsh, direct sunlight that creates deep shadows and overexposure, which can hide subtle yellowing and leaf texture.",
+      "occlusion_notes": "Ensure the plant's apical (top) growth and several symptomatic leaves are clearly visible. Avoid images where the plant is heavily occluded by other plants or support structures."
+    },
+    "provenance": {
+      "created_by": "VQA Dataset Designer",
+      "reviewed_by": "Expert Plant Pathologist",
+      "created_at": "2023-10-27T10:00:00Z",
+      "updated_at": "2023-10-27T10:00:00Z",
+      "sources": [
+        "University extension guides on tomato diseases",
+        "APS Compendium of Tomato Diseases and Pests",
+        "CABI Invasive Species Compendium"
+      ]
+    }
+  },
+  "normalizations": [],
+  "flags": [
+    "domain_review_unverified",
+    "claim_sources_unverified",
+    "translation_pending",
+    "chemical_local_review_required",
+    "domain_checkpoint",
+    "confounder_slug_review"
+  ],
+  "review": {
+    "domain": "pending",
+    "translation": "not_translated",
+    "safe_for_advice": false,
+    "ready_for_training": false
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "baseline_revision": "NO_VCS",
+  "existing_file_changed": false,
+  "protected_baseline": "artifacts/phase2/s11/preservation-before.json",
+  "new_files": [
+    {
+      "path": "artifacts/phase2/s11/approvals.pending.json",
+      "bytes": 801,
+      "sha256": "855a411003baf250eb8e243f20e7374c9e2d4a7d25259bf84dd2ecdbef893496"
+    },
+    {
+      "path": "artifacts/phase2/s11/checks.json",
+      "bytes": 2009,
+      "sha256": "2e0e6776d87233f10b5930548b3d96df5c5b22b091dc085b6c2ce4f19796c613"
+    },
+    {
+      "path": "artifacts/phase2/s11/cli-refusal-run.json",
+      "bytes": 235,
+      "sha256": "3cdd74ac9dfb0b7f0e48f163b8cf51ffa66c38fc430f4cddb63c49ef2a318ecc"
+    },
+    {
+      "path": "artifacts/phase2/s11/cli-refusal.json",
+      "bytes": 1652,
+      "sha256": "d5bafa1c0e89ceb170554bbbee7c014e57507576a08feda34fd71fc89d1b91ce"
+    },
+    {
+      "path": "artifacts/phase2/s11/e2e-attempt.log",
+      "bytes": 603,
+      "sha256": "2d0a75359353cc6de1a1aad2978d7b8fab5f32d5aac166506933fe54d66cccbe"
+    },
+    {
+      "path": "artifacts/phase2/s11/green-knowledge.log",
+      "bytes": 2844,
+      "sha256": "ed4e8f27923e58f3ce9f416ffcda85cd7f722fa4519c70bce699d43b02eec351"
+    },
+    {
+      "path": "artifacts/phase2/s11/green-old-lookup.log",
+      "bytes": 3316,
+      "sha256": "c1a8e1d262c54926e8639c2579e57b0cf7df180fe05ad8f8a2a731d7d29727cf"
+    },
+    {
+      "path": "artifacts/phase2/s11/inventory.json",
+      "bytes": 292,
+      "sha256": "241312a45efe6338975d5da5727e91ace2d6b84fc354ba88ad9129897a8abe03"
+    },
+    {
+      "path": "artifacts/phase2/s11/preservation-after.json",
+      "bytes": 30405,
+      "sha256": "58040e87bce3b4f7cea1526ac02a589dc2bf56b46098dde00032939ad7d84983"
+    },
+    {
+      "path": "artifacts/phase2/s11/README.md",
+      "bytes": 5154,
+      "sha256": "190fb386a51f926c44c1f30261abc4098f25c702d94eb759bb4be90ff5ab207f"
+    },
+    {
+      "path": "artifacts/phase2/s11/red-publication.log",
+      "bytes": 1151,
+      "sha256": "f977b4ad539273450a528c92969dadeb5d5725c54fd65999e0f70055fa0f8a9a"
+    },
+    {
+      "path": "artifacts/phase2/s11/verify-preservation.py",
+      "bytes": 1058,
+      "sha256": "e4c177bd4b0a7796bb1faabfa71b21ca3086bd3bad4477df0137ac7abe2d11a7"
+    },
+    {
+      "path": "scripts/knowledge/publish.py",
+      "bytes": 10406,
+      "sha256": "f663e118f3b2eb598200be17730b31bff0f613f35d2de8e1a220032292582822"
+    },
+    {
+      "path": "tests/knowledge/test_publication.py",
+      "bytes": 10424,
+      "sha256": "2638afc92497810797db706c68926e83583490d186631832d1d58cdc9105172d"
+    }
+  ],
+  "self": "artifacts/phase2/s11/changed-files.json (excluded from own hash list)"
+}

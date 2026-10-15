@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "updated_local_date": "2026-10-14",
+  "timezone": "Asia/Bangkok",
+  "project_title": "Ứng dụng thẩm định và nhận diện dịch bệnh cho giống cây cà chua",
+  "official_planning_imported": false,
+  "datasets": {
+    "PlantVillage": {
+      "scope": "tomato; source images and grouping metadata only",
+      "source_root": "raw/plantvillage",
+      "status": "needs_review",
+      "technical_status": "cleaned_technical",
+      "split_status": "partial_ready_for_split; no split created",
+      "training_ready": false,
+      "current_run": "pv-d9e4c21eec8e9172",
+      "processed": "processed/plantvillage/pv-d9e4c21eec8e9172",
+      "report": "reports/plantvillage/README.md",
+      "checkpoint": "reports/plantvillage/pv-d9e4c21eec8e9172/checkpoint.json",
+      "counts": {"source_images": 18160, "retained_copies": 18146, "ready_for_split_technical": 11411, "needs_review_retained": 6735, "excluded_byte_duplicates": 14, "excluded_invalid": 0},
+      "blockers": ["6749 source images lack evidenced leaf grouping (including 14 excluded duplicate records)", "1404 Target Spot prefix aliases remain candidates", "373 mosaic images have no grouping metadata", "near candidates and independent domain/label review pending", "no approved full 10-class benchmark or split"],
+      "next_action": "review evidence and grouping queue; do not train or import official PRD/spec/tickets",
+      "history": [
+        {"date": "2026-10-13", "stage": "read_only_planning_audit", "evidence": "../../../planning/tomato-desktop/data-audit.md", "status": "historical preliminary inventory"},
+        {"date": "2026-10-14", "run_id": "pv-018f15e5f3a9b2a1", "status": "superseded_checkpoint", "reason": "numeric-only parser falsely flagged non-tomato prefixed leaf IDs; tomato counts unaffected; outputs retained"},
+        {"date": "2026-10-14", "run_id": "pv-d9e4c21eec8e9172", "status": "current", "reason": "opaque and zero group IDs retained; regression test and production verification"}
+      ]
+    },
+    "PlantExpertVQA-tomato": {
+      "source_root": "raw/plantexpert/disease_kb/tomato",
+      "status": "not_cleaned; domain_and_translation_review_pending",
+      "evidence": "../../../planning/tomato-desktop/data-audit.md",
+      "training_ready": false,
+      "next_action": "Prompt 2 for PlantExpertVQA-tomato in a separately requested session"
+    },
+    "WUR": {
+      "source_root": "raw/cultivation/wur_greenhouse_2019_v2",
+      "status": "research_only; received_not_cleaned",
+      "evidence": "cultivation_metadata/README.md",
+      "mvp_dependency": false,
+      "training_ready": false,
+      "next_action": "separate requested cleaning session; no cultivation optimization model"
+    },
+    "Dryad": {
+      "source_root": "raw/cultivation/dryad_water_nitrogen_2024_v5",
+      "status": "research_only; received_not_cleaned",
+      "evidence": "cultivation_metadata/README.md",
+      "mvp_dependency": false,
+      "training_ready": false,
+      "next_action": "separate requested cleaning session; no cultivation optimization model"
+    },
+    "Mendeley": {
+      "source_root": "raw/cultivation/mendeley_irrigation_33cngpcrmx_v3",
+      "status": "research_only; received_not_cleaned",
+      "evidence": "cultivation_metadata/README.md",
+      "mvp_dependency": false,
+      "training_ready": false,
+      "next_action": "separate requested cleaning session; no inferred optimal target"
+    }
+  }
+}

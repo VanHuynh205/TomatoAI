@@ -1,0 +1,1602 @@
+[
+  {
+    "queue_id": "pex-review:1",
+    "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "source_file": "disease_kb/tomato/bacterial_spot.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "N/A",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:2",
+    "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "source_file": "disease_kb/tomato/bacterial_spot.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "APS Compendium of Tomato Diseases and Pests, 2nd Edition",
+      "University Extension Plant Pathology Publications (e.g., Cornell, Purdue, UC IPM)"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:3",
+    "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "source_file": "disease_kb/tomato/bacterial_spot.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:4",
+    "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "source_file": "disease_kb/tomato/bacterial_spot.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:5",
+    "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_file": "disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "Expert Plant Pathologist",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:6",
+    "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_file": "disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University Extension Plant Pathology Guides",
+      "APS Compendium of Tomato Diseases and Pests",
+      "General Plant Pathology Textbooks"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:7",
+    "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_file": "disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:8",
+    "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_file": "disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:9",
+    "record_id": "pex:disease_kb/tomato/early_blight.json",
+    "source_file": "disease_kb/tomato/early_blight.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "N/A",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:10",
+    "record_id": "pex:disease_kb/tomato/early_blight.json",
+    "source_file": "disease_kb/tomato/early_blight.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University Extension Plant Pathology Guides",
+      "APS Compendium of Tomato Diseases",
+      "General Plant Pathology Textbooks"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:11",
+    "record_id": "pex:disease_kb/tomato/early_blight.json",
+    "source_file": "disease_kb/tomato/early_blight.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:12",
+    "record_id": "pex:disease_kb/tomato/early_blight.json",
+    "source_file": "disease_kb/tomato/early_blight.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:13",
+    "record_id": "pex:disease_kb/tomato/early_blight.json",
+    "source_file": "disease_kb/tomato/early_blight.json",
+    "source_pointer": "/aliases/1",
+    "reason": "domain_checkpoint",
+    "evidence": "Alias target spot of tomato overlaps another card concept; do not map by alias alone",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:14",
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "Expert Reviewer",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:15",
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University extension pest management guides",
+      "APS Compendium of Tomato Diseases and Pests",
+      "General entomology resources"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:16",
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:17",
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:18",
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/condition/pathogen/type",
+    "reason": "type_vocabulary_difference",
+    "evidence": {
+      "issue_type": "unknown",
+      "pathogen_type": "Insect"
+    },
+    "next_action": "distinguish vocabulary synonym from taxonomy inconsistency; preserve raw",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:19",
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/issue_type",
+    "reason": "issue_type_unknown",
+    "evidence": "unknown remains unknown",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:20",
+    "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "source_file": "disease_kb/tomato/fusarium_wilt.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "Expert Plant Pathologist",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:21",
+    "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "source_file": "disease_kb/tomato/fusarium_wilt.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "APS Compendium of Tomato Diseases and Pests",
+      "University Extension Plant Pathology Guides",
+      "General Plant Pathology Textbooks"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:22",
+    "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "source_file": "disease_kb/tomato/fusarium_wilt.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:23",
+    "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "source_file": "disease_kb/tomato/fusarium_wilt.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:24",
+    "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "source_file": "disease_kb/tomato/fusarium_wilt.json",
+    "source_pointer": "/condition/pathogen/type",
+    "reason": "type_vocabulary_difference",
+    "evidence": {
+      "issue_type": "disease_fungal",
+      "pathogen_type": "fungus"
+    },
+    "next_action": "distinguish vocabulary synonym from taxonomy inconsistency; preserve raw",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:25",
+    "record_id": "pex:disease_kb/tomato/healthy.json",
+    "source_file": "disease_kb/tomato/healthy.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "VQA Content Review Team",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:26",
+    "record_id": "pex:disease_kb/tomato/healthy.json",
+    "source_file": "disease_kb/tomato/healthy.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "General university extension plant pathology guides",
+      "APS Compendium of Tomato Diseases and Pests",
+      "Standard horticultural best practices"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:27",
+    "record_id": "pex:disease_kb/tomato/healthy.json",
+    "source_file": "disease_kb/tomato/healthy.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:28",
+    "record_id": "pex:disease_kb/tomato/healthy.json",
+    "source_file": "disease_kb/tomato/healthy.json",
+    "source_pointer": "/condition/pathogen/type",
+    "reason": "type_vocabulary_difference",
+    "evidence": {
+      "issue_type": "healthy",
+      "pathogen_type": "physiological"
+    },
+    "next_action": "distinguish vocabulary synonym from taxonomy inconsistency; preserve raw",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:29",
+    "record_id": "pex:disease_kb/tomato/late_blight.json",
+    "source_file": "disease_kb/tomato/late_blight.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "VQA Dataset Designer",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:30",
+    "record_id": "pex:disease_kb/tomato/late_blight.json",
+    "source_file": "disease_kb/tomato/late_blight.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University Extension Plant Pathology Guides",
+      "APS Compendium of Tomato Diseases",
+      "CABI Crop Protection Compendium"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:31",
+    "record_id": "pex:disease_kb/tomato/late_blight.json",
+    "source_file": "disease_kb/tomato/late_blight.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:32",
+    "record_id": "pex:disease_kb/tomato/late_blight.json",
+    "source_file": "disease_kb/tomato/late_blight.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:33",
+    "record_id": "pex:disease_kb/tomato/late_blight.json",
+    "source_file": "disease_kb/tomato/late_blight.json",
+    "source_pointer": "/condition/pathogen/type",
+    "reason": "type_vocabulary_difference",
+    "evidence": {
+      "issue_type": "disease_fungal",
+      "pathogen_type": "disease_oomycete"
+    },
+    "next_action": "distinguish vocabulary synonym from taxonomy inconsistency; preserve raw",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:34",
+    "record_id": "pex:disease_kb/tomato/late_blight.json",
+    "source_file": "disease_kb/tomato/late_blight.json",
+    "source_pointer": "/condition/pathogen/type",
+    "reason": "domain_checkpoint",
+    "evidence": "ID and issue_type say disease_fungal; pathogen says disease_oomycete; retain all source values",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:35",
+    "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "Expert Plant Pathologist",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:36",
+    "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University extension guides on tomato diseases",
+      "APS Compendium of Tomato Diseases and Pests",
+      "CABI Invasive Species Compendium"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:37",
+    "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:38",
+    "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:39",
+    "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+    "source_pointer": "/condition",
+    "reason": "domain_checkpoint",
+    "evidence": "Leaf curl virus and yellow leaf curl virus are distinct source cards; do not merge",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:40",
+    "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "source_file": "disease_kb/tomato/leaf_miner.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "Expert Plant Pathologist VQA Dataset Designer",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:41",
+    "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "source_file": "disease_kb/tomato/leaf_miner.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University extension guides on vegetable pests",
+      "APS Compendium of Tomato Diseases and Pests",
+      "General entomology and pest management textbooks"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:42",
+    "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "source_file": "disease_kb/tomato/leaf_miner.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:43",
+    "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "source_file": "disease_kb/tomato/leaf_miner.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:44",
+    "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "source_file": "disease_kb/tomato/leaf_miner.json",
+    "source_pointer": "/condition/pathogen/type",
+    "reason": "type_vocabulary_difference",
+    "evidence": {
+      "issue_type": "pest_insect",
+      "pathogen_type": "insect"
+    },
+    "next_action": "distinguish vocabulary synonym from taxonomy inconsistency; preserve raw",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:45",
+    "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "source_file": "disease_kb/tomato/leaf_mold.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:46",
+    "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "source_file": "disease_kb/tomato/leaf_mold.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University Extension Plant Disease Fact Sheets",
+      "APS Compendium of Tomato Diseases and Pests",
+      "General Plant Pathology Textbooks"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:47",
+    "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "source_file": "disease_kb/tomato/leaf_mold.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:48",
+    "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "source_file": "disease_kb/tomato/leaf_mold.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:49",
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "Expert Plant Pathologist",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:50",
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "APS Compendium of Tomato Diseases and Pests",
+      "University Extension Plant Pathology Guides",
+      "CABI Invasive Species Compendium"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:51",
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:52",
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:53",
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/condition/pathogen/type",
+    "reason": "type_vocabulary_difference",
+    "evidence": {
+      "issue_type": "disease_viral",
+      "pathogen_type": "virus"
+    },
+    "next_action": "distinguish vocabulary synonym from taxonomy inconsistency; preserve raw",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:54",
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/aliases",
+    "reason": "domain_checkpoint",
+    "evidence": "ToMV and TMV both appear; no assertion they are equivalent",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:55",
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "Expert Plant Pathologist",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:56",
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University Extension Pest Management Guides",
+      "APS Compendium of Tomato Diseases and Pests",
+      "General Entomology Textbooks"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:57",
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:58",
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:59",
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/condition/pathogen/type",
+    "reason": "type_vocabulary_difference",
+    "evidence": {
+      "issue_type": "unknown",
+      "pathogen_type": "arthropod"
+    },
+    "next_action": "distinguish vocabulary synonym from taxonomy inconsistency; preserve raw",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:60",
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/issue_type",
+    "reason": "issue_type_unknown",
+    "evidence": "unknown remains unknown",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:61",
+    "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+    "source_file": "disease_kb/tomato/septoria_leaf_spot.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "Expert Plant Pathologist",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:62",
+    "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+    "source_file": "disease_kb/tomato/septoria_leaf_spot.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University Extension Plant Pathology Guides",
+      "APS Compendium of Tomato Diseases",
+      "General Plant Pathology Textbooks"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:63",
+    "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+    "source_file": "disease_kb/tomato/septoria_leaf_spot.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:64",
+    "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+    "source_file": "disease_kb/tomato/septoria_leaf_spot.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:65",
+    "record_id": "pex:disease_kb/tomato/spider_mites.json",
+    "source_file": "disease_kb/tomato/spider_mites.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "VQA Dataset Designer",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:66",
+    "record_id": "pex:disease_kb/tomato/spider_mites.json",
+    "source_file": "disease_kb/tomato/spider_mites.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University Extension Pest Management Guides",
+      "APS Compendium of Tomato Diseases and Pests",
+      "General Acarology and Entomology Textbooks"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:67",
+    "record_id": "pex:disease_kb/tomato/spider_mites.json",
+    "source_file": "disease_kb/tomato/spider_mites.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:68",
+    "record_id": "pex:disease_kb/tomato/spider_mites.json",
+    "source_file": "disease_kb/tomato/spider_mites.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:69",
+    "record_id": "pex:disease_kb/tomato/target_spot.json",
+    "source_file": "disease_kb/tomato/target_spot.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "VQA Dataset Designer (Expert Plant Pathologist)",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:70",
+    "record_id": "pex:disease_kb/tomato/target_spot.json",
+    "source_file": "disease_kb/tomato/target_spot.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University extension plant pathology guides",
+      "APS Compendium of Tomato Diseases",
+      "General plant pathology textbooks"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:71",
+    "record_id": "pex:disease_kb/tomato/target_spot.json",
+    "source_file": "disease_kb/tomato/target_spot.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:72",
+    "record_id": "pex:disease_kb/tomato/target_spot.json",
+    "source_file": "disease_kb/tomato/target_spot.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:73",
+    "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "Expert Plant Pathologist VQA Dataset Designer",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:74",
+    "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University extension guides for vegetable diseases",
+      "APS Compendium of Tomato Diseases and Pests",
+      "General plant virology and entomology textbooks"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:75",
+    "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:76",
+    "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:77",
+    "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_pointer": "/condition/pathogen/type",
+    "reason": "type_vocabulary_difference",
+    "evidence": {
+      "issue_type": "disease_viral",
+      "pathogen_type": "virus"
+    },
+    "next_action": "distinguish vocabulary synonym from taxonomy inconsistency; preserve raw",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:78",
+    "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "source_file": "disease_kb/tomato/yellowing_symptom.json",
+    "source_pointer": "/provenance/reviewed_by",
+    "reason": "domain_review_unverified",
+    "evidence": "Plant Pathologist",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:79",
+    "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "source_file": "disease_kb/tomato/yellowing_symptom.json",
+    "source_pointer": "/provenance/sources",
+    "reason": "claim_sources_unverified",
+    "evidence": [
+      "University Extension Plant Disease Guides",
+      "American Phytopathological Society (APS) Compendia",
+      "General Plant Physiology Textbooks"
+    ],
+    "next_action": "attach specific claim-to-source URL/page and applicability evidence",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:80",
+    "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "source_file": "disease_kb/tomato/yellowing_symptom.json",
+    "source_pointer": "/",
+    "reason": "translation_pending",
+    "evidence": "EN retained; VI labels are draft only",
+    "next_action": "review glossary before separately authorized translation",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:81",
+    "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "source_file": "disease_kb/tomato/yellowing_symptom.json",
+    "source_pointer": "/management/chemical",
+    "reason": "chemical_local_review_required",
+    "evidence": "source advice preserved; no Vietnam product, dose or withholding validation",
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:82",
+    "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "source_file": "disease_kb/tomato/yellowing_symptom.json",
+    "source_pointer": "/condition/pathogen/type",
+    "reason": "type_vocabulary_difference",
+    "evidence": {
+      "issue_type": "physiological_symptom",
+      "pathogen_type": "physiological_disorder"
+    },
+    "next_action": "distinguish vocabulary synonym from taxonomy inconsistency; preserve raw",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:83",
+    "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "source_file": "disease_kb/tomato/bacterial_spot.json",
+    "source_pointer": "/lookalikes/2/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+      "source_file": "disease_kb/tomato/bacterial_spot.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.pest_damage.flea_beetle_injury",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/flea_beetle_injury.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:84",
+    "record_id": "pex:disease_kb/tomato/early_blight.json",
+    "source_file": "disease_kb/tomato/early_blight.json",
+    "source_pointer": "/lookalikes/1/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/early_blight.json",
+      "source_file": "disease_kb/tomato/early_blight.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.disease_oomycete.late_blight",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/late_blight.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:85",
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/lookalikes/0/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+      "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.bacterial.bacterial_spot",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/bacterial_spot.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:86",
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/lookalikes/1/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+      "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.fungal.septoria_leaf_spot",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/septoria_leaf_spot.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:87",
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/lookalikes/2/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+      "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.pest.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:88",
+    "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "source_file": "disease_kb/tomato/fusarium_wilt.json",
+    "source_pointer": "/lookalikes/1/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+      "source_file": "disease_kb/tomato/fusarium_wilt.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.abiotic.yellowing_symptom",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/yellowing_symptom.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:89",
+    "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "source_file": "disease_kb/tomato/fusarium_wilt.json",
+    "source_pointer": "/lookalikes/2/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+      "source_file": "disease_kb/tomato/fusarium_wilt.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.pest.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:90",
+    "record_id": "pex:disease_kb/tomato/healthy.json",
+    "source_file": "disease_kb/tomato/healthy.json",
+    "source_pointer": "/lookalikes/0/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/healthy.json",
+      "source_file": "disease_kb/tomato/healthy.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.fungal.early_blight",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/early_blight.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:91",
+    "record_id": "pex:disease_kb/tomato/healthy.json",
+    "source_file": "disease_kb/tomato/healthy.json",
+    "source_pointer": "/lookalikes/1/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/healthy.json",
+      "source_file": "disease_kb/tomato/healthy.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:92",
+    "record_id": "pex:disease_kb/tomato/healthy.json",
+    "source_file": "disease_kb/tomato/healthy.json",
+    "source_pointer": "/lookalikes/2/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/healthy.json",
+      "source_file": "disease_kb/tomato/healthy.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.symptom.yellowing_symptom",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/yellowing_symptom.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:93",
+    "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "reason": "confounder_slug_review",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+      "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+      "source_pointer": "/qa_seeds/confounders/0",
+      "slug_original": "Could these symptoms be caused by herbicide damage?",
+      "candidate_record_ids": [],
+      "status": "unresolved_or_ambiguous_slug",
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:94",
+    "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "reason": "confounder_slug_review",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+      "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+      "source_pointer": "/qa_seeds/confounders/1",
+      "slug_original": "How would you distinguish this from tomato mosaic virus?",
+      "candidate_record_ids": [],
+      "status": "unresolved_or_ambiguous_slug",
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:95",
+    "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "reason": "confounder_slug_review",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+      "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+      "source_pointer": "/qa_seeds/confounders/2",
+      "slug_original": "Is it possible this is tomato yellow leaf curl virus instead of the general leaf curl virus?",
+      "candidate_record_ids": [],
+      "status": "unresolved_or_ambiguous_slug",
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:96",
+    "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "source_file": "disease_kb/tomato/leaf_miner.json",
+    "source_pointer": "/lookalikes/0/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+      "source_file": "disease_kb/tomato/leaf_miner.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.pest_insect.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:97",
+    "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "source_file": "disease_kb/tomato/leaf_miner.json",
+    "source_pointer": "/lookalikes/1/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+      "source_file": "disease_kb/tomato/leaf_miner.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest_insect.flea_beetle_injury",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/flea_beetle_injury.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:98",
+    "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "source_file": "disease_kb/tomato/leaf_miner.json",
+    "source_pointer": "/lookalikes/2/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+      "source_file": "disease_kb/tomato/leaf_miner.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.symptom.yellowing_symptom",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/yellowing_symptom.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:99",
+    "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "source_file": "disease_kb/tomato/leaf_mold.json",
+    "source_pointer": "/lookalikes/0/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+      "source_file": "disease_kb/tomato/leaf_mold.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_oomycete.late_blight",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/late_blight.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:100",
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/lookalikes/1/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+      "source_file": "disease_kb/tomato/mosaic_virus.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest_damage.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:101",
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/qa_seeds/confounders/3",
+    "reason": "confounder_slug_review",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+      "source_file": "disease_kb/tomato/mosaic_virus.json",
+      "source_pointer": "/qa_seeds/confounders/3",
+      "slug_original": "herbicide_damage",
+      "candidate_record_ids": [],
+      "status": "unresolved_or_ambiguous_slug",
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:102",
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/lookalikes/0/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/pest_damage.json",
+      "source_file": "disease_kb/tomato/pest_damage.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.pest.flea_beetle_injury",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/flea_beetle_injury.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:103",
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/lookalikes/1/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/pest_damage.json",
+      "source_file": "disease_kb/tomato/pest_damage.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:104",
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/lookalikes/2/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/pest_damage.json",
+      "source_file": "disease_kb/tomato/pest_damage.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.disease.bacterial_spot",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/bacterial_spot.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:105",
+    "record_id": "pex:disease_kb/tomato/spider_mites.json",
+    "source_file": "disease_kb/tomato/spider_mites.json",
+    "source_pointer": "/lookalikes/0/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/spider_mites.json",
+      "source_file": "disease_kb/tomato/spider_mites.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.pest_damage.flea_beetle_injury",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/flea_beetle_injury.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:106",
+    "record_id": "pex:disease_kb/tomato/spider_mites.json",
+    "source_file": "disease_kb/tomato/spider_mites.json",
+    "source_pointer": "/lookalikes/1/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/spider_mites.json",
+      "source_file": "disease_kb/tomato/spider_mites.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest_damage.leaf_miner",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/leaf_miner.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:107",
+    "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_pointer": "/lookalikes/1/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest_damage.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:108",
+    "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "source_file": "disease_kb/tomato/yellowing_symptom.json",
+    "source_pointer": "/lookalikes/0/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+      "source_file": "disease_kb/tomato/yellowing_symptom.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.fungal_disease.fusarium_wilt",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/fusarium_wilt.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:109",
+    "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "source_file": "disease_kb/tomato/yellowing_symptom.json",
+    "source_pointer": "/lookalikes/1/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+      "source_file": "disease_kb/tomato/yellowing_symptom.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest_damage.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  },
+  {
+    "queue_id": "pex-review:110",
+    "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "source_file": "disease_kb/tomato/yellowing_symptom.json",
+    "source_pointer": "/lookalikes/2/condition_id",
+    "reason": "unresolved_reference",
+    "evidence": {
+      "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+      "source_file": "disease_kb/tomato/yellowing_symptom.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.viral_disease.mosaic_virus",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/mosaic_virus.json"
+      ],
+      "candidates_applied": false
+    },
+    "next_action": "review source and record decision; do not auto-rewrite",
+    "review_status": "pending",
+    "reviewer": null
+  }
+]

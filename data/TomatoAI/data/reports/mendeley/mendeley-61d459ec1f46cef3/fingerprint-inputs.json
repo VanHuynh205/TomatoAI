@@ -1,0 +1,47 @@
+{
+  "sources": [
+    {
+      "source_file": "tomato irrigation dataset.csv",
+      "bytes": 265150,
+      "sha256": "376c12753e37c9803df4669ae9f8a99331e4d358a3c336ad3ba93d64a4ac01ca"
+    },
+    {
+      "source_file": "tomato_water_sensor_data.json",
+      "bytes": 555868,
+      "sha256": "5f6d4182ea8382658dcf396a1a9ad1843508e60ad16ca578292e30984b89dd0e"
+    }
+  ],
+  "references": [
+    {
+      "path": "data/TomatoAI/data/cultivation_metadata/download-manifest.json",
+      "sha256": "9f3076b736652210982542788e0bdcf191976f4f87a355f480530b99eebfdaad"
+    },
+    {
+      "path": "data/TomatoAI/data/cultivation_metadata/download-manifest.csv",
+      "sha256": "e0c72ff083376008705249e21dd917b94bd723470a6d60f3ffa434d95887fb67"
+    },
+    {
+      "path": "data/TomatoAI/data/cultivation_metadata/content-inventory.json",
+      "sha256": "14048853f8c22c813ef140d90bde33e2255f9cdbc6ec21604bdd0c325c347af4"
+    },
+    {
+      "path": "data/TomatoAI/data/cultivation_metadata/README.md",
+      "sha256": "fd1aaa5900ac64f1f69e823098cc2cf36785ac2437c421e1f1d757939c8fb79a"
+    },
+    {
+      "path": "data/TomatoAI/data/cultivation_metadata/mendeley-files-v3.json",
+      "sha256": "e6bdb5651e8458f2f9f2c046637828d3b435bd02481abfeea4ab4463207e2e06"
+    },
+    {
+      "path": "data/TomatoAI/data/cultivation_metadata/mendeley-source-v3.html",
+      "sha256": "4fefe2e9dd630cac86134fbda3198e08963c91bca297edb7756de1defc4af3da"
+    }
+  ],
+  "code_sha256": {
+    "clean_mendeley.py": "5b954330503d2e6d69b1704249d413d9f9fc1607641895c57316c8ac0801e924",
+    "clean_plantexpert.py": "13084f96ff8025f407e27e703ec3b43d81677d4ec8746fdf15b895e727be217c",
+    "clean_dryad.py": "e95237b067a60048cff8a4e499ab446ebee11a9e2013650c6dd528e77440e776"
+  },
+  "config_sha256": "1d7468cc6f75289b773d412c27d46ef6f0a20aefb9d4f1f3c51ae557571b0477",
+  "python": "3.12.14"
+}

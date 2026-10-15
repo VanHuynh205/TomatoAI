@@ -1,0 +1,6 @@
+{
+  "run_id": "pv-d9e4c21eec8e9172",
+  "status": "complete",
+  "next_action": "review_grouping_and_near_candidates; no_training",
+  "pipeline_sha256": "3f7ca6bd1c38cc5a1b1c82d59a58af82012ceb67984799fcbdabdbd79b787900"
+}

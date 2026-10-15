@@ -1,0 +1,770 @@
+[
+  {
+    "table": "csv",
+    "source_records": [
+      35,
+      36
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "csv",
+    "source_records": [
+      89,
+      90
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "csv",
+    "source_records": [
+      178,
+      181
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "csv",
+    "source_records": [
+      187,
+      188,
+      194,
+      197,
+      206,
+      212
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "csv",
+    "source_records": [
+      189,
+      203
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "csv",
+    "source_records": [
+      190,
+      202,
+      211,
+      213,
+      218
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "csv",
+    "source_records": [
+      191,
+      192,
+      199,
+      200,
+      204,
+      209,
+      210,
+      216
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "csv",
+    "source_records": [
+      193,
+      201
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "csv",
+    "source_records": [
+      195,
+      207,
+      208,
+      217
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "csv",
+    "source_records": [
+      205,
+      219,
+      220
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "csv",
+    "source_records": [
+      214,
+      215
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "csv",
+    "source_records": [
+      240,
+      242
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      1,
+      2
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      3,
+      4
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      11,
+      12
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      16,
+      17
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      21,
+      22
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      27,
+      28
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      32,
+      33
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      37,
+      38
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      43,
+      44
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      48,
+      49
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      53,
+      54
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      59,
+      60
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      64,
+      65
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      69,
+      70
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      75,
+      76
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      80,
+      81
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      85,
+      86
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      91,
+      92
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      96,
+      97
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      101,
+      102
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      107,
+      108
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      112,
+      113
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      117,
+      118
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      123,
+      124
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      129,
+      130
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      139,
+      140
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      146,
+      147
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      152,
+      153
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      158,
+      159
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      169,
+      170
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      178,
+      179
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      184,
+      185
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      191,
+      192
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      196,
+      197
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      202,
+      203
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      208,
+      209
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      213,
+      214
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      224,
+      225
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      230,
+      231
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      236,
+      237
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      242,
+      243
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      247,
+      248
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      253,
+      254
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      260,
+      261
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      265,
+      266
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      271,
+      272
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      277,
+      278
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      283,
+      284
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      293,
+      294
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      299,
+      300
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      306,
+      307,
+      308,
+      309,
+      310
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      319,
+      320
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      325,
+      326
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      350,
+      351
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      352,
+      353,
+      354
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      358,
+      359,
+      360,
+      361,
+      362
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      363,
+      364,
+      365
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      368,
+      369,
+      370,
+      371
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  },
+  {
+    "table": "json",
+    "source_records": [
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393
+    ],
+    "basis": "exact_field_lexemes_no_row_id",
+    "approved_duplicate": false,
+    "action": "retain all; verify acquisition context"
+  }
+]

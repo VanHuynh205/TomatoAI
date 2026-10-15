@@ -1,0 +1,30 @@
+{
+  "run": "ucipm-20261014-acq-v1",
+  "generated_at": "2026-10-14T12:03:49.961582+00:00",
+  "status": "blocked",
+  "blocker": {
+    "http_status": 403,
+    "url": "https://ucanr.edu/dept/anr-publishing/permissions",
+    "reason": "HTTP 403 Forbidden during permissions preflight; stop collection; do not bypass"
+  },
+  "counts": {
+    "acquisition": {
+      "not_attempted_batch_stopped": 21
+    },
+    "processing": {
+      "not_applicable": 21
+    }
+  },
+  "corpus_items": 21,
+  "processed_documents": 0,
+  "claim_sample": 12,
+  "full_172_claim_review": false,
+  "parser_live_validated": false,
+  "preservation": {
+    "stat_files": 55097,
+    "hash_files": 278,
+    "media_rehashed": false,
+    "raw_hashes_before": {},
+    "raw_hashes_after": {}
+  }
+}

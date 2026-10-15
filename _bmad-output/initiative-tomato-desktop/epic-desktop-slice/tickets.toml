@@ -1,0 +1,16 @@
+# Approved 2026-10-14; entries planned, no leaf/build plan yet.
+
+[[entry]]
+id = "S06"
+type = "story"
+title = "lát cắt đầu một ảnh–một thẻ"
+description = "Tích hợp head checkpoint/student manifest/preprocessing/hash S05 với một allowed VI card/policy/version S11 trong minimal desktop và shared native QA harness."
+verify = "Không đợi toàn UI/17 cards; hiện 0 card được phép nên bị chặn; invalid/cancel/stale/blocked knowledge có kiểm chứng; T01/T04/T05/T07/T10; phải có positive một ảnh và một card thật được phép, pilot chưa đánh giá cuối; blocked fixtures không đủ; harness native phù hợp Windows không dựng web."
+risk = "high"
+covers = ["CAP-3", "CAP-4", "CAP-7"]
+after = ["EPA.S04", "EPB.S05", "EPD.S11"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = false
+optional = false
+known_uncertainty = "AD-1/UX/C3 plus one approved VI card and student checkpoint are unavailable; no product implementation authorization in Prompt3."
+unknown = "AD-1/UX/C3 plus one approved VI card and student checkpoint are unavailable; no product implementation authorization in Prompt3."

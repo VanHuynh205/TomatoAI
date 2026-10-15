@@ -1,0 +1,21 @@
+test_conflicting_metadata_never_becomes_ready (__main__.PipelineTests.test_conflicting_metadata_never_becomes_ready) ... ok
+test_counts_provenance_decode_and_same_label_exact_dedup (__main__.PipelineTests.test_counts_provenance_decode_and_same_label_exact_dedup) ... ok
+test_cross_label_exact_conflict_is_retained_for_review_not_deduped (__main__.PipelineTests.test_cross_label_exact_conflict_is_retained_for_review_not_deduped) ... ok
+test_idempotent_reuse_and_tamper_refusal (__main__.PipelineTests.test_idempotent_reuse_and_tamper_refusal) ... ok
+test_near_budget_exhaustion_is_visible_and_blocks_ready_subset (__main__.PipelineTests.test_near_budget_exhaustion_is_visible_and_blocks_ready_subset) ... ok
+test_near_candidate_hash_never_deletes_or_merges_leaf_groups (__main__.PipelineTests.test_near_candidate_hash_never_deletes_or_merges_leaf_groups) ... ok
+test_output_path_inside_source_is_rejected_without_source_writes (__main__.PipelineTests.test_output_path_inside_source_is_rejected_without_source_writes) ... ok
+test_target_prefix_numeric_alias_stays_unapplied (__main__.PipelineTests.test_target_prefix_numeric_alias_stays_unapplied) ... ok
+test_unmapped_named_leaf_does_not_get_a_filename_fallback (__main__.PipelineTests.test_unmapped_named_leaf_does_not_get_a_filename_fallback) ... ok
+test_variants_share_component_and_pending_blocks_entire_component (__main__.PipelineTests.test_variants_share_component_and_pending_blocks_entire_component) ... ok
+test_zero_and_prefixed_leaf_ids_are_not_missing_or_schema_errors (__main__.PipelineTests.test_zero_and_prefixed_leaf_ids_are_not_missing_or_schema_errors) ... ok
+test_every_derived_image_is_byte_identical_and_exclusions_have_no_copy (__main__.ProductionOutputTests.test_every_derived_image_is_byte_identical_and_exclusions_have_no_copy) ... ok
+test_group_edges_and_pending_records_cannot_cross_benchmark_boundary (__main__.ProductionOutputTests.test_group_edges_and_pending_records_cannot_cross_benchmark_boundary) ... ok
+test_manifest_schema_unique_ids_and_source_count_conservation (__main__.ProductionOutputTests.test_manifest_schema_unique_ids_and_source_count_conservation) ... ok
+test_raw_before_after_full_hashes_and_manifest_lineage (__main__.ProductionOutputTests.test_raw_before_after_full_hashes_and_manifest_lineage) ... ok
+test_review_alias_and_near_queues_have_real_endpoints_and_no_auto_resolution (__main__.ProductionOutputTests.test_review_alias_and_near_queues_have_real_endpoints_and_no_auto_resolution) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 15.367s
+
+OK

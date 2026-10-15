@@ -1,0 +1,12 @@
+{
+  "torch": {
+    "index": "https://download.pytorch.org/whl/cpu/torch/",
+    "version": "2.14.1+cpu",
+    "url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-win_amd64.whl#sha256=c52adc3bd526ff7fc5bdcc58fc4a76e6214d09951b646ffe5256ebd7ba60cef1"
+  },
+  "torchvision": {
+    "index": "https://download.pytorch.org/whl/cpu/torchvision/",
+    "version": "0.29.1+cpu",
+    "url": "https://download-r2.pytorch.org/whl/cpu/torchvision-0.29.1%2Bcpu-cp312-cp312-win_amd64.whl#sha256=361f943872f7763807912cc51d621f0172e8d481792f8c6f3fe1f63838a29e0c"
+  }
+}

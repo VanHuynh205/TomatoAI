@@ -1,0 +1,55 @@
+---
+id: EPF
+canonical_id: EP-F
+type: epic
+title: "Evidence độc lập, đánh giá người dùng và bảo vệ"
+parent: initiative-tomato-desktop
+covers: ["CAP-4", "CAP-6", "CAP-8", "CAP-9"]
+after: []
+risk: high
+---
+
+# Evidence độc lập, đánh giá người dùng và bảo vệ
+
+## Description
+
+Báo cáo/demo truy vết kết quả thật và thiếu bằng chứng ngoài miền/chuyên môn/học tập. Epic này sở hữu phần CAP và acceptance được phân công trong companion hiện hành; đầu ra phải bàn giao được cho consumer, không đóng bằng số ticket đã làm.
+
+## Outcome
+
+Báo cáo/demo truy vết kết quả thật và thiếu bằng chứng ngoài miền/chuyên môn/học tập.
+
+## Requirements
+
+- CAP-4: tham chiếu cùng ID trong kernel; phần epic sở hữu được xác định trong Done when và entries, không tạo local ID khác.
+- CAP-6: tham chiếu cùng ID trong kernel; phần epic sở hữu được xác định trong Done when và entries, không tạo local ID khác.
+- CAP-8: tham chiếu cùng ID trong kernel; phần epic sở hữu được xác định trong Done when và entries, không tạo local ID khác.
+- CAP-9: tham chiếu cùng ID trong kernel; phần epic sở hữu được xác định trong Done when và entries, không tạo local ID khác.
+
+## Done when
+
+1. S16 external/challenge metric có ground truth/quyền/group độc lập hoặc missing-evidence report
+2. S17 care/learning/usability study có actor/participants thật hoặc báo chưa đánh giá, không expert/user-study giả
+3. T20 report/slide/demo thống nhất lock/metrics/limits/license
+4. rehearsal offline trên release core, không tuyên bố tối ưu canh tác. Missing-evidence report chỉ đóng đầu ra báo cáo, không chứng minh hoặc thông qua acceptance hiệu quả ngoài miền/chăm sóc/học tập.
+
+## Boundaries
+
+Independent/human assessment và báo cáo; không tune winner bằng test. S17 chuyển từ EP-D vì cần UI S13. S16/S17 có thể ghi blocker report; điều này không chứng minh field/care/learning hiệu quả.
+
+## References
+
+- parent — [initiative](../initiative-tomato-desktop.md).
+- spec — [SPEC-tomato-desktop](../spec-tomato-desktop/spec-tomato-desktop.md), các CAP được giao và tất cả companions.
+- acceptance — [requirements-traceability](../spec-tomato-desktop/requirements-traceability.md), FR/NFR/story/test và các AC gốc adopted.
+- readiness — [data-readiness](../spec-tomato-desktop/data-readiness.md), gating và evidence, không phải approval chuyên môn.
+- constraint — `planning/tomato-desktop/architecture.md`, `security-testing.md`, `delivery-plan.md`, `experiments.md`, đường từ project root; xem links adopted trong spec.
+
+## Notes
+
+- Decision: 14/10/2026 — người dùng duyệt proposal revision 2; entries và thứ tự trong tickets.toml là tập planning đã chốt, chưa có implementation/status done.
+- Tracer / sequencing / handoff: EP-B.S09 locked policy; EP-D.S12 nguồn/lesson; EP-E.S13 UI, S15 metrics và S18 release. S16 dùng locked artifact/challenge path làm tracer assessment, không yêu cầu download hiện tại.
+- Unknown: C0…C5/AD theo companion và unknown/known_uncertainty riêng của entry; có câu trả lời thật mới bỏ gate, planning approval không giải quyết những câu hỏi này.
+- Assumption: một người làm mỗi tối; các lane không collision chỉ biểu diễn dependency, không mặc định chạy song song hoặc nhiều GPU.
+- Decision: S17 thuộc EP-F vì cần S13; missing-evidence report chỉ đóng đầu ra báo cáo, không chứng minh hiệu quả ngoài miền/chuyên môn/học tập.
+- Runtime compatibility: canonical epic EP-F dùng store ID EPF; runtime chỉ nhận chữ/số. Đây là biểu diễn máy của cùng epic, không đổi scope/membership/story ID.

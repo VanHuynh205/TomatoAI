@@ -1,0 +1,196 @@
+{
+  "local_date": "2026-10-14",
+  "scope": "Existing planning, ticket stores, registry and sealed integration before documentation-only app plan update",
+  "files": [
+    {
+      "path": "PRODUCT.md",
+      "exists": false,
+      "sha256": null
+    },
+    {
+      "path": "planning\\tomato-desktop\\README.md",
+      "exists": true,
+      "sha256": "aedd5723ef0d2c23e48924013c0db7ae22d2c3bf793a2f8658b8b2a3f025ac68"
+    },
+    {
+      "path": "_bmad-output\\initiative-tomato-desktop\\spec-tomato-desktop\\spec-tomato-desktop.md",
+      "exists": true,
+      "sha256": "5dac9ff5afbaaaa0e7446ac595bc2fd7676a1a8536b84719ce97889477e594e0"
+    },
+    {
+      "path": "_bmad-output\\initiative-tomato-desktop\\initiative-tomato-desktop.md",
+      "exists": true,
+      "sha256": "c612d30151922ad05e1cfc0b4b00dd52342cec47f7ab13db563fc741a916cf9c"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\dataset-registry.json",
+      "exists": true,
+      "sha256": "d962b34f3b4d0a66129b1e0d16fb360339d01d6d1d3326f3f9c5e3ddc7a4682a"
+    },
+    {
+      "path": "_bmad-output\\initiative-tomato-desktop\\tickets.toml",
+      "exists": true,
+      "sha256": "11f32aea00837ab0a9287990ef04a631592ecf95bf22039f7e783f9034634523"
+    },
+    {
+      "path": "_bmad-output\\initiative-tomato-desktop\\epic-desktop-slice\\tickets.toml",
+      "exists": true,
+      "sha256": "3a1341bdeef17e0106721f8ef21f5c8f559e8fa2ab928da29b062a62d5531c37"
+    },
+    {
+      "path": "_bmad-output\\initiative-tomato-desktop\\epic-evidence-defense\\tickets.toml",
+      "exists": true,
+      "sha256": "64182a9eeb045a95a96fbfa7d7c0d2f32298bcbdedc56ac1c42e043012a42b99"
+    },
+    {
+      "path": "_bmad-output\\initiative-tomato-desktop\\epic-governance-data\\tickets.toml",
+      "exists": true,
+      "sha256": "cced24aa075b2c4d5ce7e6be7be6c5518c17b29edc744b5ee305232f68156cd7"
+    },
+    {
+      "path": "_bmad-output\\initiative-tomato-desktop\\epic-knowledge-learning\\tickets.toml",
+      "exists": true,
+      "sha256": "899a341c5d1b9d58f48bae4ad1f4f319c19e847ee506da47f063c7c4838d8626"
+    },
+    {
+      "path": "_bmad-output\\initiative-tomato-desktop\\epic-model-comparison\\tickets.toml",
+      "exists": true,
+      "sha256": "d8a2a7482c6f7238d17dba9816041bd11cbe0d81a7bb07b8cbe19ce6ce870e2a"
+    },
+    {
+      "path": "_bmad-output\\initiative-tomato-desktop\\epic-offline-release\\tickets.toml",
+      "exists": true,
+      "sha256": "eb3de99daed825e0543bf7462b2ee693d505107535e025b26c4fae4a6cce1420"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\aliases.json",
+      "exists": true,
+      "sha256": "9e68e85874615b97950ee1eeff8e806e6ac8ba850e42fa8703f9dd8a7766e2ab"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\artifact-seal.json",
+      "exists": true,
+      "sha256": "ca11dc07099852635a52af7b9eb01a169c3d5de2b44a6fbf1bd99ccb16980837"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\bmad-status.json",
+      "exists": true,
+      "sha256": "e52b38eb39b6def80e87c5cdc77fb8c67ec2cbce13b6fa45829942803de170ea"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\card-review-summary.json",
+      "exists": true,
+      "sha256": "b39a936a5030d6205746e939b8cabf25803af8c5654b978bc38ea24a3f7acba9"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\claim-ledger.json",
+      "exists": true,
+      "sha256": "e22895db0ab0428018a640099dd543eb6791db08308ed0793c86bb5be89b1ecf"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\class-manifest.proposed.json",
+      "exists": true,
+      "sha256": "3e7f5184ad91d24702fb478210ea4d5097d974e9d30524ca9ce47fadde1d2e63"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\decisions.json",
+      "exists": true,
+      "sha256": "471578a56756089ec1ad981c3f4ce61577f2886a3a1f7344482385e5c57be4d5"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\evidence.json",
+      "exists": true,
+      "sha256": "32ac72eabaeccde0fd7605591d1d3e8a315d8c7cffe6aa9e504d6dd19b3d5dbc"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\findings.json",
+      "exists": true,
+      "sha256": "055c838ebd6b34d0a8a1ce5a34759ce732f646dbc6c40c73b2f6dd1281031cea"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\integrity-after.json",
+      "exists": true,
+      "sha256": "9ee294c8f64232e0422619deca0df1fc615623dc1068a64538d119a12689a09f"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\integrity-before.json",
+      "exists": true,
+      "sha256": "9ee294c8f64232e0422619deca0df1fc615623dc1068a64538d119a12689a09f"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\lens-findings.json",
+      "exists": true,
+      "sha256": "1429b5655b9112e71044514951b7ceda533ab1924484091a54ebbc5fed28b33e"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\lookup-bundle.json",
+      "exists": true,
+      "sha256": "65e920ce9da63ad74d325564d04e9316120ef1cc3c7c2e7c8aabc34a0fedb61d"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\mapping.csv",
+      "exists": true,
+      "sha256": "0f2ffbe814818f007c62fcc9f18359cee65e00507d1ee0c71d553f121f32ddf8"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\mapping.json",
+      "exists": true,
+      "sha256": "6f9251e6f5afea5463715bfebda1f81650b8470a8c4b8c6463aa165a2bedb1e7"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\mapping.md",
+      "exists": true,
+      "sha256": "9b23b67c44151a6d8624c87581d300f7feb28de2cbf37727653feccbd898bfc6"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\planning-before.json",
+      "exists": true,
+      "sha256": "4f700ae4f7875970a055f9ca4a477abf0a13b9e09bab1f96e69daa6e455909a5"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\planning-README-before.md",
+      "exists": true,
+      "sha256": "6ceff8acf6365345b1769c3dec8221fa24124c651977c75ed58a0a5623713cf0"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\provenance.json",
+      "exists": true,
+      "sha256": "26ec4d73b851ddfdb598f3df3b79cf75a32d33da9b394ec003687cee11533dee"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\README.md",
+      "exists": true,
+      "sha256": "65f52b21bce112fcdf780dbb3b454ea810a9a993ff4bfc4a3f926f1a374ba342"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\reference-link-review.json",
+      "exists": true,
+      "sha256": "277d625350f2831b838dad078ae0c757672308706c585443b1a52b26ddba96ba"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\review-input.md",
+      "exists": true,
+      "sha256": "b1926cd6e26b176db6dcc8be60c7ea4b5c4f54dd8dba1e13490dbed0de5e3f51"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\review-queue.json",
+      "exists": true,
+      "sha256": "89ccde557db6443c08361d7f8af3bb55498f4ab294c3c949e25bf44987c6d83c"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\structure-findings.md",
+      "exists": true,
+      "sha256": "634034ccb5e2e2a385725eea96a96068653e11668ef4bfb811bdebdebb7ee5b5"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\tests.txt",
+      "exists": true,
+      "sha256": "96917f3f33c6d9588c2b9621f920f7003493d570834f797fdf191cb74aa5735c"
+    },
+    {
+      "path": "data\\TomatoAI\\data\\reports\\integration\\ir-20261014-v1\\verification.json",
+      "exists": true,
+      "sha256": "f77eba3fbfb3b877b219559aabb29c9d8ca6a9d7abd6e933fc25414071b0ffc2"
+    }
+  ]
+}

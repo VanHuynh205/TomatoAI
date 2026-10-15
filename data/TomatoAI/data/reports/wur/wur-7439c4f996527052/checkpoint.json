@@ -1,0 +1,14 @@
+{
+  "status": "technical_complete_review_pending",
+  "run_id": "wur-7439c4f996527052",
+  "blocked": [
+    "Excel epoch/timezone",
+    "timestamp 43510 in Reference/Production",
+    "unit aliases and source dictionary extraction",
+    "missingness/cadence and agronomic plausibility",
+    "experiment independence and future question/split if authorized"
+  ],
+  "training_ready": false,
+  "research_only": true,
+  "next_action": "manual evidence review; no MVP expansion; next dataset Dryad in separately requested session"
+}

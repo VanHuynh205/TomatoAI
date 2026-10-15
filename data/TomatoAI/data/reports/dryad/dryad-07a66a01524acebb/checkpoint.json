@@ -1,0 +1,14 @@
+{
+  "status": "technical_complete_review_pending",
+  "run_id": "dryad-07a66a01524acebb",
+  "training_ready": false,
+  "research_only": true,
+  "blockers": [
+    "treatment/replicate/block crosswalk",
+    "per-field units and proportion scale",
+    "formula cache freshness",
+    "meter measurement timing",
+    "cross-table independence; agronomic review"
+  ],
+  "next_action": "review queue with source evidence; Mendeley only in separately authorized session; no official planning import"
+}

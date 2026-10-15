@@ -1,0 +1,27 @@
+{
+  "version": "pi-20261014-v1",
+  "stage": "prompt3_planning_import_complete",
+  "prompt3_complete": true,
+  "official_planning_imported": true,
+  "spec": "_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/spec-tomato-desktop.md",
+  "checkpoint": "P3-COMPLETE",
+  "approval_received": true,
+  "skills_used": [
+    "bmad: help/status/config",
+    "bmad-spec: create/extract/self-validate/user-approved",
+    "bmad-ticket: activation/envelope/slicing/self-dependency-check/independent-validation"
+  ],
+  "ticket_preflight": "Actual repo status22planned/6epics clean; next onlyEPA.S01 ready,21blocked",
+  "remaining": [
+    "Future S01 decisions/rights/rubric/B0/stack/budget/C3 with authorization for that stage",
+    "Resolve grouping/label/near evidence before split/train",
+    "Review one real card EN-VI and policy before positive product slice",
+    "No app/train/download/bulk translation authorized or started"
+  ],
+  "current_authorization": "Prompt3 planning only; no product code, downloads, bulk translation or training",
+  "registry_changed": true,
+  "draft_changed": false,
+  "ticket_set_approval_received": true,
+  "approval_words": "Duyệt proposal, ghi kế hoạch chính thức",
+  "publication": "Local repo store recorded; no Git metadata/commit or tracker publish"
+}

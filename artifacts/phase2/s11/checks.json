@@ -1,0 +1,55 @@
+{
+  "scope": "partial S11 refusal only; not story completion",
+  "interpreter": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Scripts\\python.exe",
+  "python_version": "3.12.14",
+  "baseline_revision": "NO_VCS",
+  "checks": [
+    {
+      "command": ".venv-phase0/Scripts/python.exe -m unittest discover -s tests/knowledge -p test_publication.py -v",
+      "phase": "RED before publisher existed",
+      "exit_code": 1,
+      "result": "expected missing-handler failure",
+      "evidence": "red-publication.log"
+    },
+    {
+      "command": ".venv-phase0/Scripts/python.exe -m unittest discover -s tests/knowledge -p test_*.py -v",
+      "exit_code": 0,
+      "passed": 19,
+      "evidence": "green-knowledge.log"
+    },
+    {
+      "command": ".venv-phase0/Scripts/python.exe -m unittest discover -s scripts/data -p test_review_integration.py -v",
+      "exit_code": 0,
+      "passed": 22,
+      "evidence": "green-old-lookup.log"
+    },
+    {
+      "command": ".venv-phase0/Scripts/python.exe scripts/knowledge/publish.py",
+      "exit_code": 2,
+      "result": "expected needs_check; empty claims/sources/lesson_ids",
+      "evidence": [
+        "cli-refusal.json",
+        "cli-refusal-run.json"
+      ]
+    },
+    {
+      "command": ".venv-phase0/Scripts/python.exe artifacts/phase2/s11/verify-preservation.py",
+      "exit_code": 0,
+      "checked": 122,
+      "changed": 0,
+      "evidence": "preservation-after.json"
+    },
+    {
+      "command": "npx --no-install e2e run --output ../artifacts/phase2/s11/e2e",
+      "cwd": "frontend",
+      "exit_code": 2,
+      "result": "blocked CONFIG_NOT_FOUND; no tests executed; report not written",
+      "evidence": "e2e-attempt.log"
+    }
+  ],
+  "unrun": [
+    "UI/native flows: no affected UI/target/config or frontend URL",
+    "lint/type checker: no task configuration",
+    "positive publisher/genuine allowed lookup: blocked on human evidence and intentionally unimplemented"
+  ]
+}

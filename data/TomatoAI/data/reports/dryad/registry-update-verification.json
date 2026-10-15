@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "backup": "reports\\dryad\\registry-before-20261014T080721Z.json",
+  "backup_sha256": "2422f51202d1ff2fc9a786a0890cfbcfa15abcc8e117ede3876e60ea33cd36f0",
+  "original_sha256": "2422f51202d1ff2fc9a786a0890cfbcfa15abcc8e117ede3876e60ea33cd36f0",
+  "registry_after_sha256": "e21c341dba3578a5bc5754591c82734bf1ffb49ffe41fd9a1a0359f119157345",
+  "only_changed_entry": "Dryad",
+  "other_entries_unchanged": [
+    "Mendeley",
+    "PlantExpertVQA-tomato",
+    "PlantVillage",
+    "WUR"
+  ],
+  "root_fields_unchanged": true,
+  "official_planning_imported": false
+}

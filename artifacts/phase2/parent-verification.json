@@ -1,0 +1,32 @@
+{
+  "date_local": "2026-10-15",
+  "status": "passed",
+  "independent_parent_checks": {
+    "curation_unittest": {
+      "command": ".venv-phase0/Scripts/python.exe -m unittest discover -s tests/knowledge -p test_curation.py -v",
+      "exit_code": 0,
+      "tests_passed": 8
+    },
+    "historical_lookup_unittest": {
+      "command": ".venv-phase0/Scripts/python.exe -m unittest discover -s scripts/data -p test_review_integration.py -v",
+      "exit_code": 0,
+      "tests_passed": 22
+    },
+    "cli_readonly": {
+      "command": ".venv-phase0/Scripts/python.exe scripts/knowledge/curate.py --review-inputs content/phase2-healthy-v1/review-inputs.json",
+      "exit_code": 0
+    },
+    "draft_reproduction": "exact JSON equality",
+    "decision_hash_bindings": "passed",
+    "all_real_classes_refused": 10,
+    "preserved_files": 117,
+    "preservation_mismatches": []
+  },
+  "quick_review": "no findings on S10 implementation",
+  "s10_build_status": "built",
+  "s11_status": "blocked: independent human source/VI and use-rights review missing; publisher not implemented",
+  "phase2_complete": false,
+  "ui_e2e": "not run: no config/frontend URL/Qt app flow",
+  "vcs": "NO_VCS; no commit",
+  "final_C3_document_review": "No contradictions, fabricated approvals or false completion claims found by read-only reviewer."
+}

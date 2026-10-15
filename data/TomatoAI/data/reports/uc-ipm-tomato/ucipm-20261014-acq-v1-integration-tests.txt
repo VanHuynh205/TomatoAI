@@ -1,0 +1,27 @@
+test_all_ten_real_classes_reference_present_and_blocked (test_review_integration.IntegrationContractTests.test_all_ten_real_classes_reference_present_and_blocked) ... ok
+test_ambiguous_mapping (test_review_integration.IntegrationContractTests.test_ambiguous_mapping) ... ok
+test_changed_order_and_recomputed_manifest_reject_old_prediction (test_review_integration.IntegrationContractTests.test_changed_order_and_recomputed_manifest_reject_old_prediction) ... ok
+test_chemical_and_contextual_claims_stay_hidden (test_review_integration.IntegrationContractTests.test_chemical_and_contextual_claims_stay_hidden) ... ok
+test_duplicate_mapping_and_claim (test_review_integration.IntegrationContractTests.test_duplicate_mapping_and_claim) ... ok
+test_healthy_never_treatment (test_review_integration.IntegrationContractTests.test_healthy_never_treatment) ... ok
+test_healthy_wrong_card_even_if_hash_updated (test_review_integration.IntegrationContractTests.test_healthy_wrong_card_even_if_hash_updated) ... ok
+test_input_object_not_mutated_and_real_flags_unchanged (test_review_integration.IntegrationContractTests.test_input_object_not_mutated_and_real_flags_unchanged) ... ok
+test_invalid_class_indices (test_review_integration.IntegrationContractTests.test_invalid_class_indices) ... ok
+test_low_confidence_external_scope_quality_and_invalid_score (test_review_integration.IntegrationContractTests.test_low_confidence_external_scope_quality_and_invalid_score) ... ok
+test_missing_claim_source_evidence (test_review_integration.IntegrationContractTests.test_missing_claim_source_evidence) ... ok
+test_missing_or_duplicate_card (test_review_integration.IntegrationContractTests.test_missing_or_duplicate_card) ... ok
+test_missing_review_actor_or_bad_evidence_metadata (test_review_integration.IntegrationContractTests.test_missing_review_actor_or_bad_evidence_metadata) ... ok
+test_modified_manifest_without_hash (test_review_integration.IntegrationContractTests.test_modified_manifest_without_hash) ... ok
+test_registry_points_to_reviewed_run_and_originals_match (test_review_integration.IntegrationContractTests.test_registry_points_to_reviewed_run_and_originals_match) ... ok
+test_stale_source_card_translation_and_claim_hashes (test_review_integration.IntegrationContractTests.test_stale_source_card_translation_and_claim_hashes) ... ok
+test_synthetic_approved_nonchemical_guidance_has_provenance (test_review_integration.IntegrationContractTests.test_synthetic_approved_nonchemical_guidance_has_provenance) ... ok
+test_topk_does_not_mix_conditions (test_review_integration.IntegrationContractTests.test_topk_does_not_mix_conditions) ... ok
+test_unapproved_domain_even_with_approved_translation (test_review_integration.IntegrationContractTests.test_unapproved_domain_even_with_approved_translation) ... ok
+test_unapproved_translation_even_with_approved_domain (test_review_integration.IntegrationContractTests.test_unapproved_translation_even_with_approved_domain) ... ok
+test_unknown_label (test_review_integration.IntegrationContractTests.test_unknown_label) ... ok
+test_versions_and_hash_mismatch (test_review_integration.IntegrationContractTests.test_versions_and_hash_mismatch) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.286s
+
+OK

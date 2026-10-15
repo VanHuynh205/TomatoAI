@@ -1,0 +1,1799 @@
+{
+  "Weather": [
+    {
+      "source_heading": "Tout",
+      "description_raw": "Outside temperature",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "Weather",
+      "source_page": 2,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Whether station"
+      ]
+    },
+    {
+      "source_heading": "Rhout",
+      "description_raw": "Outside relative humidity",
+      "unit_raw": "%",
+      "interval_raw": "5 min",
+      "dataset_raw": "Weather",
+      "source_page": 2,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Whether station"
+      ]
+    },
+    {
+      "source_heading": "Iglob",
+      "description_raw": "Solar Radiation",
+      "unit_raw": "W/m²",
+      "interval_raw": "5 min",
+      "dataset_raw": "Weather",
+      "source_page": 2,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Whether station"
+      ]
+    },
+    {
+      "source_heading": "Windsp",
+      "description_raw": "Wind speed",
+      "unit_raw": "m/s",
+      "interval_raw": "5 min",
+      "dataset_raw": "Weather",
+      "source_page": 2,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Whether station"
+      ]
+    },
+    {
+      "source_heading": "RadSum",
+      "description_raw": "Radiation sum",
+      "unit_raw": "J/cm2",
+      "interval_raw": "5 min",
+      "dataset_raw": "Weather",
+      "source_page": 2,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Whether station"
+      ]
+    },
+    {
+      "source_heading": "Winddir",
+      "description_raw": "Wind direction",
+      "unit_raw": "Compass\ndirection [0\nto 128]",
+      "interval_raw": "5 min",
+      "dataset_raw": "Weather",
+      "source_page": 2,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Whether station"
+      ]
+    },
+    {
+      "source_heading": "Rain",
+      "description_raw": "Rain (status 1=rain, 0=dry)",
+      "unit_raw": "[1=rain,\n0=dry]",
+      "interval_raw": "5 min",
+      "dataset_raw": "Weather",
+      "source_page": 2,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Whether station"
+      ]
+    },
+    {
+      "source_heading": "PARout",
+      "description_raw": "PAR weather measurement",
+      "unit_raw": "µmol/m² s",
+      "interval_raw": "5 min",
+      "dataset_raw": "Weather",
+      "source_page": 2,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Whether station"
+      ]
+    },
+    {
+      "source_heading": "Pyrgeo",
+      "description_raw": "Heat emission: pyrgeometer",
+      "unit_raw": "W/m²",
+      "interval_raw": "5 min",
+      "dataset_raw": "Weather",
+      "source_page": 2,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Whether station"
+      ]
+    },
+    {
+      "source_heading": "AbsHumOut",
+      "description_raw": "Absolute humidity content of outside\nair",
+      "unit_raw": "g/m³",
+      "interval_raw": "5 min",
+      "dataset_raw": "Weather",
+      "source_page": 2,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Whether station"
+      ]
+    }
+  ],
+  "GreenhouseClimate": [
+    {
+      "source_heading": "Tair",
+      "description_raw": "Greenhouse Air temperature",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "Rhair",
+      "description_raw": "Greenhouse relative humidity",
+      "unit_raw": "%",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "CO2air",
+      "description_raw": "CO greenhouse\n2",
+      "unit_raw": "ppm",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "HumDef",
+      "description_raw": "Greenhouse humidity deficit",
+      "unit_raw": "g/m³",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "VentLee",
+      "description_raw": "Leeward vents opening",
+      "unit_raw": "% [0 to 100]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "Ventwind",
+      "description_raw": "Windward vents opening",
+      "unit_raw": "% [0 to 100]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "AssimLight",
+      "description_raw": "HPS lamps status (on-off)",
+      "unit_raw": "% [0 or 100]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "EnScr",
+      "description_raw": "Energy curtain opening",
+      "unit_raw": "% [0 to 100]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "BlackScr",
+      "description_raw": "Blackout curtain opening",
+      "unit_raw": "% [0 to 100]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "PipeLow",
+      "description_raw": "Rail pipe Temperature (Lower\ncircuit)",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "PipeGrow",
+      "description_raw": "Crop pipe Temperature (Growth\ncircuit)",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "co2_dos",
+      "description_raw": "CO dosing\n2",
+      "unit_raw": "kg/ha hour",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "Computed CO\n2\ndosage and\ncalibrated by\nmonthly CO -\n2\nmeter readings.",
+        ""
+      ]
+    },
+    {
+      "source_heading": "Tot_PAR",
+      "description_raw": "Total inside PAR\n(Sun + HPS + LED)",
+      "unit_raw": "µmol/m² s",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 3,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "Computed based\non outdoor PAR,\ncover\ntransmissivity\n(0.5), operation\nand transmissivity\nof energy (0.75)\nand blackout\nscreens (0.02),",
+        ""
+      ]
+    },
+    {
+      "source_heading": "Tot_PAR_Lamps",
+      "description_raw": "PAR sum from HPS and LED lamps",
+      "unit_raw": "µmol/m² s",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 4,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "Computed based\non lamps’\noperation and\nmeasured PPFD\ncontribution of\nHPS (100\nµmol/m² s) and\nLED (Blue = 11,\nRed = 49, Farred\n= 0, White = 37\nµmol/m² s) when\nset at maximum\nrange of LED\nproportional\ncontrol (=1000)",
+        ""
+      ]
+    },
+    {
+      "source_heading": "EC_drain_PC",
+      "description_raw": "Drain EC",
+      "unit_raw": "dS/m",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 4,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "pH_drain_PC",
+      "description_raw": "Drain pH",
+      "unit_raw": "[-]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 4,
+      "remaining_cells_raw": [
+        "Raw data",
+        "-",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "Water_sup",
+      "description_raw": "Cumulative number of minutes of\nirrigation in a day",
+      "unit_raw": "minutes",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 4,
+      "remaining_cells_raw": [
+        "Raw data",
+        "This cumulation is\nreset to 0 at\nmidnight.",
+        "Process\nComputer"
+      ]
+    },
+    {
+      "source_heading": "Cum_irr",
+      "description_raw": "Cumulative number of litres of\nirrigation in a day",
+      "unit_raw": "L/m² day",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 4,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "Conversion from\nminutes to liter.\nThis cumulation is\nreset to 0 at\nmidnight.",
+        ""
+      ]
+    },
+    {
+      "source_heading": "co2_sp",
+      "description_raw": "CO setpoint\n2",
+      "unit_raw": "ppm",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "-",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "dx_sp",
+      "description_raw": "Humidity deficit setpoint",
+      "unit_raw": "g/m³",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "-",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "t_rail_min_sp",
+      "description_raw": "Rail pipe minimum\ntemperature setpoint",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "-",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "t_grow_min_sp",
+      "description_raw": "Crop pipe minimum\ntemperature setpoint",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "-",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "Assim_sp",
+      "description_raw": "Assimilation lighting\nsetpoint (HPS lamp)",
+      "unit_raw": "% [0 or 100]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "-",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "scr_enrg_sp",
+      "description_raw": "Energy curtain setpoint",
+      "unit_raw": "% [0 to 100]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "-",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "scr_blck_sp",
+      "description_raw": "Blackout curtain setpoint",
+      "unit_raw": "% [0 to 100]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "-",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "t_heat_sp",
+      "description_raw": "Heating temperature\nsetpoint",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "-",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "t_vent_sp",
+      "description_raw": "Ventilation temperature\nsetpoint (leeward vents)",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "-",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "window_pos_lee_sp",
+      "description_raw": "Lee side window position\nminimum setpoint (leeward\nvents)",
+      "unit_raw": "%",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "-",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "water_sup_int_sp_min",
+      "description_raw": "Water supply interval time\nsetpoint",
+      "unit_raw": "minutes",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "Interval time\nbetween the\nlast and next\nirrigation turn.",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "int_blue_sp",
+      "description_raw": "Intensity set of blue\nspectrum channel (LED\nlamps)",
+      "unit_raw": "[0 to 1000]\nrange of\nproportional\ncontrol",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "LED light\ncontrol was\ncoupled with\nHPS control\n,that is LED\nlamps can\nonly be used\nwhen the\nHPS-lamps are\nswitched on as\nwell.",
+        "Heliospectra lamps"
+      ]
+    },
+    {
+      "source_heading": "int_red_sp",
+      "description_raw": "Intensity set of red\nspectrum channel (LED\nlamps)",
+      "unit_raw": "[0 to 1000]\nrange of",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 5,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "As above",
+        "Heliospectra lamps"
+      ]
+    },
+    {
+      "source_heading": "int_farred_sp",
+      "description_raw": "Intensity set of far-red\nspectrum channel (LED\nlamps)",
+      "unit_raw": "[0 to 1000]\nrange of\nproportional\ncontrol",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 6,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "As above",
+        "Heliospectra lamps"
+      ]
+    },
+    {
+      "source_heading": "int_white_sp",
+      "description_raw": "Intensity set of white\nspectrum channel (LED\nlamps)",
+      "unit_raw": "[0 to 1000]\nrange of\nproportional\ncontrol",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 6,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "As above",
+        "Heliospectra lamps"
+      ]
+    },
+    {
+      "source_heading": "Time",
+      "description_raw": "Timestamps 5 min (Excel\nformat)",
+      "unit_raw": "",
+      "interval_raw": "",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 6,
+      "remaining_cells_raw": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "source_heading": "co2_vip",
+      "description_raw": "CO2 VIP",
+      "unit_raw": "ppm",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "dx_vip",
+      "description_raw": "Humidity deficit VIP",
+      "unit_raw": "g/m³",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "t_rail_min_vip",
+      "description_raw": "Rail pipe minimum\ntemperature VIP",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "t_grow_min_vip",
+      "description_raw": "Crop pipe minimum\ntemperature VIP",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "Assim_vip",
+      "description_raw": "Assimilation lighting VIP\n(HPS lamp)",
+      "unit_raw": "% [0 or 100]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "scr_enrg_vip",
+      "description_raw": "Energy curtain VIP",
+      "unit_raw": "% [0 or 100]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "scr_blck_vip",
+      "description_raw": "Blackout curtain VIP",
+      "unit_raw": "% [0 or 100]",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "t_heat_vip",
+      "description_raw": "Heating temperature VIP",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "t_ventlee_vip",
+      "description_raw": "Ventilation temperature\nVIP (leeward vents)",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "window_pos_lee_vip",
+      "description_raw": "Lee side window position\nminimum VIP (leeward\nvents)",
+      "unit_raw": "%",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "t_ventwind_vip",
+      "description_raw": "Ventilation temperature\nVIP (windward side)",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "water_sup_int_vip_min",
+      "description_raw": "Water supply interval time\nVIP",
+      "unit_raw": "minutes",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "Interval time\nbetween the\nlast and next\nirrigation turn",
+        "Process Computer"
+      ]
+    },
+    {
+      "source_heading": "int_blue_vip",
+      "description_raw": "Intensity set of blue\nspectrum channel VIP\n(LED lamps)",
+      "unit_raw": "[0 to 1000]\nrange of\nproportional\ncontrol",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 7,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "LED light\ncontrol was\ncoupled with\nHPS control\n,that is LED\nlamps can\nonly be used\nwhen the HPS-\nlamps are\nswitched on as\nwell.",
+        "Heliospectra lamps"
+      ]
+    },
+    {
+      "source_heading": "int_red_vip",
+      "description_raw": "Intensity set of red\nspectrum channel VIP (LED\nlamps)",
+      "unit_raw": "[0 to 1000]\nrange of\nproportional\ncontrol",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 8,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "As above",
+        "Heliospectra lamps"
+      ]
+    },
+    {
+      "source_heading": "int_farred_vip",
+      "description_raw": "Intensity set of far-red\nspectrum channel VIP (LED\nlamps)",
+      "unit_raw": "[0 to 1000]\nrange of\nproportional\ncontrol",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 8,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "As above",
+        "Heliospectra lamps"
+      ]
+    },
+    {
+      "source_heading": "int_white_vip",
+      "description_raw": "Intensity set of white\nspectrum channel VIP (LED\nlamps)",
+      "unit_raw": "[0 to 1000]\nrange of\nproportional\ncontrol",
+      "interval_raw": "5 min",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 8,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "As above",
+        "Heliospectra lamps"
+      ]
+    },
+    {
+      "source_heading": "Time",
+      "description_raw": "Timestamps 5 min (Excel\nformat)",
+      "unit_raw": "",
+      "interval_raw": "",
+      "dataset_raw": "GreenhouseClimate",
+      "source_page": 8,
+      "remaining_cells_raw": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "Production": [
+    {
+      "source_heading": "ProdA",
+      "description_raw": "Total tomato\nProduction\nquality class A",
+      "unit_raw": "kg/m²",
+      "interval_raw": "at date\n(harvest)",
+      "dataset_raw": "Production",
+      "source_page": 9,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "Conversion g to kg/m²\n(production area = 62.5 m²).\nThe harvest was performed per\ntruss. Class A means first quality\ntrusses that can be commercially\ntraded.",
+        "Manual registration"
+      ]
+    },
+    {
+      "source_heading": "ProdB",
+      "description_raw": "Total tomato\nProduction\nquality class B",
+      "unit_raw": "kg/m²",
+      "interval_raw": "at date\n(harvest)",
+      "dataset_raw": "Production",
+      "source_page": 9,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "Conversion g to kg/m²\n(production area = 62.5 m²).\nThe harvest was performed per\ntruss. Class B refers to trusses\nthat cannot be commercially\ntraded.",
+        "Manual registration"
+      ]
+    },
+    {
+      "source_heading": "avg_nr_harvested_trusses",
+      "description_raw": "Number of\nharvested\ntrusses (average\n)",
+      "unit_raw": "Number/stem",
+      "interval_raw": "at date\n(harvest)",
+      "dataset_raw": "Production",
+      "source_page": 9,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "This refers to 10 sample stems\n(average value)",
+        "Manual registration"
+      ]
+    },
+    {
+      "source_heading": "Truss development time",
+      "description_raw": "Truss growing\nperiod from\nflowering to\nharvest",
+      "unit_raw": "days",
+      "interval_raw": "at date\n(harvest)",
+      "dataset_raw": "Production",
+      "source_page": 9,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "This refers to 10 sample stems\n(average value).\nThe growing period of a truss is\nconsidered to start when at a\nparticular “flowering” truss at\nleast 5 flowers are set.",
+        "Manual registration"
+      ]
+    },
+    {
+      "source_heading": "Nr_fruits_ClassA",
+      "description_raw": "Number of\nharvested fruits\nquality class A",
+      "unit_raw": "Number",
+      "interval_raw": "at date\n(harvest)",
+      "dataset_raw": "Production",
+      "source_page": 9,
+      "remaining_cells_raw": [
+        "Raw data",
+        "This refers to 10 sample stems\n(total value)",
+        "Manual registration"
+      ]
+    },
+    {
+      "source_heading": "Weight_fruits_ClassA",
+      "description_raw": "Total weight\nharvested fruits\nquality class A",
+      "unit_raw": "g",
+      "interval_raw": "at date\n(harvest)",
+      "dataset_raw": "Production",
+      "source_page": 9,
+      "remaining_cells_raw": [
+        "Raw data",
+        "This refers to 10 sample stems\n(total value)",
+        "Manual registration"
+      ]
+    },
+    {
+      "source_heading": "Nr_fruits_ClassB",
+      "description_raw": "Number of\nharvested fruits\nquality class B",
+      "unit_raw": "Number",
+      "interval_raw": "at date\n(harvest)",
+      "dataset_raw": "Production",
+      "source_page": 9,
+      "remaining_cells_raw": [
+        "Raw data",
+        "This refers to 10 sample stems\n(total value)",
+        "Manual registration"
+      ]
+    },
+    {
+      "source_heading": "Weight_fruits_ClassB",
+      "description_raw": "Total weight\nharvested fruits\nquality class B",
+      "unit_raw": "g",
+      "interval_raw": "at date\n(harvest)",
+      "dataset_raw": "Production",
+      "source_page": 9,
+      "remaining_cells_raw": [
+        "Raw data",
+        "This refers to 10 sample stems\n(total value)",
+        "Manual registration"
+      ]
+    },
+    {
+      "source_heading": "Time",
+      "description_raw": "Timestamp date\n(Excel format)",
+      "unit_raw": "",
+      "interval_raw": "",
+      "dataset_raw": "",
+      "source_page": 9,
+      "remaining_cells_raw": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "CropParameters": [
+    {
+      "source_heading": "Stem_elong",
+      "description_raw": "Stem growth per week",
+      "unit_raw": "cm/week",
+      "interval_raw": "weekly",
+      "dataset_raw": "Crop parameters",
+      "source_page": 10,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "This refers\nto 10\nsample\nstems\n(average\nvalue).\nData no\nlater than\n22 April\n(because\ntomato\nplants were\ntopped).",
+        "Manual\nregistration"
+      ]
+    },
+    {
+      "source_heading": "Stem_thick",
+      "description_raw": "Stem thickness",
+      "unit_raw": "mm",
+      "interval_raw": "weekly",
+      "dataset_raw": "Crop parameters",
+      "source_page": 10,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "This refers\nto 10\nsample\nstems\n(average\nvalue)\nData no\nlater than\n22 April\n(because\ntomato\nplants were\ntopped)",
+        "Manual\nregistration"
+      ]
+    },
+    {
+      "source_heading": "Cum_trusses",
+      "description_raw": "Cumulative number of new\nset trusses on the stem.",
+      "unit_raw": "number/stem",
+      "interval_raw": "weekly",
+      "dataset_raw": "Crop parameters",
+      "source_page": 10,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "This refers\nto 10\nsample\nstems\n(average\nvalue). A\ntruss is\nconsidered\nas “set”",
+        "Manual\nregistration"
+      ]
+    },
+    {
+      "source_heading": "stem_dens",
+      "description_raw": "Stem density",
+      "unit_raw": "Stems/m²",
+      "interval_raw": "weekly",
+      "dataset_raw": "Crop parameters",
+      "source_page": 11,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Teams’\ncommunicatio\nn"
+      ]
+    },
+    {
+      "source_heading": "Plant_dens",
+      "description_raw": "Plant density",
+      "unit_raw": "Plants/m²",
+      "interval_raw": "weekly",
+      "dataset_raw": "Crop parameters",
+      "source_page": 11,
+      "remaining_cells_raw": [
+        "Raw\ndata",
+        "",
+        "Teams’\ncommunicatio\nn"
+      ]
+    },
+    {
+      "source_heading": "Time",
+      "description_raw": "Timestamp date (Excel\nformat)",
+      "unit_raw": "",
+      "interval_raw": "",
+      "dataset_raw": "Crop parameters",
+      "source_page": 11,
+      "remaining_cells_raw": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "Resources": [
+    {
+      "source_heading": "Heat_cons",
+      "description_raw": "Heating energy consumption (rail + crop\npipes)",
+      "unit_raw": "MJ/m²\nday",
+      "interval_raw": "daily",
+      "dataset_raw": "Resources",
+      "source_page": 12,
+      "remaining_cells_raw": [
+        "Processed data",
+        "Computation\nbased on the sum\nof heat release\n(W/m²) from\nheating pipes\n(when on):\nHeatPipe= (t_rail-\ntair)*2.1 +\n(t_grow-\nt_air)*0.62.\nFinal conversion\ninto MJ/day.",
+        ""
+      ]
+    },
+    {
+      "source_heading": "ElecHigh",
+      "description_raw": "Electricity consumption (artificial light)\nduring pick-hours (7.00 -23.00)",
+      "unit_raw": "kWh/m\n2 day",
+      "interval_raw": "daily",
+      "dataset_raw": "Resources",
+      "source_page": 12,
+      "remaining_cells_raw": [
+        "Processed data",
+        "Computation\nbased on lamps’\noperation during\npick-hours,\nmeasured\nelectricity\nconsumption of\nHPS (81 W/m2)\nand LED\n(Blue=7.27 ;\nRed= 25.3;\nFarred= 6.23;\nWhite=22.72\nW/m²).\nConversion into\nKWh.",
+        ""
+      ]
+    },
+    {
+      "source_heading": "ElecLow",
+      "description_raw": "Electricity consumption (artificial light)\nduring off-pick-hours",
+      "unit_raw": "kWh/m2\nday",
+      "interval_raw": "daily",
+      "dataset_raw": "Resources",
+      "source_page": 12,
+      "remaining_cells_raw": [
+        "Processed data",
+        "Computation\nbased on lamps’\noperation during\noff-pick-hours,\nelectricity\nconsumption of\nHPS (81 W/m2)\nand LED\n(Blue=7.27 ;\nRed= 25.3;",
+        ""
+      ]
+    },
+    {
+      "source_heading": "CO2_cons",
+      "description_raw": "CO2 consumption",
+      "unit_raw": "kg/m²\nday",
+      "interval_raw": "daily",
+      "dataset_raw": "Resources",
+      "source_page": 13,
+      "remaining_cells_raw": [
+        "Processed data",
+        "Computed based\non CO dosing\n2\n(co2_dos).\nConversion from g\nto kg.",
+        ""
+      ]
+    },
+    {
+      "source_heading": "Irr",
+      "description_raw": "Irrigation water",
+      "unit_raw": "L/m²\nday",
+      "interval_raw": "daily",
+      "dataset_raw": "Resources",
+      "source_page": 13,
+      "remaining_cells_raw": [
+        "Processed data",
+        "Cumulative daily\nvalue of irrigation.\nThis cumulation is\nreset to 0 at\nmidnight.",
+        ""
+      ]
+    },
+    {
+      "source_heading": "Drain",
+      "description_raw": "Drain water",
+      "unit_raw": "L/m²\nday",
+      "interval_raw": "daily",
+      "dataset_raw": "Resources",
+      "source_page": 13,
+      "remaining_cells_raw": [
+        "Processed data",
+        "Cumulative drain\nover a day. This\ncumulation is\nreset to 0 at\nmidnight.",
+        ""
+      ]
+    },
+    {
+      "source_heading": "Time",
+      "description_raw": "Timestamp date (Excel format)",
+      "unit_raw": "",
+      "interval_raw": "",
+      "dataset_raw": "Resources",
+      "source_page": 13,
+      "remaining_cells_raw": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "TomQuality": [
+    {
+      "source_heading": "Flavour",
+      "description_raw": "Flavour level",
+      "unit_raw": "(0=dislike,\n100=like)",
+      "interval_raw": "Bi-\nweekly",
+      "dataset_raw": "TomQuality",
+      "source_page": 14,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "Calculated with Flavour\nModel Tomato version 2.1\n( 2011)",
+        "Smaaklab Wageningen\nUniversity & Research"
+      ]
+    },
+    {
+      "source_heading": "TSS",
+      "description_raw": "Total Soluble Solids",
+      "unit_raw": "°Brix",
+      "interval_raw": "Bi-\nweekly",
+      "dataset_raw": "TomQuality",
+      "source_page": 14,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "Acid",
+      "description_raw": "Titratable acid",
+      "unit_raw": "(Acid, mmol\nH3O+/100gr)",
+      "interval_raw": "Bi-\nweekly",
+      "dataset_raw": "TomQuality",
+      "source_page": 14,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "%Juice",
+      "description_raw": "Percentage juice pressed from\nthe fruit wall of the tomato",
+      "unit_raw": "%",
+      "interval_raw": "Bi-\nweekly",
+      "dataset_raw": "TomQuality",
+      "source_page": 14,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "Bite",
+      "description_raw": "Breaking force of the fruit wall",
+      "unit_raw": "N",
+      "interval_raw": "Bi-\nweekly",
+      "dataset_raw": "TomQuality",
+      "source_page": 14,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "It is an indicator of the\nperceived firmness during\nc hewing.",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "Weight",
+      "description_raw": "average fruit weight",
+      "unit_raw": "g",
+      "interval_raw": "Bi-\nweekly",
+      "dataset_raw": "TomQuality",
+      "source_page": 14,
+      "remaining_cells_raw": [
+        "Processed\ndata",
+        "",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "DMC_fruit",
+      "description_raw": "Fruit dry matter content",
+      "unit_raw": "%",
+      "interval_raw": "Bi-\nw eekly",
+      "dataset_raw": "TomQuality",
+      "source_page": 14,
+      "remaining_cells_raw": [
+        "Processed\nd ata",
+        "",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "time",
+      "description_raw": "Timestamp date (Excel\nformat)",
+      "unit_raw": "",
+      "interval_raw": "",
+      "dataset_raw": "TomQuality",
+      "source_page": 14,
+      "remaining_cells_raw": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "LabAnalysis": [
+    {
+      "source_heading": "irr_PH",
+      "description_raw": "pH of irrigation water",
+      "unit_raw": "[-]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "Analysis\ncarried out on\nirrigation\nwater sample",
+        "Laboratory analysis\n(Groen Agro\nControl)"
+      ]
+    },
+    {
+      "source_heading": "irr_EC",
+      "description_raw": "EC of irrigation water",
+      "unit_raw": "[dS/m]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_NH4",
+      "description_raw": "Ammonium concentration in\nirrigation water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_K",
+      "description_raw": "Potassium concentration in\nirrigation water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_Na",
+      "description_raw": "Sodium concentration in\nirrigation water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_Ca",
+      "description_raw": "Calcium concentration in\nirrigation water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_Mg",
+      "description_raw": "Magnesium concentration in\nirrigation water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_Si",
+      "description_raw": "Silicon concentration in\nirrigation water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_NO3",
+      "description_raw": "Nitrate concentration in\nirrigation water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_Cl",
+      "description_raw": "Chlorine concentration in\nirrigation water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_SO4",
+      "description_raw": "Sulfate concentration in\nirrigation water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_HCO3",
+      "description_raw": "Bicarbonate Ion concentration\nin irrigation water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_PO4",
+      "description_raw": "Phosphate concentration in\nirrigation water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_Fe",
+      "description_raw": "Iron concentration in\nirrigation water",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_Mn",
+      "description_raw": "Manganese concentration in\nirrigation water",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_Zn",
+      "description_raw": "Zinc concentration in\nirrigation water",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_B",
+      "description_raw": "Boron concentration in\nirrigation water",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_Cu",
+      "description_raw": "Copper concentration in\nirrigation water",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "irr_Mo",
+      "description_raw": "Molybdenum concentration in\nirrigation water",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 15,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_PH",
+      "description_raw": "pH of drainage water",
+      "unit_raw": "[-]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "Analysis\ncarried out on\ndrainage\nwater sample",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_EC",
+      "description_raw": "EC of drainage water",
+      "unit_raw": "[dS/m]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_NH4",
+      "description_raw": "Ammonium concentration in\ndrainage water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_K",
+      "description_raw": "Potassium concentration in\ndrainage water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_Na",
+      "description_raw": "Sodium concentration in\ndrainage water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_Ca",
+      "description_raw": "Calcium concentration in\ndrainage water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_Mg",
+      "description_raw": "Magnesium concentration in\ndrainage water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_Si",
+      "description_raw": "Silicon concentration in\ndrainage water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_NO3",
+      "description_raw": "Nitrate concentration in\ndrainage water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_Cl",
+      "description_raw": "Chlorine concentration in\ndrainage water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_SO4",
+      "description_raw": "Sulfate concentration in\ndrainage water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_HCO3",
+      "description_raw": "Bicarbonate Ion concentration\nin drainage water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_PO4",
+      "description_raw": "Phosphate concentration in\ndrainage water",
+      "unit_raw": "[mmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_Fe",
+      "description_raw": "Iron concentration in drainage\nwater",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_Mn",
+      "description_raw": "Manganese concentration in\ndrainage water",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_Zn",
+      "description_raw": "Zinc concentration in drainage\nwater",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_B",
+      "description_raw": "Boron concentration in\ndrainage water",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_Cu",
+      "description_raw": "Copper concentration in\nirrigation water",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "drain_Mo",
+      "description_raw": "Molybdenum concentration in\ndrainage water",
+      "unit_raw": "[µmol/l]",
+      "interval_raw": "bi-weekly",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "Raw data",
+        "As above",
+        "As above"
+      ]
+    },
+    {
+      "source_heading": "Time",
+      "description_raw": "Timestamp date (Excel\nformat)",
+      "unit_raw": "",
+      "interval_raw": "",
+      "dataset_raw": "LabAnalysis",
+      "source_page": 16,
+      "remaining_cells_raw": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "GrodanSens": [
+    {
+      "source_heading": "EC_slab1",
+      "description_raw": "Electrical Conductivity (Grodan\nsensor 1)",
+      "unit_raw": "dS/m",
+      "interval_raw": "5 min",
+      "dataset_raw": "GrodanSens",
+      "source_page": 17,
+      "remaining_cells_raw": [
+        "Processed",
+        "From 3 min to\n5 minute data\nfor consistency\nwith the indoor\nclimate\ndataset. Data\navailable until\nMay 26.",
+        "Grodan “Grosens”\nsensors"
+      ]
+    },
+    {
+      "source_heading": "EC_slab2",
+      "description_raw": "Electrical Conductivity (Grodan\nsensor 2)",
+      "unit_raw": "dS/m",
+      "interval_raw": "5 min",
+      "dataset_raw": "GrodanSens",
+      "source_page": 17,
+      "remaining_cells_raw": [
+        "Processed",
+        "As above",
+        "Grodan “Grosens”\nsensors"
+      ]
+    },
+    {
+      "source_heading": "WC_slab1",
+      "description_raw": "Slab water content (Grodan\nsensor 1)",
+      "unit_raw": "%",
+      "interval_raw": "5 min",
+      "dataset_raw": "GrodanSens",
+      "source_page": 17,
+      "remaining_cells_raw": [
+        "Processed",
+        "As above",
+        "Grodan “Grosens”\nsensors"
+      ]
+    },
+    {
+      "source_heading": "WC_slab2",
+      "description_raw": "Slab water content (Grodan\nsensor 2)",
+      "unit_raw": "%",
+      "interval_raw": "5 min",
+      "dataset_raw": "GrodanSens",
+      "source_page": 17,
+      "remaining_cells_raw": [
+        "Processed",
+        "As above",
+        "Grodan “Grosens”\nsensors"
+      ]
+    },
+    {
+      "source_heading": "t_slab1",
+      "description_raw": "Slab temperature (Grodan\nsensor 1)",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GrodanSens",
+      "source_page": 17,
+      "remaining_cells_raw": [
+        "Processed",
+        "As above",
+        "Grodan “Grosens”\nsensors"
+      ]
+    },
+    {
+      "source_heading": "t_slab2",
+      "description_raw": "Slab temperature (Grodan\nsensor 2)",
+      "unit_raw": "°C",
+      "interval_raw": "5 min",
+      "dataset_raw": "GrodanSens",
+      "source_page": 17,
+      "remaining_cells_raw": [
+        "Processed",
+        "As above",
+        "Grodan “Grosens”\nsensors"
+      ]
+    },
+    {
+      "source_heading": "Time",
+      "description_raw": "Time",
+      "unit_raw": "Time\nstamps 5\nmin (Excel\nformat)_",
+      "interval_raw": "",
+      "dataset_raw": "GrodanSens",
+      "source_page": 17,
+      "remaining_cells_raw": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ]
+}

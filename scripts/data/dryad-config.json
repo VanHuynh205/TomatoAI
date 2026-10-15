@@ -1,0 +1,24 @@
+{
+  "source_root": "data/TomatoAI/data/raw/cultivation/dryad_water_nitrogen_2024_v5",
+  "processed_parent": "data/TomatoAI/data/processed/dryad",
+  "report_parent": "data/TomatoAI/data/reports/dryad",
+  "intake_manifest": "data/TomatoAI/data/cultivation_metadata/download-manifest.json",
+  "reference_inputs": ["data/TomatoAI/data/cultivation_metadata/dryad-dataset.json", "data/TomatoAI/data/cultivation_metadata/dryad-version.json", "data/TomatoAI/data/cultivation_metadata/dryad-files.json", "data/TomatoAI/data/cultivation_metadata/README.md"],
+  "doi": "10.5061/dryad.wm37pvn33",
+  "article_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354927",
+  "license_declared": "CC0-1.0",
+  "maximum_zip_bytes": 20000000,
+  "maximum_part_bytes": 10000000,
+  "maximum_parts": 200,
+  "maximum_cells": 100000,
+  "tables": [
+    {"id":"quality", "file":"2024.06.05_Quality_Determination.xlsx", "sheet":"Sheet1", "header_rows":[1,2], "first_row":3, "last_row":14, "columns":["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W"], "key":"A", "key_type":"opaque_id", "header_guards":{"A2":"Code"}},
+    {"id":"photosynthetic", "file":"Photosynthetic_Data.xlsx", "sheet":"Sheet1", "header_rows":[1], "first_row":2, "last_row":61, "columns":["A","B","C","D","E"], "key":"A", "key_type":"opaque_id", "header_guards":{"A1":"code"}},
+    {"id":"leaf_stem", "file":"Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx", "sheet":"Leaf and stem ", "header_rows":[1], "first_row":2, "last_row":37, "columns":["A","B","C","D","E","F","G","H","J","K","L","M","N","O","P"], "key":"A", "key_type":"opaque_id", "header_guards":{"A1":"code"}},
+    {"id":"fruit", "file":"Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx", "sheet":"fruit", "header_rows":[1], "first_row":2, "last_row":61, "columns":["A","B","C","D","E","F","G","H"], "key":"A", "key_type":"opaque_id", "header_guards":{"A1":"code"}},
+    {"id":"irrigation_1", "file":"Irrigation_Data_1-4.xlsx", "sheet":"历史数据", "header_rows":[1,2], "first_row":3, "last_row":87, "columns":["A","B","C","D","E"], "key":"A", "key_type":"calendar_date", "status_column":"B", "header_guards":{"A1":"Date"}},
+    {"id":"irrigation_2", "file":"Irrigation_Data_1-4.xlsx", "sheet":"历史数据", "header_rows":[1,2], "first_row":3, "last_row":87, "columns":["A","F","G","H","I"], "key":"A", "key_type":"calendar_date", "status_column":"F", "header_guards":{"A1":"Date"}},
+    {"id":"irrigation_3", "file":"Irrigation_Data_1-4.xlsx", "sheet":"历史数据", "header_rows":[1,2], "first_row":3, "last_row":87, "columns":["A","J","K","L","M"], "key":"A", "key_type":"calendar_date", "status_column":"J", "header_guards":{"A1":"Date"}},
+    {"id":"irrigation_4", "file":"Irrigation_Data_1-4.xlsx", "sheet":"历史数据", "header_rows":[1,2], "first_row":3, "last_row":87, "columns":["A","N","O","P","Q"], "key":"A", "key_type":"calendar_date", "status_column":"N", "header_guards":{"A1":"Date"}}
+  ]
+}

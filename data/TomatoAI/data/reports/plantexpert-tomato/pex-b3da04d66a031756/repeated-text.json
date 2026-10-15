@@ -1,0 +1,461 @@
+[
+  {
+    "section": "management",
+    "field": "cultural",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+        "source_pointer": "/management/cultural/0",
+        "text_en": "Use certified disease-free seed and transplants."
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/early_blight.json",
+        "source_pointer": "/management/cultural/0",
+        "text_en": "Use certified disease-free seed and transplants."
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+        "source_pointer": "/management/cultural/0",
+        "text_en": "Use certified disease-free seed and transplants."
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/target_spot.json",
+        "source_pointer": "/management/cultural/0",
+        "text_en": "Use certified disease-free seed and transplants."
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "management",
+    "field": "cultural",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+        "source_pointer": "/management/cultural/3",
+        "text_en": "Avoid overhead irrigation; use drip or furrow irrigation to keep foliage dry."
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+        "source_pointer": "/management/cultural/4",
+        "text_en": "Avoid overhead irrigation; use drip or furrow irrigation to keep foliage dry."
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "confounders",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "septoria_leaf_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "septoria_leaf_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/early_blight.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "septoria_leaf_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "septoria_leaf_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/healthy.json",
+        "source_pointer": "/qa_seeds/confounders/3",
+        "text_en": "septoria_leaf_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/late_blight.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "septoria_leaf_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/pest_damage.json",
+        "source_pointer": "/qa_seeds/confounders/3",
+        "text_en": "septoria_leaf_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/target_spot.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "septoria_leaf_spot"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "confounders",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "early_blight"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "early_blight"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/healthy.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "early_blight"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/late_blight.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "early_blight"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "early_blight"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "early_blight"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/target_spot.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "early_blight"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "confounders",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "flea_beetle_injury"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "flea_beetle_injury"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/pest_damage.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "flea_beetle_injury"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "flea_beetle_injury"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/spider_mites.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "flea_beetle_injury"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "management",
+    "field": "cultural",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+        "source_pointer": "/management/cultural/2",
+        "text_en": "Remove and destroy infected plant debris after harvest."
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+        "source_pointer": "/management/cultural/4",
+        "text_en": "Remove and destroy infected plant debris after harvest."
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+        "source_pointer": "/management/cultural/2",
+        "text_en": "Remove and destroy infected plant debris after harvest."
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/target_spot.json",
+        "source_pointer": "/management/cultural/4",
+        "text_en": "Remove and destroy infected plant debris after harvest."
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "confounders",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "bacterial_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/early_blight.json",
+        "source_pointer": "/qa_seeds/confounders/3",
+        "text_en": "bacterial_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "bacterial_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/pest_damage.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "bacterial_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "bacterial_spot"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/target_spot.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "bacterial_spot"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "attribute_templates",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/early_blight.json",
+        "source_pointer": "/qa_seeds/attribute_templates/3",
+        "text_en": "Where on the plant are the symptoms most severe?"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+        "source_pointer": "/qa_seeds/attribute_templates/2",
+        "text_en": "Where on the plant are the symptoms most severe?"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "severity_templates",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/early_blight.json",
+        "source_pointer": "/qa_seeds/severity_templates/2",
+        "text_en": "Would you classify this infection as mild, moderate, or severe?"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+        "source_pointer": "/qa_seeds/severity_templates/2",
+        "text_en": "Would you classify this infection as mild, moderate, or severe?"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "confounders",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/early_blight.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "late_blight"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "late_blight"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "late_blight"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "confounders",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "spider_mites"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "spider_mites"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/healthy.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "spider_mites"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "spider_mites"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "spider_mites"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "spider_mites"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/pest_damage.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "spider_mites"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "spider_mites"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "spider_mites"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "confounders",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "yellowing_symptom"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/healthy.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "yellowing_symptom"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "yellowing_symptom"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+        "source_pointer": "/qa_seeds/confounders/3",
+        "text_en": "yellowing_symptom"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/spider_mites.json",
+        "source_pointer": "/qa_seeds/confounders/1",
+        "text_en": "yellowing_symptom"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "management",
+    "field": "chemical",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+        "source_pointer": "/management/chemical/1",
+        "text_en": "Use targeted foliar insecticides to manage whitefly populations, rotating chemical classes to prevent resistance."
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+        "source_pointer": "/management/chemical/1",
+        "text_en": "Use targeted foliar insecticides to manage whitefly populations, rotating chemical classes to prevent resistance."
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "confounders",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "fusarium_wilt"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "fusarium_wilt"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "fusarium_wilt"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "attribute_templates",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+        "source_pointer": "/qa_seeds/attribute_templates/0",
+        "text_en": "What is the shape of the spots on the leaves?"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/target_spot.json",
+        "source_pointer": "/qa_seeds/attribute_templates/1",
+        "text_en": "What is the shape of the spots on the leaves?"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "attribute_templates",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+        "source_pointer": "/qa_seeds/attribute_templates/1",
+        "text_en": "What color is the border of the leaf spots?"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/target_spot.json",
+        "source_pointer": "/qa_seeds/attribute_templates/2",
+        "text_en": "What color is the border of the leaf spots?"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  },
+  {
+    "section": "qa_seeds",
+    "field": "confounders",
+    "occurrences": [
+      {
+        "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+        "source_pointer": "/qa_seeds/confounders/0",
+        "text_en": "mosaic_virus"
+      },
+      {
+        "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+        "source_pointer": "/qa_seeds/confounders/2",
+        "text_en": "mosaic_virus"
+      }
+    ],
+    "action": "retained; shared text is not duplicate disease card"
+  }
+]

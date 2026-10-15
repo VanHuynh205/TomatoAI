@@ -1,0 +1,447 @@
+{
+  "registry": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\dataset-registry.json",
+  "registry_sha256": "d962b34f3b4d0a66129b1e0d16fb360339d01d6d1d3326f3f9c5e3ddc7a4682a",
+  "rights_ledger": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\docs\\development\\assets-rights.json",
+  "rights_sha256": "031ff6b6686f862fee917ef9e2e591821d59dda2c26a28a1002b3ff4715d214a",
+  "datasets": [
+    {
+      "dataset": "PlantVillage",
+      "selected_run": "pv-d9e4c21eec8e9172",
+      "role": "image_benchmark_candidate",
+      "inclusion_reason": "provenance intake only; role does not confer train or advice permission",
+      "processed": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\processed\\plantvillage\\pv-d9e4c21eec8e9172",
+      "report": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\reports\\plantvillage\\pv-d9e4c21eec8e9172",
+      "summary_sha256": "c58ed87efae704347810a063bbd5bbb92e32165cea61c2ff3d4db66ab9312eda",
+      "registry_counts": {
+        "source_images": 18160,
+        "retained_copies": 18146,
+        "ready_for_split_technical": 11411,
+        "needs_review_retained": 6735,
+        "excluded_byte_duplicates": 14,
+        "excluded_invalid": 0
+      },
+      "rights_asset": "dataset:PlantVillage",
+      "rights": {
+        "id": "dataset:PlantVillage",
+        "kind": "dataset",
+        "source": "https://github.com/spMohanty/PlantVillage-Dataset",
+        "revision": "7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+        "selected_run": "pv-d9e4c21eec8e9172",
+        "declared_license": "CC BY-SA 3.0 declared in local README_HF; per-asset scope pending",
+        "license_evidence": "data/TomatoAI/data/raw/plantvillage/README_HF.md",
+        "license_evidence_sha256": "dc70d48f21e142ae9f82070607a6cbf9f761c91446c3edc4b0a752737115be02",
+        "existing_manifest": "processed/plantvillage/pv-d9e4c21eec8e9172",
+        "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+        "attribution_required_or_to_verify": [
+          "authors",
+          "source URL/DOI",
+          "version",
+          "license notice",
+          "changes"
+        ],
+        "redistribution_status": "pending",
+        "training_approved": false,
+        "outstanding": [
+          "per-asset rights/scope review",
+          "scientific readiness is separate from declared license"
+        ]
+      },
+      "training_eligible": false,
+      "blockers": [
+        "6749 source images lack evidenced leaf grouping (including 14 excluded duplicate records)",
+        "1404 Target Spot prefix aliases remain candidates",
+        "373 mosaic images have no grouping metadata",
+        "near candidates and independent domain/label review pending",
+        "no approved full 10-class benchmark or split"
+      ],
+      "observed": {
+        "manifest_records": 18160,
+        "retained": 18146,
+        "excluded": 14,
+        "quarantined": 0,
+        "needs_review": 6735,
+        "record_status_counts": {
+          "ready_for_split": 11411,
+          "needs_review": 6735,
+          "excluded_exact_duplicate": 14
+        }
+      },
+      "raw_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\raw\\plantvillage",
+      "raw_files_hash_checked": 18270,
+      "raw_baseline_sha256": "6b72520e794df99c8d93100c2d37946ec973066729096049e7851271ff05c5e6",
+      "reference_files_hash_checked": 0,
+      "raw_scope_exclusions": [
+        ".git",
+        ".cache",
+        "__pycache__"
+      ],
+      "manifest_sha256": "0cd1665023c50d5da94e7507b4e6e46d8d995d3f73ef029be9c438581e16ed30",
+      "raw_verification": "fresh hashes of every file named in cleaning raw-before baseline; not historical integrity before baseline",
+      "review_items": 6749,
+      "manifest_jsonl_sha256": "788ba3f54582bdfeaa3757490afc33929ceff8c0108a359c95e76619ab7f2089",
+      "group_inputs": {
+        "near-candidates.csv": "762398a4f9e7db92f68902fa780915931ca206dab8193db3b1857d0cf90dfc80",
+        "alias-candidates.json": "b329d46365a0ac284025155bfa129313d81a62501deeec71316fcaeef60f4711",
+        "group-edges.csv": "e498fa33e1fa0db9715d42b1b9edb4bdfd991057bf49094212e72dbbc03d5fb4"
+      }
+    },
+    {
+      "dataset": "PlantExpertVQA-tomato",
+      "selected_run": "pex-b3da04d66a031756",
+      "role": "knowledge_review_only",
+      "inclusion_reason": "provenance intake only; role does not confer train or advice permission",
+      "processed": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\processed\\plantexpert-tomato\\pex-b3da04d66a031756",
+      "report": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\reports\\plantexpert-tomato\\pex-b3da04d66a031756",
+      "summary_sha256": "02ce34b7f3e24c3661694561c3509ea2078b32dd33ed741e6cb1bf91367bfd18",
+      "registry_counts": {
+        "source_cards": 17,
+        "retained_normalized_cards": 17,
+        "excluded": 0,
+        "quarantined_technical": 0,
+        "needs_review_cards": 17,
+        "unresolved_lookalike_links": 24,
+        "total_lookalike_links": 47,
+        "draft_image_label_links": 10,
+        "glossary_vi_draft_terms": 10
+      },
+      "rights_asset": "dataset:PlantExpertVQA-tomato",
+      "rights": {
+        "id": "dataset:PlantExpertVQA-tomato",
+        "kind": "dataset",
+        "source": "https://huggingface.co/datasets/SyedNazmusSakib/PlantExpertVQA",
+        "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313",
+        "selected_run": "pex-b3da04d66a031756",
+        "declared_license": "CC BY 4.0 declared in local README; embedded sources separate",
+        "license_evidence": "data/TomatoAI/data/raw/plantexpert/README.md",
+        "license_evidence_sha256": "c654e0585666f4b9b258a14cd16d9ae5dac71be3313f3be71873d9bf53e52807",
+        "existing_manifest": "processed/plantexpert-tomato/pex-b3da04d66a031756",
+        "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+        "attribution_required_or_to_verify": [
+          "authors",
+          "source URL/DOI",
+          "version",
+          "license notice",
+          "changes"
+        ],
+        "redistribution_status": "pending",
+        "training_approved": false,
+        "outstanding": [
+          "per-asset rights/scope review",
+          "scientific readiness is separate from declared license"
+        ]
+      },
+      "training_eligible": false,
+      "blockers": [
+        "24 lookalike IDs unresolved; candidates not applied",
+        "4 confounder entries need interpretation (3 questions and 1 absent herbicide_damage card)",
+        "taxonomy/alias checkpoints and claim citations need review",
+        "no independently verified domain review or Vietnamese translation",
+        "16 cards contain chemical advice with local applicability unverified",
+        "no supervised advisory QA/outcome dataset available locally"
+      ],
+      "observed": {
+        "manifest_records": 17,
+        "retained": 17,
+        "excluded": 0,
+        "quarantined": 0,
+        "needs_review": 17,
+        "record_status_counts": {
+          "needs_review": 17
+        }
+      },
+      "raw_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\raw\\plantexpert",
+      "raw_files_hash_checked": 39,
+      "raw_baseline_sha256": "dda2e7a103b7eadefd08adb42c58dfd84dbd2d0fe7865a5cc313012688ce2e3c",
+      "reference_files_hash_checked": 2,
+      "raw_scope_exclusions": [],
+      "manifest_sha256": "983d30876379ab0ff3f534d39c8b5f127451c054cf6a37c87bf284e67024d689",
+      "raw_verification": "fresh hashes of every file named in cleaning raw-before baseline; not historical integrity before baseline",
+      "review_items": 110
+    },
+    {
+      "dataset": "WUR",
+      "selected_run": "wur-7439c4f996527052",
+      "role": "research_only",
+      "inclusion_reason": "provenance intake only; role does not confer train or advice permission",
+      "processed": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\processed\\wur\\wur-7439c4f996527052",
+      "report": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\reports\\wur\\wur-7439c4f996527052",
+      "summary_sha256": "be7435d4a81701f77fdc3c388fa662c23d5c35d47df031ddbbe358987c70f553",
+      "registry_counts": {
+        "tables": 43,
+        "source_records": 622899,
+        "retained_normalized_records": 622899,
+        "excluded_records": 0,
+        "quarantined_records": 0,
+        "needs_review_retained_records": 622899,
+        "missing_cells": 1413536,
+        "zero_cells_preserved": 3818128,
+        "review_items": 134
+      },
+      "rights_asset": "dataset:WUR",
+      "rights": {
+        "id": "dataset:WUR",
+        "kind": "dataset",
+        "source": "https://data.4tu.nl/articles/dataset/Autonomous_Greenhouse_Challenge_Second_Edition_2019_/12764777/2",
+        "revision": "version 2",
+        "selected_run": "wur-7439c4f996527052",
+        "declared_license": "CC0 1.0 reported in saved intake metadata",
+        "license_evidence": "data/TomatoAI/data/cultivation_metadata/README.md",
+        "license_evidence_sha256": "fd1aaa5900ac64f1f69e823098cc2cf36785ac2437c421e1f1d757939c8fb79a",
+        "existing_manifest": "processed/wur/wur-7439c4f996527052",
+        "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+        "attribution_required_or_to_verify": [
+          "authors",
+          "source URL/DOI",
+          "version",
+          "license notice",
+          "changes"
+        ],
+        "redistribution_status": "excluded_from_MVP",
+        "training_approved": false,
+        "outstanding": [
+          "per-asset rights/scope review",
+          "scientific readiness is separate from declared license"
+        ]
+      },
+      "training_eligible": false,
+      "blockers": [
+        "Excel epoch/timezone unverified; serial retained",
+        "Reference/Production record 1 serial 43510 outside compartment climate span",
+        "12 water interval unit aliases unresolved; PDF extraction/timestamp dictionary review",
+        "48 cadence flags and missingness need context; no imputation",
+        "experimental independence, agronomic plausibility and future task/split not approved"
+      ],
+      "observed": {
+        "manifest_records": 622899,
+        "retained": 622899,
+        "excluded": 0,
+        "quarantined": 0,
+        "needs_review": 622899,
+        "record_status_counts": {
+          "needs_review;research_only": 622899
+        }
+      },
+      "raw_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\raw\\cultivation\\wur_greenhouse_2019_v2",
+      "raw_files_hash_checked": 46,
+      "raw_baseline_sha256": "5eff7429291c66c797af06242dafdf3ef8d670dd3373d11e590b6f8f1d05d250",
+      "reference_files_hash_checked": 6,
+      "raw_scope_exclusions": [],
+      "manifest_sha256": "b45641d2bf7412a729cd491af056f96837ddb3e498d76585d55528c4bc86d8d8",
+      "raw_verification": "fresh hashes of every file named in cleaning raw-before baseline; not historical integrity before baseline",
+      "review_items": 134
+    },
+    {
+      "dataset": "Dryad",
+      "selected_run": "dryad-8b0f7c218098bfdf",
+      "role": "research_only",
+      "inclusion_reason": "provenance intake only; role does not confer train or advice permission",
+      "processed": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\processed\\dryad\\dryad-8b0f7c218098bfdf",
+      "report": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\reports\\dryad\\dryad-8b0f7c218098bfdf",
+      "summary_sha256": "7797d246c2738333f0010833046613e39d55ff2c72aa18a08602b4753dd26ed1",
+      "registry_counts": {
+        "workbooks": 4,
+        "worksheets": 5,
+        "derived_tables": 8,
+        "source_physical_rows": 253,
+        "retained_table_records": 508,
+        "needs_review_records": 508,
+        "excluded_records": 0,
+        "quarantined_records": 0,
+        "formula_cells": 108,
+        "formula_cache_missing": 0,
+        "missing_table_cells": 0,
+        "invalid_table_cells": 0,
+        "numeric_zero_cells_preserved": 254,
+        "review_items": 79
+      },
+      "rights_asset": "dataset:Dryad",
+      "rights": {
+        "id": "dataset:Dryad",
+        "kind": "dataset",
+        "source": "https://datadryad.org/dataset/doi:10.5061/dryad.wm37pvn33",
+        "revision": "version 5; version ID 446657",
+        "selected_run": "dryad-8b0f7c218098bfdf",
+        "declared_license": "CC0 1.0 reported in saved intake metadata",
+        "license_evidence": "data/TomatoAI/data/cultivation_metadata/README.md",
+        "license_evidence_sha256": "fd1aaa5900ac64f1f69e823098cc2cf36785ac2437c421e1f1d757939c8fb79a",
+        "existing_manifest": "processed/dryad/dryad-8b0f7c218098bfdf",
+        "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+        "attribution_required_or_to_verify": [
+          "authors",
+          "source URL/DOI",
+          "version",
+          "license notice",
+          "changes"
+        ],
+        "redistribution_status": "excluded_from_MVP",
+        "training_approved": false,
+        "outstanding": [
+          "per-asset rights/scope review",
+          "scientific readiness is separate from declared license"
+        ]
+      },
+      "training_eligible": false,
+      "blockers": [
+        "treatment/replicate/irrigation-block mapping unverified",
+        "quality units and nutrient proportion scale unresolved",
+        "formula cache freshness unverified; no recalculation",
+        "meter timing, repeated measurements and cross-table experimental independence unverified",
+        "no agronomic approval; fruit sample mass is not seasonal yield"
+      ],
+      "observed": {
+        "manifest_records": 508,
+        "retained": 508,
+        "excluded": 0,
+        "quarantined": 0,
+        "needs_review": 508,
+        "record_status_counts": {
+          "needs_review;research_only": 508
+        }
+      },
+      "raw_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\raw\\cultivation\\dryad_water_nitrogen_2024_v5",
+      "raw_files_hash_checked": 5,
+      "raw_baseline_sha256": "3466eea1034e00cde9844c1c4e9cb88665790cd1cdbdbf200fb8f793890f8ccc",
+      "reference_files_hash_checked": 5,
+      "raw_scope_exclusions": [],
+      "manifest_sha256": "6fe5fff1420f345946654cb47c9f735c18b69aad8fdb260cb6967be46a5df425",
+      "raw_verification": "fresh hashes of every file named in cleaning raw-before baseline; not historical integrity before baseline",
+      "review_items": 79
+    },
+    {
+      "dataset": "Mendeley",
+      "selected_run": "mendeley-61d459ec1f46cef3",
+      "role": "research_only",
+      "inclusion_reason": "provenance intake only; role does not confer train or advice permission",
+      "processed": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\processed\\mendeley\\mendeley-61d459ec1f46cef3",
+      "report": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\reports\\mendeley\\mendeley-61d459ec1f46cef3",
+      "summary_sha256": "c05aad76c976b9c809dcbe056d158ee39379dc172c772d94aef971893312c572",
+      "registry_counts": {
+        "source_records": 3393,
+        "retained_records": 3393,
+        "quarantined_records": 0,
+        "excluded_records": 0,
+        "needs_review_retained_records": 3393,
+        "missing_cells": 0,
+        "zero_cells_preserved": 1535,
+        "review_items": 103,
+        "csv_records": 3000,
+        "json_records": 393,
+        "csv_duplicate_value_surplus_retained": 28,
+        "json_duplicate_value_surplus_retained": 92,
+        "json_unique_timestamps": 30,
+        "json_duplicate_timestamp_groups": 23
+      },
+      "rights_asset": "dataset:Mendeley",
+      "rights": {
+        "id": "dataset:Mendeley",
+        "kind": "dataset",
+        "source": "https://data.mendeley.com/datasets/33cngpcrmx/3",
+        "revision": "version 3",
+        "selected_run": "mendeley-61d459ec1f46cef3",
+        "declared_license": "CC BY 4.0 reported in saved intake metadata",
+        "license_evidence": "data/TomatoAI/data/cultivation_metadata/README.md",
+        "license_evidence_sha256": "fd1aaa5900ac64f1f69e823098cc2cf36785ac2437c421e1f1d757939c8fb79a",
+        "existing_manifest": "processed/mendeley/mendeley-61d459ec1f46cef3",
+        "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+        "attribution_required_or_to_verify": [
+          "authors",
+          "source URL/DOI",
+          "version",
+          "license notice",
+          "changes"
+        ],
+        "redistribution_status": "excluded_from_MVP",
+        "training_approved": false,
+        "outstanding": [
+          "per-asset rights/scope review",
+          "scientific readiness is separate from declared license"
+        ]
+      },
+      "training_eligible": false,
+      "blockers": [
+        "CSV preprocessing lineage and field units/calibration unverified",
+        "JSON source formulas, optimal/configuration and actuator state not validated outcomes",
+        "CSV-JSON join key absent; no join",
+        "timezone/device/session independence and duplicate acquisition context unresolved",
+        "no agronomic review or cultivation optimization target approval"
+      ],
+      "observed": {
+        "manifest_records": 3393,
+        "retained": 3393,
+        "excluded": 0,
+        "quarantined": 0,
+        "needs_review": 3393,
+        "record_status_counts": {
+          "needs_review;research_only": 3393
+        }
+      },
+      "raw_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\raw\\cultivation\\mendeley_irrigation_33cngpcrmx_v3",
+      "raw_files_hash_checked": 2,
+      "raw_baseline_sha256": "053eeaeb60bc6e1a57c088afdf05268d35f357af1fa08d7d704254e4fc170ebe",
+      "reference_files_hash_checked": 6,
+      "raw_scope_exclusions": [],
+      "manifest_sha256": "537ea27a57b49adfc4576de0b48d03613442099ee1da4363ac4f2dd8689def1a",
+      "raw_verification": "fresh hashes of every file named in cleaning raw-before baseline; not historical integrity before baseline",
+      "review_items": 103
+    },
+    {
+      "dataset": "UC-IPM-Tomato",
+      "selected_run": "ucipm-20261014-acq-v1",
+      "role": "acquisition_blocked",
+      "inclusion_reason": "provenance intake only; role does not confer train or advice permission",
+      "processed": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\processed\\uc-ipm-tomato\\ucipm-20261014-acq-v1",
+      "report": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\reports\\uc-ipm-tomato\\ucipm-20261014-acq-v1",
+      "summary_sha256": "4890d38cf1764de36cfcf16fb026f5009f74694789b3cb7577c88f4bd99ba3d0",
+      "registry_counts": {
+        "acquisition": {
+          "not_attempted_batch_stopped": 21
+        },
+        "processing": {
+          "not_applicable": 21
+        }
+      },
+      "rights_asset": "dataset:UC-IPM-Tomato",
+      "rights": {
+        "id": "dataset:UC-IPM-Tomato",
+        "kind": "dataset",
+        "source": "https://ucanr.edu/dept/anr-publishing/permissions",
+        "revision": "ucipm-20261014-acq-v1",
+        "selected_run": "ucipm-20261014-acq-v1",
+        "declared_license": "not cleared; acquisition blocked HTTP 403",
+        "license_evidence": "data/TomatoAI/data/reports/uc-ipm-tomato/ucipm-20261014-acq-v1/checkpoint.json",
+        "license_evidence_sha256": "ea34a3a4bf2145364e6105518691693e948ddd9ee62282a326fc7ed050288126",
+        "existing_manifest": "processed/uc-ipm-tomato/ucipm-20261014-acq-v1",
+        "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+        "attribution_required_or_to_verify": [
+          "authors",
+          "source URL/DOI",
+          "version",
+          "license notice",
+          "changes"
+        ],
+        "redistribution_status": "excluded_from_MVP",
+        "training_approved": false,
+        "outstanding": [
+          "per-asset rights/scope review",
+          "scientific readiness is separate from declared license"
+        ]
+      },
+      "training_eligible": false,
+      "blockers": [
+        {
+          "http_status": 403,
+          "url": "https://ucanr.edu/dept/anr-publishing/permissions",
+          "reason": "HTTP 403 Forbidden during permissions preflight; stop collection; do not bypass"
+        },
+        "Resource rights and current robots not cleared; no corpus bytes acquired"
+      ],
+      "observed": {
+        "processed_documents": 0,
+        "acquisition_items": 21
+      },
+      "raw_verification": "no acquired corpus; no collection attempted"
+    }
+  ],
+  "errors": [],
+  "raw_writes": 0
+}

@@ -1,0 +1,80 @@
+--- before/_bmad-output/initiative-tomato-desktop/app-development-plan/app-development-plan.md
++++ after/_bmad-output/initiative-tomato-desktop/app-development-plan/app-development-plan.md
+@@ -146,14 +146,16 @@
+ 
+ ## Phase 2 — Tri thức trồng/chăm sóc và một card VI thật
+ 
++**Checkpoint thực thi 15/10/2026 — S10 built, Phase 2 chưa hoàn tất:** [Tracer draft và bằng chứng](../../../artifacts/phase2/README.md) có đúng một healthy watering claim, glossary, lesson và hai quiz draft. Parent chạy độc lập 8 test curation và 22 regression lookup pass, tái tạo draft giống artifact, 117 file nguồn/ledger/ticket giữ nguyên hash; review Quick không có finding. 10/10 lớp vẫn guidance rỗng. Người dùng đã chọn [C3 demo giáo dục giới hạn](../../../artifacts/phase2/c3-policy-decision.json), bắt buộc nhãn chưa được chuyên gia duyệt. S11 còn chờ human source/VI review và quyền dùng/đóng gói; [bảng việc cụ thể](../../../artifacts/phase2/publication-review-checklist.md). Chưa có publisher/allowed card cho S06; ticket stores/done states không đổi.
++
+ ### S10 — Tracer EN–VI/mapping/lesson đầu tiên
+ 
+ **Files:** `scripts/knowledge/curate.py`, `content/<version>/`, `tests/knowledge/test_curation.py`. **Consumes:** S01/S02, EN card/claim hashes, mapping source review. **Produces:** `curate_card(card_id: str, review_inputs: Path) -> CardDraft`; draft EN–VI/claim/glossary/lesson/two quiz có provenance. Công nghệ: JSON/std-lib, biên tập có đối chiếu, không API dịch.
+ 
+-- [ ] Chọn card identity rõ và nội dung phi hóa học đủ nguồn; healthy basic-care có thể ưu tiên nhưng không tự coi là approved.
+-- [ ] Test EN/raw/ID bất biến, claim pointer/source/hash/VI alignment đầy đủ; thiếu review assert `lookup.guidance == []`. Chạy fail cho handler chưa có, giữ các tests lookup cũ.
+-- [ ] Dịch draft từng claim đã chọn, giữ phủ định/đơn vị/điều kiện/tác nhân; glossary version và actor/role thật. Tạo lesson LO và hai quiz draft, key/source riêng.
+-- [ ] Chạy `python -m unittest discover -s tests/knowledge -p test_curation.py -v` và `python -m unittest discover -s scripts/data -p test_review_integration.py -v` khi code contract thay. Ghi T07/T09 và fixture phần T14, chưa gọi guidance safe.
++- [x] Chọn card identity rõ và nội dung phi hóa học đủ nguồn; healthy basic-care có thể ưu tiên nhưng không tự coi là approved.
++- [x] Test EN/raw/ID bất biến, claim pointer/source/hash/VI alignment đầy đủ; thiếu review assert `lookup.guidance == []`. Chạy fail cho handler chưa có, giữ các tests lookup cũ.
++- [x] Dịch draft từng claim đã chọn, giữ phủ định/đơn vị/điều kiện/tác nhân; glossary version và actor/role thật. Tạo lesson LO và hai quiz draft, key/source riêng.
++- [x] Chạy `python -m unittest discover -s tests/knowledge -p test_curation.py -v` và `python -m unittest discover -s scripts/data -p test_review_integration.py -v` khi code contract thay. Ghi T07/T09 và fixture phần T14, chưa gọi guidance safe.
+ 
+ **Gate:** Một tracer draft nối được và blocked đúng; không dịch toàn bộ 17 card hoặc chỉnh seal đã chốt.
+ 
+@@ -166,7 +168,7 @@
+ - [ ] Duyệt nghĩa EN–VI, điều kiện áp dụng và quyền đóng gói; chỉ publish đúng scope, giữ suppressed/pending reason. Không có rule context thì chỉ dùng general care đã được phép, không yêu cầu form không dùng.
+ - [ ] Chạy knowledge tests; positive fixture dùng một card thật được phép và evidence thật, không synthetic. Assert displayed claims có nguồn/version/role/scope và zero unsupported chemical/dose/PHI. Ghi T07–T09/partial T14.
+ 
+-**Gate C3:** Một allowed VI card thật để S06 dùng. Thiếu người chuyên môn/policy thì blocked milestone; có thể tiếp tục research/curation draft, không claim tư vấn đã xác nhận.
++**Gate C3:** Một allowed VI card thật để S06 dùng. Hướng hiện tại là demo giáo dục `source_checked` giới hạn theo quyết định người dùng ngày 15/10/2026; sinh viên/peer review nguồn/nghĩa VI với actor/role thật, không bắt buộc expert cho riêng scope này. Thiếu review nguồn/VI, quyền dùng hoặc positive bundle thật vẫn blocked milestone. Không mở public release, không dùng AI tự duyệt hoặc sửa gate cũ để đủ số thẻ.
+ 
+ ## Phase 3 — Harness thực nghiệm và train head hai CNN
+ 
+--- before/_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md
++++ after/_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md
+@@ -3,6 +3,8 @@
+ Ngày 14/10/2026. Giữ 9 CAP, 14 FR, 10 NFR, 8 AD, S01–S20 và T01–T20 của nguồn. Người dùng đã duyệt spec và proposal ticket revision 2 ngày 14/10/2026; thêm S10b/S11b cho scope còn lại, tổng 22 story. Đây là truy vết kế hoạch chính thức, **không xác nhận test sản phẩm đã qua**. AC chi tiết tại companion PRD/delivery/security vẫn phải đọc.
+ 
+ **Checkpoint 15/10/2026 — S01:** Phase 0 được phép thực hiện; xem [decision ledger](../../../docs/development/decisions.md) và [evidence](../../../artifacts/S01/). EfficientNet-B0 đã chọn baseline kỹ thuật; phiên bản CPU/runtime được kiểm riêng. C1 compute/quyền weights, C2 split, C3 chuyên môn và C5 release vẫn chưa đóng; các status planning ngày 14/10 dưới đây là baseline, không là kết quả kiểm sản phẩm.
++
++**Checkpoint thực thi 15/10/2026 — S10 built, S11 blocked:** [Evidence Phase 2](../../../artifacts/phase2/README.md) có một claim EN–VI draft hash-bound, glossary và lesson/hai quiz có key/source; parent chạy 8 test curation và 22 lookup regression pass; review Quick không finding. 117 file preserved giữ nguyên hash, 10 lớp thật vẫn guidance rỗng. Đóng góp T07/T09 và phần logic draft T14, chưa hoàn tất T07–T09/T14 hay T17. Người dùng đã chọn [C3 demo giới hạn](../../../artifacts/phase2/c3-policy-decision.json) có nhãn chưa expert review; human source/VI review, quyền dùng/đóng gói, publisher và allowed bundle thật còn thiếu. Phase 2 chưa hoàn tất, không mark ticket done. Các mô tả planning bên dưới được đọc cùng checkpoint này.
+ 
+ ## FR/NFR tới story và test
+ 
+--- before/_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.csv
++++ after/_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.csv
+@@ -3,11 +3,11 @@
+ "FR02","S06,S14","T02,T03","Chưa validator ảnh sản phẩm","pi-20261014-v1"
+ "FR03","S05,S06,S07,S08","T04,T05","Class manifest đề xuất; chưa checkpoint","pi-20261014-v1"
+ "FR04","S09,S13,S16","T06,T17","Threshold fixture 0,7 chỉ thử lookup; chưa detector OOD/calibration","pi-20261014-v1"
+-"FR05","S10,S11,S10b,S11b,S13","T07,T08","9 mapping identity source checked/1 pending; 10 thật bị chặn","pi-20261014-v1"
++"FR05","S10,S11,S10b,S11b,S13","T07,T08","S10 draft tracer kiểm 10 refusal; 9 mapping source checked/1 pending; C3 demo direction selected; S11 source/VI/rights pending","pi-20261014-v1"
+ "FR06","S06,S13,S19","T05,T07,T20","Giới hạn CNN/leaf-only trong spec; chưa model/app","pi-20261014-v1"
+ "FR07","S11,S11b,S13","T08","Claim review/context/policy còn pending","pi-20261014-v1"
+-"FR08","S10,S11,S10b,S11b","T09","EN bất biến; glossary draft, 0 VI approved","pi-20261014-v1"
+-"FR09","S10,S11,S12,S17","T14,T17","LO/quiz kế hoạch; chưa lesson được phép/người học","pi-20261014-v1"
++"FR08","S10,S11,S10b,S11b","T09","S10 một claim VI/glossary hash-bound draft; 0 VI approved; 8 curation tests pass, Quick review không finding","pi-20261014-v1"
++"FR09","S10,S11,S12,S17","T14,T17","S10 một lesson/hai quiz draft có key/source; partial T14 logic, chưa allowed lesson/người học","pi-20261014-v1"
+ "FR10","S06,S14","T10,T11","Worker/limits/cancel chưa triển khai","pi-20261014-v1"
+ "FR11","S06,S14,S18","T04,T12","Lookup hash/version guard đã thử một phần; chưa loader model/app","pi-20261014-v1"
+ "FR12","S03,S04,S05,S07,S08,S09,S15","T15,T16","Cleaning có evidence; chưa split/train/selection","pi-20261014-v1"
+@@ -20,6 +20,6 @@
+ "NFR05","S02,S03,S04,S05,S07,S08,S09,S15","T15,T16","Run/hash nguồn đã có; còn group/split/run model","pi-20261014-v1"
+ "NFR06","S14,S18","T02,T03,T10,T12","Threat plan; chưa hardening sản phẩm","pi-20261014-v1"
+ "NFR07","S02,S14,S20","T18","Run có integrity evidence; chưa product log/history","pi-20261014-v1"
+-"NFR08","S01,S10,S11,S10b,S11b,S12","T07,T08,T09","Policy/licensing/claim/VI chưa đủ; không expert giả","pi-20261014-v1"
++"NFR08","S01,S10,S11,S10b,S11b,S12","T07,T08,T09","S10 draft/source/hash/refusal có evidence phase2; C3 demo direction selected; source/VI/rights pending; chưa approved guidance","pi-20261014-v1"
+ "NFR09","S06,S14","T04,T05","Hợp đồng thiết kế; chưa parity training/inference","pi-20261014-v1"
+ "NFR10","S16,S19","T17,T20","Field validity chưa đánh giá; mọi thiếu phải báo thật","pi-20261014-v1"
+--- before/docs/development/decisions.md
++++ after/docs/development/decisions.md
+@@ -63,3 +63,9 @@
+ ## Điều kiện bàn giao
+ 
+ S01 hoàn thành hồ sơ governance khi các quyết định hoặc blocker có nguồn thật và các kiểm kỹ thuật có kết quả thật. Trạng thái build/review của S01 không đóng C2/C3/C5 hoặc cho phép tự chạy S05. Người dùng duyệt `done` theo BMAD; phiên này không tự mark done hoặc thực hiện phase sau.
++
++## Cập nhật C3 khi thực hiện Phase 2 — 15/10/2026
++
++Người dùng chọn **demo giáo dục giới hạn, ghi rõ chưa được chuyên gia duyệt** sau khi xem phạm vi thẻ mẫu. Quyết định này thay trạng thái chưa chọn hướng C3 ở checkpoint Phase 0, không thay review nguồn/nghĩa VI hoặc quyền sử dụng. Xem [quyết định versioned](../../artifacts/phase2/c3-policy-decision.json), [bảng review cụ thể](../../artifacts/phase2/publication-review-checklist.md) và [báo cáo](../../artifacts/phase2/README.md).
++
++Phạm vi đang xem xét: đúng một healthy watering claim, glossary, lesson và hai quiz của `phase2-healthy-v1`. Student/peer có thể thực hiện review nguồn và nghĩa VI, ghi actor/role/date/scope/hash thật; không ghi họ là chuyên gia. Nội dung demo phải có nhãn chưa được chuyên gia duyệt và giữ giới hạn leaf-only. Chưa có lượt review độc lập hoặc chốt quyền dùng/đóng gói. S11 chưa đủ điều kiện publish, không có card allowed cho S06; không mở public release/C5. Ledger quyền và artifact niêm phong không đổi.

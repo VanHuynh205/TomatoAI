@@ -1,0 +1,72 @@
+[
+  {
+    "status": "needs_check",
+    "reason": "card_not_approved",
+    "canonical_condition_id": "TOM_BACTERIAL_SPOT",
+    "guidance": [],
+    "label_original": "Tomato___Bacterial_spot"
+  },
+  {
+    "status": "needs_check",
+    "reason": "card_not_approved",
+    "canonical_condition_id": "TOM_EARLY_BLIGHT",
+    "guidance": [],
+    "label_original": "Tomato___Early_blight"
+  },
+  {
+    "status": "needs_check",
+    "reason": "card_not_approved",
+    "canonical_condition_id": "TOM_LATE_BLIGHT",
+    "guidance": [],
+    "label_original": "Tomato___Late_blight"
+  },
+  {
+    "status": "needs_check",
+    "reason": "card_not_approved",
+    "canonical_condition_id": "TOM_LEAF_MOLD",
+    "guidance": [],
+    "label_original": "Tomato___Leaf_Mold"
+  },
+  {
+    "status": "needs_check",
+    "reason": "card_not_approved",
+    "canonical_condition_id": "TOM_SEPTORIA",
+    "guidance": [],
+    "label_original": "Tomato___Septoria_leaf_spot"
+  },
+  {
+    "status": "needs_check",
+    "reason": "card_not_approved",
+    "canonical_condition_id": "TOM_SPIDER_MITE",
+    "guidance": [],
+    "label_original": "Tomato___Spider_mites Two-spotted_spider_mite"
+  },
+  {
+    "status": "needs_check",
+    "reason": "card_not_approved",
+    "canonical_condition_id": "TOM_TARGET_SPOT",
+    "guidance": [],
+    "label_original": "Tomato___Target_Spot"
+  },
+  {
+    "status": "needs_check",
+    "reason": "card_not_approved",
+    "canonical_condition_id": "TOM_YELLOW_CURL",
+    "guidance": [],
+    "label_original": "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+  },
+  {
+    "status": "needs_check",
+    "reason": "mapping_not_verified",
+    "canonical_condition_id": "TOM_MOSAIC",
+    "guidance": [],
+    "label_original": "Tomato___Tomato_mosaic_virus"
+  },
+  {
+    "status": "needs_check",
+    "reason": "card_not_approved",
+    "canonical_condition_id": "TOM_HEALTHY",
+    "guidance": [],
+    "label_original": "Tomato___healthy"
+  }
+]

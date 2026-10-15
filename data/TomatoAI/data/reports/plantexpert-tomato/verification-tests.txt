@@ -1,0 +1,19 @@
+test_exact_duplicate_ids_and_shared_text_are_retained_for_review (__main__.PipelineTests.test_exact_duplicate_ids_and_shared_text_are_retained_for_review) ... ok
+test_idempotency_verifies_hashes_and_refuses_tampering (__main__.PipelineTests.test_idempotency_verifies_hashes_and_refuses_tampering) ... ok
+test_malformed_duplicate_keys_nan_overflow_and_encoding_quarantine (__main__.PipelineTests.test_malformed_duplicate_keys_nan_overflow_and_encoding_quarantine) ... ok
+test_mapping_keeps_existing_ids_and_vi_unapproved (__main__.PipelineTests.test_mapping_keeps_existing_ids_and_vi_unapproved) ... ok
+test_missing_field_wrong_type_and_wrong_crop_are_not_schema_ready (__main__.PipelineTests.test_missing_field_wrong_type_and_wrong_crop_are_not_schema_ready) ... ok
+test_provenance_en_and_zero_empty_values_are_preserved (__main__.PipelineTests.test_provenance_en_and_zero_empty_values_are_preserved) ... ok
+test_raw_output_boundary_limit_and_incomplete_checkpoint (__main__.PipelineTests.test_raw_output_boundary_limit_and_incomplete_checkpoint) ... ok
+test_unicode_nfc_does_not_change_raw_or_keys (__main__.PipelineTests.test_unicode_nfc_does_not_change_raw_or_keys) ... ok
+test_unresolved_reference_and_taxonomy_are_not_auto_corrected (__main__.PipelineTests.test_unresolved_reference_and_taxonomy_are_not_auto_corrected) ... ok
+test_all_original_and_normalized_english_content_has_lineage (__main__.ProductionOutputTests.test_all_original_and_normalized_english_content_has_lineage) ... ok
+test_full_raw_hashes_and_count_conservation (__main__.ProductionOutputTests.test_full_raw_hashes_and_count_conservation) ... ok
+test_image_mapping_coverage_and_review_gates (__main__.ProductionOutputTests.test_image_mapping_coverage_and_review_gates) ... ok
+test_reference_endpoints_and_candidates_never_change_original_ids (__main__.ProductionOutputTests.test_reference_endpoints_and_candidates_never_change_original_ids) ... ok
+test_sealed_artifacts_and_reference_inputs_are_unchanged (__main__.ProductionOutputTests.test_sealed_artifacts_and_reference_inputs_are_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 3.115s
+
+OK

@@ -1,0 +1,67 @@
+{
+  "scope": "two real records only; not a full raw rehash or benchmark approval",
+  "manifest": "data/TomatoAI/data/processed/plantvillage/pv-d9e4c21eec8e9172/manifest.jsonl",
+  "manifest_sha256": "788ba3f54582bdfeaa3757490afc33929ceff8c0108a359c95e76619ab7f2089",
+  "records": [
+    {
+      "kind": "grouped",
+      "record_id": "pv:raw/color/Tomato___Bacterial_spot/00416648-be6e-4bd4-bc8d-82f43f8a7240___GCREC_Bact.Sp 3110.JPG",
+      "run": "pv-d9e4c21eec8e9172",
+      "source_file": "data/TomatoAI/data/raw/plantvillage/raw/color/Tomato___Bacterial_spot/00416648-be6e-4bd4-bc8d-82f43f8a7240___GCREC_Bact.Sp 3110.JPG",
+      "processed_file": "data/TomatoAI/data/processed/plantvillage/pv-d9e4c21eec8e9172/images/raw/color/Tomato___Bacterial_spot/00416648-be6e-4bd4-bc8d-82f43f8a7240___GCREC_Bact.Sp 3110.JPG",
+      "sha256": "3320c46706d434c028aa93fde868140c48604a328844f2b1c553d020bdc9db06",
+      "raw_and_processed_hash_match": true,
+      "leaf_group_id": "Tomato___Bacterial_spot:::42",
+      "group_evidence": [
+        {
+          "source_file": "leaf-map.json",
+          "source_record": "gcrec_bact.sp 3110",
+          "artifact_sha256": "3b4b253683c6911744959a3870a92509b1faa1ee34e9f8585e21d0fe6337a25b"
+        },
+        {
+          "source_file": "leaf_grouping/leaf-map.json",
+          "source_record": "gcrec_bact.sp 3110",
+          "artifact_sha256": "3b4b253683c6911744959a3870a92509b1faa1ee34e9f8585e21d0fe6337a25b"
+        },
+        {
+          "source_file": "leaf_grouping/filtered_leafmaps/Tomato___Bacterial_spot.csv",
+          "source_record": "166",
+          "artifact_sha256": "b65be4fe76ff91caddbc384bf98874fc1f2ffc9ca85c252e35e72246dec5590e"
+        }
+      ],
+      "split_component_id": "component:cb86ac096642e4722d9f",
+      "technical_grouping_candidate": true,
+      "training_eligible": false,
+      "rights_asset_id": "dataset:PlantVillage",
+      "refusal_reasons": [
+        "approved split absent",
+        "asset use/redistribution not cleared",
+        "image-label expert verification pending"
+      ]
+    },
+    {
+      "kind": "missing_group",
+      "record_id": "pv:raw/color/Tomato___Early_blight/75128610-8633-4000-8f74-17b6cff222d7___RS_Erly.B 6341.JPG",
+      "run": "pv-d9e4c21eec8e9172",
+      "source_file": "data/TomatoAI/data/raw/plantvillage/raw/color/Tomato___Early_blight/75128610-8633-4000-8f74-17b6cff222d7___RS_Erly.B 6341.JPG",
+      "processed_file": "data/TomatoAI/data/processed/plantvillage/pv-d9e4c21eec8e9172/images/raw/color/Tomato___Early_blight/75128610-8633-4000-8f74-17b6cff222d7___RS_Erly.B 6341.JPG",
+      "sha256": "77da9c0dea190527b237e03ec3383e09a8181abac29b8f98385078d64316befa",
+      "raw_and_processed_hash_match": true,
+      "leaf_group_id": "",
+      "group_evidence": [],
+      "split_component_id": "component:f12a1c0fcc8f7cbd5d1f",
+      "technical_grouping_candidate": false,
+      "training_eligible": false,
+      "rights_asset_id": "dataset:PlantVillage",
+      "refusal_reasons": [
+        "approved split absent",
+        "asset use/redistribution not cleared",
+        "image-label expert verification pending",
+        "missing grouping evidence"
+      ]
+    }
+  ],
+  "rights_ledger": "docs/development/assets-rights.json",
+  "raw_writes": 0,
+  "split_created": false
+}

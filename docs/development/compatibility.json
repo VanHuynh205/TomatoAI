@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-10-15",
+  "story": "EPA.S01",
+  "scope": "Windows 11 x64 development-machine CPU compatibility, not product acceptance",
+  "status": "verified_with_build_constraints",
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "PySide6-Essentials": "6.12.0",
+    "shiboken6": "6.12.0",
+    "Pillow": "12.3.0",
+    "PyInstaller": "6.22.3",
+    "numpy": "2.5.4"
+  },
+  "host": {
+    "os": {
+      "Caption": "Microsoft Windows 11 Home Single Language",
+      "Version": "10.0.26200",
+      "OSArchitecture": "64-bit",
+      "TotalVisibleMemorySize": 16101436
+    },
+    "cpu": {
+      "Name": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+      "NumberOfCores": 6,
+      "NumberOfLogicalProcessors": 12
+    },
+    "gpu": [
+      {
+        "Name": "AMD Radeon (TM) Graphics",
+        "DriverVersion": "31.0.21925.1001",
+        "AdapterRAM": 536870912
+      },
+      {
+        "Name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+        "DriverVersion": "32.0.16.1656",
+        "AdapterRAM": 4293918720
+      }
+    ]
+  },
+  "lock": {
+    "path": "requirements-app.lock",
+    "sha256": "4a7b2966bbea6d50fd5a0df36ce0b3133218a5ae566c3d1afbb3d16bb3416fae",
+    "installed_distributions": 21,
+    "pip_check": "artifacts/S01/pip-check.log"
+  },
+  "matrix": [
+    {
+      "component": "CPython",
+      "version": "3.12.14",
+      "result": "source and frozen execution passed"
+    },
+    {
+      "component": "torch",
+      "version": "2.14.1+cpu",
+      "result": "installed and diagnostic passed; PyInstaller additionally built executable"
+    },
+    {
+      "component": "torchvision",
+      "version": "0.29.1+cpu",
+      "result": "installed and diagnostic passed; PyInstaller additionally built executable"
+    },
+    {
+      "component": "PySide6-Essentials",
+      "version": "6.12.0",
+      "result": "installed and diagnostic passed; PyInstaller additionally built executable"
+    },
+    {
+      "component": "shiboken6",
+      "version": "6.12.0",
+      "result": "installed and diagnostic passed; PyInstaller additionally built executable"
+    },
+    {
+      "component": "Pillow",
+      "version": "12.3.0",
+      "result": "installed and diagnostic passed; PyInstaller additionally built executable"
+    },
+    {
+      "component": "PyInstaller",
+      "version": "6.22.3",
+      "result": "installed and diagnostic passed; PyInstaller additionally built executable"
+    },
+    {
+      "component": "numpy",
+      "version": "2.5.4",
+      "result": "installed and diagnostic passed; PyInstaller additionally built executable"
+    },
+    {
+      "component": "Windows",
+      "version": "10.0.26200",
+      "result": "native plugin windows and event loop passed on this Windows 11 host only"
+    }
+  ],
+  "checks": {
+    "native": {
+      "python": "3.12.14",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "parent_pid": 2684,
+      "worker_exitcode": 0,
+      "worker": {
+        "pid": 12132,
+        "device": "cpu",
+        "finite": true,
+        "torch": "2.14.1+cpu",
+        "torchvision": "0.29.1+cpu",
+        "efficientnet_b0": [
+          1,
+          10
+        ],
+        "resnet50": [
+          1,
+          10
+        ]
+      },
+      "qt": {
+        "platform": "windows",
+        "window_exposed": true,
+        "timer_fired": true
+      },
+      "frozen": false,
+      "packages": {
+        "torch": "2.14.1+cpu",
+        "torchvision": "0.29.1+cpu",
+        "PySide6-Essentials": "6.12.0",
+        "shiboken6": "6.12.0",
+        "Pillow": "12.3.0",
+        "PyInstaller": "6.22.3",
+        "numpy": "2.5.4"
+      },
+      "pretrained_weights_loaded": false,
+      "training_performed": false
+    },
+    "frozen": {
+      "python": "3.12.14",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "parent_pid": 23972,
+      "worker_exitcode": 0,
+      "worker": {
+        "pid": 8644,
+        "device": "cpu",
+        "finite": true,
+        "torch": "2.14.1+cpu",
+        "torchvision": "0.29.1+cpu",
+        "efficientnet_b0": [
+          1,
+          10
+        ],
+        "resnet50": [
+          1,
+          10
+        ]
+      },
+      "qt": {
+        "platform": "windows",
+        "window_exposed": true,
+        "timer_fired": true
+      },
+      "frozen": true,
+      "packages": {
+        "torch": "2.14.1+cpu",
+        "torchvision": "0.29.1+cpu",
+        "PySide6-Essentials": "6.12.0",
+        "shiboken6": "6.12.0",
+        "Pillow": "12.3.0",
+        "PyInstaller": "6.22.3",
+        "numpy": "2.5.4"
+      },
+      "pretrained_weights_loaded": false,
+      "training_performed": false
+    },
+    "frozen_run": {
+      "returncode": 0,
+      "elapsed_seconds": 6.535848500000043,
+      "executable_sha256": "9b4a407906f0d8033ca97b5e2b66a6e4477a5f245b09a3b5ef2b2dc8acabe084",
+      "scope": "development machine only; not clean-machine/offline release validation"
+    },
+    "regression_tests": {
+      "run": 2,
+      "passed": 2,
+      "log": "artifacts/S01/native-test.log"
+    },
+    "source_compile": "four scripts/checks Python files compiled successfully",
+    "governance": "artifacts/S01/governance-verification.json"
+  },
+  "build": {
+    "command": ".venv-phase0/Scripts/python.exe scripts/checks/build_phase0.py",
+    "log": "artifacts/S01/build.log",
+    "constraints": [
+      "child PATH limited to active CPython and Windows directories; clean analysis",
+      "torchvision 0.29 stable native extensions explicitly hidden-imported",
+      "required distribution metadata copied for runtime version checks",
+      "Windows host ICU used; foreign Poppler ICU excluded"
+    ],
+    "warnings": [
+      "optional tensorboard absent",
+      "contrib hooks still name old torchvision._C/image; actual stable extensions explicitly collected",
+      "unused Linux libgomp reference ignored on Windows; see full build log"
+    ],
+    "binary_inventory": "artifacts/S01/native-runtime-inventory.json",
+    "diagnostic_bundle_bytes": 571665710
+  },
+  "training": {
+    "performed": false,
+    "pretrained_weights_downloaded": false,
+    "candidate_recipe_evidence": "artifacts/S01/weights-metadata.json",
+    "cuda_compatibility": "not validated; later S05 after compute/rights/split gates"
+  },
+  "not_verified": [
+    "Windows 10 or clean Windows without developer tooling",
+    "offline/network activity acceptance",
+    "product UX/security/privacy/resource limits",
+    "pretrained byte hashes and redistribution rights",
+    "full training, accuracy/F1 or advice quality",
+    "p95/RSS/package-size targets as product acceptance"
+  ],
+  "blockers": [
+    "exact rubric/date/hours/team assignments and compute budget pending",
+    "approved group/class/split missing",
+    "tomato-domain expert unavailable; guidance remains gated",
+    "asset-specific release rights/notices and clean-machine QA pending"
+  ]
+}

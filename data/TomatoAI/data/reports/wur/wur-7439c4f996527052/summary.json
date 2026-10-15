@@ -1,0 +1,50 @@
+{
+  "dataset": "WUR",
+  "run_id": "wur-7439c4f996527052",
+  "created_utc": "2026-10-14T07:06:59.311510+00:00",
+  "status": "cleaned_technical;needs_review;research_only",
+  "training_ready": false,
+  "mvp_dependency": false,
+  "source_url": "https://data.4tu.nl/articles/dataset/Autonomous_Greenhouse_Challenge_Second_Edition_2019_/12764777/2",
+  "doi": "10.4121/uuid:88d22c60-21b3-4ea8-90db-20249a5be2a7",
+  "license_declared": "CC0-1.0; saved intake metadata; no fresh remote verification",
+  "source_files": 46,
+  "source_bytes": 112101340,
+  "tables": 43,
+  "source_records": 622899,
+  "retained_normalized_records": 622899,
+  "quarantined_records": 0,
+  "excluded_records": 0,
+  "needs_review_retained_records": 622899,
+  "raw_integrity": "all_sha256_equal_to_intake_and_before",
+  "reference_inputs_unchanged": true,
+  "missing_cells": 1413536,
+  "zero_cells_preserved": 3818128,
+  "review_items": 134,
+  "review_reason_counts": {
+    "record_temporal_or_duplicate_flag": 49,
+    "missing_values_retained": 30,
+    "epoch_timezone_and_experiment_scope_unverified": 43,
+    "unit_or_alias_unresolved": 12
+  },
+  "flags_overlapping": {
+    "interval_differs_from_documented_cadence": 48,
+    "timestamp_outside_own_climate_span_retained": 1
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pypdf": "6.10.0",
+    "pdfplumber": "0.11.9"
+  },
+  "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+  "invocation": [
+    "scripts/data/clean_wur.py",
+    "--config",
+    "scripts/data/wur-config.json",
+    "--project-root",
+    "."
+  ],
+  "no_split_join_interpolation_imputation_scaling_training": true
+}

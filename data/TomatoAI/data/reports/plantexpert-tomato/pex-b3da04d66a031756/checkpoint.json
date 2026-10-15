@@ -1,0 +1,12 @@
+{
+  "run_id": "pex-b3da04d66a031756",
+  "status": "technical_complete_review_pending",
+  "next_action": "review references, taxonomy, claim sources and VI glossary; no training or official planning import",
+  "blocked": [
+    "domain/claim validation",
+    "reference aliases not approved",
+    "Vietnam chemical applicability",
+    "translation review"
+  ],
+  "training_ready": false
+}

@@ -1,0 +1,637 @@
+{
+  "scope": "read-only comparison; no formula evaluation, save or metadata alteration",
+  "openpyxl": "3.1.5",
+  "workbooks": [
+    {
+      "source_file": "leaf_grouping/leaf_maps/Tomato Leaf Counts.xlsx",
+      "sha256": "79658fb2b732fae23aa2ab266cff4a761f605fb32489f6962025c7dc2e2acaf5",
+      "warnings": [
+        "Unknown extension is not supported and will be removed"
+      ],
+      "sheets": [
+        {
+          "sheet": "YLCV Virus",
+          "declared_rows": 2741,
+          "data_rows": 2740,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Tomato_Yellow_Leaf_Curl_Virus.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 2736,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Target Spot Bacteria",
+          "declared_rows": 1405,
+          "data_rows": 1404,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Target_Spot.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 1400,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Spider Mite Damage Insect",
+          "declared_rows": 1677,
+          "data_rows": 1676,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Spider_mites Two-spotted_spider_mite.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 1672,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Septoria Leaf Spot Fungus",
+          "declared_rows": 1001,
+          "data_rows": 1000,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Septoria_leaf_spot.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Names",
+            "Leaf #"
+          ],
+          "formula_cells": 996,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Leaf Mold Fungus",
+          "declared_rows": 953,
+          "data_rows": 952,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Leaf_Mold.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 948,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Late Blight Water Mold",
+          "declared_rows": 921,
+          "data_rows": 920,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Late_blight.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 916,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Bacterial Spot Bacteria",
+          "declared_rows": 2129,
+          "data_rows": 2128,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Bacterial_spot.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File name",
+            "Leaf #"
+          ],
+          "formula_cells": 2124,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Early Blight Fungus",
+          "declared_rows": 1001,
+          "data_rows": 1000,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Early_blight.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File name",
+            "Leaf #"
+          ],
+          "formula_cells": 994,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Healthy",
+          "declared_rows": 1001,
+          "data_rows": 1000,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___healthy.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 996,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "leaf_grouping/Google Leaf Counts/Google Leaf Counts/Tomato Leaf Counts.xlsx",
+      "sha256": "79658fb2b732fae23aa2ab266cff4a761f605fb32489f6962025c7dc2e2acaf5",
+      "warnings": [
+        "Unknown extension is not supported and will be removed"
+      ],
+      "sheets": [
+        {
+          "sheet": "YLCV Virus",
+          "declared_rows": 2741,
+          "data_rows": 2740,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Tomato_Yellow_Leaf_Curl_Virus.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 2736,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Target Spot Bacteria",
+          "declared_rows": 1405,
+          "data_rows": 1404,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Target_Spot.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 1400,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Spider Mite Damage Insect",
+          "declared_rows": 1677,
+          "data_rows": 1676,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Spider_mites Two-spotted_spider_mite.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 1672,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Septoria Leaf Spot Fungus",
+          "declared_rows": 1001,
+          "data_rows": 1000,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Septoria_leaf_spot.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Names",
+            "Leaf #"
+          ],
+          "formula_cells": 996,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Leaf Mold Fungus",
+          "declared_rows": 953,
+          "data_rows": 952,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Leaf_Mold.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 948,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Late Blight Water Mold",
+          "declared_rows": 921,
+          "data_rows": 920,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Late_blight.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 916,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Bacterial Spot Bacteria",
+          "declared_rows": 2129,
+          "data_rows": 2128,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Bacterial_spot.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File name",
+            "Leaf #"
+          ],
+          "formula_cells": 2124,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Early Blight Fungus",
+          "declared_rows": 1001,
+          "data_rows": 1000,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Early_blight.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File name",
+            "Leaf #"
+          ],
+          "formula_cells": 994,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        },
+        {
+          "sheet": "Healthy",
+          "declared_rows": 1001,
+          "data_rows": 1000,
+          "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___healthy.csv",
+          "ordered_cached_rows_equal_to_filtered_csv": true,
+          "source_header": [
+            "File Name",
+            "Leaf #"
+          ],
+          "formula_cells": 996,
+          "missing_cached_values": 0,
+          "formula_samples": [
+            {
+              "row": 6,
+              "formula": "=IF(B5=B2,B5+1,B5)",
+              "cached_value": 2
+            },
+            {
+              "row": 7,
+              "formula": "=IF(B6=B3,B6+1,B6)",
+              "cached_value": 2
+            },
+            {
+              "row": 8,
+              "formula": "=IF(B7=B4,B7+1,B7)",
+              "cached_value": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "original_csvs": [
+    {
+      "source_file": "leaf_grouping/leaf_maps/Tomato_Bacterial Spot Bacteria.csv",
+      "rows": 2128,
+      "ordered_rows_equal_to_filtered_csv": true,
+      "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Bacterial_spot.csv",
+      "sha256": "b65be4fe76ff91caddbc384bf98874fc1f2ffc9ca85c252e35e72246dec5590e"
+    },
+    {
+      "source_file": "leaf_grouping/leaf_maps/Tomato_Early Blight Fungus.csv",
+      "rows": 1000,
+      "ordered_rows_equal_to_filtered_csv": true,
+      "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Early_blight.csv",
+      "sha256": "5318a8db263bf2c9655b04c8b601954f53761a40cefb2cca928ad9dc50e305be"
+    },
+    {
+      "source_file": "leaf_grouping/leaf_maps/Tomato_Healthy.csv",
+      "rows": 1000,
+      "ordered_rows_equal_to_filtered_csv": true,
+      "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___healthy.csv",
+      "sha256": "e28d9b7f4713d8fa0140741ac8cd23d2d3016f34246a527fec8b90d97a7e410c"
+    },
+    {
+      "source_file": "leaf_grouping/leaf_maps/Tomato_Late Blight Water Mold.csv",
+      "rows": 920,
+      "ordered_rows_equal_to_filtered_csv": true,
+      "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Late_blight.csv",
+      "sha256": "23b855a3eaf5b427546cda0877a6f711c6680dcf03dacc4dc398ac0cce4819c2"
+    },
+    {
+      "source_file": "leaf_grouping/leaf_maps/Tomato_Leaf Mold Fungus.csv",
+      "rows": 952,
+      "ordered_rows_equal_to_filtered_csv": true,
+      "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Leaf_Mold.csv",
+      "sha256": "50813d604d098d251646ec277d54f95935efc85d7cf5be83f43f2f1b954de715"
+    },
+    {
+      "source_file": "leaf_grouping/leaf_maps/Tomato_Septoria Leaf Spot Fungus.csv",
+      "rows": 1000,
+      "ordered_rows_equal_to_filtered_csv": true,
+      "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Septoria_leaf_spot.csv",
+      "sha256": "21932a8ed2a779a8be904199bf684991154d0eca9eaeb1dd309421c496c3737c"
+    },
+    {
+      "source_file": "leaf_grouping/leaf_maps/Tomato_Spider Mite Damage Insect.csv",
+      "rows": 1676,
+      "ordered_rows_equal_to_filtered_csv": true,
+      "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Spider_mites Two-spotted_spider_mite.csv",
+      "sha256": "720449414ea8bf00d660975400c5f1da18a6eec33406f51a76c05d90d22acdbe"
+    },
+    {
+      "source_file": "leaf_grouping/leaf_maps/Tomato_Target Spot Bacteria.csv",
+      "rows": 1404,
+      "ordered_rows_equal_to_filtered_csv": true,
+      "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Target_Spot.csv",
+      "sha256": "cb51d8fe5be0b7ea9f8c3232615d6d47f8d40f0088efb8bba83467f63a9cbdc2"
+    },
+    {
+      "source_file": "leaf_grouping/leaf_maps/Tomato_YLCV Virus.csv",
+      "rows": 2740,
+      "ordered_rows_equal_to_filtered_csv": true,
+      "filtered_csv": "leaf_grouping/filtered_leafmaps/Tomato___Tomato_Yellow_Leaf_Curl_Virus.csv",
+      "sha256": "9c5cfacb5d9a20068591c408d3d8cf9729a685e2f7f4545bea1dcdf9861d5870"
+    }
+  ],
+  "early_blight_pending_evidence": {
+    "raw_suffix": "RS_Erly.B 6341.JPG",
+    "metadata_filename": "RS_Erly.B 6341 (Kelsee Baranowski's conflicted copy 2015-10-06).JPG",
+    "filtered_csv_row": 10,
+    "leaf_value_original": "2.0",
+    "applied": false
+  },
+  "target_alias": "Com.G_TgS_FL -> Com.G_FL remains unapproved; workbook uses Com.G_FL too"
+}

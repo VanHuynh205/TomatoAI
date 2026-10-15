@@ -1,0 +1,36 @@
+test_304_requires_verified_real_cache (test_collect_ucipm.CollectorTests.test_304_requires_verified_real_cache) ... ok
+test_403_429_captcha_stop_without_retry (test_collect_ucipm.CollectorTests.test_403_429_captcha_stop_without_retry) ... ok
+test_batch_limit_stops (test_collect_ucipm.CollectorTests.test_batch_limit_stops) ... ok
+test_cadence_after_completed_request (test_collect_ucipm.CollectorTests.test_cadence_after_completed_request) ... ok
+test_decompressed_body_cap (test_collect_ucipm.CollectorTests.test_decompressed_body_cap) ... ok
+test_error_media_and_attachment_not_snapshots (test_collect_ucipm.CollectorTests.test_error_media_and_attachment_not_snapshots) ... ok
+test_exhausted_retries (test_collect_ucipm.CollectorTests.test_exhausted_retries) ... ok
+test_html_hash_headers_and_request_settings (test_collect_ucipm.CollectorTests.test_html_hash_headers_and_request_settings) ... ok
+test_outside_allowlist_never_requested (test_collect_ucipm.CollectorTests.test_outside_allowlist_never_requested) ... ok
+test_plan_and_inventory_exactly_21 (test_collect_ucipm.CollectorTests.test_plan_and_inventory_exactly_21) ... ok
+test_redirect_fragment_same_resource_does_not_fetch_twice (test_collect_ucipm.CollectorTests.test_redirect_fragment_same_resource_does_not_fetch_twice) ... ok
+test_redirect_outside_or_cross_host_review (test_collect_ucipm.CollectorTests.test_redirect_outside_or_cross_host_review) ... ok
+test_retry_only_temporary_errors_with_backoff (test_collect_ucipm.CollectorTests.test_retry_only_temporary_errors_with_backoff) ... ok
+test_robots_denied_or_unverified_no_request (test_collect_ucipm.CollectorTests.test_robots_denied_or_unverified_no_request) ... ok
+test_robots_longest_allow_tie_and_case (test_collect_ucipm.CollectorTests.test_robots_longest_allow_tie_and_case) ... ok
+test_robots_specific_agent_and_wildcard (test_collect_ucipm.CollectorTests.test_robots_specific_agent_and_wildcard) ... ok
+test_three_hop_limit (test_collect_ucipm.CollectorTests.test_three_hop_limit) ... ok
+test_valid_allowlisted_redirect (test_collect_ucipm.CollectorTests.test_valid_allowlisted_redirect) ... ok
+test_headings_lists_negation_condition_scientific_name (test_collect_ucipm.ParserTests.test_headings_lists_negation_condition_scientific_name) ... ok
+test_missing_footnote_section_and_encoding_review (test_collect_ucipm.ParserTests.test_missing_footnote_section_and_encoding_review) ... ok
+test_missing_main_fails_closed (test_collect_ucipm.ParserTests.test_missing_main_fails_closed) ... ok
+test_rights_separate_purposes_no_blanket_license (test_collect_ucipm.ParserTests.test_rights_separate_purposes_no_blanket_license) ... ok
+test_table_headers_spans_cells_zero_units_footnotes (test_collect_ucipm.ParserTests.test_table_headers_spans_cells_zero_units_footnotes) ... ok
+test_third_party_notice_needs_review (test_collect_ucipm.ParserTests.test_third_party_notice_needs_review) ... ok
+test_429_checkpoint_then_no_other_request (test_collect_ucipm.RunTests.test_429_checkpoint_then_no_other_request) ... ok
+test_blocked_preflight_all_21_and_idempotency_offline (test_collect_ucipm.RunTests.test_blocked_preflight_all_21_and_idempotency_offline) ... ok
+test_copy_permission_does_not_imply_processing (test_collect_ucipm.RunTests.test_copy_permission_does_not_imply_processing) ... ok
+test_no_loosened_limits_or_path_escape (test_collect_ucipm.RunTests.test_no_loosened_limits_or_path_escape) ... ok
+test_sidecar_condition_labels_gaps_and_12_claims_preserved (test_collect_ucipm.RunTests.test_sidecar_condition_labels_gaps_and_12_claims_preserved) ... ok
+test_synthetic_download_transform_replay_schema_raw_immutable (test_collect_ucipm.RunTests.test_synthetic_download_transform_replay_schema_raw_immutable) ... ok
+test_tamper_seal_and_input_change_refused (test_collect_ucipm.RunTests.test_tamper_seal_and_input_change_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 1.448s
+
+OK

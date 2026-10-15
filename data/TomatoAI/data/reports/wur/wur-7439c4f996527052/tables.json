@@ -1,0 +1,7772 @@
+[
+  {
+    "source_file": "source_files/AICU/CropParameters.csv",
+    "source_sha256": "7e88fa21d50e6b8a9a6bb9e6117db5e472ba34d3e3f21ff1255d7a5ec5384975",
+    "team_directory_original": "AICU",
+    "table_kind": "CropParameters",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens ",
+      "plant_dens"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens",
+      "plant_dens"
+    ],
+    "original_width_counts": {
+      "6": 23
+    },
+    "source_header_fields": 6,
+    "normalized_data_fields": 6,
+    "source_records": 23,
+    "retained_normalized_records": 23,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 23,
+    "missing_cells": {
+      "Cum_trusses": 5,
+      "Stem_elong": 5,
+      "Stem_thick": 5
+    },
+    "missing_lexeme_counts": {
+      "NaN": 10,
+      " NaN": 5
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43823",
+        "43978"
+      ],
+      "Stem_elong": [
+        "14",
+        "36.5"
+      ],
+      "Stem_thick": [
+        "8.3",
+        "13.6"
+      ],
+      "stem_dens": [
+        "3.6",
+        "4.5"
+      ],
+      "plant_dens": [
+        "1.8",
+        "1.8"
+      ],
+      "Cum_trusses": [
+        "1.3",
+        "22"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43823",
+      "43978"
+    ],
+    "delta_days_histogram": {
+      "7": 21,
+      "8": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 15
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "processed_file": "tables/AICU/CropParameters.csv",
+    "processed_sha256": "a49523690f845d3f59b46d0282a7593ee2a8d23c347ed10c76f4a7435fda5783",
+    "quarantine_file": "quarantine/AICU/CropParameters.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/AICU/GreenhouseClimate.csv",
+    "source_sha256": "9642c7561c7e4e2f03240f8ec3c48da7b0aab6c5433460ab0529dc2b1f9cceb3",
+    "team_directory_original": "AICU",
+    "table_kind": "GreenhouseClimate",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "original_width_counts": {
+      "50": 47809
+    },
+    "source_header_fields": 50,
+    "normalized_data_fields": 50,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "assim_sp": 47006,
+      "co2_dos": 2,
+      "co2_sp": 41125,
+      "dx_sp": 47076,
+      "int_blue_sp": 14,
+      "int_blue_vip": 24176,
+      "int_farred_sp": 14,
+      "int_farred_vip": 24176,
+      "int_red_sp": 14,
+      "int_red_vip": 24176,
+      "int_white_sp": 14,
+      "int_white_vip": 24176,
+      "scr_blck_sp": 46814,
+      "scr_enrg_sp": 46698,
+      "t_grow_min_sp": 47809,
+      "t_heat_sp": 33319,
+      "t_rail_min_sp": 47076,
+      "t_vent_sp": 27810,
+      "water_sup_intervals_sp_min": 41981,
+      "window_pos_lee_sp": 47004,
+      "AssimLight": 71,
+      "BlackScr": 71,
+      "CO2air": 71,
+      "Cum_irr": 71,
+      "EC_drain_PC": 71,
+      "EnScr": 71,
+      "HumDef": 71,
+      "PipeGrow": 71,
+      "PipeLow": 71,
+      "Rhair": 71,
+      "Tair": 71,
+      "Tot_PAR": 71,
+      "VentLee": 71,
+      "Ventwind": 71,
+      "assim_vip": 71,
+      "co2_vip": 71,
+      "dx_vip": 71,
+      "pH_drain_PC": 71,
+      "scr_blck_vip": 71,
+      "scr_enrg_vip": 71,
+      "t_grow_min_vip": 71,
+      "t_heat_vip": 71,
+      "t_rail_min_vip": 71,
+      "t_ventlee_vip": 71,
+      "t_ventwind_vip": 71,
+      "water_sup": 71,
+      "water_sup_intervals_vip_min": 71,
+      "window_pos_lee_vip": 71
+    },
+    "missing_lexeme_counts": {
+      " NaN": 237917,
+      "    NaN": 2,
+      "  NaN": 334549
+    },
+    "zero_cells_preserved": {
+      "PipeGrow": 46024,
+      "Tot_PAR": 13833,
+      "Tot_PAR_Lamps": 25312,
+      "Ventwind": 7519,
+      "t_rail_min_vip": 47738,
+      "int_farred_sp": 3525,
+      "int_red_sp": 5062,
+      "int_white_sp": 24145,
+      "co2_dos": 16699,
+      "VentLee": 175,
+      "int_farred_vip": 3232,
+      "int_red_vip": 3690,
+      "int_white_vip": 9641,
+      "BlackScr": 24521,
+      "PipeLow": 27652,
+      "int_blue_vip": 4075,
+      "EnScr": 16408,
+      "scr_blck_vip": 25140,
+      "scr_enrg_vip": 17447,
+      "assim_sp": 260,
+      "scr_blck_sp": 455,
+      "scr_enrg_sp": 668,
+      "t_rail_min_sp": 733,
+      "AssimLight": 24469,
+      "assim_vip": 24440,
+      "Cum_irr": 8397,
+      "water_sup": 8397,
+      "int_blue_sp": 15496,
+      "pH_drain_PC": 61,
+      "window_pos_lee_sp": 71,
+      "window_pos_lee_vip": 69
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "AssimLight": [
+        "0",
+        "100"
+      ],
+      "BlackScr": [
+        "0",
+        "100"
+      ],
+      "CO2air": [
+        "379",
+        "2000"
+      ],
+      "Cum_irr": [
+        "0.0",
+        "34.4"
+      ],
+      "EC_drain_PC": [
+        "0.2",
+        "11.7"
+      ],
+      "EnScr": [
+        "0",
+        "100"
+      ],
+      "HumDef": [
+        "0.4",
+        "19.4"
+      ],
+      "PipeGrow": [
+        "0.0",
+        "62.5"
+      ],
+      "PipeLow": [
+        "0.0",
+        "64.6"
+      ],
+      "Rhair": [
+        "37.6",
+        "97.5"
+      ],
+      "Tair": [
+        "11.9",
+        "31.1"
+      ],
+      "Tot_PAR": [
+        "0",
+        "1004"
+      ],
+      "Tot_PAR_Lamps": [
+        "0",
+        "197"
+      ],
+      "VentLee": [
+        "0",
+        "100"
+      ],
+      "Ventwind": [
+        "0",
+        "100"
+      ],
+      "assim_vip": [
+        "0",
+        "100"
+      ],
+      "co2_vip": [
+        "300",
+        "1000"
+      ],
+      "dx_vip": [
+        "2.2",
+        "4.3"
+      ],
+      "pH_drain_PC": [
+        "0.0",
+        "13.3"
+      ],
+      "scr_blck_vip": [
+        "0",
+        "100"
+      ],
+      "scr_enrg_vip": [
+        "0",
+        "100"
+      ],
+      "t_grow_min_vip": [
+        "10.0",
+        "10.0"
+      ],
+      "t_heat_vip": [
+        "10.0",
+        "25.0"
+      ],
+      "t_rail_min_vip": [
+        "0.0",
+        "0.0"
+      ],
+      "t_ventlee_vip": [
+        "13.0",
+        "28.0"
+      ],
+      "t_ventwind_vip": [
+        "13.0",
+        "28.0"
+      ],
+      "water_sup": [
+        "0.0",
+        "287.0"
+      ],
+      "water_sup_intervals_vip_min": [
+        "10",
+        "2000"
+      ],
+      "window_pos_lee_vip": [
+        "0.0",
+        "4.0"
+      ],
+      "co2_dos": [
+        "0.0000",
+        "0.0150"
+      ],
+      "int_blue_sp": [
+        "0",
+        "1000"
+      ],
+      "int_farred_sp": [
+        "0",
+        "1000"
+      ],
+      "int_red_sp": [
+        "0",
+        "1000"
+      ],
+      "int_white_sp": [
+        "0",
+        "1000"
+      ],
+      "int_blue_vip": [
+        "0",
+        "1000"
+      ],
+      "int_farred_vip": [
+        "0",
+        "1000"
+      ],
+      "int_red_vip": [
+        "0",
+        "1000"
+      ],
+      "int_white_vip": [
+        "0",
+        "1000"
+      ],
+      "assim_sp": [
+        "0",
+        "100"
+      ],
+      "co2_sp": [
+        "300",
+        "1000"
+      ],
+      "dx_sp": [
+        "2.2",
+        "2.2"
+      ],
+      "scr_blck_sp": [
+        "0",
+        "100"
+      ],
+      "scr_enrg_sp": [
+        "0",
+        "100"
+      ],
+      "t_heat_sp": [
+        "10.0",
+        "25.0"
+      ],
+      "t_rail_min_sp": [
+        "0.0",
+        "0.0"
+      ],
+      "t_vent_sp": [
+        "13.0",
+        "28.0"
+      ],
+      "water_sup_intervals_sp_min": [
+        "10",
+        "2000"
+      ],
+      "window_pos_lee_sp": [
+        "0.0",
+        "4.0"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 1770173,
+      "missing_to_empty": 572468
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/AICU/GreenhouseClimate.csv",
+    "processed_sha256": "445700cd45e1f9a4be44c1c14bd8a58c8483b191ee54aa2feb146f364ec734b7",
+    "quarantine_file": "quarantine/AICU/GreenhouseClimate.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/AICU/GrodanSens.csv",
+    "source_sha256": "a246e6c15758b333007fd8c98810b45fda6c3dcf39723c1f87ffce65dacd93e3",
+    "team_directory_original": "AICU",
+    "table_kind": "GrodanSens",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "original_width_counts": {
+      "7": 47809
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 7,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "EC_slab1": 2305,
+      "EC_slab2": 2305,
+      "WC_slab1": 2305,
+      "WC_slab2": 2305,
+      "t_slab1": 2305,
+      "t_slab2": 2305
+    },
+    "missing_lexeme_counts": {
+      "  NaN": 13830
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "EC_slab1": [
+        "3.5",
+        "5.7"
+      ],
+      "EC_slab2": [
+        "4.1",
+        "6.4"
+      ],
+      "WC_slab1": [
+        "68.1",
+        "95.6"
+      ],
+      "WC_slab2": [
+        "51.5",
+        "93.7"
+      ],
+      "t_slab1": [
+        "15.3",
+        "28.3"
+      ],
+      "t_slab2": [
+        "15.6",
+        "28.1"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "missing_to_empty": 13830,
+      "NFC_trim_numeric_lexeme": 273024
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/AICU/GrodanSens.csv",
+    "processed_sha256": "dd14cb70ad32177832edc584a8cf63f2c655494aa41c1fcce02a9ccce4d2da41",
+    "quarantine_file": "quarantine/AICU/GrodanSens.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/AICU/LabAnalysis.csv",
+    "source_sha256": "55b07399ab8d21ccb476a0c46d1c3e7a6f9a535c99023600e19e65d3a46e81bb",
+    "team_directory_original": "AICU",
+    "table_kind": "LabAnalysis",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "original_width_counts": {
+      "39": 10
+    },
+    "source_header_fields": 39,
+    "normalized_data_fields": 39,
+    "source_records": 10,
+    "retained_normalized_records": 10,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 10,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43836",
+        "43963"
+      ],
+      "irr_PH": [
+        "4.7",
+        "6.00"
+      ],
+      "irr_EC": [
+        "2.9",
+        "4.3"
+      ],
+      "irr_NH4": [
+        "0.80",
+        "1.4"
+      ],
+      "irr_K": [
+        "9.10",
+        "15.2"
+      ],
+      "irr_Na": [
+        "0.2",
+        "0.4"
+      ],
+      "irr_Ca": [
+        "5.6",
+        "10.2"
+      ],
+      "irr_Mg": [
+        "1.9",
+        "4.9"
+      ],
+      "irr_Si": [
+        "0.009",
+        "0.09"
+      ],
+      "irr_NO3": [
+        "14.1",
+        "21.7"
+      ],
+      "irr_Cl": [
+        "0.2",
+        "8.2"
+      ],
+      "irr_SO4": [
+        "3.5",
+        "8.7"
+      ],
+      "irr_HCO3": [
+        "0.09",
+        "0.30"
+      ],
+      "irr_PO4": [
+        "2.14",
+        "4.2"
+      ],
+      "irr_Fe": [
+        "19.6",
+        "35"
+      ],
+      "irr_Mn": [
+        "14",
+        "24"
+      ],
+      "irr_Zn": [
+        "2.3",
+        "6.30"
+      ],
+      "irr_B": [
+        "22",
+        "57"
+      ],
+      "irr_Cu": [
+        "0.6",
+        "0.90"
+      ],
+      "irr_Mo": [
+        "0.1",
+        "0.60"
+      ],
+      "drain_PH": [
+        "4.80",
+        "7.1"
+      ],
+      "drain_EC": [
+        "4.4",
+        "7.20"
+      ],
+      "drain_NH4": [
+        "0.09",
+        "0.1"
+      ],
+      "drain_K": [
+        "2.2",
+        "18.60"
+      ],
+      "drain_Na": [
+        "0.6",
+        "1.5"
+      ],
+      "drain_Ca": [
+        "10.6",
+        "22.7"
+      ],
+      "drain_Mg": [
+        "5.1",
+        "11.1"
+      ],
+      "drain_Si": [
+        "0.09",
+        "1.3"
+      ],
+      "drain_NO3": [
+        "6.5",
+        "46.10"
+      ],
+      "drain_Cl": [
+        "0.09",
+        "21.2"
+      ],
+      "drain_SO4": [
+        "9.90",
+        "23.4"
+      ],
+      "drain_HCO3": [
+        "0.09",
+        "1.4"
+      ],
+      "drain_PO4": [
+        "0.42",
+        "9.32"
+      ],
+      "drain_Fe": [
+        "18.3",
+        "53.00"
+      ],
+      "drain_Mn": [
+        "0.8",
+        "27.00"
+      ],
+      "drain_Zn": [
+        "3.7",
+        "13.00"
+      ],
+      "drain_B": [
+        "37",
+        "134"
+      ],
+      "drain_Cu": [
+        "0.5",
+        "1.1"
+      ],
+      "drain_Mo": [
+        "0.09",
+        "0.94"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43836",
+      "43963"
+    ],
+    "delta_days_histogram": {
+      "14": 3,
+      "15": 4,
+      "13": 1,
+      "12": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 6
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 10
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/AICU/LabAnalysis.csv",
+    "processed_sha256": "86a0afc2027b7cf8db0691450511e4271b3dbdc175f7c758065ea3967eaa9f73",
+    "quarantine_file": "quarantine/AICU/LabAnalysis.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/AICU/Production.csv",
+    "source_sha256": "aa5a8bd3ea9d001c309c2670bc57cb4aa5e2171cb081b9ec5c40112453ae8c5b",
+    "team_directory_original": "AICU",
+    "table_kind": "Production",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time ",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "original_width_counts": {
+      "9": 24
+    },
+    "source_header_fields": 9,
+    "normalized_data_fields": 9,
+    "source_records": 24,
+    "retained_normalized_records": 24,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 24,
+    "missing_cells": {
+      "Nr_fruits_ClassA": 2
+    },
+    "missing_lexeme_counts": {
+      "NaN": 2
+    },
+    "zero_cells_preserved": {
+      "ProdB": 23,
+      "Nr_fruits_ClassB": 23,
+      "Weight_fruits_ClassB": 23
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43875",
+        "43980"
+      ],
+      "ProdA": [
+        "0.12",
+        "1.11"
+      ],
+      "ProdB": [
+        "0.0",
+        "0.1"
+      ],
+      "avg_nr_harvested_trusses": [
+        "0.2",
+        "1.5"
+      ],
+      "Truss development time": [
+        "40.3",
+        "53.3"
+      ],
+      "Weight_fruits_ClassA": [
+        "213",
+        "2471"
+      ],
+      "Nr_fruits_ClassB": [
+        "0",
+        "24"
+      ],
+      "Weight_fruits_ClassB": [
+        "0",
+        "382"
+      ],
+      "Nr_fruits_ClassA": [
+        "33",
+        "193"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43875",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "5": 14,
+      "4": 8,
+      "3": 1
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 24,
+      "missing_to_empty": 2
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "processed_file": "tables/AICU/Production.csv",
+    "processed_sha256": "8ea47d0c5fcba04870c7c26a0119f4ac656288c578af9d582770c3fbe24e84c6",
+    "quarantine_file": "quarantine/AICU/Production.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/AICU/Resources.csv",
+    "source_sha256": "740c5a16bcd7d2f5cff301020a9e0cc6535513a6b98bac6210c7e985d7ad16b4",
+    "team_directory_original": "AICU",
+    "table_kind": "Resources",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time ",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain"
+    ],
+    "original_width_counts": {
+      "7": 166
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 7,
+    "source_records": 166,
+    "retained_normalized_records": 166,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 166,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {
+      "ElecLow": 34,
+      "Drain": 10,
+      "Irr": 3,
+      "ElecHigh": 26,
+      "Heat_cons": 1
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815",
+        "43980"
+      ],
+      "Heat_cons": [
+        "0",
+        "4.8393"
+      ],
+      "ElecHigh": [
+        "0",
+        "2.2165"
+      ],
+      "ElecLow": [
+        "0",
+        "1.001"
+      ],
+      "CO2_cons": [
+        "0.005477352",
+        "0.132741667"
+      ],
+      "Irr": [
+        "0.0",
+        "16.2"
+      ],
+      "Drain": [
+        "0.0",
+        "4.4"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "1": 165
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {},
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/AICU/Resources.csv",
+    "processed_sha256": "62bbc7ee52a4c01d66918826fe515204a0230d1bf44cbd764204f3d135377949",
+    "quarantine_file": "quarantine/AICU/Resources.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/AICU/TomQuality.csv",
+    "source_sha256": "c3c3a4acd378713014cebebab638ecff42cca7356db26920bbc0c74c93b00800",
+    "team_directory_original": "AICU",
+    "table_kind": "TomQuality",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "Flavour ",
+      "TSS",
+      "Acid",
+      "%Juice",
+      "Bite",
+      "Weight",
+      "DMC_fruit"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Flavour",
+      "TSS",
+      "Acid",
+      "%Juice",
+      "Bite",
+      "Weight",
+      "DMC_fruit"
+    ],
+    "original_width_counts": {
+      "8": 8
+    },
+    "source_header_fields": 8,
+    "normalized_data_fields": 8,
+    "source_records": 8,
+    "retained_normalized_records": 8,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 8,
+    "missing_cells": {
+      "DMC_fruit": 2
+    },
+    "missing_lexeme_counts": {
+      " NaN": 1,
+      "NaN": 1
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43880",
+        "43980"
+      ],
+      "Flavour": [
+        "71",
+        "80"
+      ],
+      "TSS": [
+        "8.1",
+        "9.13"
+      ],
+      "Acid": [
+        "10.7",
+        "14.5"
+      ],
+      "%Juice": [
+        "51",
+        "67"
+      ],
+      "Bite": [
+        "175",
+        "334"
+      ],
+      "Weight": [
+        "9",
+        "16.8"
+      ],
+      "DMC_fruit": [
+        "8.71",
+        "9.25"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43880",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "14": 6,
+      "16": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 8,
+      "missing_to_empty": 2
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "Flavour ",
+        "after": "Flavour"
+      }
+    ],
+    "processed_file": "tables/AICU/TomQuality.csv",
+    "processed_sha256": "419ccad4daae99dd69341ba4b75c900203e663d732a6f54f52f321f9bf1134eb",
+    "quarantine_file": "quarantine/AICU/TomQuality.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Automatoes/CropParameters.csv",
+    "source_sha256": "798b0c14f20354b535d918307703ffe667ab97e1e7d48cce2a37fd9b75ce6063",
+    "team_directory_original": "Automatoes",
+    "table_kind": "CropParameters",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens ",
+      "plant_dens"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens",
+      "plant_dens"
+    ],
+    "original_width_counts": {
+      "6": 23
+    },
+    "source_header_fields": 6,
+    "normalized_data_fields": 6,
+    "source_records": 23,
+    "retained_normalized_records": 23,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 23,
+    "missing_cells": {
+      "Cum_trusses": 5,
+      "Stem_elong": 5,
+      "Stem_thick": 5
+    },
+    "missing_lexeme_counts": {
+      "NaN": 10,
+      " NaN": 5
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43823",
+        "43978"
+      ],
+      "Stem_elong": [
+        "14.5",
+        "39.8"
+      ],
+      "Stem_thick": [
+        "8.1",
+        "12.8"
+      ],
+      "stem_dens": [
+        "3.9",
+        "5.85"
+      ],
+      "plant_dens": [
+        "1.95",
+        "1.95"
+      ],
+      "Cum_trusses": [
+        "1.3",
+        "22.6"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43823",
+      "43978"
+    ],
+    "delta_days_histogram": {
+      "7": 21,
+      "8": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 15
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "processed_file": "tables/Automatoes/CropParameters.csv",
+    "processed_sha256": "e78e32bc4365d62651370bbdb20d348ddba61c830b11bbc9844e990073f22aeb",
+    "quarantine_file": "quarantine/Automatoes/CropParameters.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Automatoes/GreenhouseClimate.csv",
+    "source_sha256": "3415b31b7958c735f836c7fa8f890a93020786be5c86dc2e7c42771fb0a02cd3",
+    "team_directory_original": "Automatoes",
+    "table_kind": "GreenhouseClimate",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "original_width_counts": {
+      "50": 47809
+    },
+    "source_header_fields": 50,
+    "normalized_data_fields": 50,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "assim_sp": 785,
+      "co2_dos": 2,
+      "co2_sp": 754,
+      "dx_sp": 718,
+      "int_blue_sp": 173,
+      "int_blue_vip": 22152,
+      "int_farred_sp": 14,
+      "int_farred_vip": 22152,
+      "int_red_sp": 173,
+      "int_red_vip": 22152,
+      "int_white_sp": 14,
+      "int_white_vip": 22152,
+      "scr_blck_sp": 783,
+      "scr_enrg_sp": 785,
+      "t_grow_min_sp": 1505,
+      "t_heat_sp": 706,
+      "t_rail_min_sp": 787,
+      "t_vent_sp": 12576,
+      "water_sup_intervals_sp_min": 1410,
+      "window_pos_lee_sp": 715,
+      "AssimLight": 71,
+      "BlackScr": 71,
+      "CO2air": 71,
+      "Cum_irr": 71,
+      "EC_drain_PC": 71,
+      "EnScr": 71,
+      "HumDef": 71,
+      "PipeGrow": 71,
+      "PipeLow": 71,
+      "Rhair": 71,
+      "Tair": 71,
+      "Tot_PAR": 71,
+      "VentLee": 71,
+      "Ventwind": 71,
+      "assim_vip": 71,
+      "co2_vip": 71,
+      "dx_vip": 71,
+      "pH_drain_PC": 71,
+      "scr_blck_vip": 71,
+      "scr_enrg_vip": 71,
+      "t_grow_min_vip": 71,
+      "t_heat_vip": 71,
+      "t_rail_min_vip": 71,
+      "t_ventlee_vip": 71,
+      "t_ventwind_vip": 71,
+      "water_sup": 71,
+      "water_sup_intervals_vip_min": 71,
+      "window_pos_lee_vip": 71
+    },
+    "missing_lexeme_counts": {
+      " NaN": 91974,
+      "    NaN": 2,
+      "  NaN": 20520
+    },
+    "zero_cells_preserved": {
+      "AssimLight": 22459,
+      "Tot_PAR": 12497,
+      "Tot_PAR_Lamps": 23135,
+      "Ventwind": 21594,
+      "assim_vip": 22395,
+      "t_rail_min_vip": 33072,
+      "int_blue_sp": 22532,
+      "int_farred_sp": 47514,
+      "co2_dos": 19914,
+      "Cum_irr": 6858,
+      "water_sup": 6858,
+      "VentLee": 15234,
+      "PipeLow": 35854,
+      "int_blue_vip": 2891,
+      "int_farred_vip": 25652,
+      "BlackScr": 30971,
+      "scr_blck_vip": 31574,
+      "scr_enrg_vip": 20393,
+      "scr_blck_sp": 31017,
+      "scr_enrg_sp": 19918,
+      "EnScr": 19201,
+      "t_rail_min_sp": 32298,
+      "int_red_vip": 2787,
+      "int_white_vip": 2778,
+      "PipeGrow": 15877,
+      "assim_sp": 21916,
+      "int_red_sp": 21791,
+      "int_white_sp": 21807,
+      "window_pos_lee_sp": 17566,
+      "window_pos_lee_vip": 17573,
+      "dx_sp": 7,
+      "dx_vip": 8,
+      "t_grow_min_sp": 14213,
+      "t_grow_min_vip": 14444,
+      "co2_sp": 13633,
+      "co2_vip": 13658,
+      "water_sup_intervals_sp_min": 11,
+      "water_sup_intervals_vip_min": 10
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "AssimLight": [
+        "0",
+        "100"
+      ],
+      "BlackScr": [
+        "0",
+        "100"
+      ],
+      "CO2air": [
+        "343",
+        "1959"
+      ],
+      "Cum_irr": [
+        "0.0",
+        "9.4"
+      ],
+      "EC_drain_PC": [
+        "0.1",
+        "10.4"
+      ],
+      "EnScr": [
+        "0",
+        "100"
+      ],
+      "HumDef": [
+        "0.6",
+        "25.3"
+      ],
+      "PipeGrow": [
+        "0.0",
+        "61.6"
+      ],
+      "PipeLow": [
+        "0.0",
+        "63.8"
+      ],
+      "Rhair": [
+        "33.4",
+        "96.5"
+      ],
+      "Tair": [
+        "11.9",
+        "37.1"
+      ],
+      "Tot_PAR": [
+        "0",
+        "1004"
+      ],
+      "Tot_PAR_Lamps": [
+        "0",
+        "197"
+      ],
+      "VentLee": [
+        "0",
+        "100"
+      ],
+      "Ventwind": [
+        "0",
+        "99"
+      ],
+      "assim_vip": [
+        "0",
+        "100"
+      ],
+      "co2_vip": [
+        "0",
+        "1200"
+      ],
+      "dx_vip": [
+        "0.0",
+        "5.0"
+      ],
+      "pH_drain_PC": [
+        "3.9",
+        "7.6"
+      ],
+      "scr_blck_vip": [
+        "0",
+        "100"
+      ],
+      "scr_enrg_vip": [
+        "0",
+        "100"
+      ],
+      "t_grow_min_vip": [
+        "0.0",
+        "55.0"
+      ],
+      "t_heat_vip": [
+        "10.0",
+        "28.5"
+      ],
+      "t_rail_min_vip": [
+        "0.0",
+        "60.0"
+      ],
+      "t_ventlee_vip": [
+        "13.0",
+        "36.0"
+      ],
+      "t_ventwind_vip": [
+        "13.0",
+        "36.0"
+      ],
+      "water_sup": [
+        "0.0",
+        "72.0"
+      ],
+      "water_sup_intervals_vip_min": [
+        "0",
+        "2000"
+      ],
+      "window_pos_lee_vip": [
+        "0.0",
+        "100.0"
+      ],
+      "co2_dos": [
+        "0.0000",
+        "0.0200"
+      ],
+      "int_blue_sp": [
+        "0",
+        "1000"
+      ],
+      "int_farred_sp": [
+        "0",
+        "1000"
+      ],
+      "int_red_sp": [
+        "0",
+        "1000"
+      ],
+      "int_white_sp": [
+        "0",
+        "1000"
+      ],
+      "int_blue_vip": [
+        "0",
+        "1000"
+      ],
+      "int_farred_vip": [
+        "0",
+        "1000"
+      ],
+      "int_red_vip": [
+        "0",
+        "1000"
+      ],
+      "int_white_vip": [
+        "0",
+        "1000"
+      ],
+      "scr_blck_sp": [
+        "0",
+        "1080"
+      ],
+      "scr_enrg_sp": [
+        "0",
+        "650"
+      ],
+      "assim_sp": [
+        "0",
+        "100"
+      ],
+      "co2_sp": [
+        "0",
+        "1200"
+      ],
+      "dx_sp": [
+        "0.0",
+        "144.0"
+      ],
+      "t_heat_sp": [
+        "10.0",
+        "88.0"
+      ],
+      "t_rail_min_sp": [
+        "0.0",
+        "60.0"
+      ],
+      "t_vent_sp": [
+        "13.0",
+        "36.0"
+      ],
+      "window_pos_lee_sp": [
+        "0.0",
+        "100.0"
+      ],
+      "water_sup_intervals_sp_min": [
+        "0",
+        "1950"
+      ],
+      "t_grow_min_sp": [
+        "0.0",
+        "100.0"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 2230145,
+      "missing_to_empty": 112496
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Automatoes/GreenhouseClimate.csv",
+    "processed_sha256": "0acbd9d4515cf34194533115c4e755a7a747715f66f4121edf70599d644a0a40",
+    "quarantine_file": "quarantine/Automatoes/GreenhouseClimate.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Automatoes/GrodanSens.csv",
+    "source_sha256": "ba1491e3b1af9856e1eeac19bab807383ebf889dea1f747a3570d167ed0f59a1",
+    "team_directory_original": "Automatoes",
+    "table_kind": "GrodanSens",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "original_width_counts": {
+      "7": 47809
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 7,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "EC_slab1": 2326,
+      "EC_slab2": 2326,
+      "WC_slab1": 2326,
+      "WC_slab2": 2326,
+      "t_slab1": 2326,
+      "t_slab2": 2326
+    },
+    "missing_lexeme_counts": {
+      "  NaN": 13956
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "EC_slab1": [
+        "3.2",
+        "5.9"
+      ],
+      "EC_slab2": [
+        "3.4",
+        "6.0"
+      ],
+      "WC_slab1": [
+        "54.6",
+        "91.9"
+      ],
+      "WC_slab2": [
+        "56.8",
+        "93.2"
+      ],
+      "t_slab1": [
+        "15.9",
+        "35.2"
+      ],
+      "t_slab2": [
+        "15.6",
+        "35.0"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "missing_to_empty": 13956,
+      "NFC_trim_numeric_lexeme": 272898
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Automatoes/GrodanSens.csv",
+    "processed_sha256": "5122527bab0f9167cccc8da3838ea7f27e9d61ac026ed693223e9d3c104bd5fe",
+    "quarantine_file": "quarantine/Automatoes/GrodanSens.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Automatoes/LabAnalysis.csv",
+    "source_sha256": "38e04bc7784c98818c5f25d7f4a40b158ead6c69615aa4e296ab3fde813e9fd2",
+    "team_directory_original": "Automatoes",
+    "table_kind": "LabAnalysis",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "original_width_counts": {
+      "39": 10
+    },
+    "source_header_fields": 39,
+    "normalized_data_fields": 39,
+    "source_records": 10,
+    "retained_normalized_records": 10,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 10,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43836",
+        "43963"
+      ],
+      "irr_PH": [
+        "4.3",
+        "6"
+      ],
+      "irr_EC": [
+        "2.90",
+        "4"
+      ],
+      "irr_NH4": [
+        "0.09",
+        "1.40"
+      ],
+      "irr_K": [
+        "9.60",
+        "14.2"
+      ],
+      "irr_Na": [
+        "0.20",
+        "0.4"
+      ],
+      "irr_Ca": [
+        "5.8",
+        "9.1"
+      ],
+      "irr_Mg": [
+        "2.30",
+        "4.5"
+      ],
+      "irr_Si": [
+        "0.009",
+        "0.09"
+      ],
+      "irr_NO3": [
+        "10",
+        "20.2"
+      ],
+      "irr_Cl": [
+        "1.00",
+        "6.1"
+      ],
+      "irr_SO4": [
+        "3.90",
+        "8.1"
+      ],
+      "irr_HCO3": [
+        "0.09",
+        "0.90"
+      ],
+      "irr_PO4": [
+        "2.6",
+        "4.29"
+      ],
+      "irr_Fe": [
+        "18.1",
+        "43"
+      ],
+      "irr_Mn": [
+        "12.9",
+        "53.00"
+      ],
+      "irr_Zn": [
+        "3.1",
+        "8.3"
+      ],
+      "irr_B": [
+        "33.00",
+        "93"
+      ],
+      "irr_Cu": [
+        "0.60",
+        "1.5"
+      ],
+      "irr_Mo": [
+        "0.48",
+        "1.10"
+      ],
+      "drain_PH": [
+        "5.2",
+        "7.4"
+      ],
+      "drain_EC": [
+        "3.4",
+        "6.20"
+      ],
+      "drain_NH4": [
+        "0.09",
+        "0.1"
+      ],
+      "drain_K": [
+        "7.3",
+        "22.20"
+      ],
+      "drain_Na": [
+        "0.40",
+        "1.1"
+      ],
+      "drain_Ca": [
+        "8.6",
+        "14.40"
+      ],
+      "drain_Mg": [
+        "3.20",
+        "8.60"
+      ],
+      "drain_Si": [
+        "0.06",
+        "0.8"
+      ],
+      "drain_NO3": [
+        "0.4",
+        "24.40"
+      ],
+      "drain_Cl": [
+        "0.30",
+        "11.40"
+      ],
+      "drain_SO4": [
+        "8.40",
+        "19.6"
+      ],
+      "drain_HCO3": [
+        "0.09",
+        "2.2"
+      ],
+      "drain_PO4": [
+        "0.43",
+        "6.65"
+      ],
+      "drain_Fe": [
+        "17.5",
+        "37.00"
+      ],
+      "drain_Mn": [
+        "1.2",
+        "73.00"
+      ],
+      "drain_Zn": [
+        "4.6",
+        "13"
+      ],
+      "drain_B": [
+        "37",
+        "156"
+      ],
+      "drain_Cu": [
+        "0.60",
+        "2.3"
+      ],
+      "drain_Mo": [
+        "0.40",
+        "2.3"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43836",
+      "43963"
+    ],
+    "delta_days_histogram": {
+      "14": 3,
+      "15": 4,
+      "13": 1,
+      "12": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 6
+    },
+    "cell_transformations": {},
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Automatoes/LabAnalysis.csv",
+    "processed_sha256": "2efa122c5f4a2a0fa1671568dbc5ab9f5aa996a84fe5da4bab6435852f6e7a29",
+    "quarantine_file": "quarantine/Automatoes/LabAnalysis.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Automatoes/Production.csv",
+    "source_sha256": "d9df4d955decc0e409c29a739b3cc7911d061c86a5fd4f5957093fa541412ec2",
+    "team_directory_original": "Automatoes",
+    "table_kind": "Production",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time ",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "original_width_counts": {
+      "9": 23
+    },
+    "source_header_fields": 9,
+    "normalized_data_fields": 9,
+    "source_records": 23,
+    "retained_normalized_records": 23,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 23,
+    "missing_cells": {
+      "Nr_fruits_ClassA": 1
+    },
+    "missing_lexeme_counts": {
+      "NaN": 1
+    },
+    "zero_cells_preserved": {
+      "ProdB": 14,
+      "Nr_fruits_ClassB": 21,
+      "Weight_fruits_ClassB": 21
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43880",
+        "43980"
+      ],
+      "ProdA": [
+        "0.07",
+        "1.07"
+      ],
+      "ProdB": [
+        "0.0",
+        "0.2621"
+      ],
+      "avg_nr_harvested_trusses": [
+        "0.1",
+        "1.5"
+      ],
+      "Truss development time": [
+        "40",
+        "55"
+      ],
+      "Weight_fruits_ClassA": [
+        "218",
+        "2207"
+      ],
+      "Nr_fruits_ClassB": [
+        "0",
+        "22"
+      ],
+      "Weight_fruits_ClassB": [
+        "0",
+        "218"
+      ],
+      "Nr_fruits_ClassA": [
+        "60",
+        "239"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43880",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "5": 13,
+      "4": 8,
+      "3": 1
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 23,
+      "missing_to_empty": 1
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "processed_file": "tables/Automatoes/Production.csv",
+    "processed_sha256": "5ed0439c87fc9066d5b9c2626fdf0d93121455bd8cb304c5fd69a894f6fba40b",
+    "quarantine_file": "quarantine/Automatoes/Production.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Automatoes/Resources.csv",
+    "source_sha256": "8b3d980fc7b3646c746dfc577af59159a49eef31770b84898502ecc5ef1d45f5",
+    "team_directory_original": "Automatoes",
+    "table_kind": "Resources",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time ",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain"
+    ],
+    "original_width_counts": {
+      "7": 166
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 7,
+    "source_records": 166,
+    "retained_normalized_records": 166,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 166,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {
+      "ElecLow": 25,
+      "Irr": 4,
+      "Drain": 18,
+      "Heat_cons": 1,
+      "ElecHigh": 29
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815",
+        "43980"
+      ],
+      "Heat_cons": [
+        "0",
+        "3.4755"
+      ],
+      "ElecHigh": [
+        "0.0",
+        "1.9"
+      ],
+      "ElecLow": [
+        "0",
+        "0.952"
+      ],
+      "CO2_cons": [
+        "0.003646667",
+        "0.11447"
+      ],
+      "Irr": [
+        "0",
+        "9.36"
+      ],
+      "Drain": [
+        "0",
+        "5.03"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "1": 165
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 166
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Automatoes/Resources.csv",
+    "processed_sha256": "5aeb8b54c0af946e0a83404b5136d046ea42faf7c570e6556fdcbbd4550a83b7",
+    "quarantine_file": "quarantine/Automatoes/Resources.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Automatoes/TomQuality.csv",
+    "source_sha256": "455c1df31e013c8a60a7d21533f6934f5dd47b2cace110fc034abc15d76a418a",
+    "team_directory_original": "Automatoes",
+    "table_kind": "TomQuality",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "Flavour ",
+      "TSS",
+      "Acid",
+      "%Juice",
+      "Bite",
+      "Weight",
+      "DMC_fruit"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Flavour",
+      "TSS",
+      "Acid",
+      "%Juice",
+      "Bite",
+      "Weight",
+      "DMC_fruit"
+    ],
+    "original_width_counts": {
+      "8": 8
+    },
+    "source_header_fields": 8,
+    "normalized_data_fields": 8,
+    "source_records": 8,
+    "retained_normalized_records": 8,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 8,
+    "missing_cells": {
+      "DMC_fruit": 2
+    },
+    "missing_lexeme_counts": {
+      "NaN": 2
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43880",
+        "43980"
+      ],
+      "Flavour": [
+        "68",
+        "85"
+      ],
+      "TSS": [
+        "7.5",
+        "9.13"
+      ],
+      "Acid": [
+        "9.0",
+        "15.2"
+      ],
+      "%Juice": [
+        "55",
+        "69"
+      ],
+      "Bite": [
+        "139",
+        "348"
+      ],
+      "Weight": [
+        "8.80",
+        "13.3"
+      ],
+      "DMC_fruit": [
+        "8.58",
+        "9.51"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43880",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "14": 6,
+      "16": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 8,
+      "missing_to_empty": 2
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "Flavour ",
+        "after": "Flavour"
+      }
+    ],
+    "processed_file": "tables/Automatoes/TomQuality.csv",
+    "processed_sha256": "038b609ccf33b0029384724a453c6b106180f7356424be0c6889c641032c48b2",
+    "quarantine_file": "quarantine/Automatoes/TomQuality.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Digilog/CropParameters.csv",
+    "source_sha256": "6ea4851e4a11af950a849c1cd710675acb867df2ea3cead548dd80b98f0865ee",
+    "team_directory_original": "Digilog",
+    "table_kind": "CropParameters",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens ",
+      "plant_dens"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens",
+      "plant_dens"
+    ],
+    "original_width_counts": {
+      "6": 23
+    },
+    "source_header_fields": 6,
+    "normalized_data_fields": 6,
+    "source_records": 23,
+    "retained_normalized_records": 23,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 23,
+    "missing_cells": {
+      "Cum_trusses": 5,
+      "Stem_elong": 5,
+      "Stem_thick": 5
+    },
+    "missing_lexeme_counts": {
+      "NaN": 10,
+      " NaN": 5
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43823",
+        "43978"
+      ],
+      "Stem_elong": [
+        "15",
+        "36.8"
+      ],
+      "Stem_thick": [
+        "8",
+        "13.5"
+      ],
+      "stem_dens": [
+        "2.6",
+        "5.2"
+      ],
+      "plant_dens": [
+        "1.3",
+        "1.3"
+      ],
+      "Cum_trusses": [
+        "1",
+        "22"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43823",
+      "43978"
+    ],
+    "delta_days_histogram": {
+      "7": 21,
+      "8": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 15
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "processed_file": "tables/Digilog/CropParameters.csv",
+    "processed_sha256": "0710bfa53a53d61bf14b88fab63012104fc3178d45d454749f4b81d0453d06bd",
+    "quarantine_file": "quarantine/Digilog/CropParameters.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Digilog/GreenhouseClimate.csv",
+    "source_sha256": "5c6650ea8f7e68a455949f5db97e0f8dbb1a2f59cfdc2b9a9648eac99050fcea",
+    "team_directory_original": "Digilog",
+    "table_kind": "GreenhouseClimate",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "original_width_counts": {
+      "50": 47809
+    },
+    "source_header_fields": 50,
+    "normalized_data_fields": 50,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "assim_sp": 537,
+      "co2_dos": 2,
+      "co2_sp": 516,
+      "dx_sp": 516,
+      "int_blue_sp": 954,
+      "int_blue_vip": 18935,
+      "int_farred_sp": 954,
+      "int_farred_vip": 18935,
+      "int_red_sp": 954,
+      "int_red_vip": 18935,
+      "int_white_sp": 14,
+      "int_white_vip": 18935,
+      "scr_blck_sp": 532,
+      "scr_enrg_sp": 533,
+      "t_grow_min_sp": 1277,
+      "t_heat_sp": 517,
+      "t_rail_min_sp": 539,
+      "t_vent_sp": 522,
+      "water_sup_intervals_sp_min": 1246,
+      "window_pos_lee_sp": 545,
+      "AssimLight": 71,
+      "BlackScr": 71,
+      "CO2air": 71,
+      "Cum_irr": 71,
+      "EC_drain_PC": 62,
+      "EnScr": 71,
+      "HumDef": 71,
+      "PipeGrow": 71,
+      "PipeLow": 71,
+      "Rhair": 71,
+      "Tair": 71,
+      "Tot_PAR": 71,
+      "VentLee": 71,
+      "Ventwind": 71,
+      "assim_vip": 71,
+      "co2_vip": 71,
+      "dx_vip": 71,
+      "pH_drain_PC": 71,
+      "scr_blck_vip": 71,
+      "scr_enrg_vip": 71,
+      "t_grow_min_vip": 71,
+      "t_heat_vip": 71,
+      "t_rail_min_vip": 71,
+      "t_ventlee_vip": 71,
+      "t_ventwind_vip": 71,
+      "water_sup": 71,
+      "water_sup_intervals_vip_min": 71,
+      "window_pos_lee_vip": 71
+    },
+    "missing_lexeme_counts": {
+      " NaN": 80857,
+      "    NaN": 2,
+      "  NaN": 7018
+    },
+    "zero_cells_preserved": {
+      "AssimLight": 18771,
+      "Tot_PAR": 10448,
+      "Tot_PAR_Lamps": 19630,
+      "Ventwind": 18913,
+      "assim_vip": 18722,
+      "t_rail_min_vip": 46180,
+      "co2_dos": 13660,
+      "Cum_irr": 7944,
+      "water_sup": 7944,
+      "VentLee": 16335,
+      "PipeLow": 39093,
+      "int_farred_vip": 4314,
+      "int_red_vip": 2454,
+      "BlackScr": 22749,
+      "scr_blck_sp": 22873,
+      "scr_enrg_sp": 37490,
+      "scr_blck_vip": 23359,
+      "scr_enrg_vip": 37823,
+      "EnScr": 37147,
+      "t_rail_min_sp": 45697,
+      "int_white_vip": 2481,
+      "int_blue_vip": 2351,
+      "PipeGrow": 18983,
+      "assim_sp": 18260,
+      "int_farred_sp": 13615,
+      "int_red_sp": 13161,
+      "int_blue_sp": 12645,
+      "int_white_sp": 12805,
+      "t_grow_min_sp": 18250,
+      "window_pos_lee_sp": 46503,
+      "t_grow_min_vip": 18266,
+      "window_pos_lee_vip": 46455,
+      "t_vent_sp": 94,
+      "t_ventlee_vip": 79,
+      "t_ventwind_vip": 79,
+      "co2_sp": 17306,
+      "co2_vip": 18542,
+      "dx_sp": 89,
+      "t_heat_sp": 93,
+      "water_sup_intervals_sp_min": 127,
+      "t_heat_vip": 77,
+      "dx_vip": 76,
+      "water_sup_intervals_vip_min": 147
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "AssimLight": [
+        "0",
+        "100"
+      ],
+      "BlackScr": [
+        "0",
+        "100"
+      ],
+      "CO2air": [
+        "257",
+        "1272"
+      ],
+      "Cum_irr": [
+        "0.0",
+        "65.1"
+      ],
+      "EC_drain_PC": [
+        "1.9",
+        "11.5"
+      ],
+      "EnScr": [
+        "0",
+        "100"
+      ],
+      "HumDef": [
+        "0.6",
+        "19.8"
+      ],
+      "PipeGrow": [
+        "0.0",
+        "76.4"
+      ],
+      "PipeLow": [
+        "0.0",
+        "68.7"
+      ],
+      "Rhair": [
+        "33.1",
+        "96.2"
+      ],
+      "Tair": [
+        "11.8",
+        "36.4"
+      ],
+      "Tot_PAR": [
+        "0",
+        "1005"
+      ],
+      "Tot_PAR_Lamps": [
+        "0",
+        "197"
+      ],
+      "VentLee": [
+        "0",
+        "100"
+      ],
+      "Ventwind": [
+        "0",
+        "100"
+      ],
+      "assim_vip": [
+        "0",
+        "100"
+      ],
+      "co2_vip": [
+        "0",
+        "1200"
+      ],
+      "dx_vip": [
+        "0.0",
+        "6.0"
+      ],
+      "pH_drain_PC": [
+        "4.2",
+        "7.8"
+      ],
+      "scr_blck_vip": [
+        "0",
+        "100"
+      ],
+      "scr_enrg_vip": [
+        "0",
+        "100"
+      ],
+      "t_grow_min_vip": [
+        "0.0",
+        "80.0"
+      ],
+      "t_heat_vip": [
+        "-10.0",
+        "24.0"
+      ],
+      "t_rail_min_vip": [
+        "0.0",
+        "50.0"
+      ],
+      "t_ventlee_vip": [
+        "0.0",
+        "35.0"
+      ],
+      "t_ventwind_vip": [
+        "0.0",
+        "35.0"
+      ],
+      "water_sup": [
+        "0.0",
+        "751.0"
+      ],
+      "water_sup_intervals_vip_min": [
+        "0",
+        "2000"
+      ],
+      "window_pos_lee_vip": [
+        "0.0",
+        "4.0"
+      ],
+      "co2_dos": [
+        "0.0000",
+        "0.0150"
+      ],
+      "int_white_sp": [
+        "0",
+        "1000"
+      ],
+      "int_blue_vip": [
+        "0",
+        "1000"
+      ],
+      "int_farred_vip": [
+        "0",
+        "1000"
+      ],
+      "int_red_vip": [
+        "0",
+        "1000"
+      ],
+      "int_white_vip": [
+        "0",
+        "1000"
+      ],
+      "scr_blck_sp": [
+        "0",
+        "100"
+      ],
+      "scr_enrg_sp": [
+        "0",
+        "100"
+      ],
+      "assim_sp": [
+        "0",
+        "100"
+      ],
+      "co2_sp": [
+        "0",
+        "1200"
+      ],
+      "dx_sp": [
+        "0.0",
+        "6.0"
+      ],
+      "t_heat_sp": [
+        "-10.0",
+        "24.0"
+      ],
+      "t_rail_min_sp": [
+        "0.0",
+        "50.0"
+      ],
+      "t_vent_sp": [
+        "0.0",
+        "35.0"
+      ],
+      "window_pos_lee_sp": [
+        "0.0",
+        "4.0"
+      ],
+      "water_sup_intervals_sp_min": [
+        "0",
+        "2000"
+      ],
+      "int_blue_sp": [
+        "0",
+        "1000"
+      ],
+      "int_farred_sp": [
+        "0",
+        "1000"
+      ],
+      "int_red_sp": [
+        "0",
+        "1000"
+      ],
+      "t_grow_min_sp": [
+        "0.0",
+        "40.0"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 2254764,
+      "missing_to_empty": 87877
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Digilog/GreenhouseClimate.csv",
+    "processed_sha256": "807de500b6346bb81bcc4c70b46ee611e805ff940f8e03c8b057af9cb427d3f1",
+    "quarantine_file": "quarantine/Digilog/GreenhouseClimate.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Digilog/GrodanSens.csv",
+    "source_sha256": "dc69cd6bf44c64cb935a4894a86757fca62e9989b656d96f3bc87730eabf6840",
+    "team_directory_original": "Digilog",
+    "table_kind": "GrodanSens",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "original_width_counts": {
+      "7": 47809
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 7,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "EC_slab1": 2321,
+      "EC_slab2": 2321,
+      "WC_slab1": 2321,
+      "WC_slab2": 2321,
+      "t_slab1": 2321,
+      "t_slab2": 2321
+    },
+    "missing_lexeme_counts": {
+      "  NaN": 13926
+    },
+    "zero_cells_preserved": {
+      "EC_slab2": 26,
+      "EC_slab1": 25,
+      "WC_slab1": 24,
+      "WC_slab2": 23
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "EC_slab1": [
+        "0.0",
+        "8.2"
+      ],
+      "EC_slab2": [
+        "0.0",
+        "8.6"
+      ],
+      "WC_slab1": [
+        "0.0",
+        "99.0"
+      ],
+      "WC_slab2": [
+        "0.0",
+        "94.5"
+      ],
+      "t_slab1": [
+        "15.8",
+        "34.2"
+      ],
+      "t_slab2": [
+        "15.5",
+        "34.1"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "missing_to_empty": 13926,
+      "NFC_trim_numeric_lexeme": 272928
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Digilog/GrodanSens.csv",
+    "processed_sha256": "25c4cd5e3793673f81a4818b9b798127070756d71fdf6fba1d0e598362e3762b",
+    "quarantine_file": "quarantine/Digilog/GrodanSens.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Digilog/LabAnalysis.csv",
+    "source_sha256": "6e589ab0b2e07882c82c71020c00edf3514257da33145560b45e35b042324219",
+    "team_directory_original": "Digilog",
+    "table_kind": "LabAnalysis",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "original_width_counts": {
+      "39": 10
+    },
+    "source_header_fields": 39,
+    "normalized_data_fields": 39,
+    "source_records": 10,
+    "retained_normalized_records": 10,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 10,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43836",
+        "43963"
+      ],
+      "irr_PH": [
+        "5.2",
+        "6.4"
+      ],
+      "irr_EC": [
+        "3.1",
+        "4.9"
+      ],
+      "irr_NH4": [
+        "0.09",
+        "1.4"
+      ],
+      "irr_K": [
+        "10.1",
+        "15.8"
+      ],
+      "irr_Na": [
+        "0.2",
+        "0.4"
+      ],
+      "irr_Ca": [
+        "6.7",
+        "11.3"
+      ],
+      "irr_Mg": [
+        "1.9",
+        "5.1"
+      ],
+      "irr_Si": [
+        "0.009",
+        "0.09"
+      ],
+      "irr_NO3": [
+        "16.4",
+        "22"
+      ],
+      "irr_Cl": [
+        "0.6",
+        "7"
+      ],
+      "irr_SO4": [
+        "3.6",
+        "9.2"
+      ],
+      "irr_HCO3": [
+        "0.09",
+        "0.5"
+      ],
+      "irr_PO4": [
+        "2.4",
+        "3.01"
+      ],
+      "irr_Fe": [
+        "15",
+        "36"
+      ],
+      "irr_Mn": [
+        "11",
+        "28"
+      ],
+      "irr_Zn": [
+        "3.5",
+        "9.1"
+      ],
+      "irr_B": [
+        "28",
+        "49"
+      ],
+      "irr_Cu": [
+        "0.6",
+        "1.4"
+      ],
+      "irr_Mo": [
+        "0.3",
+        "1.3"
+      ],
+      "drain_PH": [
+        "5.2",
+        "6.8"
+      ],
+      "drain_EC": [
+        "3.1",
+        "9.6"
+      ],
+      "drain_NH4": [
+        "0.09",
+        "0.3"
+      ],
+      "drain_K": [
+        "10.3",
+        "29.4"
+      ],
+      "drain_Na": [
+        "0.3",
+        "1.5"
+      ],
+      "drain_Ca": [
+        "7.6",
+        "29.1"
+      ],
+      "drain_Mg": [
+        "2.5",
+        "17.4"
+      ],
+      "drain_Si": [
+        "0.01",
+        "0.77"
+      ],
+      "drain_NO3": [
+        "10.5",
+        "43.2"
+      ],
+      "drain_Cl": [
+        "0.09",
+        "19.5"
+      ],
+      "drain_SO4": [
+        "3.6",
+        "27.9"
+      ],
+      "drain_HCO3": [
+        "0.09",
+        "2"
+      ],
+      "drain_PO4": [
+        "1.2",
+        "5.87"
+      ],
+      "drain_Fe": [
+        "10.2",
+        "46"
+      ],
+      "drain_Mn": [
+        "1.6",
+        "28"
+      ],
+      "drain_Zn": [
+        "5.8",
+        "18"
+      ],
+      "drain_B": [
+        "37",
+        "78"
+      ],
+      "drain_Cu": [
+        "0.6",
+        "1.6"
+      ],
+      "drain_Mo": [
+        "0.4",
+        "1.1"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43836",
+      "43963"
+    ],
+    "delta_days_histogram": {
+      "14": 3,
+      "15": 4,
+      "13": 1,
+      "12": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 6
+    },
+    "cell_transformations": {},
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Digilog/LabAnalysis.csv",
+    "processed_sha256": "e7dc289ad58a9784632c0c4db4ed20935e8bbac89d0b59c20f903f117891615f",
+    "quarantine_file": "quarantine/Digilog/LabAnalysis.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Digilog/Production.csv",
+    "source_sha256": "88bd324cf9f116c71516415ef8c6cdf82640a70dc94c387dd2106ce0ed124eca",
+    "team_directory_original": "Digilog",
+    "table_kind": "Production",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time ",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "original_width_counts": {
+      "9": 23
+    },
+    "source_header_fields": 9,
+    "normalized_data_fields": 9,
+    "source_records": 23,
+    "retained_normalized_records": 23,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 23,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {
+      "Nr_fruits_ClassA": 1,
+      "Nr_fruits_ClassB": 21,
+      "Weight_fruits_ClassB": 21,
+      "ProdB": 20
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43880",
+        "43980"
+      ],
+      "ProdA": [
+        "0.05",
+        "1.05"
+      ],
+      "ProdB": [
+        "0.0000",
+        "0.6"
+      ],
+      "avg_nr_harvested_trusses": [
+        "0.1",
+        "2.2"
+      ],
+      "Truss development time": [
+        "36",
+        "60"
+      ],
+      "Nr_fruits_ClassA": [
+        "0",
+        "277"
+      ],
+      "Weight_fruits_ClassA": [
+        "70",
+        "2596"
+      ],
+      "Nr_fruits_ClassB": [
+        "0",
+        "44"
+      ],
+      "Weight_fruits_ClassB": [
+        "0",
+        "488"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43880",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "5": 13,
+      "4": 8,
+      "3": 1
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 24
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "processed_file": "tables/Digilog/Production.csv",
+    "processed_sha256": "b349ccc028338db6f4054e0423899b6506fd868bf03ef444c45bbfd5d98af644",
+    "quarantine_file": "quarantine/Digilog/Production.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Digilog/Resources.csv",
+    "source_sha256": "373c09bc767f8ebc1a31516d82403b8e898ac50f7cc85a61727d84cb5a036767",
+    "team_directory_original": "Digilog",
+    "table_kind": "Resources",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time ",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain"
+    ],
+    "original_width_counts": {
+      "7": 166
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 7,
+    "source_records": 166,
+    "retained_normalized_records": 166,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 166,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {
+      "ElecLow": 18,
+      "Irr": 6,
+      "Drain": 17,
+      "Heat_cons": 3,
+      "ElecHigh": 17
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815",
+        "43980"
+      ],
+      "Heat_cons": [
+        "0",
+        "3.579"
+      ],
+      "ElecHigh": [
+        "0",
+        "1.978166667"
+      ],
+      "ElecLow": [
+        "0",
+        "1.144"
+      ],
+      "CO2_cons": [
+        "0.006252544",
+        "0.123939167"
+      ],
+      "Irr": [
+        "0",
+        "60.20132727"
+      ],
+      "Drain": [
+        "0",
+        "4.46"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "1": 165
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {},
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Digilog/Resources.csv",
+    "processed_sha256": "4c5e5c1206c4e9e9259df9d4eaeb3ae1b7d7762cc14833285c19675244d84bef",
+    "quarantine_file": "quarantine/Digilog/Resources.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Digilog/TomQuality.csv",
+    "source_sha256": "ceb23eef1e7a2498d7cd33492e28fb5b8d0a83f070ec4e8fd193c6145bdb5598",
+    "team_directory_original": "Digilog",
+    "table_kind": "TomQuality",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "Flavour ",
+      "TSS",
+      "Acid",
+      "%Juice",
+      "Bite",
+      "Weight",
+      "DMC_fruit"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Flavour",
+      "TSS",
+      "Acid",
+      "%Juice",
+      "Bite",
+      "Weight",
+      "DMC_fruit"
+    ],
+    "original_width_counts": {
+      "8": 8
+    },
+    "source_header_fields": 8,
+    "normalized_data_fields": 8,
+    "source_records": 8,
+    "retained_normalized_records": 8,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 8,
+    "missing_cells": {
+      "DMC_fruit": 2
+    },
+    "missing_lexeme_counts": {
+      "NaN": 2
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43880",
+        "43980"
+      ],
+      "Flavour": [
+        "65",
+        "88"
+      ],
+      "TSS": [
+        "7.3",
+        "9.9"
+      ],
+      "Acid": [
+        "9.6",
+        "14.9"
+      ],
+      "%Juice": [
+        "55",
+        "69"
+      ],
+      "Bite": [
+        "148",
+        "317"
+      ],
+      "Weight": [
+        "8.8",
+        "14.3"
+      ],
+      "DMC_fruit": [
+        "8.77",
+        "10.21"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43880",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "14": 6,
+      "16": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 8,
+      "missing_to_empty": 2
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "Flavour ",
+        "after": "Flavour"
+      }
+    ],
+    "processed_file": "tables/Digilog/TomQuality.csv",
+    "processed_sha256": "46cd85507ce1425a2d450b460581ae1156962b51c81a176b0c70da11c22f1230",
+    "quarantine_file": "quarantine/Digilog/TomQuality.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/IUACAAS/CropParameters.csv",
+    "source_sha256": "fca6a13a47510f950d14b57020bd56414ae0373bf3c2bb26eec5fdf642761b47",
+    "team_directory_original": "IUACAAS",
+    "table_kind": "CropParameters",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens ",
+      "plant_dens"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens",
+      "plant_dens"
+    ],
+    "original_width_counts": {
+      "6": 23
+    },
+    "source_header_fields": 6,
+    "normalized_data_fields": 6,
+    "source_records": 23,
+    "retained_normalized_records": 23,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 23,
+    "missing_cells": {
+      "Cum_trusses": 5,
+      "Stem_elong": 5,
+      "Stem_thick": 5
+    },
+    "missing_lexeme_counts": {
+      "NaN": 10,
+      " NaN": 5
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43823",
+        "43978"
+      ],
+      "Stem_elong": [
+        "19.5",
+        "37.1"
+      ],
+      "Stem_thick": [
+        "8.0",
+        "12.7"
+      ],
+      "stem_dens": [
+        "3.9",
+        "4.8"
+      ],
+      "plant_dens": [
+        "1.95",
+        "1.95"
+      ],
+      "Cum_trusses": [
+        "0.9",
+        "21.7"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43823",
+      "43978"
+    ],
+    "delta_days_histogram": {
+      "7": 21,
+      "8": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 15
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "processed_file": "tables/IUACAAS/CropParameters.csv",
+    "processed_sha256": "41cc20c7f988e849647d46b27d7010fe449a05b5d2b6901ae4cb976499a72a85",
+    "quarantine_file": "quarantine/IUACAAS/CropParameters.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/IUACAAS/GreenhouseClimate.csv",
+    "source_sha256": "8d246c014bdfa82747ffc8f2ab6a7d6658ed3b60402eebfc30db370e1da43863",
+    "team_directory_original": "IUACAAS",
+    "table_kind": "GreenhouseClimate",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "original_width_counts": {
+      "50": 47809
+    },
+    "source_header_fields": 50,
+    "normalized_data_fields": 50,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "assim_sp": 2440,
+      "co2_dos": 2,
+      "co2_sp": 2441,
+      "dx_sp": 2459,
+      "int_blue_sp": 240,
+      "int_blue_vip": 26160,
+      "int_farred_sp": 240,
+      "int_farred_vip": 26160,
+      "int_red_sp": 240,
+      "int_red_vip": 26160,
+      "int_white_sp": 14,
+      "int_white_vip": 26160,
+      "scr_blck_sp": 2322,
+      "scr_enrg_sp": 47073,
+      "t_grow_min_sp": 47233,
+      "t_heat_sp": 2186,
+      "t_rail_min_sp": 47075,
+      "t_vent_sp": 2204,
+      "water_sup_intervals_sp_min": 1162,
+      "window_pos_lee_sp": 2445,
+      "AssimLight": 71,
+      "BlackScr": 71,
+      "CO2air": 71,
+      "Cum_irr": 71,
+      "EC_drain_PC": 71,
+      "EnScr": 71,
+      "HumDef": 71,
+      "PipeGrow": 71,
+      "PipeLow": 71,
+      "Rhair": 71,
+      "Tair": 71,
+      "Tot_PAR": 71,
+      "VentLee": 71,
+      "Ventwind": 71,
+      "assim_vip": 71,
+      "co2_vip": 71,
+      "dx_vip": 71,
+      "pH_drain_PC": 71,
+      "scr_blck_vip": 71,
+      "scr_enrg_vip": 71,
+      "t_grow_min_vip": 71,
+      "t_heat_vip": 71,
+      "t_rail_min_vip": 71,
+      "t_ventlee_vip": 71,
+      "t_ventwind_vip": 71,
+      "water_sup": 71,
+      "water_sup_intervals_vip_min": 71,
+      "window_pos_lee_vip": 71
+    },
+    "missing_lexeme_counts": {
+      " NaN": 157848,
+      "    NaN": 2,
+      "  NaN": 108554
+    },
+    "zero_cells_preserved": {
+      "AssimLight": 26547,
+      "PipeGrow": 42125,
+      "Tot_PAR": 17017,
+      "Tot_PAR_Lamps": 27068,
+      "Ventwind": 4699,
+      "assim_vip": 26506,
+      "t_rail_min_vip": 47738,
+      "co2_dos": 21055,
+      "Cum_irr": 9327,
+      "water_sup": 9327,
+      "VentLee": 1805,
+      "PipeLow": 26781,
+      "int_blue_vip": 2349,
+      "int_farred_vip": 21648,
+      "int_red_vip": 2265,
+      "BlackScr": 20538,
+      "scr_blck_sp": 20061,
+      "scr_blck_vip": 20983,
+      "scr_enrg_vip": 47228,
+      "scr_enrg_sp": 476,
+      "EnScr": 47215,
+      "t_rail_min_sp": 734,
+      "int_white_vip": 2233,
+      "assim_sp": 25084,
+      "int_blue_sp": 2484,
+      "int_farred_sp": 47230,
+      "int_red_sp": 2330,
+      "int_white_sp": 1971,
+      "t_grow_min_vip": 46122,
+      "window_pos_lee_vip": 5466,
+      "window_pos_lee_sp": 5208,
+      "co2_sp": 17201,
+      "co2_vip": 17309,
+      "water_sup_intervals_sp_min": 6,
+      "water_sup_intervals_vip_min": 12,
+      "t_grow_min_sp": 314
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "AssimLight": [
+        "0",
+        "100"
+      ],
+      "BlackScr": [
+        "0",
+        "100"
+      ],
+      "CO2air": [
+        "312",
+        "1644"
+      ],
+      "Cum_irr": [
+        "0.0",
+        "11.0"
+      ],
+      "EC_drain_PC": [
+        "0.1",
+        "8.0"
+      ],
+      "EnScr": [
+        "0",
+        "100"
+      ],
+      "HumDef": [
+        "0.3",
+        "19.2"
+      ],
+      "PipeGrow": [
+        "0.0",
+        "64.2"
+      ],
+      "PipeLow": [
+        "0.0",
+        "70.9"
+      ],
+      "Rhair": [
+        "37.9",
+        "97.9"
+      ],
+      "Tair": [
+        "11.9",
+        "37.2"
+      ],
+      "Tot_PAR": [
+        "0",
+        "1057"
+      ],
+      "Tot_PAR_Lamps": [
+        "0",
+        "197"
+      ],
+      "VentLee": [
+        "0",
+        "100"
+      ],
+      "Ventwind": [
+        "0",
+        "100"
+      ],
+      "assim_vip": [
+        "0",
+        "100"
+      ],
+      "co2_vip": [
+        "0",
+        "1000"
+      ],
+      "dx_vip": [
+        "1.2",
+        "13.4"
+      ],
+      "pH_drain_PC": [
+        "3.9",
+        "7.5"
+      ],
+      "scr_blck_vip": [
+        "0",
+        "99"
+      ],
+      "scr_enrg_vip": [
+        "0",
+        "100"
+      ],
+      "t_grow_min_vip": [
+        "0.0",
+        "40.0"
+      ],
+      "t_heat_vip": [
+        "10.0",
+        "26.0"
+      ],
+      "t_rail_min_vip": [
+        "0.0",
+        "0.0"
+      ],
+      "t_ventlee_vip": [
+        "13.0",
+        "35.0"
+      ],
+      "t_ventwind_vip": [
+        "13.0",
+        "35.0"
+      ],
+      "water_sup": [
+        "0.0",
+        "84.0"
+      ],
+      "water_sup_intervals_vip_min": [
+        "0",
+        "2000"
+      ],
+      "window_pos_lee_vip": [
+        "0.0",
+        "4.0"
+      ],
+      "co2_dos": [
+        "0.0000",
+        "0.0150"
+      ],
+      "int_white_sp": [
+        "0",
+        "1000"
+      ],
+      "int_blue_vip": [
+        "0",
+        "1000"
+      ],
+      "int_farred_vip": [
+        "0",
+        "1000"
+      ],
+      "int_red_vip": [
+        "0",
+        "1000"
+      ],
+      "int_white_vip": [
+        "0",
+        "1000"
+      ],
+      "scr_blck_sp": [
+        "0",
+        "99"
+      ],
+      "scr_enrg_sp": [
+        "0",
+        "95"
+      ],
+      "assim_sp": [
+        "0",
+        "100"
+      ],
+      "co2_sp": [
+        "0",
+        "1000"
+      ],
+      "dx_sp": [
+        "1.2",
+        "13.4"
+      ],
+      "t_heat_sp": [
+        "10.0",
+        "50.0"
+      ],
+      "t_rail_min_sp": [
+        "0.0",
+        "0.0"
+      ],
+      "t_vent_sp": [
+        "13.0",
+        "35.0"
+      ],
+      "window_pos_lee_sp": [
+        "0.0",
+        "4.0"
+      ],
+      "water_sup_intervals_sp_min": [
+        "0",
+        "2000"
+      ],
+      "int_blue_sp": [
+        "0",
+        "1000"
+      ],
+      "int_farred_sp": [
+        "0",
+        "100"
+      ],
+      "int_red_sp": [
+        "0",
+        "1000"
+      ],
+      "t_grow_min_sp": [
+        "0.0",
+        "40.0"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 2076237,
+      "missing_to_empty": 266404
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/IUACAAS/GreenhouseClimate.csv",
+    "processed_sha256": "eff007b35bdb88c7a6dee85f0d8ab10dcab4946e084bde6c2ffcec6c28846295",
+    "quarantine_file": "quarantine/IUACAAS/GreenhouseClimate.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/IUACAAS/GrodanSens.csv",
+    "source_sha256": "e79ead6f7c12fa4526912f1ce97dac3c326d2d00a99514ce9cea97fd814db417",
+    "team_directory_original": "IUACAAS",
+    "table_kind": "GrodanSens",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "original_width_counts": {
+      "7": 47809
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 7,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "EC_slab1": 2321,
+      "EC_slab2": 2321,
+      "WC_slab1": 2321,
+      "WC_slab2": 2321,
+      "t_slab1": 2321,
+      "t_slab2": 2321
+    },
+    "missing_lexeme_counts": {
+      "  NaN": 13926
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "EC_slab1": [
+        "4.1",
+        "6.7"
+      ],
+      "EC_slab2": [
+        "4.1",
+        "7.0"
+      ],
+      "WC_slab1": [
+        "63.6",
+        "94.8"
+      ],
+      "WC_slab2": [
+        "48.5",
+        "91.9"
+      ],
+      "t_slab1": [
+        "16.1",
+        "29.8"
+      ],
+      "t_slab2": [
+        "15.9",
+        "29.9"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "missing_to_empty": 13926,
+      "NFC_trim_numeric_lexeme": 272928
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/IUACAAS/GrodanSens.csv",
+    "processed_sha256": "86557c4dcd512bf37dc7f6a8f9c24630ee2adda22a2a7f123c2bd8017af5292e",
+    "quarantine_file": "quarantine/IUACAAS/GrodanSens.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/IUACAAS/LabAnalysis.csv",
+    "source_sha256": "0cd518478da682ddb2a2cc586b286d22561dfd2f605ecd8f994c0bfed316dedc",
+    "team_directory_original": "IUACAAS",
+    "table_kind": "LabAnalysis",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "original_width_counts": {
+      "39": 10
+    },
+    "source_header_fields": 39,
+    "normalized_data_fields": 39,
+    "source_records": 10,
+    "retained_normalized_records": 10,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 10,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43836",
+        "43963"
+      ],
+      "irr_PH": [
+        "4.9",
+        "6.20"
+      ],
+      "irr_EC": [
+        "3.3",
+        "4.3"
+      ],
+      "irr_NH4": [
+        "0.09",
+        "1.6"
+      ],
+      "irr_K": [
+        "9.5",
+        "14.9"
+      ],
+      "irr_Na": [
+        "0.3",
+        "0.3"
+      ],
+      "irr_Ca": [
+        "7.4",
+        "9.20"
+      ],
+      "irr_Mg": [
+        "2.40",
+        "5.1"
+      ],
+      "irr_Si": [
+        "0.009",
+        "0.09"
+      ],
+      "irr_NO3": [
+        "16.6",
+        "21.5"
+      ],
+      "irr_Cl": [
+        "0.80",
+        "5.8"
+      ],
+      "irr_SO4": [
+        "3.8",
+        "8.7"
+      ],
+      "irr_HCO3": [
+        "0.09",
+        "0.40"
+      ],
+      "irr_PO4": [
+        "2.1",
+        "3.60"
+      ],
+      "irr_Fe": [
+        "17.6",
+        "28"
+      ],
+      "irr_Mn": [
+        "13.00",
+        "34.00"
+      ],
+      "irr_Zn": [
+        "2.7",
+        "4.30"
+      ],
+      "irr_B": [
+        "34.00",
+        "95"
+      ],
+      "irr_Cu": [
+        "0.6",
+        "0.9"
+      ],
+      "irr_Mo": [
+        "0.3",
+        "0.46"
+      ],
+      "drain_PH": [
+        "4.2",
+        "6.8"
+      ],
+      "drain_EC": [
+        "3.60",
+        "5.6"
+      ],
+      "drain_NH4": [
+        "0.09",
+        "0.90"
+      ],
+      "drain_K": [
+        "8.6",
+        "16.3"
+      ],
+      "drain_Na": [
+        "0.30",
+        "0.9"
+      ],
+      "drain_Ca": [
+        "8.10",
+        "16.5"
+      ],
+      "drain_Mg": [
+        "3.10",
+        "11"
+      ],
+      "drain_Si": [
+        "0.01",
+        "0.53"
+      ],
+      "drain_NO3": [
+        "10.7",
+        "31.5"
+      ],
+      "drain_Cl": [
+        "2.3",
+        "10.4"
+      ],
+      "drain_SO4": [
+        "5.80",
+        "19.8"
+      ],
+      "drain_HCO3": [
+        "0.09",
+        "1.5"
+      ],
+      "drain_PO4": [
+        "1",
+        "5.51"
+      ],
+      "drain_Fe": [
+        "15.9",
+        "48"
+      ],
+      "drain_Mn": [
+        "1.7",
+        "30"
+      ],
+      "drain_Zn": [
+        "3.9",
+        "6.50"
+      ],
+      "drain_B": [
+        "42.00",
+        "173"
+      ],
+      "drain_Cu": [
+        "0.6",
+        "1"
+      ],
+      "drain_Mo": [
+        "0.1",
+        "0.70"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43836",
+      "43963"
+    ],
+    "delta_days_histogram": {
+      "14": 3,
+      "15": 4,
+      "13": 1,
+      "12": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 6
+    },
+    "cell_transformations": {},
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/IUACAAS/LabAnalysis.csv",
+    "processed_sha256": "3ca1b218e52520d5919300038d69d9c59b8ec949c1d8a7669789ac68ad250cb3",
+    "quarantine_file": "quarantine/IUACAAS/LabAnalysis.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/IUACAAS/Production.csv",
+    "source_sha256": "6d5e699f42f30803d9d7e0c2ceac4b25b104dd344da2989b248856712dcdee6a",
+    "team_directory_original": "IUACAAS",
+    "table_kind": "Production",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time ",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "original_width_counts": {
+      "9": 23
+    },
+    "source_header_fields": 9,
+    "normalized_data_fields": 9,
+    "source_records": 23,
+    "retained_normalized_records": 23,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 23,
+    "missing_cells": {
+      "avg_nr_harvested_trusses": 1,
+      "Truss development time": 1
+    },
+    "missing_lexeme_counts": {
+      "NaN": 2
+    },
+    "zero_cells_preserved": {
+      "ProdB": 21,
+      "Nr_fruits_ClassA": 1,
+      "Weight_fruits_ClassA": 1,
+      "Nr_fruits_ClassB": 22,
+      "Weight_fruits_ClassB": 22
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43880",
+        "43980"
+      ],
+      "ProdA": [
+        "0.01",
+        "0.91"
+      ],
+      "ProdB": [
+        "0.0000",
+        "0.5832"
+      ],
+      "Nr_fruits_ClassA": [
+        "0",
+        "212"
+      ],
+      "Weight_fruits_ClassA": [
+        "0",
+        "2031"
+      ],
+      "Nr_fruits_ClassB": [
+        "0",
+        "74"
+      ],
+      "Weight_fruits_ClassB": [
+        "0",
+        "677"
+      ],
+      "avg_nr_harvested_trusses": [
+        "0.3",
+        "1.8"
+      ],
+      "Truss development time": [
+        "42",
+        "55"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43880",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "5": 13,
+      "4": 8,
+      "3": 1
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 23,
+      "missing_to_empty": 2
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "processed_file": "tables/IUACAAS/Production.csv",
+    "processed_sha256": "5effed9e43d0b9de055bb5502862f2f327875bf122b386d265f9b892afc26df1",
+    "quarantine_file": "quarantine/IUACAAS/Production.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/IUACAAS/Resources.csv",
+    "source_sha256": "0d2146688912393e434a165a7d43e078bfd23217422b0e3ba0c1c9592011663e",
+    "team_directory_original": "IUACAAS",
+    "table_kind": "Resources",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time ",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain"
+    ],
+    "original_width_counts": {
+      "12": 166
+    },
+    "source_header_fields": 12,
+    "normalized_data_fields": 7,
+    "source_records": 166,
+    "retained_normalized_records": 166,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 166,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {
+      "ElecLow": 73,
+      "Irr": 6,
+      "Drain": 15,
+      "ElecHigh": 40,
+      "Heat_cons": 1
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815",
+        "43980"
+      ],
+      "Heat_cons": [
+        "0",
+        "4.7106"
+      ],
+      "ElecHigh": [
+        "0",
+        "1.496"
+      ],
+      "ElecLow": [
+        "0",
+        "0.884"
+      ],
+      "CO2_cons": [
+        "0.0052625",
+        "0.082865"
+      ],
+      "Irr": [
+        "0",
+        "11.0292"
+      ],
+      "Drain": [
+        "0",
+        "6.11"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "1": 165
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {},
+    "header_transformations": [
+      {
+        "operation": "omit_five_proven_empty_trailing_columns",
+        "source_indices": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "rows_checked": 166,
+        "nonempty_cells": 0,
+        "recoverable_from_raw": true
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/IUACAAS/Resources.csv",
+    "processed_sha256": "b4f5340897171f08cc9a1db142ac63089e8f55a111177b6c42fe535fb3bc100f",
+    "quarantine_file": "quarantine/IUACAAS/Resources.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/IUACAAS/TomQuality.csv",
+    "source_sha256": "49daf76eb94383c29526913d9bfcbd68609202388bc84d443ef74d48789389d8",
+    "team_directory_original": "IUACAAS",
+    "table_kind": "TomQuality",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "Flavour ",
+      "TSS",
+      "Acid",
+      "%Juice",
+      "Bite",
+      "Weight",
+      "DMC_fruit"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Flavour",
+      "TSS",
+      "Acid",
+      "%Juice",
+      "Bite",
+      "Weight",
+      "DMC_fruit"
+    ],
+    "original_width_counts": {
+      "8": 8
+    },
+    "source_header_fields": 8,
+    "normalized_data_fields": 8,
+    "source_records": 8,
+    "retained_normalized_records": 8,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 8,
+    "missing_cells": {
+      "DMC_fruit": 2
+    },
+    "missing_lexeme_counts": {
+      "NaN": 2
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43880",
+        "43980"
+      ],
+      "Flavour": [
+        "74",
+        "80"
+      ],
+      "TSS": [
+        "8.0",
+        "9.4"
+      ],
+      "Acid": [
+        "12.6",
+        "14.9"
+      ],
+      "%Juice": [
+        "50",
+        "64"
+      ],
+      "Bite": [
+        "177",
+        "312"
+      ],
+      "Weight": [
+        "8.7",
+        "11.07"
+      ],
+      "DMC_fruit": [
+        "8.36",
+        "9.51"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43880",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "14": 6,
+      "16": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 9,
+      "missing_to_empty": 2
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "Flavour ",
+        "after": "Flavour"
+      }
+    ],
+    "processed_file": "tables/IUACAAS/TomQuality.csv",
+    "processed_sha256": "07e0b7aca8871c5e4ef94a06deeef3454ff0f7618bc2dd31cabf090a4645a14c",
+    "quarantine_file": "quarantine/IUACAAS/TomQuality.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Reference/CropParameters.csv",
+    "source_sha256": "a7083f3355e2a61bc84510cd25e708ca2d833a69f45009e31be1e64010ecf392",
+    "team_directory_original": "Reference",
+    "table_kind": "CropParameters",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens ",
+      "plant_dens"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens",
+      "plant_dens"
+    ],
+    "original_width_counts": {
+      "6": 23
+    },
+    "source_header_fields": 6,
+    "normalized_data_fields": 6,
+    "source_records": 23,
+    "retained_normalized_records": 23,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 23,
+    "missing_cells": {
+      "Cum_trusses": 5,
+      "stem_dens": 1,
+      "Stem_elong": 5,
+      "Stem_thick": 5
+    },
+    "missing_lexeme_counts": {
+      "NaN": 11,
+      " NaN": 5
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43823",
+        "43978"
+      ],
+      "Stem_elong": [
+        "8.5",
+        "39.0"
+      ],
+      "Stem_thick": [
+        "6.7",
+        "12.0"
+      ],
+      "plant_dens": [
+        "1.4",
+        "1.4"
+      ],
+      "Cum_trusses": [
+        "1.2",
+        "23.2"
+      ],
+      "stem_dens": [
+        "4",
+        "8"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43823",
+      "43978"
+    ],
+    "delta_days_histogram": {
+      "7": 21,
+      "8": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 16
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "processed_file": "tables/Reference/CropParameters.csv",
+    "processed_sha256": "afc583b0b03321301689c013a4e11dbae2d77875532ff55ee65106dfaddae063",
+    "quarantine_file": "quarantine/Reference/CropParameters.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Reference/GreenhouseClimate.csv",
+    "source_sha256": "eb99daf5360315232d4fd7a58f64a7226188d10a650d873e13640606ce076ebc",
+    "team_directory_original": "Reference",
+    "table_kind": "GreenhouseClimate",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "original_width_counts": {
+      "50": 47809
+    },
+    "source_header_fields": 50,
+    "normalized_data_fields": 50,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "assim_sp": 1944,
+      "co2_dos": 2,
+      "co2_sp": 1522,
+      "dx_sp": 1585,
+      "int_blue_sp": 198,
+      "int_blue_vip": 22397,
+      "int_farred_sp": 14,
+      "int_farred_vip": 22397,
+      "int_red_sp": 198,
+      "int_red_vip": 22397,
+      "int_white_sp": 14,
+      "int_white_vip": 22397,
+      "scr_blck_sp": 1940,
+      "scr_enrg_sp": 1939,
+      "t_grow_min_sp": 47809,
+      "t_heat_sp": 1946,
+      "t_rail_min_sp": 1617,
+      "t_vent_sp": 1960,
+      "water_sup_intervals_sp_min": 41308,
+      "window_pos_lee_sp": 1960,
+      "AssimLight": 71,
+      "BlackScr": 71,
+      "CO2air": 71,
+      "Cum_irr": 71,
+      "EC_drain_PC": 71,
+      "EnScr": 71,
+      "HumDef": 71,
+      "PipeGrow": 71,
+      "PipeLow": 71,
+      "Rhair": 71,
+      "Tair": 71,
+      "Tot_PAR": 71,
+      "VentLee": 71,
+      "Ventwind": 71,
+      "assim_vip": 71,
+      "co2_vip": 71,
+      "dx_vip": 71,
+      "pH_drain_PC": 71,
+      "scr_blck_vip": 71,
+      "scr_enrg_vip": 71,
+      "t_grow_min_vip": 71,
+      "t_heat_vip": 71,
+      "t_rail_min_vip": 71,
+      "t_ventlee_vip": 71,
+      "t_ventwind_vip": 71,
+      "water_sup": 71,
+      "water_sup_intervals_vip_min": 71,
+      "window_pos_lee_vip": 71
+    },
+    "missing_lexeme_counts": {
+      " NaN": 96474,
+      "    NaN": 2,
+      "  NaN": 101056
+    },
+    "zero_cells_preserved": {
+      "AssimLight": 22658,
+      "PipeGrow": 35272,
+      "Tot_PAR": 11917,
+      "Tot_PAR_Lamps": 23557,
+      "Ventwind": 29663,
+      "assim_vip": 22463,
+      "t_rail_min_vip": 28912,
+      "int_blue_sp": 5978,
+      "int_farred_sp": 36883,
+      "int_red_sp": 5978,
+      "int_white_sp": 5974,
+      "co2_dos": 14527,
+      "Cum_irr": 6469,
+      "water_sup": 6469,
+      "VentLee": 15237,
+      "PipeLow": 12829,
+      "int_blue_vip": 1889,
+      "int_farred_vip": 23008,
+      "int_red_vip": 1886,
+      "int_white_vip": 1874,
+      "BlackScr": 34344,
+      "scr_blck_sp": 33192,
+      "scr_enrg_sp": 27703,
+      "t_grow_min_vip": 37267,
+      "EnScr": 28849,
+      "t_rail_min_sp": 27426,
+      "assim_sp": 23004,
+      "window_pos_lee_vip": 34226,
+      "window_pos_lee_sp": 33863,
+      "pH_drain_PC": 5
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "AssimLight": [
+        "0",
+        "100"
+      ],
+      "BlackScr": [
+        "0",
+        "100"
+      ],
+      "CO2air": [
+        "-499",
+        "1224"
+      ],
+      "Cum_irr": [
+        "0.0",
+        "8.3"
+      ],
+      "EC_drain_PC": [
+        "0.1",
+        "11.3"
+      ],
+      "EnScr": [
+        "0",
+        "100"
+      ],
+      "HumDef": [
+        "0.2",
+        "32.1"
+      ],
+      "PipeGrow": [
+        "0.0",
+        "61.3"
+      ],
+      "PipeLow": [
+        "0.0",
+        "73.6"
+      ],
+      "Rhair": [
+        "-22.2",
+        "99.2"
+      ],
+      "Tair": [
+        "-1.0",
+        "34.3"
+      ],
+      "Tot_PAR": [
+        "0",
+        "1005"
+      ],
+      "Tot_PAR_Lamps": [
+        "0",
+        "197"
+      ],
+      "VentLee": [
+        "0",
+        "100"
+      ],
+      "Ventwind": [
+        "0",
+        "100"
+      ],
+      "assim_vip": [
+        "0",
+        "100"
+      ],
+      "co2_vip": [
+        "400",
+        "900"
+      ],
+      "dx_vip": [
+        "2.2",
+        "2.2"
+      ],
+      "pH_drain_PC": [
+        "0.0",
+        "7.5"
+      ],
+      "scr_blck_vip": [
+        "96",
+        "96"
+      ],
+      "scr_enrg_vip": [
+        "80",
+        "100"
+      ],
+      "t_grow_min_vip": [
+        "0.0",
+        "35.0"
+      ],
+      "t_heat_vip": [
+        "10.0",
+        "27.5"
+      ],
+      "t_rail_min_vip": [
+        "0.0",
+        "32.0"
+      ],
+      "t_ventlee_vip": [
+        "12.5",
+        "30.0"
+      ],
+      "t_ventwind_vip": [
+        "14.0",
+        "31.5"
+      ],
+      "water_sup": [
+        "0.0",
+        "94.0"
+      ],
+      "water_sup_intervals_vip_min": [
+        "20",
+        "1000"
+      ],
+      "window_pos_lee_vip": [
+        "0.0",
+        "10.0"
+      ],
+      "co2_dos": [
+        "0.0000",
+        "0.0150"
+      ],
+      "int_blue_sp": [
+        "0",
+        "1000"
+      ],
+      "int_farred_sp": [
+        "0",
+        "1000"
+      ],
+      "int_red_sp": [
+        "0",
+        "1000"
+      ],
+      "int_white_sp": [
+        "0",
+        "1000"
+      ],
+      "int_blue_vip": [
+        "0",
+        "1000"
+      ],
+      "int_farred_vip": [
+        "0",
+        "1000"
+      ],
+      "int_red_vip": [
+        "0",
+        "1000"
+      ],
+      "int_white_vip": [
+        "0",
+        "1000"
+      ],
+      "scr_blck_sp": [
+        "0",
+        "100"
+      ],
+      "scr_enrg_sp": [
+        "0",
+        "100"
+      ],
+      "assim_sp": [
+        "0",
+        "100"
+      ],
+      "co2_sp": [
+        "300",
+        "900"
+      ],
+      "dx_sp": [
+        "2.2",
+        "2.2"
+      ],
+      "t_heat_sp": [
+        "10.0",
+        "27.5"
+      ],
+      "t_rail_min_sp": [
+        "0.0",
+        "32.0"
+      ],
+      "t_vent_sp": [
+        "12.5",
+        "30.0"
+      ],
+      "water_sup_intervals_sp_min": [
+        "20",
+        "2000"
+      ],
+      "window_pos_lee_sp": [
+        "0.0",
+        "10.0"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 2145109,
+      "missing_to_empty": 197532
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Reference/GreenhouseClimate.csv",
+    "processed_sha256": "9232ce07c183ae82503ddb5228c5162c1dfd9b1bb194e097389686a763817fa9",
+    "quarantine_file": "quarantine/Reference/GreenhouseClimate.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Reference/GrodanSens.csv",
+    "source_sha256": "4cae5ee3d496e78c44e281850578d2fd447ed758579bc88c299926a5c9fecdff",
+    "team_directory_original": "Reference",
+    "table_kind": "GrodanSens",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "original_width_counts": {
+      "7": 47809
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 7,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "EC_slab1": 2306,
+      "EC_slab2": 2306,
+      "WC_slab1": 2306,
+      "WC_slab2": 2306,
+      "t_slab1": 2306,
+      "t_slab2": 2306
+    },
+    "missing_lexeme_counts": {
+      "  NaN": 13836
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "EC_slab1": [
+        "4.5",
+        "7.5"
+      ],
+      "EC_slab2": [
+        "4.2",
+        "8.1"
+      ],
+      "WC_slab1": [
+        "72.9",
+        "99.5"
+      ],
+      "WC_slab2": [
+        "68.2",
+        "98.6"
+      ],
+      "t_slab1": [
+        "16.4",
+        "29.7"
+      ],
+      "t_slab2": [
+        "16.1",
+        "29.4"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "missing_to_empty": 13836,
+      "NFC_trim_numeric_lexeme": 273018
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Reference/GrodanSens.csv",
+    "processed_sha256": "7aa9aa432e177a8aee63dac4d7c0d61e3418080de4f2beda392892060fe0627f",
+    "quarantine_file": "quarantine/Reference/GrodanSens.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Reference/LabAnalysis.csv",
+    "source_sha256": "1a8d7dea1ba6db6b39046957581f03c9c246341d8d2ff973acee9129a2b31691",
+    "team_directory_original": "Reference",
+    "table_kind": "LabAnalysis",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "original_width_counts": {
+      "39": 10
+    },
+    "source_header_fields": 39,
+    "normalized_data_fields": 39,
+    "source_records": 10,
+    "retained_normalized_records": 10,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 10,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43836",
+        "43963"
+      ],
+      "irr_PH": [
+        "4.3",
+        "5.7"
+      ],
+      "irr_EC": [
+        "3.3",
+        "5.1"
+      ],
+      "irr_NH4": [
+        "0.09",
+        "1.6"
+      ],
+      "irr_K": [
+        "11.7",
+        "18.1"
+      ],
+      "irr_Na": [
+        "0.3",
+        "0.50"
+      ],
+      "irr_Ca": [
+        "6.5",
+        "11.80"
+      ],
+      "irr_Mg": [
+        "2.6",
+        "5"
+      ],
+      "irr_Si": [
+        "0.009",
+        "0.36"
+      ],
+      "irr_NO3": [
+        "16.2",
+        "23.10"
+      ],
+      "irr_Cl": [
+        "2.8",
+        "6"
+      ],
+      "irr_SO4": [
+        "5.1",
+        "8.80"
+      ],
+      "irr_HCO3": [
+        "0.09",
+        "0.4"
+      ],
+      "irr_PO4": [
+        "1.94",
+        "2.7"
+      ],
+      "irr_Fe": [
+        "20",
+        "42.00"
+      ],
+      "irr_Mn": [
+        "12.4",
+        "26.00"
+      ],
+      "irr_Zn": [
+        "4.4",
+        "10.00"
+      ],
+      "irr_B": [
+        "33",
+        "51.00"
+      ],
+      "irr_Cu": [
+        "0.7",
+        "1.10"
+      ],
+      "irr_Mo": [
+        "0.4",
+        "0.6"
+      ],
+      "drain_PH": [
+        "4.30",
+        "6"
+      ],
+      "drain_EC": [
+        "3.50",
+        "6.5"
+      ],
+      "drain_NH4": [
+        "0.09",
+        "0.3"
+      ],
+      "drain_K": [
+        "13.20",
+        "24.1"
+      ],
+      "drain_Na": [
+        "0.30",
+        "0.9"
+      ],
+      "drain_Ca": [
+        "8.20",
+        "14.40"
+      ],
+      "drain_Mg": [
+        "3.90",
+        "8.8"
+      ],
+      "drain_Si": [
+        "0.01",
+        "0.50"
+      ],
+      "drain_NO3": [
+        "12.90",
+        "36.10"
+      ],
+      "drain_Cl": [
+        "3.9",
+        "10.7"
+      ],
+      "drain_SO4": [
+        "6.90",
+        "17.4"
+      ],
+      "drain_HCO3": [
+        "0.09",
+        "1.2"
+      ],
+      "drain_PO4": [
+        "2",
+        "3.23"
+      ],
+      "drain_Fe": [
+        "23.2",
+        "51.00"
+      ],
+      "drain_Mn": [
+        "6.4",
+        "48.00"
+      ],
+      "drain_Zn": [
+        "5.7",
+        "17.00"
+      ],
+      "drain_B": [
+        "48",
+        "78.00"
+      ],
+      "drain_Cu": [
+        "0.7",
+        "1.40"
+      ],
+      "drain_Mo": [
+        "0.20",
+        "0.90"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43836",
+      "43963"
+    ],
+    "delta_days_histogram": {
+      "14": 3,
+      "15": 4,
+      "13": 1,
+      "12": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 6
+    },
+    "cell_transformations": {},
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Reference/LabAnalysis.csv",
+    "processed_sha256": "0fa37616cd3234a8fbe58d9f95ddb27f58ddd005ea25a313aad3e562166d4c7f",
+    "quarantine_file": "quarantine/Reference/LabAnalysis.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Reference/Production.csv",
+    "source_sha256": "5124bacfd527a155c7fde61762a793a3192546253e9f442b42b7583ba3a69b65",
+    "team_directory_original": "Reference",
+    "table_kind": "Production",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time ",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "original_width_counts": {
+      "9": 24
+    },
+    "source_header_fields": 9,
+    "normalized_data_fields": 9,
+    "source_records": 24,
+    "retained_normalized_records": 24,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 24,
+    "missing_cells": {
+      "avg_nr_harvested_trusses": 1,
+      "Nr_fruits_ClassA": 2
+    },
+    "missing_lexeme_counts": {
+      "NaN": 3
+    },
+    "zero_cells_preserved": {
+      "ProdB": 22,
+      "Nr_fruits_ClassB": 24,
+      "Weight_fruits_ClassB": 24
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43510",
+        "43980"
+      ],
+      "ProdA": [
+        "0.17",
+        "1.05"
+      ],
+      "ProdB": [
+        "0.0000",
+        "0.0022"
+      ],
+      "Truss development time": [
+        "39",
+        "54"
+      ],
+      "Weight_fruits_ClassA": [
+        "361",
+        "2810"
+      ],
+      "Nr_fruits_ClassB": [
+        "0",
+        "0"
+      ],
+      "Weight_fruits_ClassB": [
+        "0",
+        "0"
+      ],
+      "avg_nr_harvested_trusses": [
+        "0.3",
+        "2.5"
+      ],
+      "Nr_fruits_ClassA": [
+        "40",
+        "313"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43510",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "370": 1,
+      "5": 13,
+      "4": 8,
+      "3": 1
+    },
+    "flags_overlapping": {
+      "timestamp_outside_own_climate_span_retained": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 24,
+      "missing_to_empty": 3
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "processed_file": "tables/Reference/Production.csv",
+    "processed_sha256": "83cf5988f0fbc7cf080dacf48c9e2820f4c1a9f68e7d8f660d96f2b67fd764c4",
+    "quarantine_file": "quarantine/Reference/Production.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Reference/Resources.csv",
+    "source_sha256": "b40ad7bebcbfdf501edb5fb193b8d2c5e453c17015377cc4285d6e107ee67dd6",
+    "team_directory_original": "Reference",
+    "table_kind": "Resources",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time ",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain"
+    ],
+    "original_width_counts": {
+      "7": 166
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 7,
+    "source_records": 166,
+    "retained_normalized_records": 166,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 166,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {
+      "ElecLow": 39,
+      "Drain": 24,
+      "Irr": 2,
+      "ElecHigh": 38
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815",
+        "43980"
+      ],
+      "Heat_cons": [
+        "0.13",
+        "5.96"
+      ],
+      "ElecHigh": [
+        "0",
+        "1.5"
+      ],
+      "ElecLow": [
+        "0",
+        "1"
+      ],
+      "CO2_cons": [
+        "0.009824111",
+        "0.138481667"
+      ],
+      "Irr": [
+        "0.0",
+        "8.3"
+      ],
+      "Drain": [
+        "0.0",
+        "5.2"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "1": 165
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {},
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Reference/Resources.csv",
+    "processed_sha256": "331a01d5b05c7b74a3d5c98cb66bc10c399ebded001aac6db5c29ef4d7883faf",
+    "quarantine_file": "quarantine/Reference/Resources.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Reference/TomQuality.csv",
+    "source_sha256": "7f15759110c8df57efb376fa6f0808d076fbe143e436059f21b6df2243ac0978",
+    "team_directory_original": "Reference",
+    "table_kind": "TomQuality",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "\tFlavour",
+      " \tTSS",
+      "\tAcid",
+      "\t%Juice",
+      "\tBite",
+      "\tWeight\tDMC_fruit"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Flavour",
+      "TSS",
+      "Acid",
+      "%Juice",
+      "Bite",
+      "Weight",
+      "DMC_fruit"
+    ],
+    "original_width_counts": {
+      "8": 8
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 8,
+    "source_records": 8,
+    "retained_normalized_records": 8,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 8,
+    "missing_cells": {
+      "DMC_fruit": 2
+    },
+    "missing_lexeme_counts": {
+      "\tnan": 2
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43880",
+        "43980"
+      ],
+      "Flavour": [
+        "71",
+        "79"
+      ],
+      "TSS": [
+        "7.9",
+        "9.2"
+      ],
+      "Acid": [
+        "10.7",
+        "15.8"
+      ],
+      "%Juice": [
+        "55",
+        "67"
+      ],
+      "Bite": [
+        "166",
+        "284"
+      ],
+      "Weight": [
+        "7.47",
+        "14.63"
+      ],
+      "DMC_fruit": [
+        "8.14",
+        "9.59"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43880",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "14": 6,
+      "16": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 54,
+      "missing_to_empty": 2
+    },
+    "header_transformations": [
+      {
+        "operation": "split_merged_header_only",
+        "header_index_1based": 7,
+        "before": "\tWeight\tDMC_fruit",
+        "after": [
+          "Weight",
+          "DMC_fruit"
+        ],
+        "pdf_page": 14
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "\tFlavour",
+        "after": "Flavour"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 3,
+        "before": " \tTSS",
+        "after": "TSS"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 4,
+        "before": "\tAcid",
+        "after": "Acid"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "\t%Juice",
+        "after": "%Juice"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 6,
+        "before": "\tBite",
+        "after": "Bite"
+      }
+    ],
+    "processed_file": "tables/Reference/TomQuality.csv",
+    "processed_sha256": "b87ab3af3c44026b09f3547038d3343de2a6c7ee196843b91b02c29dc70b9077",
+    "quarantine_file": "quarantine/Reference/TomQuality.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/TheAutomators/CropParameters.csv",
+    "source_sha256": "fca92fbf21b02b29cb8478c2842dd3f5d3720854ccd2735e3af2b6b87a27b514",
+    "team_directory_original": "TheAutomators",
+    "table_kind": "CropParameters",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens ",
+      "plant_dens"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Stem_elong",
+      "Stem_thick",
+      "Cum_trusses",
+      "stem_dens",
+      "plant_dens"
+    ],
+    "original_width_counts": {
+      "6": 23
+    },
+    "source_header_fields": 6,
+    "normalized_data_fields": 6,
+    "source_records": 23,
+    "retained_normalized_records": 23,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 23,
+    "missing_cells": {
+      "Cum_trusses": 5,
+      "Stem_elong": 5,
+      "Stem_thick": 5
+    },
+    "missing_lexeme_counts": {
+      "NaN": 10,
+      " NaN": 5
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43823",
+        "43978"
+      ],
+      "Stem_elong": [
+        "14.4",
+        "39.3"
+      ],
+      "Stem_thick": [
+        "7.1",
+        "12.8"
+      ],
+      "stem_dens": [
+        "3.6",
+        "5.4"
+      ],
+      "plant_dens": [
+        "1.8",
+        "1.8"
+      ],
+      "Cum_trusses": [
+        "0.9",
+        "23.8"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43823",
+      "43978"
+    ],
+    "delta_days_histogram": {
+      "7": 21,
+      "8": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 15
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "processed_file": "tables/TheAutomators/CropParameters.csv",
+    "processed_sha256": "27340d746441451246b82dd2e579ed7f207448792a6dc251588f1fd0a8d2cca8",
+    "quarantine_file": "quarantine/TheAutomators/CropParameters.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/TheAutomators/GreenhouseClimate.csv",
+    "source_sha256": "c059e3510358e4f2d1d3ca07812a7b2043c9c9b43c3427a1822f6b1dca4b2263",
+    "team_directory_original": "TheAutomators",
+    "table_kind": "GreenhouseClimate",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "AssimLight",
+      "BlackScr",
+      "CO2air",
+      "Cum_irr",
+      "EC_drain_PC",
+      "EnScr",
+      "HumDef",
+      "PipeGrow",
+      "PipeLow",
+      "Rhair",
+      "Tair",
+      "Tot_PAR",
+      "Tot_PAR_Lamps",
+      "VentLee",
+      "Ventwind",
+      "assim_sp",
+      "assim_vip",
+      "co2_dos",
+      "co2_sp",
+      "co2_vip",
+      "dx_sp",
+      "dx_vip",
+      "int_blue_sp",
+      "int_blue_vip",
+      "int_farred_sp",
+      "int_farred_vip",
+      "int_red_sp",
+      "int_red_vip",
+      "int_white_sp",
+      "int_white_vip",
+      "pH_drain_PC",
+      "scr_blck_sp",
+      "scr_blck_vip",
+      "scr_enrg_sp",
+      "scr_enrg_vip",
+      "t_grow_min_sp",
+      "t_grow_min_vip",
+      "t_heat_sp",
+      "t_heat_vip",
+      "t_rail_min_sp",
+      "t_rail_min_vip",
+      "t_vent_sp",
+      "t_ventlee_vip",
+      "t_ventwind_vip",
+      "water_sup",
+      "water_sup_intervals_sp_min",
+      "water_sup_intervals_vip_min",
+      "window_pos_lee_sp",
+      "window_pos_lee_vip"
+    ],
+    "original_width_counts": {
+      "50": 47809
+    },
+    "source_header_fields": 50,
+    "normalized_data_fields": 50,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "assim_sp": 566,
+      "co2_dos": 2,
+      "co2_sp": 644,
+      "dx_sp": 652,
+      "int_blue_sp": 14,
+      "int_blue_vip": 20726,
+      "int_farred_sp": 14,
+      "int_farred_vip": 20726,
+      "int_red_sp": 14,
+      "int_red_vip": 20726,
+      "int_white_sp": 14,
+      "int_white_vip": 20726,
+      "scr_blck_sp": 554,
+      "scr_enrg_sp": 564,
+      "t_grow_min_sp": 1288,
+      "t_heat_sp": 540,
+      "t_rail_min_sp": 561,
+      "t_vent_sp": 542,
+      "water_sup_intervals_sp_min": 1182,
+      "window_pos_lee_sp": 560,
+      "AssimLight": 71,
+      "BlackScr": 71,
+      "CO2air": 71,
+      "Cum_irr": 71,
+      "EC_drain_PC": 71,
+      "EnScr": 71,
+      "HumDef": 71,
+      "PipeGrow": 71,
+      "PipeLow": 71,
+      "Rhair": 71,
+      "Tair": 71,
+      "Tot_PAR": 71,
+      "VentLee": 71,
+      "Ventwind": 71,
+      "assim_vip": 71,
+      "co2_vip": 71,
+      "dx_vip": 71,
+      "pH_drain_PC": 71,
+      "scr_blck_vip": 71,
+      "scr_enrg_vip": 71,
+      "t_grow_min_vip": 71,
+      "t_heat_vip": 71,
+      "t_rail_min_vip": 71,
+      "t_ventlee_vip": 71,
+      "t_ventwind_vip": 71,
+      "water_sup": 71,
+      "water_sup_intervals_vip_min": 71,
+      "window_pos_lee_vip": 71
+    },
+    "missing_lexeme_counts": {
+      " NaN": 85283,
+      "    NaN": 2,
+      "  NaN": 7318
+    },
+    "zero_cells_preserved": {
+      "AssimLight": 20327,
+      "PipeGrow": 25863,
+      "Tot_PAR": 11621,
+      "Tot_PAR_Lamps": 20398,
+      "Ventwind": 7979,
+      "assim_vip": 20258,
+      "t_rail_min_vip": 23885,
+      "int_blue_sp": 47384,
+      "int_farred_sp": 24977,
+      "int_white_sp": 24906,
+      "co2_dos": 13268,
+      "Cum_irr": 6804,
+      "water_sup": 6804,
+      "VentLee": 4487,
+      "PipeLow": 16907,
+      "int_blue_vip": 27069,
+      "int_farred_vip": 5324,
+      "int_white_vip": 5306,
+      "BlackScr": 21333,
+      "scr_blck_vip": 21859,
+      "scr_enrg_vip": 47228,
+      "scr_blck_sp": 21466,
+      "scr_enrg_sp": 46986,
+      "EnScr": 47215,
+      "t_rail_min_sp": 23307,
+      "int_red_vip": 5210,
+      "assim_sp": 19963,
+      "int_red_sp": 24165,
+      "t_grow_min_sp": 24529,
+      "t_grow_min_vip": 24570,
+      "window_pos_lee_sp": 28431,
+      "window_pos_lee_vip": 28459
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "AssimLight": [
+        "0",
+        "100"
+      ],
+      "BlackScr": [
+        "0",
+        "100"
+      ],
+      "CO2air": [
+        "396",
+        "1560"
+      ],
+      "Cum_irr": [
+        "0.0",
+        "10.4"
+      ],
+      "EC_drain_PC": [
+        "0.2",
+        "7.5"
+      ],
+      "EnScr": [
+        "0",
+        "100"
+      ],
+      "HumDef": [
+        "0.3",
+        "20.3"
+      ],
+      "PipeGrow": [
+        "0.0",
+        "69.1"
+      ],
+      "PipeLow": [
+        "0.0",
+        "66.3"
+      ],
+      "Rhair": [
+        "35.2",
+        "97.8"
+      ],
+      "Tair": [
+        "11.9",
+        "35.8"
+      ],
+      "Tot_PAR": [
+        "0",
+        "1090"
+      ],
+      "Tot_PAR_Lamps": [
+        "0",
+        "197"
+      ],
+      "VentLee": [
+        "0",
+        "100"
+      ],
+      "Ventwind": [
+        "0",
+        "100"
+      ],
+      "assim_vip": [
+        "0",
+        "100"
+      ],
+      "co2_vip": [
+        "300",
+        "967"
+      ],
+      "dx_vip": [
+        "0.9",
+        "9.4"
+      ],
+      "pH_drain_PC": [
+        "2.7",
+        "7.9"
+      ],
+      "scr_blck_vip": [
+        "0",
+        "100"
+      ],
+      "scr_enrg_vip": [
+        "0",
+        "100"
+      ],
+      "t_grow_min_vip": [
+        "0.0",
+        "40.0"
+      ],
+      "t_heat_vip": [
+        "6.8",
+        "27.5"
+      ],
+      "t_rail_min_vip": [
+        "0.0",
+        "40.0"
+      ],
+      "t_ventlee_vip": [
+        "13.0",
+        "37.5"
+      ],
+      "t_ventwind_vip": [
+        "13.0",
+        "37.5"
+      ],
+      "water_sup": [
+        "0.0",
+        "87.0"
+      ],
+      "water_sup_intervals_vip_min": [
+        "5",
+        "2000"
+      ],
+      "window_pos_lee_vip": [
+        "0.0",
+        "5.0"
+      ],
+      "co2_dos": [
+        "0.0000",
+        "0.0150"
+      ],
+      "int_blue_sp": [
+        "0",
+        "1000"
+      ],
+      "int_farred_sp": [
+        "0",
+        "1000"
+      ],
+      "int_red_sp": [
+        "0",
+        "1000"
+      ],
+      "int_white_sp": [
+        "0",
+        "1000"
+      ],
+      "int_blue_vip": [
+        "0",
+        "1000"
+      ],
+      "int_farred_vip": [
+        "0",
+        "1000"
+      ],
+      "int_red_vip": [
+        "0",
+        "1000"
+      ],
+      "int_white_vip": [
+        "0",
+        "1000"
+      ],
+      "scr_blck_sp": [
+        "0",
+        "100"
+      ],
+      "scr_enrg_sp": [
+        "0",
+        "95"
+      ],
+      "assim_sp": [
+        "0",
+        "100"
+      ],
+      "co2_sp": [
+        "300",
+        "967"
+      ],
+      "dx_sp": [
+        "0.9",
+        "9.4"
+      ],
+      "t_heat_sp": [
+        "6.8",
+        "27.5"
+      ],
+      "t_rail_min_sp": [
+        "0.0",
+        "40.0"
+      ],
+      "t_vent_sp": [
+        "13.0",
+        "37.5"
+      ],
+      "window_pos_lee_sp": [
+        "0.0",
+        "5.0"
+      ],
+      "water_sup_intervals_sp_min": [
+        "5",
+        "2000"
+      ],
+      "t_grow_min_sp": [
+        "0.0",
+        "40.0"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 2250038,
+      "missing_to_empty": 92603
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/TheAutomators/GreenhouseClimate.csv",
+    "processed_sha256": "1b4016e8e66114dc6ee85eadf2f2490b1eeba2cb5242f510db88d5ef15e17b3e",
+    "quarantine_file": "quarantine/TheAutomators/GreenhouseClimate.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/TheAutomators/GrodanSens.csv",
+    "source_sha256": "fe23908d3219a5e1bad354fd172d3e30096a72f49284c15d16b107bb9883a43d",
+    "team_directory_original": "TheAutomators",
+    "table_kind": "GrodanSens",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "EC_slab1",
+      "EC_slab2",
+      "WC_slab1",
+      "WC_slab2",
+      "t_slab1",
+      "t_slab2"
+    ],
+    "original_width_counts": {
+      "7": 47809
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 7,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "EC_slab1": 2310,
+      "EC_slab2": 2310,
+      "WC_slab1": 2310,
+      "WC_slab2": 2310,
+      "t_slab1": 2310,
+      "t_slab2": 2310
+    },
+    "missing_lexeme_counts": {
+      "  NaN": 13860
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815.00000",
+        "43981.00000"
+      ],
+      "EC_slab1": [
+        "4.3",
+        "6.5"
+      ],
+      "EC_slab2": [
+        "3.9",
+        "5.9"
+      ],
+      "WC_slab1": [
+        "63.1",
+        "94.0"
+      ],
+      "WC_slab2": [
+        "60.0",
+        "94.7"
+      ],
+      "t_slab1": [
+        "15.6",
+        "33.0"
+      ],
+      "t_slab2": [
+        "15.6",
+        "30.9"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815.00000",
+      "43981.00000"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "missing_to_empty": 13860,
+      "NFC_trim_numeric_lexeme": 272994
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/TheAutomators/GrodanSens.csv",
+    "processed_sha256": "82c05500bc82d4815591db6f957b2517703e6659155076b37686cbc17f9f2fb3",
+    "quarantine_file": "quarantine/TheAutomators/GrodanSens.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/TheAutomators/LabAnalysis.csv",
+    "source_sha256": "a93e0693d1020d4fa1b3651064868913aa9ead7c949737df952fcb90d440c918",
+    "team_directory_original": "TheAutomators",
+    "table_kind": "LabAnalysis",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "irr_PH",
+      "irr_EC",
+      "irr_NH4",
+      "irr_K",
+      "irr_Na",
+      "irr_Ca",
+      "irr_Mg",
+      "irr_Si",
+      "irr_NO3",
+      "irr_Cl",
+      "irr_SO4",
+      "irr_HCO3",
+      "irr_PO4",
+      "irr_Fe",
+      "irr_Mn",
+      "irr_Zn",
+      "irr_B",
+      "irr_Cu",
+      "irr_Mo",
+      "drain_PH",
+      "drain_EC",
+      "drain_NH4",
+      "drain_K",
+      "drain_Na",
+      "drain_Ca",
+      "drain_Mg",
+      "drain_Si",
+      "drain_NO3",
+      "drain_Cl",
+      "drain_SO4",
+      "drain_HCO3",
+      "drain_PO4",
+      "drain_Fe",
+      "drain_Mn",
+      "drain_Zn",
+      "drain_B",
+      "drain_Cu",
+      "drain_Mo"
+    ],
+    "original_width_counts": {
+      "39": 10
+    },
+    "source_header_fields": 39,
+    "normalized_data_fields": 39,
+    "source_records": 10,
+    "retained_normalized_records": 10,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 10,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43836",
+        "43963"
+      ],
+      "irr_PH": [
+        "4.7",
+        "6"
+      ],
+      "irr_EC": [
+        "2.9",
+        "4.3"
+      ],
+      "irr_NH4": [
+        "0.8",
+        "1.4"
+      ],
+      "irr_K": [
+        "9.1",
+        "15.2"
+      ],
+      "irr_Na": [
+        "0.2",
+        "0.4"
+      ],
+      "irr_Ca": [
+        "5.6",
+        "10.2"
+      ],
+      "irr_Mg": [
+        "1.9",
+        "4.9"
+      ],
+      "irr_Si": [
+        "0.009",
+        "0.09"
+      ],
+      "irr_NO3": [
+        "14.1",
+        "21.7"
+      ],
+      "irr_Cl": [
+        "0.2",
+        "8.2"
+      ],
+      "irr_SO4": [
+        "3.5",
+        "8.7"
+      ],
+      "irr_HCO3": [
+        "0.09",
+        "0.3"
+      ],
+      "irr_PO4": [
+        "2.14",
+        "4.2"
+      ],
+      "irr_Fe": [
+        "19.6",
+        "35"
+      ],
+      "irr_Mn": [
+        "14",
+        "24"
+      ],
+      "irr_Zn": [
+        "2.3",
+        "6.3"
+      ],
+      "irr_B": [
+        "22",
+        "57"
+      ],
+      "irr_Cu": [
+        "0.6",
+        "0.9"
+      ],
+      "irr_Mo": [
+        "0.1",
+        "0.6"
+      ],
+      "drain_PH": [
+        "4.8",
+        "7.1"
+      ],
+      "drain_EC": [
+        "4.4",
+        "7.2"
+      ],
+      "drain_NH4": [
+        "0.09",
+        "0.1"
+      ],
+      "drain_K": [
+        "2.2",
+        "18.6"
+      ],
+      "drain_Na": [
+        "0.6",
+        "1.5"
+      ],
+      "drain_Ca": [
+        "10.6",
+        "22.7"
+      ],
+      "drain_Mg": [
+        "5.1",
+        "11.1"
+      ],
+      "drain_Si": [
+        "0.09",
+        "1.3"
+      ],
+      "drain_NO3": [
+        "6.5",
+        "46.1"
+      ],
+      "drain_Cl": [
+        "0.09",
+        "21.2"
+      ],
+      "drain_SO4": [
+        "9.9",
+        "23.4"
+      ],
+      "drain_HCO3": [
+        "0.09",
+        "1.4"
+      ],
+      "drain_PO4": [
+        "0.42",
+        "9.32"
+      ],
+      "drain_Fe": [
+        "18.3",
+        "53"
+      ],
+      "drain_Mn": [
+        "0.8",
+        "27"
+      ],
+      "drain_Zn": [
+        "3.7",
+        "13"
+      ],
+      "drain_B": [
+        "37",
+        "134"
+      ],
+      "drain_Cu": [
+        "0.5",
+        "1.1"
+      ],
+      "drain_Mo": [
+        "0.09",
+        "0.94"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43836",
+      "43963"
+    ],
+    "delta_days_histogram": {
+      "14": 3,
+      "15": 4,
+      "13": 1,
+      "12": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 6
+    },
+    "cell_transformations": {},
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/TheAutomators/LabAnalysis.csv",
+    "processed_sha256": "69a1058ac328ad9de36aa7d252c894580cc05673b20f9762f145253ee84cab7e",
+    "quarantine_file": "quarantine/TheAutomators/LabAnalysis.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/TheAutomators/Production.csv",
+    "source_sha256": "09baea40d5db4cd92cc48785355cdb0aa8e17121ca64224ee12b3780e3ccb076",
+    "team_directory_original": "TheAutomators",
+    "table_kind": "Production",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time ",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "ProdA",
+      "ProdB",
+      "avg_nr_harvested_trusses",
+      "Truss development time",
+      "Nr_fruits_ClassA",
+      "Weight_fruits_ClassA",
+      "Nr_fruits_ClassB",
+      "Weight_fruits_ClassB"
+    ],
+    "original_width_counts": {
+      "9": 23
+    },
+    "source_header_fields": 9,
+    "normalized_data_fields": 9,
+    "source_records": 23,
+    "retained_normalized_records": 23,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 23,
+    "missing_cells": {
+      "Nr_fruits_ClassA": 1
+    },
+    "missing_lexeme_counts": {
+      "NaN": 1
+    },
+    "zero_cells_preserved": {
+      "ProdB": 21,
+      "Nr_fruits_ClassB": 21,
+      "Weight_fruits_ClassB": 21
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43880",
+        "43980"
+      ],
+      "ProdA": [
+        "0.037",
+        "1.213"
+      ],
+      "ProdB": [
+        "0",
+        "0.011"
+      ],
+      "avg_nr_harvested_trusses": [
+        "0.1",
+        "2.1"
+      ],
+      "Truss development time": [
+        "31.8",
+        "55.1"
+      ],
+      "Weight_fruits_ClassA": [
+        "128",
+        "2613"
+      ],
+      "Nr_fruits_ClassB": [
+        "0",
+        "19"
+      ],
+      "Weight_fruits_ClassB": [
+        "0",
+        "185"
+      ],
+      "Nr_fruits_ClassA": [
+        "48",
+        "232"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43880",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "5": 13,
+      "4": 8,
+      "3": 1
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "missing_to_empty": 1
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "processed_file": "tables/TheAutomators/Production.csv",
+    "processed_sha256": "d860f201568107fc3db8d2bacb077f3d37008516834e81c7510f1a6718b2789b",
+    "quarantine_file": "quarantine/TheAutomators/Production.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/TheAutomators/Resources.csv",
+    "source_sha256": "b86908bf10040b2974ecb749dabf3a7cb1ec33df57d6fffb88424e3750c44dd0",
+    "team_directory_original": "TheAutomators",
+    "table_kind": "Resources",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%Time ",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Heat_cons",
+      "ElecHigh",
+      "ElecLow",
+      "CO2_cons",
+      "Irr",
+      "Drain"
+    ],
+    "original_width_counts": {
+      "7": 166
+    },
+    "source_header_fields": 7,
+    "normalized_data_fields": 7,
+    "source_records": 166,
+    "retained_normalized_records": 166,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 166,
+    "missing_cells": {},
+    "missing_lexeme_counts": {},
+    "zero_cells_preserved": {
+      "ElecLow": 23,
+      "Irr": 4,
+      "Drain": 7,
+      "ElecHigh": 21
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815",
+        "43980"
+      ],
+      "Heat_cons": [
+        "0.1",
+        "4.38"
+      ],
+      "ElecHigh": [
+        "0",
+        "1.9"
+      ],
+      "ElecLow": [
+        "0",
+        "0.9"
+      ],
+      "CO2_cons": [
+        "0.007",
+        "0.16"
+      ],
+      "Irr": [
+        "0",
+        "10.44"
+      ],
+      "Drain": [
+        "0",
+        "6.11"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "1": 165
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {},
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/TheAutomators/Resources.csv",
+    "processed_sha256": "ca43bb88ea8f331cd23891e26de791d2f614b17d164188fe5fc7f800af40c032",
+    "quarantine_file": "quarantine/TheAutomators/Resources.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/TheAutomators/TomQuality.csv",
+    "source_sha256": "e33a39f1a15186b02e5a19e0e25c995ac0632d27f61d3398039d95748f34333c",
+    "team_directory_original": "TheAutomators",
+    "table_kind": "TomQuality",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "Flavour ",
+      "TSS",
+      "Acid",
+      "%Juice",
+      "Bite",
+      "Weight",
+      "DMC_fruit"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "Flavour",
+      "TSS",
+      "Acid",
+      "%Juice",
+      "Bite",
+      "Weight",
+      "DMC_fruit"
+    ],
+    "original_width_counts": {
+      "8": 8
+    },
+    "source_header_fields": 8,
+    "normalized_data_fields": 8,
+    "source_records": 8,
+    "retained_normalized_records": 8,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 8,
+    "missing_cells": {
+      "DMC_fruit": 2
+    },
+    "missing_lexeme_counts": {
+      "NaN": 2
+    },
+    "zero_cells_preserved": {},
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43880",
+        "43980"
+      ],
+      "Flavour": [
+        "72",
+        "82"
+      ],
+      "TSS": [
+        "8.0",
+        "9.60"
+      ],
+      "Acid": [
+        "11.8",
+        "14.5"
+      ],
+      "%Juice": [
+        "56",
+        "66"
+      ],
+      "Bite": [
+        "179",
+        "382"
+      ],
+      "Weight": [
+        "8.5",
+        "11.6"
+      ],
+      "DMC_fruit": [
+        "8.19",
+        "9.46"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43880",
+      "43980"
+    ],
+    "delta_days_histogram": {
+      "14": 6,
+      "16": 1
+    },
+    "flags_overlapping": {
+      "interval_differs_from_documented_cadence": 1
+    },
+    "cell_transformations": {
+      "NFC_trim_numeric_lexeme": 9,
+      "missing_to_empty": 2
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "Flavour ",
+        "after": "Flavour"
+      }
+    ],
+    "processed_file": "tables/TheAutomators/TomQuality.csv",
+    "processed_sha256": "b9854bdb10fc9949de76a5b94a0e346dc4d7d49705c9aa4a8d8cee531f1bc6fc",
+    "quarantine_file": "quarantine/TheAutomators/TomQuality.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_file": "source_files/Weather/Weather.csv",
+    "source_sha256": "a9d7446a17496cf9c018b8b8aa40424c54a2d224ae72952923f0256cad0f1e55",
+    "team_directory_original": "Weather",
+    "table_kind": "Weather",
+    "encoding": "utf-8-sig strict",
+    "delimiter": ",",
+    "original_headers": [
+      "%time",
+      "AbsHumOut",
+      "Iglob",
+      "PARout",
+      "Pyrgeo",
+      "RadSum",
+      "Rain",
+      "Rhout",
+      "Tout",
+      "Winddir",
+      "Windsp"
+    ],
+    "normalized_headers": [
+      "time_excel_serial",
+      "AbsHumOut",
+      "Iglob",
+      "PARout",
+      "Pyrgeo",
+      "RadSum",
+      "Rain",
+      "Rhout",
+      "Tout",
+      "Winddir",
+      "Windsp"
+    ],
+    "original_width_counts": {
+      "11": 47809
+    },
+    "source_header_fields": 11,
+    "normalized_data_fields": 11,
+    "source_records": 47809,
+    "retained_normalized_records": 47809,
+    "quarantined_records": 0,
+    "excluded_records": 0,
+    "needs_review_retained_records": 47809,
+    "missing_cells": {
+      "AbsHumOut": 71,
+      "Iglob": 71,
+      "PARout": 71,
+      "Pyrgeo": 71,
+      "RadSum": 71,
+      "Rain": 71,
+      "Rhout": 71,
+      "Tout": 71,
+      "Winddir": 71,
+      "Windsp": 71
+    },
+    "missing_lexeme_counts": {
+      "NaN": 710
+    },
+    "zero_cells_preserved": {
+      "Iglob": 25027,
+      "PARout": 20007,
+      "Rain": 44851,
+      "RadSum": 15265,
+      "Windsp": 4599,
+      "Tout": 6,
+      "Pyrgeo": 16
+    },
+    "numeric_ranges_audit_only": {
+      "time_excel_serial": [
+        "43815",
+        "43981"
+      ],
+      "AbsHumOut": [
+        "0.87909926",
+        "12.42713358"
+      ],
+      "Iglob": [
+        "0",
+        "1505"
+      ],
+      "PARout": [
+        "0",
+        "2010"
+      ],
+      "Pyrgeo": [
+        "-136",
+        "0"
+      ],
+      "RadSum": [
+        "0",
+        "2999"
+      ],
+      "Rain": [
+        "0",
+        "1"
+      ],
+      "Rhout": [
+        "10.100003",
+        "99.7"
+      ],
+      "Tout": [
+        "-0.2",
+        "27.29999993"
+      ],
+      "Winddir": [
+        "1",
+        "128"
+      ],
+      "Windsp": [
+        "0",
+        "21.8999999"
+      ]
+    },
+    "timestamp_min_max_serial": [
+      "43815",
+      "43981"
+    ],
+    "delta_days_histogram": {
+      "0.00347": 37184,
+      "0.00348": 10624
+    },
+    "flags_overlapping": {},
+    "cell_transformations": {
+      "missing_to_empty": 710
+    },
+    "header_transformations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "processed_file": "tables/Weather/Weather.csv",
+    "processed_sha256": "d0db9db10ee10b8f22ecc8814a2cbe166b99f466bcf5e2a6236c67290c6d7669",
+    "quarantine_file": "quarantine/Weather/Weather.csv.jsonl",
+    "quarantine_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

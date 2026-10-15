@@ -1,0 +1,87 @@
+[
+  {
+    "scope": "processed",
+    "file": "claim-evidence-sidecar.json",
+    "sha256": "60b2eb98c2e18126fa7e352d52dc04b83a03250a5197de722295b8e1fd782e6c"
+  },
+  {
+    "scope": "processed",
+    "file": "mapping-sidecar.json",
+    "sha256": "40bdfddb5fbe39b4d1cb3d119591b545045f54c6c820281b0a867e82de0e6684"
+  },
+  {
+    "scope": "report",
+    "file": "attribution-rights-ledger.json",
+    "sha256": "717d3fc01b2857b3f36c1054b0f2a55d1c9871c6220a893a4f348365d01a1803"
+  },
+  {
+    "scope": "report",
+    "file": "checkpoint.json",
+    "sha256": "ea34a3a4bf2145364e6105518691693e948ddd9ee62282a326fc7ed050288126"
+  },
+  {
+    "scope": "report",
+    "file": "config.json",
+    "sha256": "65a6966576e79b0d73b241c65740fc3295c871ca7b98c7c3de48a54bdb05a194"
+  },
+  {
+    "scope": "report",
+    "file": "data-dictionary.json",
+    "sha256": "ac81ecf5c05933428ddbaeda2ecdf6d6036fd6d20bc9014b6d49aee6c1471d61"
+  },
+  {
+    "scope": "report",
+    "file": "preflight.json",
+    "sha256": "7c061385eaf3685e6a1355bf2612e63ea5ca54abb5762d1948909cda8a537919"
+  },
+  {
+    "scope": "report",
+    "file": "preservation-after.json",
+    "sha256": "d7fa1ac2664eb6b6a09eefa81433c9670720e691eb132aa6a510691642d85f1b"
+  },
+  {
+    "scope": "report",
+    "file": "preservation-before.json",
+    "sha256": "d7fa1ac2664eb6b6a09eefa81433c9670720e691eb132aa6a510691642d85f1b"
+  },
+  {
+    "scope": "report",
+    "file": "README.md",
+    "sha256": "0f22d758eeb8b977a3b7f4e8d160fa109c31cd8728b905a1651a4ef24a4ec546"
+  },
+  {
+    "scope": "report",
+    "file": "registry-before.json",
+    "sha256": "3062d84311ab8dd6f524d3807829b918fd5f4c303549ba6c94aa7d73e9df828a"
+  },
+  {
+    "scope": "report",
+    "file": "request-log.json",
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  },
+  {
+    "scope": "report",
+    "file": "review-queue.json",
+    "sha256": "a29ee7bf2174c8a9de4325e9c9811cae91758deb853c4f6d93126737c8a065d9"
+  },
+  {
+    "scope": "report",
+    "file": "schema.json",
+    "sha256": "9f33f13a9c5779de2f5584148df5f7ea2d28d1a2e8ea5742799abdc204873add"
+  },
+  {
+    "scope": "report",
+    "file": "source-processed-manifest.json",
+    "sha256": "48af994c0336f90b3d186b161dd41794dbeb3e081ccd1e6563a657aef81f35fe"
+  },
+  {
+    "scope": "report",
+    "file": "summary.json",
+    "sha256": "4890d38cf1764de36cfcf16fb026f5009f74694789b3cb7577c88f4bd99ba3d0"
+  },
+  {
+    "scope": "report",
+    "file": "transformation-log.json",
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  }
+]

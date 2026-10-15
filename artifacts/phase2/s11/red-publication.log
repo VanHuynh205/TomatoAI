@@ -1,0 +1,21 @@
+test_publication (unittest.loader._FailedTest.test_publication) ... ERROR
+
+======================================================================
+ERROR: test_publication (unittest.loader._FailedTest.test_publication)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_publication
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\knowledge\test_publication.py", line 11, in <module>
+    from scripts.knowledge import curate, publish
+ImportError: cannot import name 'publish' from 'scripts.knowledge' (unknown location)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

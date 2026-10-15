@@ -1,0 +1,26 @@
+{
+  "date_local": "2026-10-15",
+  "scope": "selected primary-source checks, not a complete vulnerability audit",
+  "torch_version_candidate": "2.14.1+cpu",
+  "advisories_reviewed": [
+    {
+      "id": "GHSA-63cw-57p8-fm3p",
+      "url": "https://github.com/pytorch/pytorch/security/advisories/GHSA-63cw-57p8-fm3p",
+      "affected": "<=2.9.1",
+      "patched": ">=2.10.0"
+    },
+    {
+      "id": "GHSA-53q9-r3pm-6pq6",
+      "url": "https://github.com/pytorch/pytorch/security/advisories/GHSA-53q9-r3pm-6pq6",
+      "affected": "<=2.5.1",
+      "patched": "2.6.0"
+    }
+  ],
+  "assessment": "Candidate exceeds these two patched ranges; this does not prove absence of other vulnerabilities. No checkpoint is loaded by the Phase 0 diagnostic. Review current advisories again before S05/S18.",
+  "sources": [
+    "https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+    "https://github.com/pytorch/pytorch/security/advisories",
+    "https://doc.qt.io/qtforpython-6/licenses.html",
+    "https://pyinstaller.org/en/stable/license.html"
+  ]
+}

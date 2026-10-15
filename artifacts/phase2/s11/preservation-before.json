@@ -1,0 +1,615 @@
+{
+  "scope": "Pre-S11 preserved inputs; raw hashes inherited from earlier scoped preservation, not full raw rescan",
+  "files": [
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/epic-desktop-slice/tickets.toml",
+      "bytes": 1305,
+      "sha256": "3a1341bdeef17e0106721f8ef21f5c8f559e8fa2ab928da29b062a62d5531c37"
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/epic-evidence-defense/tickets.toml",
+      "bytes": 2298,
+      "sha256": "64182a9eeb045a95a96fbfa7d7c0d2f32298bcbdedc56ac1c42e043012a42b99"
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/epic-governance-data/tickets.toml",
+      "bytes": 3187,
+      "sha256": "cced24aa075b2c4d5ce7e6be7be6c5518c17b29edc744b5ee305232f68156cd7"
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/epic-knowledge-learning/tickets.toml",
+      "bytes": 4640,
+      "sha256": "899a341c5d1b9d58f48bae4ad1f4f319c19e847ee506da47f063c7c4838d8626"
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/epic-model-comparison/tickets.toml",
+      "bytes": 3611,
+      "sha256": "d8a2a7482c6f7238d17dba9816041bd11cbe0d81a7bb07b8cbe19ce6ce870e2a"
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/epic-offline-release/tickets.toml",
+      "bytes": 4150,
+      "sha256": "eb3de99daed825e0543bf7462b2ee693d505107535e025b26c4fae4a6cce1420"
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/tickets.toml",
+      "bytes": 1781,
+      "sha256": "11f32aea00837ab0a9287990ef04a631592ecf95bf22039f7e783f9034634523"
+    },
+    {
+      "path": "artifacts/phase2/c3-policy-decision.json",
+      "bytes": 2762,
+      "sha256": "d45220c90aebf58d7d0ecf35915c063887f6fd97e3130e73410e97f40774f9fc"
+    },
+    {
+      "path": "content/phase2-healthy-v1-bundle/card-draft.json",
+      "bytes": 469668,
+      "sha256": "7ebb08f4c60c7421d90abf29bf0285aaff200d1d23f3570e9fdd036dd4bc8666"
+    },
+    {
+      "path": "content/phase2-healthy-v1/review-inputs.json",
+      "bytes": 9221,
+      "sha256": "71081c5a62f531114ae82a935db255b8001732448003fb3dac67706bb4c507e4"
+    },
+    {
+      "path": "data/TomatoAI/data/dataset-registry.json",
+      "bytes": 16148,
+      "sha256": "d962b34f3b4d0a66129b1e0d16fb360339d01d6d1d3326f3f9c5e3ddc7a4682a"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/bacterial_spot.json",
+      "bytes": 10565,
+      "sha256": "a094f436ce181cea0d04c8954a18bc4be694f2c217f600a314fdd29fb7076fe4"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/cercospora_leaf_spot.json",
+      "bytes": 10018,
+      "sha256": "e7b7e92b23993e6dc775143daec40112d8e6af09ca088b975624296acf5074c2"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/early_blight.json",
+      "bytes": 10244,
+      "sha256": "43405f6dea3045f367a2e95041bea3e9ea1d2828ecdb175e4507169daa6a03b7"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/flea_beetle_injury.json",
+      "bytes": 9669,
+      "sha256": "2aa3e2fae37140f235f34e9904ab2eeca1a88209f1ef59532edff382802a0029"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/fusarium_wilt.json",
+      "bytes": 10608,
+      "sha256": "5c579dcac566fde8c5f885ea308b58124452a45c718b7b5663ae4dfe9ecd2a2e"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/healthy.json",
+      "bytes": 8546,
+      "sha256": "67293d2b1407563f69165391997f2abc979e67a82653399b0b1f352797bbe7cf"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/late_blight.json",
+      "bytes": 9733,
+      "sha256": "125edf6314f60d640c9ca4d52f68bf245127752bc9cd50d6ccd792d4cd3e79be"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/leaf_curl_virus.json",
+      "bytes": 9886,
+      "sha256": "6821b1fbe3386cceef93dd15be5303b6581b00557a7ee2e252bbe4f771413c4a"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/leaf_miner.json",
+      "bytes": 10179,
+      "sha256": "514719459c09e521c6f3acf55dbcd6567718135a079a3b6e4d4a0dd409fe73fb"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/leaf_mold.json",
+      "bytes": 10400,
+      "sha256": "78c26a1746895e521f77ab034e9fb5e00c9e231290c714bb998fbbb78cb1b541"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/mosaic_virus.json",
+      "bytes": 10248,
+      "sha256": "6b76a3b89bb03e7b641fde6d3f56e99508dc34a524fff78f6912e5d469da4b91"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/pest_damage.json",
+      "bytes": 9857,
+      "sha256": "55b2ec9a26f3281b46273f3de6c65dcfe2cd4028431fc50dac4f0be2c3be6ad0"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/septoria_leaf_spot.json",
+      "bytes": 9538,
+      "sha256": "ccb94ef907aabada792ad2fe788cb8eb12437db820c6da69cfa02cd51529dcce"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/spider_mites.json",
+      "bytes": 9488,
+      "sha256": "03fb210c7e24eaa8c87c4594dcbe0ecfb53fea583da9b52f4d8e15231439e67c"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/target_spot.json",
+      "bytes": 10056,
+      "sha256": "a281acc678fc1e2c8f83dbf922eb81a7b1d5c5858d41a3efa6f2b3daee9265a6"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/yellow_leaf_curl_virus.json",
+      "bytes": 9604,
+      "sha256": "b4e27730b0cd03bb1f9df8508672d0c31c1555381a4e9fb86bd4fd0756d0d7be"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/yellowing_symptom.json",
+      "bytes": 8928,
+      "sha256": "0d4df0aa6a414d2e560aaa98f80d47151771fdfb66be301110aba0ed38091a3b"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/glossary-vi-draft.json",
+      "bytes": 4823,
+      "sha256": "ba8cd247371fb669ef8f08129a02edaa9365cf93ad84c7b1689f7199926a77e2"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/label-knowledge-mapping.json",
+      "bytes": 5916,
+      "sha256": "ef4deb152c6c3983ef428ff0f0036ac33ae56cb16ec359ebd0c5807ac8020abd"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/manifest.csv",
+      "bytes": 10167,
+      "sha256": "983d30876379ab0ff3f534d39c8b5f127451c054cf6a37c87bf284e67024d689"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/manifest.jsonl",
+      "bytes": 16627,
+      "sha256": "916b759a086e4479d255302868187f5a0dc8edc0048535fe2a77ffe767f20539"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/bacterial_spot.json",
+      "bytes": 9207,
+      "sha256": "6e4d26ee491a342186ceed4eeb4ee462910e52a958d8703fb91710d219ce4d4a"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/cercospora_leaf_spot.json",
+      "bytes": 8671,
+      "sha256": "2a2abe4dd771ddac0c449c9132d1499a0ae5a52f28e84d2da02e29ad7e5e3981"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/early_blight.json",
+      "bytes": 8845,
+      "sha256": "116b99489eb11c4fdaafbc5bf1f3eadfde8f97da089cbfa8005d0c47ef19df22"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/flea_beetle_injury.json",
+      "bytes": 8286,
+      "sha256": "7967340a5374beb4f5c5724e815b06115d92c329fa070f6f54dad24785500e2e"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/fusarium_wilt.json",
+      "bytes": 9227,
+      "sha256": "0ffcaaf3d97b0c57763855c429bb0c62e467fe29b18d6e9151b75329d0fd5e9b"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/healthy.json",
+      "bytes": 7244,
+      "sha256": "89a50caefe302b04ac61b3ccfd35f43054335be3ad5bf63eb8a9cd0025cddb83"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/late_blight.json",
+      "bytes": 8370,
+      "sha256": "7dd880416b12b60d2e8f7f8caf4ca5c2c09a47530a016e12b3965a2c9b0dacf6"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/leaf_curl_virus.json",
+      "bytes": 8549,
+      "sha256": "ac7434ae5f3e8cb9e567eb63b1e46856dda08db1544be45fc25729c78d86e1d5"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/leaf_miner.json",
+      "bytes": 8813,
+      "sha256": "a00d17f2ca603210b9bef36bcdfad9dc745cc6836a9df45edf3a95312885b062"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/leaf_mold.json",
+      "bytes": 9084,
+      "sha256": "52a8c08a99e4e7349e711e937698a06f9eddb7083956503ba14e483a92961945"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/mosaic_virus.json",
+      "bytes": 8805,
+      "sha256": "e1c41cff82cb18471ecf6a2be5aa0376515cb2d8cced2ac04f341d9255fb4549"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/pest_damage.json",
+      "bytes": 8447,
+      "sha256": "d3a9f98fce44373a6f7eebd21f9f80cf56615601c7a80d209fef5be2e7274e14"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/septoria_leaf_spot.json",
+      "bytes": 8218,
+      "sha256": "ed9c0a7e796960ef1c0000e15b186858b6a836f78fc7b734a5dd3dc2ecdf8984"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/spider_mites.json",
+      "bytes": 8192,
+      "sha256": "dc45aaba7b03aaf74db32b2a0a5333a1f9056f010725bb73e55a27310604e22a"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/target_spot.json",
+      "bytes": 8742,
+      "sha256": "45dce16d0bf9a3e743565785a647e5d40856b0f8903439ff3291a816ea546724"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "bytes": 8254,
+      "sha256": "44e771c051a46c3418ead39cabd341c8a739fdce7b0c3981f38753b104349167"
+    },
+    {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/source-copies/disease_kb/tomato/yellowing_symptom.json",
+      "bytes": 7585,
+      "sha256": "819e32f37dce0d4010fb85719afbe2b2bb99864ba4f1b7d6675c1a5be42a63eb"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/.gitignore",
+      "bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/CACHEDIR.TAG",
+      "bytes": 195,
+      "sha256": "e8893e2dcb3f4545ef67a0a5b7b769113d38eef1aa61c7c7ba14659b02af955f"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/README.md.metadata",
+      "bytes": 104,
+      "sha256": "62674478bfef93be9f40c2e561dd493c2f24466b14d431cfeb5d0b362b51c4c3"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/bacterial_spot.json.metadata",
+      "bytes": 104,
+      "sha256": "443aa45d2eff9676846336e33eaf328ee326e7f278855a7e40a671e6c2526fb6"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/cercospora_leaf_spot.json.metadata",
+      "bytes": 104,
+      "sha256": "f901130286c809d651be080a164a33221b41da4a441d49f3f0916374bcbd5027"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/early_blight.json.metadata",
+      "bytes": 104,
+      "sha256": "de87d02fce4b113da24676ca8b6d009c1693753d7a21f9c25615ed8e755d821b"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/flea_beetle_injury.json.metadata",
+      "bytes": 103,
+      "sha256": "9e598904d5254b7191964acf59e07e495a38bde0f7335e5ce440e7e394a67ffc"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/fusarium_wilt.json.metadata",
+      "bytes": 104,
+      "sha256": "a09753d38fb5e82373bbde353d4e71a48f2c1f582954b231eb044294eb5d8429"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/healthy.json.metadata",
+      "bytes": 104,
+      "sha256": "2bc399404beb9028da59915642cdcdf1fcdf94d671ce2bc15ab4b36a5a366ba2"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/late_blight.json.metadata",
+      "bytes": 104,
+      "sha256": "e2f7b89a0a7635870f7d2b1816539892d56af8e6b3ad41225ec66447dd3ef3ed"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/leaf_curl_virus.json.metadata",
+      "bytes": 103,
+      "sha256": "26fa1f2267dd933b9778e201166472fcadbac81e47b1d3612b6b379ba3961b71"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/leaf_miner.json.metadata",
+      "bytes": 104,
+      "sha256": "7c4b6ca3c47132465c3b7bc6b539b0ddf42644fa308d44941bee11fb9243c2b3"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/leaf_mold.json.metadata",
+      "bytes": 104,
+      "sha256": "8b3ff30ec7b79d03515749f314e4e6b7c7840875e7ed7e6d50e6a07075d3aaa3"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/mosaic_virus.json.metadata",
+      "bytes": 104,
+      "sha256": "da14726f8ad63d40c57865ea52ac790c166e82bb89b82bf35e169b2a2606ec75"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/pest_damage.json.metadata",
+      "bytes": 104,
+      "sha256": "bbe49d6af74c57feca1a84aa565bdbf818ea9e61608b95ba1a93e5d8339d42cc"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/septoria_leaf_spot.json.metadata",
+      "bytes": 103,
+      "sha256": "279e8a0a7ba70a39c3fe047936bbc971f1dcaeec6c76e0278ba5d836f805f870"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/spider_mites.json.metadata",
+      "bytes": 103,
+      "sha256": "6a21f5ffbcdaa38f36f946cbe7d9e8f229ee4ae8da24f4cc950ea4c27add5dfc"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/target_spot.json.metadata",
+      "bytes": 103,
+      "sha256": "f06aff7e36a1a81da62dedd4b8f53f2543270b8cf7fed88e016352bec8891b93"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/yellow_leaf_curl_virus.json.metadata",
+      "bytes": 104,
+      "sha256": "e3385d8088d87a691232e17cf424300dd1141c3ba5464f151c02abc679e1988d"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/download/disease_kb/tomato/yellowing_symptom.json.metadata",
+      "bytes": 103,
+      "sha256": "9e68cf0ad8c18f1c17d3e14351ef154f4b50d9209fea950d41e36fa43d0e50c9"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/.cache/huggingface/trees/e21eacc1eff9e1db38966d78d0e8af2f22706313.json",
+      "bytes": 3144423,
+      "sha256": "5ef70bf28ebda9e3629a6ec71def6886930c77e6c26111b1c2d32f7a971214ed"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/README.md",
+      "bytes": 7319,
+      "sha256": "c654e0585666f4b9b258a14cd16d9ae5dac71be3313f3be71873d9bf53e52807"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/bacterial_spot.json",
+      "bytes": 9207,
+      "sha256": "6e4d26ee491a342186ceed4eeb4ee462910e52a958d8703fb91710d219ce4d4a"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/cercospora_leaf_spot.json",
+      "bytes": 8671,
+      "sha256": "2a2abe4dd771ddac0c449c9132d1499a0ae5a52f28e84d2da02e29ad7e5e3981"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/early_blight.json",
+      "bytes": 8845,
+      "sha256": "116b99489eb11c4fdaafbc5bf1f3eadfde8f97da089cbfa8005d0c47ef19df22"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/flea_beetle_injury.json",
+      "bytes": 8286,
+      "sha256": "7967340a5374beb4f5c5724e815b06115d92c329fa070f6f54dad24785500e2e"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/fusarium_wilt.json",
+      "bytes": 9227,
+      "sha256": "0ffcaaf3d97b0c57763855c429bb0c62e467fe29b18d6e9151b75329d0fd5e9b"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/healthy.json",
+      "bytes": 7244,
+      "sha256": "89a50caefe302b04ac61b3ccfd35f43054335be3ad5bf63eb8a9cd0025cddb83"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/late_blight.json",
+      "bytes": 8370,
+      "sha256": "7dd880416b12b60d2e8f7f8caf4ca5c2c09a47530a016e12b3965a2c9b0dacf6"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/leaf_curl_virus.json",
+      "bytes": 8549,
+      "sha256": "ac7434ae5f3e8cb9e567eb63b1e46856dda08db1544be45fc25729c78d86e1d5"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/leaf_miner.json",
+      "bytes": 8813,
+      "sha256": "a00d17f2ca603210b9bef36bcdfad9dc745cc6836a9df45edf3a95312885b062"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/leaf_mold.json",
+      "bytes": 9084,
+      "sha256": "52a8c08a99e4e7349e711e937698a06f9eddb7083956503ba14e483a92961945"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/mosaic_virus.json",
+      "bytes": 8805,
+      "sha256": "e1c41cff82cb18471ecf6a2be5aa0376515cb2d8cced2ac04f341d9255fb4549"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/pest_damage.json",
+      "bytes": 8447,
+      "sha256": "d3a9f98fce44373a6f7eebd21f9f80cf56615601c7a80d209fef5be2e7274e14"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/septoria_leaf_spot.json",
+      "bytes": 8218,
+      "sha256": "ed9c0a7e796960ef1c0000e15b186858b6a836f78fc7b734a5dd3dc2ecdf8984"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/spider_mites.json",
+      "bytes": 8192,
+      "sha256": "dc45aaba7b03aaf74db32b2a0a5333a1f9056f010725bb73e55a27310604e22a"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/target_spot.json",
+      "bytes": 8742,
+      "sha256": "45dce16d0bf9a3e743565785a647e5d40856b0f8903439ff3291a816ea546724"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "bytes": 8254,
+      "sha256": "44e771c051a46c3418ead39cabd341c8a739fdce7b0c3981f38753b104349167"
+    },
+    {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/yellowing_symptom.json",
+      "bytes": 7585,
+      "sha256": "819e32f37dce0d4010fb85719afbe2b2bb99864ba4f1b7d6675c1a5be42a63eb"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/README.md",
+      "bytes": 26570,
+      "sha256": "65f52b21bce112fcdf780dbb3b454ea810a9a993ff4bfc4a3f926f1a374ba342"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/aliases.json",
+      "bytes": 36379,
+      "sha256": "9e68e85874615b97950ee1eeff8e806e6ac8ba850e42fa8703f9dd8a7766e2ab"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/artifact-seal.json",
+      "bytes": 6277,
+      "sha256": "ca11dc07099852635a52af7b9eb01a169c3d5de2b44a6fbf1bd99ccb16980837"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/bmad-status.json",
+      "bytes": 2322,
+      "sha256": "e52b38eb39b6def80e87c5cdc77fb8c67ec2cbce13b6fa45829942803de170ea"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/card-review-summary.json",
+      "bytes": 7453,
+      "sha256": "b39a936a5030d6205746e939b8cabf25803af8c5654b978bc38ea24a3f7acba9"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/claim-ledger.json",
+      "bytes": 227685,
+      "sha256": "e22895db0ab0428018a640099dd543eb6791db08308ed0793c86bb5be89b1ecf"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/class-manifest.proposed.json",
+      "bytes": 1264,
+      "sha256": "3e7f5184ad91d24702fb478210ea4d5097d974e9d30524ca9ce47fadde1d2e63"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/decisions.json",
+      "bytes": 7240,
+      "sha256": "471578a56756089ec1ad981c3f4ce61577f2886a3a1f7344482385e5c57be4d5"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/evidence.json",
+      "bytes": 7427,
+      "sha256": "32ac72eabaeccde0fd7605591d1d3e8a315d8c7cffe6aa9e504d6dd19b3d5dbc"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/findings.json",
+      "bytes": 6900,
+      "sha256": "055c838ebd6b34d0a8a1ce5a34759ce732f646dbc6c40c73b2f6dd1281031cea"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/integrity-after.json",
+      "bytes": 26432,
+      "sha256": "9ee294c8f64232e0422619deca0df1fc615623dc1068a64538d119a12689a09f"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/integrity-before.json",
+      "bytes": 26432,
+      "sha256": "9ee294c8f64232e0422619deca0df1fc615623dc1068a64538d119a12689a09f"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/lens-findings.json",
+      "bytes": 7660,
+      "sha256": "1429b5655b9112e71044514951b7ceda533ab1924484091a54ebbc5fed28b33e"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/lookup-bundle.json",
+      "bytes": 443726,
+      "sha256": "65e920ce9da63ad74d325564d04e9316120ef1cc3c7c2e7c8aabc34a0fedb61d"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/mapping.csv",
+      "bytes": 15083,
+      "sha256": "0f2ffbe814818f007c62fcc9f18359cee65e00507d1ee0c71d553f121f32ddf8"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/mapping.json",
+      "bytes": 21036,
+      "sha256": "6f9251e6f5afea5463715bfebda1f81650b8470a8c4b8c6463aa165a2bedb1e7"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/mapping.md",
+      "bytes": 4133,
+      "sha256": "9b23b67c44151a6d8624c87581d300f7feb28de2cbf37727653feccbd898bfc6"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/planning-README-before.md",
+      "bytes": 11496,
+      "sha256": "6ceff8acf6365345b1769c3dec8221fa24124c651977c75ed58a0a5623713cf0"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/planning-before.json",
+      "bytes": 5940,
+      "sha256": "4f700ae4f7875970a055f9ca4a477abf0a13b9e09bab1f96e69daa6e455909a5"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/provenance.json",
+      "bytes": 5062,
+      "sha256": "26ec4d73b851ddfdb598f3df3b79cf75a32d33da9b394ec003687cee11533dee"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/reference-link-review.json",
+      "bytes": 32302,
+      "sha256": "277d625350f2831b838dad078ae0c757672308706c585443b1a52b26ddba96ba"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/review-input.md",
+      "bytes": 1355,
+      "sha256": "b1926cd6e26b176db6dcc8be60c7ea4b5c4f54dd8dba1e13490dbed0de5e3f51"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/review-queue.json",
+      "bytes": 168293,
+      "sha256": "89ccde557db6443c08361d7f8af3bb55498f4ab294c3c949e25bf44987c6d83c"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/structure-findings.md",
+      "bytes": 2111,
+      "sha256": "634034ccb5e2e2a385725eea96a96068653e11668ef4bfb811bdebdebb7ee5b5"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/tests.txt",
+      "bytes": 3316,
+      "sha256": "96917f3f33c6d9588c2b9621f920f7003493d570834f797fdf191cb74aa5735c"
+    },
+    {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/verification.json",
+      "bytes": 10671,
+      "sha256": "f77eba3fbfb3b877b219559aabb29c9d8ca6a9d7abd6e933fc25414071b0ffc2"
+    },
+    {
+      "path": "docs/development/assets-rights.json",
+      "bytes": 91457,
+      "sha256": "031ff6b6686f862fee917ef9e2e591821d59dda2c26a28a1002b3ff4715d214a"
+    },
+    {
+      "path": "planning/tomato-desktop/knowledge-localization-edtech.md",
+      "bytes": 9680,
+      "sha256": "4f33e5692bd7c2620590792847b6528400d081c05f7ff16fb0e0bd03cbae18c1"
+    },
+    {
+      "path": "scripts/data/clean_plantexpert.py",
+      "bytes": 29357,
+      "sha256": "13084f96ff8025f407e27e703ec3b43d81677d4ec8746fdf15b895e727be217c"
+    },
+    {
+      "path": "scripts/data/clean_plantvillage.py",
+      "bytes": 26334,
+      "sha256": "3f7ca6bd1c38cc5a1b1c82d59a58af82012ceb67984799fcbdabdbd79b787900"
+    },
+    {
+      "path": "scripts/data/review_integration.py",
+      "bytes": 25890,
+      "sha256": "2e868470c6dfbaf9675a6ca4f29a8ae9ef8bf404279c34df9626695d3d236aad"
+    },
+    {
+      "path": "scripts/data/test_review_integration.py",
+      "bytes": 11473,
+      "sha256": "3fe00ae074b930a03c85f82bd7139b2c68ac85330f961ff103af03e3c7e43042"
+    },
+    {
+      "path": "scripts/knowledge/curate.py",
+      "bytes": 15597,
+      "sha256": "dcaac783ffe4ce499ab4053c62c8446812c6d45ab625eabdf6f0ea5d2067dd7b"
+    },
+    {
+      "path": "tests/knowledge/test_curation.py",
+      "bytes": 8236,
+      "sha256": "8b79d7a8dd11f829ba6aa7eac32c602b84de4df31bbc7a49f33aaca677539f75"
+    }
+  ]
+}

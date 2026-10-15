@@ -1,0 +1,68 @@
+{
+  "initial_error": "initiative-tomato-desktop/tickets.toml: every epic needs an `id`: a number, or letters and digits",
+  "resolution": "Canonical EP-A..EP-F retained in domain/planning; runtime EPA..EPF encoding only",
+  "aliases": [
+    {
+      "canonical_epic_id": "EP-A",
+      "runtime_epic_id": "EPA",
+      "folder": "epic-governance-data",
+      "reason": "Installed tickets.py accepts letters/digits only; semantic identity/order/story IDs preserved"
+    },
+    {
+      "canonical_epic_id": "EP-D",
+      "runtime_epic_id": "EPD",
+      "folder": "epic-knowledge-learning",
+      "reason": "Installed tickets.py accepts letters/digits only; semantic identity/order/story IDs preserved"
+    },
+    {
+      "canonical_epic_id": "EP-B",
+      "runtime_epic_id": "EPB",
+      "folder": "epic-model-comparison",
+      "reason": "Installed tickets.py accepts letters/digits only; semantic identity/order/story IDs preserved"
+    },
+    {
+      "canonical_epic_id": "EP-C",
+      "runtime_epic_id": "EPC",
+      "folder": "epic-desktop-slice",
+      "reason": "Installed tickets.py accepts letters/digits only; semantic identity/order/story IDs preserved"
+    },
+    {
+      "canonical_epic_id": "EP-E",
+      "runtime_epic_id": "EPE",
+      "folder": "epic-offline-release",
+      "reason": "Installed tickets.py accepts letters/digits only; semantic identity/order/story IDs preserved"
+    },
+    {
+      "canonical_epic_id": "EP-F",
+      "runtime_epic_id": "EPF",
+      "folder": "epic-evidence-defense",
+      "reason": "Installed tickets.py accepts letters/digits only; semantic identity/order/story IDs preserved"
+    }
+  ],
+  "preserved_story_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S10b",
+    "S11b"
+  ],
+  "scope_changes": [],
+  "runtime_vendor_modified": false
+}

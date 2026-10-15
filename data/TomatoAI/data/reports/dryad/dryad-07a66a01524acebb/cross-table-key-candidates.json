@@ -1,0 +1,986 @@
+[
+  {
+    "original_key": "T1-1-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 2
+      },
+      {
+        "table": "leaf_stem",
+        "row": 2
+      },
+      {
+        "table": "fruit",
+        "row": 2
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-1-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 3
+      },
+      {
+        "table": "leaf_stem",
+        "row": 3
+      },
+      {
+        "table": "fruit",
+        "row": 3
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-1-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 4
+      },
+      {
+        "table": "leaf_stem",
+        "row": 4
+      },
+      {
+        "table": "fruit",
+        "row": 4
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-1-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 5
+      },
+      {
+        "table": "fruit",
+        "row": 5
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-1-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 6
+      },
+      {
+        "table": "fruit",
+        "row": 6
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-2-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 7
+      },
+      {
+        "table": "leaf_stem",
+        "row": 5
+      },
+      {
+        "table": "fruit",
+        "row": 7
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-2-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 8
+      },
+      {
+        "table": "leaf_stem",
+        "row": 6
+      },
+      {
+        "table": "fruit",
+        "row": 8
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-2-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 9
+      },
+      {
+        "table": "leaf_stem",
+        "row": 7
+      },
+      {
+        "table": "fruit",
+        "row": 9
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-2-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 10
+      },
+      {
+        "table": "fruit",
+        "row": 10
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-2-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 11
+      },
+      {
+        "table": "fruit",
+        "row": 11
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-3-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 12
+      },
+      {
+        "table": "leaf_stem",
+        "row": 8
+      },
+      {
+        "table": "fruit",
+        "row": 12
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-3-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 13
+      },
+      {
+        "table": "leaf_stem",
+        "row": 9
+      },
+      {
+        "table": "fruit",
+        "row": 13
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-3-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 14
+      },
+      {
+        "table": "leaf_stem",
+        "row": 10
+      },
+      {
+        "table": "fruit",
+        "row": 14
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-3-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 15
+      },
+      {
+        "table": "fruit",
+        "row": 15
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T1-3-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 16
+      },
+      {
+        "table": "fruit",
+        "row": 16
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-1-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 17
+      },
+      {
+        "table": "leaf_stem",
+        "row": 11
+      },
+      {
+        "table": "fruit",
+        "row": 17
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-1-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 18
+      },
+      {
+        "table": "leaf_stem",
+        "row": 12
+      },
+      {
+        "table": "fruit",
+        "row": 18
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-1-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 19
+      },
+      {
+        "table": "leaf_stem",
+        "row": 13
+      },
+      {
+        "table": "fruit",
+        "row": 19
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-1-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 20
+      },
+      {
+        "table": "fruit",
+        "row": 20
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-1-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 21
+      },
+      {
+        "table": "fruit",
+        "row": 21
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-2-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 22
+      },
+      {
+        "table": "leaf_stem",
+        "row": 14
+      },
+      {
+        "table": "fruit",
+        "row": 22
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-2-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 23
+      },
+      {
+        "table": "leaf_stem",
+        "row": 15
+      },
+      {
+        "table": "fruit",
+        "row": 23
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-2-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 24
+      },
+      {
+        "table": "leaf_stem",
+        "row": 16
+      },
+      {
+        "table": "fruit",
+        "row": 24
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-2-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 25
+      },
+      {
+        "table": "fruit",
+        "row": 25
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-2-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 26
+      },
+      {
+        "table": "fruit",
+        "row": 26
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-3-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 27
+      },
+      {
+        "table": "leaf_stem",
+        "row": 17
+      },
+      {
+        "table": "fruit",
+        "row": 27
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-3-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 28
+      },
+      {
+        "table": "leaf_stem",
+        "row": 18
+      },
+      {
+        "table": "fruit",
+        "row": 28
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-3-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 29
+      },
+      {
+        "table": "leaf_stem",
+        "row": 19
+      },
+      {
+        "table": "fruit",
+        "row": 29
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-3-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 30
+      },
+      {
+        "table": "fruit",
+        "row": 30
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T2-3-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 31
+      },
+      {
+        "table": "fruit",
+        "row": 31
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-1-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 32
+      },
+      {
+        "table": "leaf_stem",
+        "row": 20
+      },
+      {
+        "table": "fruit",
+        "row": 32
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-1-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 33
+      },
+      {
+        "table": "leaf_stem",
+        "row": 21
+      },
+      {
+        "table": "fruit",
+        "row": 33
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-1-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 34
+      },
+      {
+        "table": "leaf_stem",
+        "row": 22
+      },
+      {
+        "table": "fruit",
+        "row": 34
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-1-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 35
+      },
+      {
+        "table": "fruit",
+        "row": 35
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-1-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 36
+      },
+      {
+        "table": "fruit",
+        "row": 36
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-2-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 37
+      },
+      {
+        "table": "leaf_stem",
+        "row": 23
+      },
+      {
+        "table": "fruit",
+        "row": 37
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-2-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 38
+      },
+      {
+        "table": "leaf_stem",
+        "row": 24
+      },
+      {
+        "table": "fruit",
+        "row": 38
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-2-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 39
+      },
+      {
+        "table": "leaf_stem",
+        "row": 25
+      },
+      {
+        "table": "fruit",
+        "row": 39
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-2-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 40
+      },
+      {
+        "table": "fruit",
+        "row": 40
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-2-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 41
+      },
+      {
+        "table": "fruit",
+        "row": 41
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-3-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 42
+      },
+      {
+        "table": "leaf_stem",
+        "row": 26
+      },
+      {
+        "table": "fruit",
+        "row": 42
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-3-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 43
+      },
+      {
+        "table": "leaf_stem",
+        "row": 27
+      },
+      {
+        "table": "fruit",
+        "row": 43
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-3-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 44
+      },
+      {
+        "table": "leaf_stem",
+        "row": 28
+      },
+      {
+        "table": "fruit",
+        "row": 44
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-3-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 45
+      },
+      {
+        "table": "fruit",
+        "row": 45
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T3-3-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 46
+      },
+      {
+        "table": "fruit",
+        "row": 46
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-1-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 47
+      },
+      {
+        "table": "leaf_stem",
+        "row": 29
+      },
+      {
+        "table": "fruit",
+        "row": 47
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-1-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 48
+      },
+      {
+        "table": "leaf_stem",
+        "row": 30
+      },
+      {
+        "table": "fruit",
+        "row": 48
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-1-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 49
+      },
+      {
+        "table": "leaf_stem",
+        "row": 31
+      },
+      {
+        "table": "fruit",
+        "row": 49
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-1-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 50
+      },
+      {
+        "table": "fruit",
+        "row": 50
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-1-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 51
+      },
+      {
+        "table": "fruit",
+        "row": 51
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-2-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 52
+      },
+      {
+        "table": "leaf_stem",
+        "row": 32
+      },
+      {
+        "table": "fruit",
+        "row": 52
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-2-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 53
+      },
+      {
+        "table": "leaf_stem",
+        "row": 33
+      },
+      {
+        "table": "fruit",
+        "row": 53
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-2-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 54
+      },
+      {
+        "table": "leaf_stem",
+        "row": 34
+      },
+      {
+        "table": "fruit",
+        "row": 54
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-2-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 55
+      },
+      {
+        "table": "fruit",
+        "row": 55
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-2-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 56
+      },
+      {
+        "table": "fruit",
+        "row": 56
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-3-1",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 57
+      },
+      {
+        "table": "leaf_stem",
+        "row": 35
+      },
+      {
+        "table": "fruit",
+        "row": 57
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-3-2",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 58
+      },
+      {
+        "table": "leaf_stem",
+        "row": 36
+      },
+      {
+        "table": "fruit",
+        "row": 58
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-3-3",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 59
+      },
+      {
+        "table": "leaf_stem",
+        "row": 37
+      },
+      {
+        "table": "fruit",
+        "row": 59
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-3-4",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 60
+      },
+      {
+        "table": "fruit",
+        "row": 60
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  },
+  {
+    "original_key": "T4-3-5",
+    "occurrences": [
+      {
+        "table": "photosynthetic",
+        "row": 61
+      },
+      {
+        "table": "fruit",
+        "row": 61
+      }
+    ],
+    "mapping_status": "candidate_only_no_join"
+  }
+]

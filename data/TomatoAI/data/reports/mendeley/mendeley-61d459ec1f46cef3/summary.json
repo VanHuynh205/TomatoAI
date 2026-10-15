@@ -1,0 +1,48 @@
+{
+  "dataset": "Mendeley",
+  "run_id": "mendeley-61d459ec1f46cef3",
+  "created_utc": "2026-10-14T08:20:09.342559+00:00",
+  "status": "cleaned_technical;needs_review;research_only",
+  "training_ready": false,
+  "mvp_dependency": false,
+  "doi": "10.17632/33cngpcrmx.3",
+  "license_declared": "CC BY 4.0",
+  "source_files": 2,
+  "source_bytes": 821018,
+  "tables_completed": 2,
+  "blocked_files": [],
+  "source_records": 3393,
+  "retained_records": 3393,
+  "quarantined_records": 0,
+  "excluded_records": 0,
+  "needs_review_retained_records": 3393,
+  "raw_integrity": "all_sha256_equal_to_intake_and_before",
+  "reference_inputs_unchanged": true,
+  "missing_cells": 0,
+  "zero_cells_preserved": 1535,
+  "review_items": 103,
+  "review_reason_counts": {
+    "exact_value_duplicates_retained": 72,
+    "units_and_sensor_calibration_unverified": 2,
+    "experimental_independence_unverified": 2,
+    "duplicate_timestamp_retained": 23,
+    "CSV_JSON_join_not_verified": 1,
+    "computed_target_leakage_risk": 1,
+    "optimal_fields_not_ground_truth": 1,
+    "naive_timezone_and_sensor_identity_unverified": 1
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "executable": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "dependencies": "stdlib; existing project helpers"
+  },
+  "invocation": [
+    "scripts/data/clean_mendeley.py",
+    "--config",
+    "scripts/data/mendeley-config.json",
+    "--project-root",
+    "."
+  ],
+  "no_join_split_imputation_scaling_training_or_optimal_labels": true
+}

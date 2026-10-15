@@ -1,0 +1,7 @@
+{
+  "scope": "registry, seven ticket stores, all existing report bytes and cleaning source; raw checked separately against cleaning baselines",
+  "files_checked": 216,
+  "changed": [],
+  "passed": true,
+  "raw_baselines_checked_by_pipeline": 18362
+}

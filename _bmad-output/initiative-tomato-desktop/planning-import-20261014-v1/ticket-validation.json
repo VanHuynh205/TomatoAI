@@ -1,0 +1,89 @@
+{
+  "revision": 2,
+  "checked_at": "2026-10-14T21:43:46.7048086+07:00",
+  "scope": "Independent planning validation; not product/model/expert validation",
+  "reviewers": [
+    {
+      "result": "Prior fixes confirmed resolved; sweep decision pending",
+      "sections": [
+        "Ticket",
+        "Set",
+        "Dependencies"
+      ],
+      "name": "p3_epic_a"
+    },
+    {
+      "result": "Prior fixes confirmed resolved; membership/sweep pending",
+      "sections": [
+        "Ticket",
+        "Set",
+        "Dependencies"
+      ],
+      "name": "p3_epic_b"
+    },
+    {
+      "result": "Revision2 pass for checkpoint; split pending",
+      "sections": [
+        "Ticket",
+        "Set",
+        "Dependencies"
+      ],
+      "name": "p3_epic_c"
+    },
+    {
+      "result": "Revised 5-entry set pass for checkpoint; split/membership/sweep pending",
+      "sections": [
+        "Ticket",
+        "Set",
+        "Dependencies"
+      ],
+      "name": "p3_epic_d"
+    },
+    {
+      "result": "Prior fixes confirmed resolved; membership/sweep/S20 pending",
+      "sections": [
+        "Ticket",
+        "Set",
+        "Dependencies"
+      ],
+      "name": "p3_epic_e"
+    },
+    {
+      "result": "Initial known-uncertainty/efficacy-note findings applied; no independent rereview claimed",
+      "sections": [
+        "Ticket",
+        "Set",
+        "Dependencies"
+      ],
+      "name": "p3_epic_f"
+    },
+    {
+      "result": "Final confirm mandatory fixes resolved; platform/slicing choices pending",
+      "sections": [
+        "Tree",
+        "Dependencies"
+      ],
+      "name": "p3_tree"
+    }
+  ],
+  "user_spec_approval": "Duyệt spec, tiếp tục planning ticket",
+  "ticket_set_approval": true,
+  "changes_pending": [],
+  "changes_accepted": [
+    "S15/S17 membership",
+    "S10b/S11b split",
+    "No separate Refactor sweep",
+    "Opening governance platform exception",
+    "S20 separate approval"
+  ],
+  "after_approval": {
+    "runtime_id_aliases": "EP-A..EP-F to EPA..EPF",
+    "scope": "Runtime store and document checks, not implemented product validation",
+    "epics": 6,
+    "next": "EPA.S01",
+    "unknown_policy_and_data_gates": "remain_pending",
+    "ticket_state": "22planned",
+    "blocked": 21,
+    "publication": "not_published_no_git"
+  }
+}

@@ -1,0 +1,711 @@
+{
+  "source_path": "data/TomatoAI/data/reports/plantexpert-tomato/pex-b3da04d66a031756/reference-links.json",
+  "source_sha256": "18eff32d8888579a9dcfbd4be710e452d0e1e79d30a5c785bf09e456e4b6df70",
+  "links": [
+    {
+      "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+      "source_file": "disease_kb/tomato/bacterial_spot.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_fungal.septoria_leaf_spot",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/septoria_leaf_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+      "source_file": "disease_kb/tomato/bacterial_spot.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.disease_fungal.early_blight",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/early_blight.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/early_blight.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+      "source_file": "disease_kb/tomato/bacterial_spot.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.pest_damage.flea_beetle_injury",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/flea_beetle_injury.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+      "source_file": "disease_kb/tomato/cercospora_leaf_spot.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_fungal.septoria_leaf_spot",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/septoria_leaf_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+      "source_file": "disease_kb/tomato/cercospora_leaf_spot.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.disease_fungal.early_blight",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/early_blight.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/early_blight.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+      "source_file": "disease_kb/tomato/cercospora_leaf_spot.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.disease_bacterial.bacterial_spot",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/bacterial_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/early_blight.json",
+      "source_file": "disease_kb/tomato/early_blight.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_fungal.septoria_leaf_spot",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/septoria_leaf_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/early_blight.json",
+      "source_file": "disease_kb/tomato/early_blight.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.disease_oomycete.late_blight",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/late_blight.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/early_blight.json",
+      "source_file": "disease_kb/tomato/early_blight.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.disease_fungal.target_spot",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/target_spot.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/target_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/early_blight.json",
+      "source_file": "disease_kb/tomato/early_blight.json",
+      "source_pointer": "/lookalikes/3/condition_id",
+      "target_id_original": "tomato.disease_bacterial.bacterial_spot",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/bacterial_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+      "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.bacterial.bacterial_spot",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/bacterial_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+      "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.fungal.septoria_leaf_spot",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/septoria_leaf_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+      "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.pest.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+      "source_file": "disease_kb/tomato/fusarium_wilt.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_fungal.late_blight",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/late_blight.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/late_blight.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+      "source_file": "disease_kb/tomato/fusarium_wilt.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.abiotic.yellowing_symptom",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/yellowing_symptom.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+      "source_file": "disease_kb/tomato/fusarium_wilt.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.pest.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/healthy.json",
+      "source_file": "disease_kb/tomato/healthy.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.fungal.early_blight",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/early_blight.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/healthy.json",
+      "source_file": "disease_kb/tomato/healthy.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/healthy.json",
+      "source_file": "disease_kb/tomato/healthy.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.symptom.yellowing_symptom",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/yellowing_symptom.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/late_blight.json",
+      "source_file": "disease_kb/tomato/late_blight.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_fungal.early_blight",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/early_blight.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/early_blight.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/late_blight.json",
+      "source_file": "disease_kb/tomato/late_blight.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.disease_fungal.septoria_leaf_spot",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/septoria_leaf_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/late_blight.json",
+      "source_file": "disease_kb/tomato/late_blight.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.disease_fungal.leaf_mold",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/leaf_mold.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/leaf_mold.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+      "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_viral.yellow_leaf_curl_virus",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/yellow_leaf_curl_virus.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+      "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.disease_viral.mosaic_virus",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/mosaic_virus.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+      "source_file": "disease_kb/tomato/leaf_miner.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.pest_insect.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+      "source_file": "disease_kb/tomato/leaf_miner.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest_insect.flea_beetle_injury",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/flea_beetle_injury.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+      "source_file": "disease_kb/tomato/leaf_miner.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.symptom.yellowing_symptom",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/yellowing_symptom.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+      "source_file": "disease_kb/tomato/leaf_mold.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_oomycete.late_blight",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/late_blight.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+      "source_file": "disease_kb/tomato/leaf_mold.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.disease_fungal.early_blight",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/early_blight.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/early_blight.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+      "source_file": "disease_kb/tomato/mosaic_virus.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_viral.yellow_leaf_curl_virus",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/yellow_leaf_curl_virus.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+      "source_file": "disease_kb/tomato/mosaic_virus.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest_damage.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+      "source_file": "disease_kb/tomato/mosaic_virus.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.disease_fungal.fusarium_wilt",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/fusarium_wilt.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/pest_damage.json",
+      "source_file": "disease_kb/tomato/pest_damage.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.pest.flea_beetle_injury",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/flea_beetle_injury.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/pest_damage.json",
+      "source_file": "disease_kb/tomato/pest_damage.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/pest_damage.json",
+      "source_file": "disease_kb/tomato/pest_damage.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.disease.bacterial_spot",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/bacterial_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+      "source_file": "disease_kb/tomato/septoria_leaf_spot.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_fungal.early_blight",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/early_blight.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/early_blight.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+      "source_file": "disease_kb/tomato/septoria_leaf_spot.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.disease_bacterial.bacterial_spot",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/bacterial_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/spider_mites.json",
+      "source_file": "disease_kb/tomato/spider_mites.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.pest_damage.flea_beetle_injury",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/flea_beetle_injury.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/spider_mites.json",
+      "source_file": "disease_kb/tomato/spider_mites.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest_damage.leaf_miner",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/leaf_miner.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/target_spot.json",
+      "source_file": "disease_kb/tomato/target_spot.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_fungal.early_blight",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/early_blight.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/early_blight.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/target_spot.json",
+      "source_file": "disease_kb/tomato/target_spot.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.disease_fungal.septoria_leaf_spot",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/septoria_leaf_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/target_spot.json",
+      "source_file": "disease_kb/tomato/target_spot.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.disease_bacterial.bacterial_spot",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/bacterial_spot.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.disease_viral.mosaic_virus",
+      "status": "exact_reference",
+      "resolved_record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/mosaic_virus.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest_damage.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+      "source_file": "disease_kb/tomato/yellowing_symptom.json",
+      "source_pointer": "/lookalikes/0/condition_id",
+      "target_id_original": "tomato.fungal_disease.fusarium_wilt",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/fusarium_wilt.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+      "source_file": "disease_kb/tomato/yellowing_symptom.json",
+      "source_pointer": "/lookalikes/1/condition_id",
+      "target_id_original": "tomato.pest_damage.spider_mites",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/spider_mites.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    },
+    {
+      "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+      "source_file": "disease_kb/tomato/yellowing_symptom.json",
+      "source_pointer": "/lookalikes/2/condition_id",
+      "target_id_original": "tomato.viral_disease.mosaic_virus",
+      "status": "unresolved_reference",
+      "resolved_record_id": null,
+      "candidate_record_ids": [
+        "pex:disease_kb/tomato/mosaic_virus.json"
+      ],
+      "candidates_applied": false,
+      "identity_review": "pending",
+      "accepted_for_lookup": false,
+      "reason": "Exact ID resolution is technical only; unresolved aliases are not accepted by suffix/fuzzy matching."
+    }
+  ]
+}

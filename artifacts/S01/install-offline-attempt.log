@@ -1,0 +1,4 @@
+Using Python 3.12.14 environment at: .venv-phase0
+Resolved 21 packages in 11ms
+error: Failed to download `pyside6-essentials==6.12.0`
+  cause: Network connectivity is disabled, but the requested data wasn't found in the cache for: `https://files.pythonhosted.org/packages/03/61/9a7e32a37b224f68506785bfb0f288d516098ec71681782d72b695a6c95d/pyside6_essentials-6.12.0-cp310-abi3-win_amd64.whl`

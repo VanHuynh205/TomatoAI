@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "s11-approvals-pending-v1",
+  "draft_sha256": "9c7aca79597fa3bc44353fc4ec472fcee43d3b24927dd3f0d51f04fd2a623d45",
+  "policy": {
+    "path": "artifacts/phase2/c3-policy-decision.json",
+    "sha256": "d45220c90aebf58d7d0ecf35915c063887f6fd97e3130e73410e97f40774f9fc"
+  },
+  "prepared_by": {
+    "actor": "Codex (GPT-6), AI assistant",
+    "role": "AI preparation validator; not independent reviewer"
+  },
+  "source_review": {
+    "status": "pending",
+    "actor": null,
+    "role": null,
+    "reviewed_sha256": null
+  },
+  "translation_review": {
+    "status": "pending",
+    "actor": null,
+    "role": null,
+    "reviewed_sha256": null
+  },
+  "rights_scope_review": {
+    "status": "pending",
+    "actor": null,
+    "role": null,
+    "reviewed_sha256": null
+  }
+}

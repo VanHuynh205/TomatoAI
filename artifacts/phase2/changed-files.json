@@ -1,0 +1,38 @@
+{
+  "modified_existing": [
+    "_bmad-output/initiative-tomato-desktop/app-development-plan/app-development-plan.md",
+    "_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md",
+    "_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.csv",
+    "docs/development/decisions.md"
+  ],
+  "new_files": [
+    "_bmad-output/initiative-tomato-desktop/epic-knowledge-learning/story-vi-glossary-mapping-dan-xuat-cho-the-au-tien-plan.md",
+    "artifacts/phase2/README.md",
+    "artifacts/phase2/baseline-docs/app-development-plan.md",
+    "artifacts/phase2/baseline-docs/decisions.md",
+    "artifacts/phase2/baseline-docs/requirements-traceability.csv",
+    "artifacts/phase2/baseline-docs/requirements-traceability.md",
+    "artifacts/phase2/c3-policy-decision.json",
+    "artifacts/phase2/changed-files.json",
+    "artifacts/phase2/checks.json",
+    "artifacts/phase2/cli-output.json",
+    "artifacts/phase2/cli-readonly.json",
+    "artifacts/phase2/e2e-inventory.log",
+    "artifacts/phase2/lookup-refusals.json",
+    "artifacts/phase2/official-docs.diff",
+    "artifacts/phase2/parent-verification.json",
+    "artifacts/phase2/preservation-after.json",
+    "artifacts/phase2/preservation-before.json",
+    "artifacts/phase2/publication-review-checklist.md",
+    "artifacts/phase2/s11-decision-dossier.md",
+    "artifacts/phase2/source-audit.md",
+    "artifacts/phase2/tests-curation.log",
+    "artifacts/phase2/tests-integration.log",
+    "artifacts/phase2/tests-red.log",
+    "content/phase2-healthy-v1-bundle/card-draft.json",
+    "content/phase2-healthy-v1/review-inputs.json",
+    "scripts/knowledge/curate.py",
+    "tests/knowledge/test_curation.py"
+  ],
+  "notes": "NO_VCS; exact pre-edit snapshots for four existing documents; new S10 build plan now built after independent tests and Quick review. C3 direction selected; no S11/card/publication approval. Ticket stores unchanged."
+}

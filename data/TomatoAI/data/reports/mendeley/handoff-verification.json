@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "artifact_seal_verified": true,
+  "raw_and_references_unchanged": true,
+  "pipeline_and_helpers_match_run": true,
+  "registry_only_Mendeley_changed": true,
+  "python_AST_files_passed": 3,
+  "checks_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "training_ready": false,
+  "official_planning_imported": false
+}

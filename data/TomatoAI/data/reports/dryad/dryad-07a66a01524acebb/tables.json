@@ -1,0 +1,434 @@
+[
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "source_rows": [
+      3,
+      14
+    ],
+    "retained_records": 12,
+    "needs_review_records": 12,
+    "excluded_records": 0,
+    "quarantined_records": 0,
+    "field_counts": {
+      "opaque_id": 12,
+      "decimal_text": 216,
+      "formula": 48
+    },
+    "operations": {
+      "separate_formula_and_unverified_cache_no_evaluation": 48
+    },
+    "numeric_ranges_audit_only": {
+      "B": [
+        "4.6",
+        "5.7"
+      ],
+      "C": [
+        "4.6",
+        "5.7"
+      ],
+      "D": [
+        "4.5",
+        "5.7"
+      ],
+      "E": [
+        "4.5",
+        "5.6"
+      ],
+      "F": [
+        "4.6",
+        "5.5"
+      ],
+      "G": [
+        "4.5",
+        "5.7"
+      ],
+      "I": [
+        "15.5848",
+        "21.6832"
+      ],
+      "J": [
+        "14.9072",
+        "21.6832"
+      ],
+      "K": [
+        "15.5848",
+        "21.6832"
+      ],
+      "M": [
+        "0.467124",
+        "0.607824"
+      ],
+      "N": [
+        "0.467124",
+        "0.602196"
+      ],
+      "O": [
+        "0.472752",
+        "0.599382"
+      ],
+      "Q": [
+        "2.47492016129032",
+        "3.28129112903226"
+      ],
+      "R": [
+        "2.4509685483871",
+        "3.14556532258065"
+      ],
+      "S": [
+        "2.50685564516129",
+        "3.20145241935484"
+      ],
+      "T": [
+        "2.4775814516129",
+        "3.20943629032258"
+      ],
+      "U": [
+        "2.4775814516129",
+        "3.20943629032258"
+      ],
+      "V": [
+        "0.469",
+        "0.602196"
+      ]
+    },
+    "flags_overlapping": {
+      "formula_cache_unverified": 12,
+      "treatment_replicate_group_mapping_unverified": 12
+    }
+  },
+  {
+    "table": "photosynthetic",
+    "source_file": "Photosynthetic_Data.xlsx",
+    "sheet": "Sheet1",
+    "source_rows": [
+      2,
+      61
+    ],
+    "retained_records": 60,
+    "needs_review_records": 60,
+    "excluded_records": 0,
+    "quarantined_records": 0,
+    "field_counts": {
+      "opaque_id": 60,
+      "decimal_text": 240
+    },
+    "operations": {},
+    "numeric_ranges_audit_only": {
+      "B": [
+        "3.20429011394097",
+        "7.57353905323833"
+      ],
+      "C": [
+        "5.79741776312398",
+        "12.0887126002935"
+      ],
+      "D": [
+        "255.914400121247",
+        "348.294595714854"
+      ],
+      "E": [
+        "0.0538697947050907",
+        "0.200877153915097"
+      ]
+    },
+    "flags_overlapping": {
+      "treatment_replicate_group_mapping_unverified": 60
+    }
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "source_rows": [
+      2,
+      37
+    ],
+    "retained_records": 36,
+    "needs_review_records": 36,
+    "excluded_records": 0,
+    "quarantined_records": 0,
+    "field_counts": {
+      "opaque_id": 36,
+      "decimal_text": 504
+    },
+    "operations": {},
+    "numeric_ranges_audit_only": {
+      "B": [
+        "258.33",
+        "1064.95"
+      ],
+      "C": [
+        "0.0209794044222539",
+        "0.0232990080087368"
+      ],
+      "D": [
+        "6.01883273889698",
+        "23.1648112269408"
+      ],
+      "E": [
+        "0.00228193194925029",
+        "0.00310012827822121"
+      ],
+      "F": [
+        "0.662599170008191",
+        "3.18676618228766"
+      ],
+      "G": [
+        "0.0115014265335235",
+        "0.0210495963091119"
+      ],
+      "H": [
+        "3.45599836184929",
+        "21.1803084166026"
+      ],
+      "J": [
+        "148.29",
+        "474.65"
+      ],
+      "K": [
+        "0.0101794561503417",
+        "0.0140148093298778"
+      ],
+      "L": [
+        "1.73736378706639",
+        "6.65212924842651"
+      ],
+      "M": [
+        "0.00146169716646989",
+        "0.00233450342465753"
+      ],
+      "N": [
+        "0.266863300722678",
+        "1.1080720505137"
+      ],
+      "O": [
+        "0.0215466351829988",
+        "0.0368440640119092"
+      ],
+      "P": [
+        "4.40650236127509",
+        "15.4204137356535"
+      ]
+    },
+    "flags_overlapping": {
+      "treatment_replicate_group_mapping_unverified": 36
+    }
+  },
+  {
+    "table": "fruit",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "fruit",
+    "source_rows": [
+      2,
+      61
+    ],
+    "retained_records": 60,
+    "needs_review_records": 60,
+    "excluded_records": 0,
+    "quarantined_records": 0,
+    "field_counts": {
+      "opaque_id": 60,
+      "decimal_text": 360,
+      "formula": 60
+    },
+    "operations": {
+      "separate_formula_and_unverified_cache_no_evaluation": 60
+    },
+    "numeric_ranges_audit_only": {
+      "B": [
+        "80.85",
+        "236.98"
+      ],
+      "C": [
+        "0.0101794561503417",
+        "0.0140148093298778"
+      ],
+      "D": [
+        "0.947237589751958",
+        "2.92771614021213"
+      ],
+      "E": [
+        "0.00146169716646989",
+        "0.00233450342465753"
+      ],
+      "F": [
+        "0.145497996246736",
+        "0.402445045376712"
+      ],
+      "G": [
+        "0.0215466351829988",
+        "0.0368440640119092"
+      ]
+    },
+    "flags_overlapping": {
+      "formula_cache_unverified": 60,
+      "treatment_replicate_group_mapping_unverified": 60
+    }
+  },
+  {
+    "table": "irrigation_1",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "source_rows": [
+      3,
+      87
+    ],
+    "retained_records": 85,
+    "needs_review_records": 85,
+    "excluded_records": 0,
+    "quarantined_records": 0,
+    "field_counts": {
+      "calendar_date": 85,
+      "boolean": 85,
+      "decimal_text": 255,
+      "zero_numeric_preserved": 64
+    },
+    "operations": {
+      "validate_ISO_calendar_date_no_timezone": 85,
+      "explicit_Yes_No_boolean_mapping": 85,
+      "parse_numeric_text_preserve_lexeme": 255
+    },
+    "numeric_ranges_audit_only": {
+      "C": [
+        "0.0",
+        "1.63"
+      ],
+      "D": [
+        "95.0",
+        "107.14"
+      ],
+      "E": [
+        "46.35",
+        "58.49"
+      ]
+    },
+    "flags_overlapping": {
+      "treatment_replicate_group_mapping_unverified": 85
+    }
+  },
+  {
+    "table": "irrigation_2",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "source_rows": [
+      3,
+      87
+    ],
+    "retained_records": 85,
+    "needs_review_records": 85,
+    "excluded_records": 0,
+    "quarantined_records": 0,
+    "field_counts": {
+      "calendar_date": 85,
+      "boolean": 85,
+      "decimal_text": 255,
+      "zero_numeric_preserved": 62
+    },
+    "operations": {
+      "validate_ISO_calendar_date_no_timezone": 85,
+      "explicit_Yes_No_boolean_mapping": 85,
+      "parse_numeric_text_preserve_lexeme": 255
+    },
+    "numeric_ranges_audit_only": {
+      "G": [
+        "0.0",
+        "1.79"
+      ],
+      "H": [
+        "112.32",
+        "129.53"
+      ],
+      "I": [
+        "49.76",
+        "66.97"
+      ]
+    },
+    "flags_overlapping": {
+      "treatment_replicate_group_mapping_unverified": 85
+    }
+  },
+  {
+    "table": "irrigation_3",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "source_rows": [
+      3,
+      87
+    ],
+    "retained_records": 85,
+    "needs_review_records": 85,
+    "excluded_records": 0,
+    "quarantined_records": 0,
+    "field_counts": {
+      "calendar_date": 85,
+      "boolean": 85,
+      "decimal_text": 255,
+      "zero_numeric_preserved": 61
+    },
+    "operations": {
+      "validate_ISO_calendar_date_no_timezone": 85,
+      "explicit_Yes_No_boolean_mapping": 85,
+      "parse_numeric_text_preserve_lexeme": 255
+    },
+    "numeric_ranges_audit_only": {
+      "K": [
+        "0.0",
+        "2.19"
+      ],
+      "L": [
+        "114.56",
+        "132.36"
+      ],
+      "M": [
+        "44.47",
+        "62.27"
+      ]
+    },
+    "flags_overlapping": {
+      "treatment_replicate_group_mapping_unverified": 85
+    }
+  },
+  {
+    "table": "irrigation_4",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "source_rows": [
+      3,
+      87
+    ],
+    "retained_records": 85,
+    "needs_review_records": 85,
+    "excluded_records": 0,
+    "quarantined_records": 0,
+    "field_counts": {
+      "calendar_date": 85,
+      "boolean": 85,
+      "decimal_text": 255,
+      "zero_numeric_preserved": 67
+    },
+    "operations": {
+      "validate_ISO_calendar_date_no_timezone": 85,
+      "explicit_Yes_No_boolean_mapping": 85,
+      "parse_numeric_text_preserve_lexeme": 255
+    },
+    "numeric_ranges_audit_only": {
+      "O": [
+        "0.0",
+        "1.71"
+      ],
+      "P": [
+        "126.36",
+        "138.63"
+      ],
+      "Q": [
+        "51.93",
+        "64.2"
+      ]
+    },
+    "flags_overlapping": {
+      "treatment_replicate_group_mapping_unverified": 85
+    }
+  }
+]

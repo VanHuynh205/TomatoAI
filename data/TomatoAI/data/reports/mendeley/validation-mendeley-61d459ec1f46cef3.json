@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "run_id": "mendeley-61d459ec1f46cef3",
+  "source_files_verified": 2,
+  "reference_files_verified": 6,
+  "records_verified": 3393,
+  "field_values_verified": 56541,
+  "numeric_zeros_preserved": 1535,
+  "raw_unchanged": true,
+  "no_join_or_guessed_group": true,
+  "training_ready": false,
+  "semantics_or_optimality_approved": false
+}

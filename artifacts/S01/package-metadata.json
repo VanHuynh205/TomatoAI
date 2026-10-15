@@ -1,0 +1,269 @@
+[
+  {
+    "name": "torch",
+    "version": "2.14.1",
+    "requires_python": ">=3.10",
+    "license_expression": "Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT",
+    "license": null,
+    "project_urls": {
+      "Documentation": "https://pytorch.org/docs",
+      "Forum": "https://discuss.pytorch.org",
+      "Homepage": "https://pytorch.org",
+      "Issue Tracker": "https://github.com/pytorch/pytorch/issues",
+      "Repository": "https://github.com/pytorch/pytorch"
+    },
+    "requires_dist": [
+      "filelock",
+      "typing-extensions>=4.10.0",
+      "setuptools>=77.0.3",
+      "sympy>=1.13.3",
+      "networkx>=2.5.1",
+      "jinja2",
+      "fsspec>=0.8.5",
+      "cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == \"Linux\"",
+      "cuda-bindings<14,>=13.0.3; platform_system == \"Linux\" and python_version < \"3.15\"",
+      "nvidia-cudnn-cu13==9.24.0.43; platform_system == \"Linux\"",
+      "nvidia-cusparselt-cu13==0.8.1; platform_system == \"Linux\"",
+      "nvidia-nccl-cu13==2.30.7; platform_system == \"Linux\"",
+      "nvidia-nvshmem-cu13==3.4.5; platform_system == \"Linux\"",
+      "triton~=3.8.0; platform_system == \"Linux\" and python_version < \"3.15\"",
+      "optree>=0.13.0; extra == \"optree\"",
+      "opt-einsum>=3.3; extra == \"opt-einsum\"",
+      "pyyaml; extra == \"pyyaml\""
+    ],
+    "url": "https://pypi.org/pypi/torch/json",
+    "windows_files": [
+      {
+        "filename": "torch-2.14.1-cp310-cp310-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/48/88/28360126b07082ce4ab96a1bf8547595d06d6fea5eaffdfc7d2b56459e79/torch-2.14.1-cp310-cp310-win_amd64.whl",
+        "sha256": "9ee7d50ec80ae5b4258cafc0ea108711988d961f21d0a68cf685650da2812e5f"
+      },
+      {
+        "filename": "torch-2.14.1-cp311-cp311-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/fe/54/4e0a71376b2fb15aaf65ed9e6a4c8043d36f554338c6daabc63059a5e157/torch-2.14.1-cp311-cp311-win_amd64.whl",
+        "sha256": "0bd2fb0c4098856bc5af59fe5988bf38bdbcdb6550b44273c12ae425cb8ec17e"
+      },
+      {
+        "filename": "torch-2.14.1-cp312-cp312-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/ad/1a/b9648b0d228e513f69f8453ec3f90a8d436d78ff6d85a2773e539f0c07cf/torch-2.14.1-cp312-cp312-win_amd64.whl",
+        "sha256": "38bee9f2a2ccfc6898172a5075e4ba52522fbe143eeb099674fc67ab390e858d"
+      },
+      {
+        "filename": "torch-2.14.1-cp313-cp313-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/7b/4b/32c00cacbe682a4c08d9c6c3e7a7116c912184cc7155f06c64f545db97d1/torch-2.14.1-cp313-cp313-win_amd64.whl",
+        "sha256": "711713391d26a1ce5e9fbc6c996d954a8c12e8825374cc77b809a6af29539b8c"
+      },
+      {
+        "filename": "torch-2.14.1-cp314-cp314t-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/45/05/451a69a4287033d8f106f5c65f92c2c0c37229d81ea101d4b047caf758cc/torch-2.14.1-cp314-cp314t-win_amd64.whl",
+        "sha256": "e07306caa1de2a4ac1467e11ecfc92fc44f523dd6a521145039aef46d913963c"
+      },
+      {
+        "filename": "torch-2.14.1-cp314-cp314-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/d9/dc/a36a4431ab5e3ad168a75f341e24677a4bbbf0c5dda59c97a7079262bb94/torch-2.14.1-cp314-cp314-win_amd64.whl",
+        "sha256": "d02a4c48a2ca5fb7654e36e71f710f74494d83f1f10aaff8e059dd554adca956"
+      }
+    ]
+  },
+  {
+    "name": "torchvision",
+    "version": "0.29.1",
+    "requires_python": "!=3.14.1,>=3.10",
+    "license_expression": null,
+    "license": "BSD",
+    "project_urls": {
+      "Homepage": "https://github.com/pytorch/vision"
+    },
+    "requires_dist": [
+      "numpy",
+      "torch>=2.14.0",
+      "pillow!=8.3.*,>=5.3.0",
+      "gdown>=4.7.3; extra == \"gdown\"",
+      "scipy; extra == \"scipy\""
+    ],
+    "url": "https://pypi.org/pypi/torchvision/json",
+    "windows_files": [
+      {
+        "filename": "torchvision-0.29.1-cp310-cp310-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/29/c3/587d4452bee1ef8b2ea60bca7dd6a24e31abdcd70568f04d5fa9b718343b/torchvision-0.29.1-cp310-cp310-win_amd64.whl",
+        "sha256": "c432464fe421311bee39c30597107db01fa5a02a525cb38573dc75e7b21104fc"
+      },
+      {
+        "filename": "torchvision-0.29.1-cp311-cp311-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/53/46/443f90d71a7506af4289f9f8a2e9515f0a46c6f18c68630e63fc121395cd/torchvision-0.29.1-cp311-cp311-win_amd64.whl",
+        "sha256": "3ffbf206311067faa5d8d7c70237d26df7b74012bcaa1bc6782a4eb615394925"
+      },
+      {
+        "filename": "torchvision-0.29.1-cp312-cp312-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/fa/67/c8cbf53a525ac2fba5d68e36c61636fa08297001a008b151f06c2c0c564a/torchvision-0.29.1-cp312-cp312-win_amd64.whl",
+        "sha256": "551c567fd39581570bf553c8df58895d567258b9997760179719f205ec5cd859"
+      },
+      {
+        "filename": "torchvision-0.29.1-cp313-cp313-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/6f/d7/08452a8497aab125557b7698886990eb1ab3d3a923dedcd88f309a727fe5/torchvision-0.29.1-cp313-cp313-win_amd64.whl",
+        "sha256": "41338cd71864419de9ae1e1b0058f6b8645f0548370c4750c7694ffa9bff611c"
+      },
+      {
+        "filename": "torchvision-0.29.1-cp314-cp314t-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/12/79/b55b7fe6ec42d992f60dc6db8fb0de6500091224aa6f8078baaf4f717fc2/torchvision-0.29.1-cp314-cp314t-win_amd64.whl",
+        "sha256": "97856838132174da848a18b766ace9bd34728123118f888fa2da86b97c6a5370"
+      },
+      {
+        "filename": "torchvision-0.29.1-cp314-cp314-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/11/da/72cd625999fcbbee92fd708901bce7802fb3ced3700d684a2ba511d767ad/torchvision-0.29.1-cp314-cp314-win_amd64.whl",
+        "sha256": "63790be6f7b4f769d151b9282d7aba372a67d8b3412323157a9cc865d3c39866"
+      }
+    ]
+  },
+  {
+    "name": "PySide6-Essentials",
+    "version": "6.12.0",
+    "requires_python": "<3.16,>=3.10",
+    "license_expression": null,
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "project_urls": {
+      "Changelog": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs",
+      "Documentation": "https://doc.qt.io/qtforpython",
+      "Homepage": "https://pyside.org",
+      "Repository": "https://code.qt.io/cgit/pyside/pyside-setup.git/",
+      "Tracker": "https://qt-project.atlassian.net/browse/PYSIDE"
+    },
+    "requires_dist": [
+      "shiboken6==6.12.0"
+    ],
+    "url": "https://pypi.org/pypi/PySide6-Essentials/json",
+    "windows_files": [
+      {
+        "filename": "pyside6_essentials-6.12.0-cp310-abi3-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/03/61/9a7e32a37b224f68506785bfb0f288d516098ec71681782d72b695a6c95d/pyside6_essentials-6.12.0-cp310-abi3-win_amd64.whl",
+        "sha256": "c9a95102aa23c1f86516a30d5a9be37552d324eee7e567eb7508973f1218cb42"
+      }
+    ]
+  },
+  {
+    "name": "pillow",
+    "version": "12.3.0",
+    "requires_python": ">=3.10",
+    "license_expression": "MIT-CMU",
+    "license": null,
+    "project_urls": {
+      "Changelog": "https://github.com/python-pillow/Pillow/releases",
+      "Documentation": "https://pillow.readthedocs.io",
+      "Funding": "https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+      "Homepage": "https://python-pillow.github.io",
+      "Mastodon": "https://fosstodon.org/@pillow",
+      "Release notes": "https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+      "Source": "https://github.com/python-pillow/Pillow"
+    },
+    "requires_dist": [
+      "furo; extra == \"docs\"",
+      "olefile; extra == \"docs\"",
+      "sphinx>=8.2; extra == \"docs\"",
+      "sphinx-autobuild; extra == \"docs\"",
+      "sphinx-copybutton; extra == \"docs\"",
+      "sphinx-inline-tabs; extra == \"docs\"",
+      "sphinxext-opengraph; extra == \"docs\"",
+      "olefile; extra == \"fpx\"",
+      "olefile; extra == \"mic\"",
+      "arro3-compute; extra == \"test-arrow\"",
+      "arro3-core; extra == \"test-arrow\"",
+      "nanoarrow; extra == \"test-arrow\"",
+      "pyarrow; extra == \"test-arrow\"",
+      "coverage>=7.4.2; extra == \"tests\"",
+      "defusedxml; extra == \"tests\"",
+      "markdown2; extra == \"tests\"",
+      "olefile; extra == \"tests\"",
+      "packaging; extra == \"tests\"",
+      "pytest; extra == \"tests\"",
+      "pytest-cov; extra == \"tests\"",
+      "pytest-timeout; extra == \"tests\"",
+      "pytest-xdist; extra == \"tests\"",
+      "setuptools; extra == \"tests\"",
+      "trove-classifiers>=2024.10.12; extra == \"tests\"",
+      "defusedxml; extra == \"xmp\""
+    ],
+    "url": "https://pypi.org/pypi/Pillow/json",
+    "windows_files": [
+      {
+        "filename": "pillow-12.3.0-cp310-cp310-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/48/7c/8fa0039574c476d7c6fa57dd7c32a130436877c6ec1e5ce1cc8ec44878c1/pillow-12.3.0-cp310-cp310-win_amd64.whl",
+        "sha256": "300557495eb45ebb8aec96c2da9c4be642fbf7cd937278b4013ba894ea8eb0eb"
+      },
+      {
+        "filename": "pillow-12.3.0-cp311-cp311-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/63/c6/4bad1b18d132a50b27e1365e1ab163616f7a5bb56d330f66f9d1d9d4f9d4/pillow-12.3.0-cp311-cp311-win_amd64.whl",
+        "sha256": "8e95e1385e4998ae9694eeaa4730ba5457ff61185b3a55e2e7bea0880aef452a"
+      },
+      {
+        "filename": "pillow-12.3.0-cp312-cp312-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/45/89/da2f7971a317f83d807fdd4065c0af40208e59e692cc43d315a71a0e96d1/pillow-12.3.0-cp312-cp312-win_amd64.whl",
+        "sha256": "a2b55dd6b2a4c4b7d87ffa56bdb33fdc5fdb9a462173861a7bc097f17d91cb09"
+      },
+      {
+        "filename": "pillow-12.3.0-cp313-cp313-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/a6/9b/7a58e61d62be561da3a356fe2384d4059a6345fc130e23ef1c36a5b81d24/pillow-12.3.0-cp313-cp313-win_amd64.whl",
+        "sha256": "1cca606cd25738df4ed873d5ad46bbdb3d83b5cbca291f6b4ff13a4df6b0bbe8"
+      },
+      {
+        "filename": "pillow-12.3.0-cp314-cp314t-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/90/de/3634abee5f1c9e13c56787b7d5517b0ba8d6de51700b95578cf338349c9f/pillow-12.3.0-cp314-cp314t-win_amd64.whl",
+        "sha256": "962864dc93511324d51ddbb5b9f8731bf71675b93ca612a07441896f4688fb8c"
+      },
+      {
+        "filename": "pillow-12.3.0-cp314-cp314-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/f1/e0/492879f69d94f91f60fc8cd05ba03650e9520afebb2fb7aa12777d7c7f38/pillow-12.3.0-cp314-cp314-win_amd64.whl",
+        "sha256": "fdafc9cce40277e0f7a0feabce0ee50dd2fa1800f3b38015e51296b5e814048d"
+      },
+      {
+        "filename": "pillow-12.3.0-cp315-cp315t-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/e4/04/62bcd9f844984c5938d3b05264a61d797a29d3e0812341a8204af70bbdee/pillow-12.3.0-cp315-cp315t-win_amd64.whl",
+        "sha256": "8cd2f7bdda092d99c9fc2fb7391354f306d01443d22785d0cbfafa2e2c8bb418"
+      },
+      {
+        "filename": "pillow-12.3.0-cp315-cp315-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/3e/03/1846c49ba3b1d5550392a4bbd06d6fb4578e1cd91a803198b5c90f5f7d53/pillow-12.3.0-cp315-cp315-win_amd64.whl",
+        "sha256": "fa4ecea169a355be7a3ade2c783e2ed12f0e40d2c5621cda8b3297faf7fbb9f5"
+      },
+      {
+        "filename": "pillow-12.3.0-pp311-pypy311_pp73-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/36/54/0169bc772ec491108b62f644f8ecf1fe5d8ae5ebafde2ee2142210166903/pillow-12.3.0-pp311-pypy311_pp73-win_amd64.whl",
+        "sha256": "04f01d28a6aaff387bf842a13be313df23ba0597a44f1a976c9feb3c6ff4711a"
+      }
+    ]
+  },
+  {
+    "name": "pyinstaller",
+    "version": "6.22.3",
+    "requires_python": "<3.16,>=3.8",
+    "license_expression": null,
+    "license": "GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)",
+    "project_urls": {
+      "Documentation": "https://pyinstaller.org",
+      "Homepage": "https://pyinstaller.org",
+      "Release Notes": "https://pyinstaller.org/en/stable/CHANGES.html",
+      "Source Code": "https://github.com/pyinstaller/pyinstaller"
+    },
+    "requires_dist": [
+      "altgraph",
+      "importlib-metadata>=4.6; python_version < \"3.10\"",
+      "macholib>=1.8; sys_platform == \"darwin\"",
+      "packaging>=22.0",
+      "pefile>=2022.5.30; sys_platform == \"win32\"",
+      "pyinstaller-hooks-contrib>=2026.7",
+      "pywin32-ctypes>=0.2.1; sys_platform == \"win32\"",
+      "setuptools>=42.0.0",
+      "argcomplete; extra == \"completion\"",
+      "execnet>=1.5.0; extra == \"hook-testing\"",
+      "psutil; extra == \"hook-testing\"",
+      "pytest>=2.7.3; extra == \"hook-testing\""
+    ],
+    "url": "https://pypi.org/pypi/PyInstaller/json",
+    "windows_files": [
+      {
+        "filename": "pyinstaller-6.22.3-py3-none-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/24/83/c5422204772a27aef643280fdc887b7ef55679989096b21dceb1b9625fc4/pyinstaller-6.22.3-py3-none-win_amd64.whl",
+        "sha256": "500bd58c7bf7e584a8435adccbd763a0b918d5c12b08d74ff50fd79b2915458b"
+      }
+    ]
+  }
+]

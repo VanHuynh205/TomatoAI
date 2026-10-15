@@ -1,0 +1,13 @@
+test_bad_row_quarantined_without_loss (test_clean_mendeley.MendeleyTests.test_bad_row_quarantined_without_loss) ... ok
+test_exact_number_tokens_and_string_distinction (test_clean_mendeley.MendeleyTests.test_exact_number_tokens_and_string_distinction) ... ok
+test_json_strictness_and_limit (test_clean_mendeley.MendeleyTests.test_json_strictness_and_limit) ... ok
+test_missing_not_zero_and_invalid_numeric (test_clean_mendeley.MendeleyTests.test_missing_not_zero_and_invalid_numeric) ... ok
+test_naive_timestamp_and_nfc (test_clean_mendeley.MendeleyTests.test_naive_timestamp_and_nfc) ... ok
+test_output_and_source_guards (test_clean_mendeley.MendeleyTests.test_output_and_source_guards) ... ok
+test_preservation_duplicates_idempotency_tamper_and_no_join (test_clean_mendeley.MendeleyTests.test_preservation_duplicates_idempotency_tamper_and_no_join) ... ok
+test_schema_blocked_file_does_not_block_other_format (test_clean_mendeley.MendeleyTests.test_schema_blocked_file_does_not_block_other_format) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.651s
+
+OK

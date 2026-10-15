@@ -1,0 +1,145 @@
+test_cross_label_pixel_component_quarantined (test_benchmark.GroupTest.test_cross_label_pixel_component_quarantined) ... ok
+test_missing_group_and_alias_remain_quarantined (test_benchmark.GroupTest.test_missing_group_and_alias_remain_quarantined) ... ok
+test_pending_near_pair_quarantines_whole_leaf_component (test_benchmark.GroupTest.test_pending_near_pair_quarantines_whole_leaf_component) ... ok
+test_same_leaf_and_exact_duplicate_share_component_one_disposition (test_benchmark.GroupTest.test_same_leaf_and_exact_duplicate_share_component_one_disposition) ... ok
+test_unknown_pair_and_stale_inventory_fail_closed (test_benchmark.GroupTest.test_unknown_pair_and_stale_inventory_fail_closed) ... ok
+test_unverified_manual_group_override_rejected (test_benchmark.GroupTest.test_unverified_manual_group_override_rejected) ... ok
+test_changed_sealed_output_rejected (test_benchmark.InventoryTest.test_changed_sealed_output_rejected) ... ok
+test_missing_checkpoint_names_exact_artifact_without_fallback (test_benchmark.InventoryTest.test_missing_checkpoint_names_exact_artifact_without_fallback) ... ok
+test_missing_provenance_rejected (test_benchmark.InventoryTest.test_missing_provenance_rejected) ... ok
+test_missing_rights_is_error_not_approval (test_benchmark.InventoryTest.test_missing_rights_is_error_not_approval) ... ok
+test_nonstandard_json_rejected (test_benchmark.InventoryTest.test_nonstandard_json_rejected) ... ok
+test_raw_change_rejected (test_benchmark.InventoryTest.test_raw_change_rejected) ... ok
+test_reference_hash_change_rejected (test_benchmark.InventoryTest.test_reference_hash_change_rejected) ... ok
+test_registry_count_drift_rejected (test_benchmark.InventoryTest.test_registry_count_drift_rejected) ... ok
+test_run_mismatch_rejected (test_benchmark.InventoryTest.test_run_mismatch_rejected) ... ok
+test_selected_run_counts_provenance_and_no_raw_writes (test_benchmark.InventoryTest.test_selected_run_counts_provenance_and_no_raw_writes) ... ok
+test_source_config_outside_registry_source_rejected (test_benchmark.InventoryTest.test_source_config_outside_registry_source_rejected) ... ok
+test_traversal_in_registry_rejected (test_benchmark.InventoryTest.test_traversal_in_registry_rejected) ... ok
+test_unrecorded_raw_file_rejected (test_benchmark.InventoryTest.test_unrecorded_raw_file_rejected) ... ok
+test_absent_approval_blocks_all_assignments (test_benchmark.SplitTest.test_absent_approval_blocks_all_assignments) ... ERROR
+test_group_disjoint_deterministic_order_and_supports (test_benchmark.SplitTest.test_group_disjoint_deterministic_order_and_supports) ... ERROR
+test_missing_class_or_insufficient_components_blocks (test_benchmark.SplitTest.test_missing_class_or_insufficient_components_blocks) ... ERROR
+test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) ... 
+  test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'seed': True}) ... ERROR
+  test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'seed': None}) ... ERROR
+  test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'ratios': {'train': nan, 'validation': 0.2, 'test': 0.2}}) ... ERROR
+  test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'ratios': {'train': 0.7, 'validation': 0.2, 'test': 0.2}}) ... ERROR
+  test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'labels_reviewed': False}) ... ERROR
+  test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'approved_by': ''}) ... ERROR
+  test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'ordered_labels': ['A', 'A']}) ... ERROR
+test_stale_review_or_unapproved_rights_blocks (test_benchmark.SplitTest.test_stale_review_or_unapproved_rights_blocks) ... ERROR
+test_unresolved_cannot_be_approved_and_duplicate_component_never_crosses (test_benchmark.SplitTest.test_unresolved_cannot_be_approved_and_duplicate_component_never_crosses) ... ERROR
+
+======================================================================
+ERROR: test_absent_approval_blocks_all_assignments (test_benchmark.SplitTest.test_absent_approval_blocks_all_assignments)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 260, in test_absent_approval_blocks_all_assignments
+    result = benchmark.create_split(self.review, self.policy(benchmark_approved=False))
+             ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+======================================================================
+ERROR: test_group_disjoint_deterministic_order_and_supports (test_benchmark.SplitTest.test_group_disjoint_deterministic_order_and_supports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 244, in test_group_disjoint_deterministic_order_and_supports
+    first = benchmark.create_split(self.review, self.policy())
+            ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+======================================================================
+ERROR: test_missing_class_or_insufficient_components_blocks (test_benchmark.SplitTest.test_missing_class_or_insufficient_components_blocks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 292, in test_missing_class_or_insufficient_components_blocks
+    self.assertTrue(benchmark.create_split(self.review, self.policy(ordered_labels=["A", "B", "C"])).errors)
+                    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+======================================================================
+ERROR: test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'seed': True})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 270, in test_null_bool_nan_and_invalid_ratios_fail_closed
+    self.assertEqual(benchmark.create_split(self.review, self.policy(**changes)).assignments, [])
+                     ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+======================================================================
+ERROR: test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'seed': None})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 270, in test_null_bool_nan_and_invalid_ratios_fail_closed
+    self.assertEqual(benchmark.create_split(self.review, self.policy(**changes)).assignments, [])
+                     ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+======================================================================
+ERROR: test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'ratios': {'train': nan, 'validation': 0.2, 'test': 0.2}})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 270, in test_null_bool_nan_and_invalid_ratios_fail_closed
+    self.assertEqual(benchmark.create_split(self.review, self.policy(**changes)).assignments, [])
+                     ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+======================================================================
+ERROR: test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'ratios': {'train': 0.7, 'validation': 0.2, 'test': 0.2}})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 270, in test_null_bool_nan_and_invalid_ratios_fail_closed
+    self.assertEqual(benchmark.create_split(self.review, self.policy(**changes)).assignments, [])
+                     ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+======================================================================
+ERROR: test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'labels_reviewed': False})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 270, in test_null_bool_nan_and_invalid_ratios_fail_closed
+    self.assertEqual(benchmark.create_split(self.review, self.policy(**changes)).assignments, [])
+                     ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+======================================================================
+ERROR: test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'approved_by': ''})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 270, in test_null_bool_nan_and_invalid_ratios_fail_closed
+    self.assertEqual(benchmark.create_split(self.review, self.policy(**changes)).assignments, [])
+                     ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+======================================================================
+ERROR: test_null_bool_nan_and_invalid_ratios_fail_closed (test_benchmark.SplitTest.test_null_bool_nan_and_invalid_ratios_fail_closed) (changes={'ordered_labels': ['A', 'A']})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 270, in test_null_bool_nan_and_invalid_ratios_fail_closed
+    self.assertEqual(benchmark.create_split(self.review, self.policy(**changes)).assignments, [])
+                     ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+======================================================================
+ERROR: test_stale_review_or_unapproved_rights_blocks (test_benchmark.SplitTest.test_stale_review_or_unapproved_rights_blocks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 273, in test_stale_review_or_unapproved_rights_blocks
+    self.assertTrue(benchmark.create_split(self.review, self.policy(group_review_sha256="stale")).errors)
+                    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+======================================================================
+ERROR: test_unresolved_cannot_be_approved_and_duplicate_component_never_crosses (test_benchmark.SplitTest.test_unresolved_cannot_be_approved_and_duplicate_component_never_crosses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 281, in test_unresolved_cannot_be_approved_and_duplicate_component_never_crosses
+    self.assertIn("quarantined", " ".join(benchmark.create_split(self.review, self.policy()).errors))
+                                          ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'prepare_benchmark' has no attribute 'create_split'
+
+----------------------------------------------------------------------
+Ran 25 tests in 1.013s
+
+FAILED (errors=12)

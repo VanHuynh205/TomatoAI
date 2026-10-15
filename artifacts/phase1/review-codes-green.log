@@ -1,0 +1,6 @@
+test_ordered_codes_require_list_of_unique_nonempty_strings (test_benchmark.SplitTest.test_ordered_codes_require_list_of_unique_nonempty_strings) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK

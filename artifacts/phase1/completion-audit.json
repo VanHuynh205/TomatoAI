@@ -1,0 +1,150 @@
+{
+  "phase": "1",
+  "status": "partial_C2_blocked",
+  "stories": {
+    "EPA.S02": "built_not_done",
+    "EPA.S03": "built_quarantine_not_done",
+    "EPA.S04": "blocked_real_benchmark"
+  },
+  "class_supports": [
+    {
+      "label_original": "Tomato___Bacterial_spot",
+      "proposed_code": "TOM_BACTERIAL_SPOT",
+      "dispositions": {
+        "technical_candidate": 2127
+      },
+      "technical_components": 532,
+      "label_verified": false
+    },
+    {
+      "label_original": "Tomato___Early_blight",
+      "proposed_code": "TOM_EARLY_BLIGHT",
+      "dispositions": {
+        "technical_candidate": 999,
+        "quarantined": 1
+      },
+      "technical_components": 250,
+      "label_verified": false
+    },
+    {
+      "label_original": "Tomato___Late_blight",
+      "proposed_code": "TOM_LATE_BLIGHT",
+      "dispositions": {
+        "technical_candidate": 920,
+        "quarantined": 981,
+        "excluded_exact_duplicate": 8
+      },
+      "technical_components": 230,
+      "label_verified": false
+    },
+    {
+      "label_original": "Tomato___Leaf_Mold",
+      "proposed_code": "TOM_LEAF_MOLD",
+      "dispositions": {
+        "technical_candidate": 952
+      },
+      "technical_components": 238,
+      "label_verified": false
+    },
+    {
+      "label_original": "Tomato___Septoria_leaf_spot",
+      "proposed_code": "TOM_SEPTORIA",
+      "dispositions": {
+        "quarantined": 771,
+        "technical_candidate": 1000
+      },
+      "technical_components": 250,
+      "label_verified": false
+    },
+    {
+      "label_original": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "proposed_code": "TOM_SPIDER_MITE",
+      "dispositions": {
+        "technical_candidate": 1676
+      },
+      "technical_components": 419,
+      "label_verified": false
+    },
+    {
+      "label_original": "Tomato___Target_Spot",
+      "proposed_code": "TOM_TARGET_SPOT",
+      "dispositions": {
+        "quarantined": 1404
+      },
+      "technical_components": 0,
+      "label_verified": false
+    },
+    {
+      "label_original": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "proposed_code": "TOM_YELLOW_CURL",
+      "dispositions": {
+        "technical_candidate": 2738,
+        "quarantined": 2619
+      },
+      "technical_components": 685,
+      "label_verified": false
+    },
+    {
+      "label_original": "Tomato___Tomato_mosaic_virus",
+      "proposed_code": "TOM_MOSAIC",
+      "dispositions": {
+        "quarantined": 373
+      },
+      "technical_components": 0,
+      "label_verified": false
+    },
+    {
+      "label_original": "Tomato___healthy",
+      "proposed_code": "TOM_HEALTHY",
+      "dispositions": {
+        "quarantined": 586,
+        "technical_candidate": 999,
+        "excluded_exact_duplicate": 6
+      },
+      "technical_components": 250,
+      "label_verified": false
+    }
+  ],
+  "technical_classes_with_at_least_three_components": 8,
+  "approved_split_exists": false,
+  "unresolved_in_approved": "not_applicable_no_approved_records",
+  "raw_writes": 0,
+  "training_executed": false,
+  "phase2_executed": false,
+  "limits": [
+    "technical group metadata is not independent leaf or disease annotation",
+    "no pilot scope decision",
+    "rights and scientific approval pending"
+  ],
+  "final_tests": {
+    "benchmark": {
+      "run": 31,
+      "passed": 31
+    },
+    "cleaning_and_production": {
+      "run": 82,
+      "passed": 82
+    },
+    "ucipm": {
+      "run": 31,
+      "passed": 31
+    },
+    "total_passed": 144,
+    "skipped": 0
+  },
+  "default_uv_aggregate": "not green: pdfplumber unavailable for WUR; covered in bundled runtime",
+  "final_review": {
+    "model": "gpt-6-astra",
+    "critical": 0,
+    "important_fixed_red_green": 3,
+    "deferred_minors": 0,
+    "second_review": false
+  },
+  "upstream_metadata_audit": "artifacts/phase1/upstream-grouping-audit.md",
+  "external_progress_required": [
+    "traceable leaf grouping for full10",
+    "C2 approval tied to evidence",
+    "training rights approval"
+  ],
+  "completion_proven": false
+}

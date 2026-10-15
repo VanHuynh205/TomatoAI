@@ -1,0 +1,13 @@
+test_approval_and_unsafe_context_injection (test_curation.CurationTests.test_approval_and_unsafe_context_injection) ... ok
+test_cli_creates_once_and_preserves_existing_paths (test_curation.CurationTests.test_cli_creates_once_and_preserves_existing_paths) ... ok
+test_duplicate_json_keys_nan_and_oversize_rejected (test_curation.CurationTests.test_duplicate_json_keys_nan_and_oversize_rejected) ... ok
+test_editorial_references_keys_actor_and_blank_vi_rejected (test_curation.CurationTests.test_editorial_references_keys_actor_and_blank_vi_rejected) ... ok
+test_exact_selection_rejects_unknown_duplicate_wrong_condition_pointer (test_curation.CurationTests.test_exact_selection_rejects_unknown_duplicate_wrong_condition_pointer) ... ok
+test_lesson_keys_and_source_hashes (test_curation.CurationTests.test_lesson_keys_and_source_hashes) ... ok
+test_real_tracer_exact_en_provenance_and_all_ten_refused (test_curation.CurationTests.test_real_tracer_exact_en_provenance_and_all_ten_refused) ... ok
+test_stale_file_and_editorial_hashes (test_curation.CurationTests.test_stale_file_and_editorial_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.348s
+
+OK

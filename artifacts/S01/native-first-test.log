@@ -1,0 +1,6 @@
+test_real_process_reports_native_event_loop_and_both_model_shapes (test_phase0_smoke.Phase0SmokeTest.test_real_process_reports_native_event_loop_and_both_model_shapes) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 16.307s
+
+OK

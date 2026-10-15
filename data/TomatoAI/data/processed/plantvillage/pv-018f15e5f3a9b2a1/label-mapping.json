@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "labels": {
+    "Tomato___Bacterial_spot": "TOM_BACTERIAL_SPOT",
+    "Tomato___Early_blight": "TOM_EARLY_BLIGHT",
+    "Tomato___Late_blight": "TOM_LATE_BLIGHT",
+    "Tomato___Leaf_Mold": "TOM_LEAF_MOLD",
+    "Tomato___Septoria_leaf_spot": "TOM_SEPTORIA",
+    "Tomato___Spider_mites Two-spotted_spider_mite": "TOM_SPIDER_MITE",
+    "Tomato___Target_Spot": "TOM_TARGET_SPOT",
+    "Tomato___Tomato_mosaic_virus": "TOM_MOSAIC",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": "TOM_YELLOW_CURL",
+    "Tomato___healthy": "TOM_HEALTHY"
+  },
+  "domain_review": "pending; source_labels_unchanged",
+  "class_order_for_model": "not_defined_by_cleaning"
+}

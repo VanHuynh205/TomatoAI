@@ -1,0 +1,62 @@
+[
+  {
+    "table": "quality",
+    "cell_operations": {
+      "separate_formula_and_unverified_cache_no_evaluation": 48
+    },
+    "headers": "source levels with merged anchors; column-letter field keys; raw cell ledger retained"
+  },
+  {
+    "table": "photosynthetic",
+    "cell_operations": {},
+    "headers": "source levels with merged anchors; column-letter field keys; raw cell ledger retained"
+  },
+  {
+    "table": "leaf_stem",
+    "cell_operations": {},
+    "headers": "source levels with merged anchors; column-letter field keys; raw cell ledger retained"
+  },
+  {
+    "table": "fruit",
+    "cell_operations": {
+      "separate_formula_and_unverified_cache_no_evaluation": 60
+    },
+    "headers": "source levels with merged anchors; column-letter field keys; raw cell ledger retained"
+  },
+  {
+    "table": "irrigation_1",
+    "cell_operations": {
+      "validate_ISO_calendar_date_no_timezone": 85,
+      "explicit_Yes_No_boolean_mapping": 85,
+      "parse_numeric_text_preserve_lexeme": 255
+    },
+    "headers": "source levels with merged anchors; column-letter field keys; raw cell ledger retained"
+  },
+  {
+    "table": "irrigation_2",
+    "cell_operations": {
+      "validate_ISO_calendar_date_no_timezone": 85,
+      "explicit_Yes_No_boolean_mapping": 85,
+      "parse_numeric_text_preserve_lexeme": 255
+    },
+    "headers": "source levels with merged anchors; column-letter field keys; raw cell ledger retained"
+  },
+  {
+    "table": "irrigation_3",
+    "cell_operations": {
+      "validate_ISO_calendar_date_no_timezone": 85,
+      "explicit_Yes_No_boolean_mapping": 85,
+      "parse_numeric_text_preserve_lexeme": 255
+    },
+    "headers": "source levels with merged anchors; column-letter field keys; raw cell ledger retained"
+  },
+  {
+    "table": "irrigation_4",
+    "cell_operations": {
+      "validate_ISO_calendar_date_no_timezone": 85,
+      "explicit_Yes_No_boolean_mapping": 85,
+      "parse_numeric_text_preserve_lexeme": 255
+    },
+    "headers": "source levels with merged anchors; column-letter field keys; raw cell ledger retained"
+  }
+]

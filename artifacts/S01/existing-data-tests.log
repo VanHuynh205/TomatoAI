@@ -1,0 +1,126 @@
+test_date_status_and_opaque_id (test_clean_dryad.DryadTests.test_date_status_and_opaque_id) ... ok
+test_dtd_and_unsafe_package (test_clean_dryad.DryadTests.test_dtd_and_unsafe_package) ... ok
+test_formula_cache_not_measured_value (test_clean_dryad.DryadTests.test_formula_cache_not_measured_value) ... ok
+test_header_mismatch_is_blocked (test_clean_dryad.DryadTests.test_header_mismatch_is_blocked) ... ok
+test_merged_header_provenance (test_clean_dryad.DryadTests.test_merged_header_provenance) ... ok
+test_no_silent_merge_of_duplicate_ids (test_clean_dryad.DryadTests.test_no_silent_merge_of_duplicate_ids) ... ok
+test_output_cannot_be_any_raw_directory (test_clean_dryad.DryadTests.test_output_cannot_be_any_raw_directory) ... ok
+test_part_resource_limit_and_macro (test_clean_dryad.DryadTests.test_part_resource_limit_and_macro) ... ok
+test_partial_checkpoint_is_not_overwritten (test_clean_dryad.DryadTests.test_partial_checkpoint_is_not_overwritten) ... ok
+test_shared_formula_follower_and_whitespace (test_clean_dryad.DryadTests.test_shared_formula_follower_and_whitespace) ... ok
+test_versioned_idempotency_and_tamper_refusal (test_clean_dryad.DryadTests.test_versioned_idempotency_and_tamper_refusal) ... ok
+test_zero_precision_and_nonfinite (test_clean_dryad.DryadTests.test_zero_precision_and_nonfinite) ... ok
+test_bad_row_quarantined_without_loss (test_clean_mendeley.MendeleyTests.test_bad_row_quarantined_without_loss) ... ok
+test_exact_number_tokens_and_string_distinction (test_clean_mendeley.MendeleyTests.test_exact_number_tokens_and_string_distinction) ... ok
+test_json_strictness_and_limit (test_clean_mendeley.MendeleyTests.test_json_strictness_and_limit) ... ok
+test_missing_not_zero_and_invalid_numeric (test_clean_mendeley.MendeleyTests.test_missing_not_zero_and_invalid_numeric) ... ok
+test_naive_timestamp_and_nfc (test_clean_mendeley.MendeleyTests.test_naive_timestamp_and_nfc) ... ok
+test_output_and_source_guards (test_clean_mendeley.MendeleyTests.test_output_and_source_guards) ... ok
+test_preservation_duplicates_idempotency_tamper_and_no_join (test_clean_mendeley.MendeleyTests.test_preservation_duplicates_idempotency_tamper_and_no_join) ... ok
+test_schema_blocked_file_does_not_block_other_format (test_clean_mendeley.MendeleyTests.test_schema_blocked_file_does_not_block_other_format) ... ok
+test_exact_duplicate_ids_and_shared_text_are_retained_for_review (test_clean_plantexpert.PipelineTests.test_exact_duplicate_ids_and_shared_text_are_retained_for_review) ... ok
+test_idempotency_verifies_hashes_and_refuses_tampering (test_clean_plantexpert.PipelineTests.test_idempotency_verifies_hashes_and_refuses_tampering) ... ok
+test_malformed_duplicate_keys_nan_overflow_and_encoding_quarantine (test_clean_plantexpert.PipelineTests.test_malformed_duplicate_keys_nan_overflow_and_encoding_quarantine) ... ok
+test_mapping_keeps_existing_ids_and_vi_unapproved (test_clean_plantexpert.PipelineTests.test_mapping_keeps_existing_ids_and_vi_unapproved) ... ok
+test_missing_field_wrong_type_and_wrong_crop_are_not_schema_ready (test_clean_plantexpert.PipelineTests.test_missing_field_wrong_type_and_wrong_crop_are_not_schema_ready) ... ok
+test_provenance_en_and_zero_empty_values_are_preserved (test_clean_plantexpert.PipelineTests.test_provenance_en_and_zero_empty_values_are_preserved) ... ok
+test_raw_output_boundary_limit_and_incomplete_checkpoint (test_clean_plantexpert.PipelineTests.test_raw_output_boundary_limit_and_incomplete_checkpoint) ... ok
+test_unicode_nfc_does_not_change_raw_or_keys (test_clean_plantexpert.PipelineTests.test_unicode_nfc_does_not_change_raw_or_keys) ... ok
+test_unresolved_reference_and_taxonomy_are_not_auto_corrected (test_clean_plantexpert.PipelineTests.test_unresolved_reference_and_taxonomy_are_not_auto_corrected) ... ok
+test_all_original_and_normalized_english_content_has_lineage (test_clean_plantexpert.ProductionOutputTests.test_all_original_and_normalized_english_content_has_lineage) ... skipped 'production report not specified'
+test_full_raw_hashes_and_count_conservation (test_clean_plantexpert.ProductionOutputTests.test_full_raw_hashes_and_count_conservation) ... skipped 'production report not specified'
+test_image_mapping_coverage_and_review_gates (test_clean_plantexpert.ProductionOutputTests.test_image_mapping_coverage_and_review_gates) ... skipped 'production report not specified'
+test_reference_endpoints_and_candidates_never_change_original_ids (test_clean_plantexpert.ProductionOutputTests.test_reference_endpoints_and_candidates_never_change_original_ids) ... skipped 'production report not specified'
+test_sealed_artifacts_and_reference_inputs_are_unchanged (test_clean_plantexpert.ProductionOutputTests.test_sealed_artifacts_and_reference_inputs_are_unchanged) ... skipped 'production report not specified'
+test_conflicting_metadata_never_becomes_ready (test_clean_plantvillage.PipelineTests.test_conflicting_metadata_never_becomes_ready) ... ok
+test_counts_provenance_decode_and_same_label_exact_dedup (test_clean_plantvillage.PipelineTests.test_counts_provenance_decode_and_same_label_exact_dedup) ... ok
+test_cross_label_exact_conflict_is_retained_for_review_not_deduped (test_clean_plantvillage.PipelineTests.test_cross_label_exact_conflict_is_retained_for_review_not_deduped) ... ok
+test_idempotent_reuse_and_tamper_refusal (test_clean_plantvillage.PipelineTests.test_idempotent_reuse_and_tamper_refusal) ... ok
+test_near_budget_exhaustion_is_visible_and_blocks_ready_subset (test_clean_plantvillage.PipelineTests.test_near_budget_exhaustion_is_visible_and_blocks_ready_subset) ... ok
+test_near_candidate_hash_never_deletes_or_merges_leaf_groups (test_clean_plantvillage.PipelineTests.test_near_candidate_hash_never_deletes_or_merges_leaf_groups) ... ok
+test_output_path_inside_source_is_rejected_without_source_writes (test_clean_plantvillage.PipelineTests.test_output_path_inside_source_is_rejected_without_source_writes) ... ok
+test_target_prefix_numeric_alias_stays_unapplied (test_clean_plantvillage.PipelineTests.test_target_prefix_numeric_alias_stays_unapplied) ... ok
+test_unmapped_named_leaf_does_not_get_a_filename_fallback (test_clean_plantvillage.PipelineTests.test_unmapped_named_leaf_does_not_get_a_filename_fallback) ... ok
+test_variants_share_component_and_pending_blocks_entire_component (test_clean_plantvillage.PipelineTests.test_variants_share_component_and_pending_blocks_entire_component) ... ok
+test_zero_and_prefixed_leaf_ids_are_not_missing_or_schema_errors (test_clean_plantvillage.PipelineTests.test_zero_and_prefixed_leaf_ids_are_not_missing_or_schema_errors) ... ok
+test_every_derived_image_is_byte_identical_and_exclusions_have_no_copy (test_clean_plantvillage.ProductionOutputTests.test_every_derived_image_is_byte_identical_and_exclusions_have_no_copy) ... skipped 'Set PLANTVILLAGE_REPORT to verify actual outputs'
+test_group_edges_and_pending_records_cannot_cross_benchmark_boundary (test_clean_plantvillage.ProductionOutputTests.test_group_edges_and_pending_records_cannot_cross_benchmark_boundary) ... skipped 'Set PLANTVILLAGE_REPORT to verify actual outputs'
+test_manifest_schema_unique_ids_and_source_count_conservation (test_clean_plantvillage.ProductionOutputTests.test_manifest_schema_unique_ids_and_source_count_conservation) ... skipped 'Set PLANTVILLAGE_REPORT to verify actual outputs'
+test_raw_before_after_full_hashes_and_manifest_lineage (test_clean_plantvillage.ProductionOutputTests.test_raw_before_after_full_hashes_and_manifest_lineage) ... skipped 'Set PLANTVILLAGE_REPORT to verify actual outputs'
+test_review_alias_and_near_queues_have_real_endpoints_and_no_auto_resolution (test_clean_plantvillage.ProductionOutputTests.test_review_alias_and_near_queues_have_real_endpoints_and_no_auto_resolution) ... skipped 'Set PLANTVILLAGE_REPORT to verify actual outputs'
+test_clean_wur (unittest.loader._FailedTest.test_clean_wur) ... ERROR
+test_304_requires_verified_real_cache (test_collect_ucipm.CollectorTests.test_304_requires_verified_real_cache) ... ok
+test_403_429_captcha_stop_without_retry (test_collect_ucipm.CollectorTests.test_403_429_captcha_stop_without_retry) ... ok
+test_batch_limit_stops (test_collect_ucipm.CollectorTests.test_batch_limit_stops) ... ok
+test_cadence_after_completed_request (test_collect_ucipm.CollectorTests.test_cadence_after_completed_request) ... ok
+test_decompressed_body_cap (test_collect_ucipm.CollectorTests.test_decompressed_body_cap) ... ok
+test_error_media_and_attachment_not_snapshots (test_collect_ucipm.CollectorTests.test_error_media_and_attachment_not_snapshots) ... ok
+test_exhausted_retries (test_collect_ucipm.CollectorTests.test_exhausted_retries) ... ok
+test_html_hash_headers_and_request_settings (test_collect_ucipm.CollectorTests.test_html_hash_headers_and_request_settings) ... ok
+test_outside_allowlist_never_requested (test_collect_ucipm.CollectorTests.test_outside_allowlist_never_requested) ... ok
+test_plan_and_inventory_exactly_21 (test_collect_ucipm.CollectorTests.test_plan_and_inventory_exactly_21) ... ok
+test_redirect_fragment_same_resource_does_not_fetch_twice (test_collect_ucipm.CollectorTests.test_redirect_fragment_same_resource_does_not_fetch_twice) ... ok
+test_redirect_outside_or_cross_host_review (test_collect_ucipm.CollectorTests.test_redirect_outside_or_cross_host_review) ... ok
+test_retry_only_temporary_errors_with_backoff (test_collect_ucipm.CollectorTests.test_retry_only_temporary_errors_with_backoff) ... ok
+test_robots_denied_or_unverified_no_request (test_collect_ucipm.CollectorTests.test_robots_denied_or_unverified_no_request) ... ok
+test_robots_longest_allow_tie_and_case (test_collect_ucipm.CollectorTests.test_robots_longest_allow_tie_and_case) ... ok
+test_robots_specific_agent_and_wildcard (test_collect_ucipm.CollectorTests.test_robots_specific_agent_and_wildcard) ... ok
+test_three_hop_limit (test_collect_ucipm.CollectorTests.test_three_hop_limit) ... ok
+test_valid_allowlisted_redirect (test_collect_ucipm.CollectorTests.test_valid_allowlisted_redirect) ... ok
+test_headings_lists_negation_condition_scientific_name (test_collect_ucipm.ParserTests.test_headings_lists_negation_condition_scientific_name) ... ok
+test_missing_footnote_section_and_encoding_review (test_collect_ucipm.ParserTests.test_missing_footnote_section_and_encoding_review) ... ok
+test_missing_main_fails_closed (test_collect_ucipm.ParserTests.test_missing_main_fails_closed) ... ok
+test_rights_separate_purposes_no_blanket_license (test_collect_ucipm.ParserTests.test_rights_separate_purposes_no_blanket_license) ... ok
+test_table_headers_spans_cells_zero_units_footnotes (test_collect_ucipm.ParserTests.test_table_headers_spans_cells_zero_units_footnotes) ... ok
+test_third_party_notice_needs_review (test_collect_ucipm.ParserTests.test_third_party_notice_needs_review) ... ok
+test_429_checkpoint_then_no_other_request (test_collect_ucipm.RunTests.test_429_checkpoint_then_no_other_request) ... ok
+test_blocked_preflight_all_21_and_idempotency_offline (test_collect_ucipm.RunTests.test_blocked_preflight_all_21_and_idempotency_offline) ... ok
+test_copy_permission_does_not_imply_processing (test_collect_ucipm.RunTests.test_copy_permission_does_not_imply_processing) ... ok
+test_no_loosened_limits_or_path_escape (test_collect_ucipm.RunTests.test_no_loosened_limits_or_path_escape) ... ok
+test_sidecar_condition_labels_gaps_and_12_claims_preserved (test_collect_ucipm.RunTests.test_sidecar_condition_labels_gaps_and_12_claims_preserved) ... ok
+test_synthetic_download_transform_replay_schema_raw_immutable (test_collect_ucipm.RunTests.test_synthetic_download_transform_replay_schema_raw_immutable) ... ok
+test_tamper_seal_and_input_change_refused (test_collect_ucipm.RunTests.test_tamper_seal_and_input_change_refused) ... ok
+test_all_ten_real_classes_reference_present_and_blocked (test_review_integration.IntegrationContractTests.test_all_ten_real_classes_reference_present_and_blocked) ... ok
+test_ambiguous_mapping (test_review_integration.IntegrationContractTests.test_ambiguous_mapping) ... ok
+test_changed_order_and_recomputed_manifest_reject_old_prediction (test_review_integration.IntegrationContractTests.test_changed_order_and_recomputed_manifest_reject_old_prediction) ... ok
+test_chemical_and_contextual_claims_stay_hidden (test_review_integration.IntegrationContractTests.test_chemical_and_contextual_claims_stay_hidden) ... ok
+test_duplicate_mapping_and_claim (test_review_integration.IntegrationContractTests.test_duplicate_mapping_and_claim) ... ok
+test_healthy_never_treatment (test_review_integration.IntegrationContractTests.test_healthy_never_treatment) ... ok
+test_healthy_wrong_card_even_if_hash_updated (test_review_integration.IntegrationContractTests.test_healthy_wrong_card_even_if_hash_updated) ... ok
+test_input_object_not_mutated_and_real_flags_unchanged (test_review_integration.IntegrationContractTests.test_input_object_not_mutated_and_real_flags_unchanged) ... ok
+test_invalid_class_indices (test_review_integration.IntegrationContractTests.test_invalid_class_indices) ... ok
+test_low_confidence_external_scope_quality_and_invalid_score (test_review_integration.IntegrationContractTests.test_low_confidence_external_scope_quality_and_invalid_score) ... ok
+test_missing_claim_source_evidence (test_review_integration.IntegrationContractTests.test_missing_claim_source_evidence) ... ok
+test_missing_or_duplicate_card (test_review_integration.IntegrationContractTests.test_missing_or_duplicate_card) ... ok
+test_missing_review_actor_or_bad_evidence_metadata (test_review_integration.IntegrationContractTests.test_missing_review_actor_or_bad_evidence_metadata) ... ok
+test_modified_manifest_without_hash (test_review_integration.IntegrationContractTests.test_modified_manifest_without_hash) ... ok
+test_registry_points_to_reviewed_run_and_originals_match (test_review_integration.IntegrationContractTests.test_registry_points_to_reviewed_run_and_originals_match) ... ok
+test_stale_source_card_translation_and_claim_hashes (test_review_integration.IntegrationContractTests.test_stale_source_card_translation_and_claim_hashes) ... ok
+test_synthetic_approved_nonchemical_guidance_has_provenance (test_review_integration.IntegrationContractTests.test_synthetic_approved_nonchemical_guidance_has_provenance) ... ok
+test_topk_does_not_mix_conditions (test_review_integration.IntegrationContractTests.test_topk_does_not_mix_conditions) ... ok
+test_unapproved_domain_even_with_approved_translation (test_review_integration.IntegrationContractTests.test_unapproved_domain_even_with_approved_translation) ... ok
+test_unapproved_translation_even_with_approved_domain (test_review_integration.IntegrationContractTests.test_unapproved_translation_even_with_approved_domain) ... ok
+test_unknown_label (test_review_integration.IntegrationContractTests.test_unknown_label) ... ok
+test_versions_and_hash_mismatch (test_review_integration.IntegrationContractTests.test_versions_and_hash_mismatch) ... ok
+
+======================================================================
+ERROR: test_clean_wur (unittest.loader._FailedTest.test_clean_wur)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_clean_wur
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\unittest\loader.py", line 433, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\unittest\loader.py", line 374, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\scripts\data\test_clean_wur.py", line 11, in <module>
+    import clean_wur as pipeline
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\scripts\data\clean_wur.py", line 17, in <module>
+    import pdfplumber
+ModuleNotFoundError: No module named 'pdfplumber'
+
+
+----------------------------------------------------------------------
+Ran 104 tests in 24.996s
+
+FAILED (errors=1, skipped=10)

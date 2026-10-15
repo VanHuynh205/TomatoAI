@@ -1,0 +1,128 @@
+{
+  "bacterial": {
+    "title": "UF/IFAS PP353 Bacterial Spot of Tomato",
+    "url": "https://ask.ifas.ufl.edu/publication/PP353",
+    "section": "Causal organisms; Cultural Practices",
+    "limit": "Florida; không xác nhận đăng ký hóa chất tại Việt Nam; rotation không chứng minh thời lượng 3–4 năm của card.",
+    "source_id": "bacterial",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "early": {
+    "title": "University of Minnesota Extension: Early blight in tomato and potato",
+    "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato",
+    "section": "Causal pathogens; Cultural management",
+    "limit": "Khuyến nông Minnesota; loại lá có điều kiện và giới hạn; không chứng minh mọi chế phẩm hay lịch Việt Nam.",
+    "source_id": "early",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "late": {
+    "title": "University of Minnesota Extension: Late blight",
+    "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight",
+    "section": "Pathogen; How to manage late blight",
+    "limit": "Water mold; khuyến cáo home/farm khác nhau; loại cây chỉ áp dụng theo tình trạng đã xác minh.",
+    "source_id": "late",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "mold": {
+    "title": "University of Minnesota Extension: Tomato leaf mold",
+    "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold",
+    "section": "Passalora fulva; Cultural management",
+    "limit": "Greenhouse/high tunnel; resistance phụ thuộc chủng; không xác nhận hiệu quả mọi chế phẩm.",
+    "source_id": "mold",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "septoria": {
+    "title": "University of Maryland Extension: Septoria Leaf Spot of Tomatoes",
+    "url": "https://www.extension.umd.edu/resource/septoria-leaf-spot-tomatoes",
+    "section": "Prevention and management",
+    "limit": "Garden guidance; không xác nhận số năm rotation hay hoạt chất tại Việt Nam.",
+    "source_id": "septoria",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "diagnosis": {
+    "title": "University of Minnesota Extension: Tomato leaves with spots",
+    "url": "https://apps.extension.umn.edu/garden/diagnose/plant/vegetable/tomato/leavesspots.html",
+    "section": "Septoria; Early blight; Late blight; Bacterial spot",
+    "limit": "Dấu hiệu tham khảo; không xác minh nhãn từng ảnh PlantVillage.",
+    "source_id": "diagnosis",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "mite": {
+    "title": "UC IPM: Spider Mites",
+    "url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/",
+    "section": "Identification; Cultural control; Natural enemies",
+    "limit": "Nhận diện loài cần quan sát; rửa bằng nước ở quy mô vườn không tương đương lịch phun/misting định kỳ.",
+    "source_id": "mite",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "target": {
+    "title": "UF/IFAS PP351 Target Spot of Tomato in Florida",
+    "url": "https://ask.ifas.ufl.edu/publication/PP351",
+    "section": "Corynespora cassiicola; Integrated Management; leaf wetness",
+    "limit": "Florida; phổ ký chủ rộng; 16–44 giờ leaf wetness không phải ngưỡng phổ quát để bác bỏ 8 giờ trong mọi điều kiện.",
+    "source_id": "target",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "mosaic": {
+    "title": "University of Minnesota Extension: Tomato viruses",
+    "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses",
+    "section": "ToMV/TMV; Symptoms; Prevention and management",
+    "limit": "ToMV và TMV khác nhau; xét nghiệm cần cho kết luận chắc chắn; không suy ra virus cụ thể từ triệu chứng lá.",
+    "source_id": "mosaic",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "yellow": {
+    "title": "UC IPM: Tomato Yellow Leaf Curl",
+    "url": "https://ipm.ucanr.edu/agriculture/tomato/tomato-yellow-leaf-curl/",
+    "section": "Symptoms; Comments; Management",
+    "limit": "California; loại cây khi incidence thấp; host-free period cần phối hợp địa phương, không tự gán từ một ảnh.",
+    "source_id": "yellow",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "healthy": {
+    "title": "University of Minnesota Extension: Growing tomatoes",
+    "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+    "section": "Planting; Watering; Managing diseases",
+    "limit": "Chăm sóc cơ bản theo điều kiện trồng; dinh dưỡng cần căn cứ đất; nhãn lá khỏe không bảo đảm toàn cây không bệnh.",
+    "source_id": "healthy",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "gray": {
+    "title": "UConn IPM: Tomato Stemphylium (Gray Leaf Spot)",
+    "url": "https://ipm.cahnr.uconn.edu/tomato-stemphylium/",
+    "section": "Pathogen; Gray leaf spot",
+    "limit": "Không đủ để đồng nhất alias gray leaf spot trong card Cercospora; cần bằng chứng phân loại riêng.",
+    "source_id": "gray",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "pv": {
+    "title": "PlantVillage Dataset official repository",
+    "url": "https://github.com/spMohanty/PlantVillage-Dataset",
+    "section": "README: labels, grouping and variants",
+    "limit": "Nhãn nguồn, không phải kiểm duyệt lại từng ảnh; license chính xác của phân phối local cần rà soát README_HF và attribution.",
+    "source_id": "pv",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  },
+  "pex": {
+    "title": "PlantExpertVQA official dataset card",
+    "url": "https://huggingface.co/datasets/SyedNazmusSakib/PlantExpertVQA/blob/main/README.md",
+    "section": "License; dataset sources; annotation process",
+    "limit": "CC-BY-4.0 khai báo cho dataset; thành phần có license khác; không xác nhận quyền của mọi câu trích hay chuyên gia phê duyệt local.",
+    "source_id": "pex",
+    "accessed": "2026-10-14",
+    "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+  }
+}

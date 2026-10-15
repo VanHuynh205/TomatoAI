@@ -1,0 +1,767 @@
+[
+  {
+    "source_file": "source_files/AICU/CropParameters.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 15
+    }
+  },
+  {
+    "source_file": "source_files/AICU/GreenhouseClimate.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 1770173,
+      "missing_to_empty": 572468
+    }
+  },
+  {
+    "source_file": "source_files/AICU/GrodanSens.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "missing_to_empty": 13830,
+      "NFC_trim_numeric_lexeme": 273024
+    }
+  },
+  {
+    "source_file": "source_files/AICU/LabAnalysis.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 10
+    }
+  },
+  {
+    "source_file": "source_files/AICU/Production.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 24,
+      "missing_to_empty": 2
+    }
+  },
+  {
+    "source_file": "source_files/AICU/Resources.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {}
+  },
+  {
+    "source_file": "source_files/AICU/TomQuality.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "Flavour ",
+        "after": "Flavour"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 8,
+      "missing_to_empty": 2
+    }
+  },
+  {
+    "source_file": "source_files/Automatoes/CropParameters.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 15
+    }
+  },
+  {
+    "source_file": "source_files/Automatoes/GreenhouseClimate.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 2230145,
+      "missing_to_empty": 112496
+    }
+  },
+  {
+    "source_file": "source_files/Automatoes/GrodanSens.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "missing_to_empty": 13956,
+      "NFC_trim_numeric_lexeme": 272898
+    }
+  },
+  {
+    "source_file": "source_files/Automatoes/LabAnalysis.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {}
+  },
+  {
+    "source_file": "source_files/Automatoes/Production.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 23,
+      "missing_to_empty": 1
+    }
+  },
+  {
+    "source_file": "source_files/Automatoes/Resources.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 166
+    }
+  },
+  {
+    "source_file": "source_files/Automatoes/TomQuality.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "Flavour ",
+        "after": "Flavour"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 8,
+      "missing_to_empty": 2
+    }
+  },
+  {
+    "source_file": "source_files/Digilog/CropParameters.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 15
+    }
+  },
+  {
+    "source_file": "source_files/Digilog/GreenhouseClimate.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 2254764,
+      "missing_to_empty": 87877
+    }
+  },
+  {
+    "source_file": "source_files/Digilog/GrodanSens.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "missing_to_empty": 13926,
+      "NFC_trim_numeric_lexeme": 272928
+    }
+  },
+  {
+    "source_file": "source_files/Digilog/LabAnalysis.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {}
+  },
+  {
+    "source_file": "source_files/Digilog/Production.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 24
+    }
+  },
+  {
+    "source_file": "source_files/Digilog/Resources.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {}
+  },
+  {
+    "source_file": "source_files/Digilog/TomQuality.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "Flavour ",
+        "after": "Flavour"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 8,
+      "missing_to_empty": 2
+    }
+  },
+  {
+    "source_file": "source_files/IUACAAS/CropParameters.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 15
+    }
+  },
+  {
+    "source_file": "source_files/IUACAAS/GreenhouseClimate.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 2076237,
+      "missing_to_empty": 266404
+    }
+  },
+  {
+    "source_file": "source_files/IUACAAS/GrodanSens.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "missing_to_empty": 13926,
+      "NFC_trim_numeric_lexeme": 272928
+    }
+  },
+  {
+    "source_file": "source_files/IUACAAS/LabAnalysis.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {}
+  },
+  {
+    "source_file": "source_files/IUACAAS/Production.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 23,
+      "missing_to_empty": 2
+    }
+  },
+  {
+    "source_file": "source_files/IUACAAS/Resources.csv",
+    "header_operations": [
+      {
+        "operation": "omit_five_proven_empty_trailing_columns",
+        "source_indices": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "rows_checked": 166,
+        "nonempty_cells": 0,
+        "recoverable_from_raw": true
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {}
+  },
+  {
+    "source_file": "source_files/IUACAAS/TomQuality.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "Flavour ",
+        "after": "Flavour"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 9,
+      "missing_to_empty": 2
+    }
+  },
+  {
+    "source_file": "source_files/Reference/CropParameters.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 16
+    }
+  },
+  {
+    "source_file": "source_files/Reference/GreenhouseClimate.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 2145109,
+      "missing_to_empty": 197532
+    }
+  },
+  {
+    "source_file": "source_files/Reference/GrodanSens.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "missing_to_empty": 13836,
+      "NFC_trim_numeric_lexeme": 273018
+    }
+  },
+  {
+    "source_file": "source_files/Reference/LabAnalysis.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {}
+  },
+  {
+    "source_file": "source_files/Reference/Production.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 24,
+      "missing_to_empty": 3
+    }
+  },
+  {
+    "source_file": "source_files/Reference/Resources.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {}
+  },
+  {
+    "source_file": "source_files/Reference/TomQuality.csv",
+    "header_operations": [
+      {
+        "operation": "split_merged_header_only",
+        "header_index_1based": 7,
+        "before": "\tWeight\tDMC_fruit",
+        "after": [
+          "Weight",
+          "DMC_fruit"
+        ],
+        "pdf_page": 14
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "\tFlavour",
+        "after": "Flavour"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 3,
+        "before": " \tTSS",
+        "after": "TSS"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 4,
+        "before": "\tAcid",
+        "after": "Acid"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "\t%Juice",
+        "after": "%Juice"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 6,
+        "before": "\tBite",
+        "after": "Bite"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 54,
+      "missing_to_empty": 2
+    }
+  },
+  {
+    "source_file": "source_files/TheAutomators/CropParameters.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "stem_dens ",
+        "after": "stem_dens"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 18,
+      "missing_to_empty": 15
+    }
+  },
+  {
+    "source_file": "source_files/TheAutomators/GreenhouseClimate.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 2250038,
+      "missing_to_empty": 92603
+    }
+  },
+  {
+    "source_file": "source_files/TheAutomators/GrodanSens.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "missing_to_empty": 13860,
+      "NFC_trim_numeric_lexeme": 272994
+    }
+  },
+  {
+    "source_file": "source_files/TheAutomators/LabAnalysis.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {}
+  },
+  {
+    "source_file": "source_files/TheAutomators/Production.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 5,
+        "before": "Truss development time ",
+        "after": "Truss development time"
+      }
+    ],
+    "cell_operations": {
+      "missing_to_empty": 1
+    }
+  },
+  {
+    "source_file": "source_files/TheAutomators/Resources.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%Time ",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {}
+  },
+  {
+    "source_file": "source_files/TheAutomators/TomQuality.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      },
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 2,
+        "before": "Flavour ",
+        "after": "Flavour"
+      }
+    ],
+    "cell_operations": {
+      "NFC_trim_numeric_lexeme": 9,
+      "missing_to_empty": 2
+    }
+  },
+  {
+    "source_file": "source_files/Weather/Weather.csv",
+    "header_operations": [
+      {
+        "operation": "NFC_trim_header_and_explicit_time_key",
+        "source_index": 1,
+        "before": "%time",
+        "after": "time_excel_serial"
+      }
+    ],
+    "cell_operations": {
+      "missing_to_empty": 710
+    }
+  }
+]

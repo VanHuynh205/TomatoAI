@@ -1,0 +1,55 @@
+{
+  "source": [
+    {
+      "source_file": "2024.06.05_Quality_Determination.xlsx",
+      "bytes": 97500,
+      "sha256": "add5a6b11f1c4082254e69ab371f6bb76c3857a0e32a1e003bce5eb6c5d52067"
+    },
+    {
+      "source_file": "Irrigation_Data_1-4.xlsx",
+      "bytes": 18262,
+      "sha256": "6259e1c55b3671057dd324f6dc97ce6b919fad47366aae839b4ecddb0d9399c4"
+    },
+    {
+      "source_file": "Photosynthetic_Data.xlsx",
+      "bytes": 15266,
+      "sha256": "16ca6bf993dcf315c09c9178d5f4e51016d79b273689b13db22241ed07152434"
+    },
+    {
+      "source_file": "README.md",
+      "bytes": 4928,
+      "sha256": "05c8943245d022037f1e559872855c300b57c9aa3688eab9957a763165a47f4c"
+    },
+    {
+      "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+      "bytes": 23169,
+      "sha256": "52c16e117f76a27acf5709ab4bf530d93d5faeefa77a6e7b826e31632905f3be"
+    }
+  ],
+  "references": [
+    {
+      "path": "data/TomatoAI/data/cultivation_metadata/download-manifest.json",
+      "sha256": "9f3076b736652210982542788e0bdcf191976f4f87a355f480530b99eebfdaad"
+    },
+    {
+      "path": "data/TomatoAI/data/cultivation_metadata/dryad-dataset.json",
+      "sha256": "82f41e8f9ae6b0ae71796a80385b807517a8107a224fc5d2d407335a00a1f3ba"
+    },
+    {
+      "path": "data/TomatoAI/data/cultivation_metadata/dryad-version.json",
+      "sha256": "d8e72a5478829ea28825b7353ec4d64ba08fa0952f946af56a85af6dc3a02159"
+    },
+    {
+      "path": "data/TomatoAI/data/cultivation_metadata/dryad-files.json",
+      "sha256": "9ec2cb291f892c9e50c71eb2a33194a9f1516add1369b57ab3f003cb2c62f904"
+    },
+    {
+      "path": "data/TomatoAI/data/cultivation_metadata/README.md",
+      "sha256": "fd1aaa5900ac64f1f69e823098cc2cf36785ac2437c421e1f1d757939c8fb79a"
+    }
+  ],
+  "config_sha256": "8d7cce3b85b6b15ee5796970ffda3e63660919f8dc9277cac2ce5fa58cdedcd1",
+  "python": "3.12.14",
+  "code_sha256": "e95237b067a60048cff8a4e499ab446ebee11a9e2013650c6dd528e77440e776",
+  "helper_sha256": "13084f96ff8025f407e27e703ec3b43d81677d4ec8746fdf15b895e727be217c"
+}

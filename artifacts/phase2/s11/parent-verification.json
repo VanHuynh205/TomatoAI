@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-15",
+  "scope": "Independent parent rerun; partial S11 and prior-phase checks only",
+  "checks": [
+    {
+      "id": "phase0",
+      "cmd": ".venv-phase0/Scripts/python.exe -m unittest discover -s scripts/checks -p test_phase0_smoke.py -v",
+      "chunk_id": "3a56a9",
+      "wall_time_seconds": 10.012736,
+      "original_token_count": 44,
+      "exit_code": 0
+    },
+    {
+      "id": "phase1",
+      "cmd": ".venv-phase0/Scripts/python.exe -m unittest discover -s tests/data -p test_benchmark.py -v",
+      "chunk_id": "dfb3f7",
+      "wall_time_seconds": 3.2046427,
+      "exit_code": 0,
+      "original_token_count": 1050
+    },
+    {
+      "id": "knowledge",
+      "cmd": ".venv-phase0/Scripts/python.exe -m unittest discover -s tests/knowledge -p 'test_*.py' -v",
+      "chunk_id": "8e5d22",
+      "wall_time_seconds": 7.5123773,
+      "exit_code": 0,
+      "original_token_count": 711
+    },
+    {
+      "id": "lookup",
+      "cmd": ".venv-phase0/Scripts/python.exe -m unittest discover -s scripts/data -p test_review_integration.py -v",
+      "chunk_id": "80d938",
+      "wall_time_seconds": 0.7381409,
+      "exit_code": 0,
+      "original_token_count": 829
+    },
+    {
+      "id": "preservation",
+      "cmd": "@'\nimport hashlib,json,subprocess,sys\nfrom pathlib import Path\nfrom dataclasses import asdict\nfrom scripts.knowledge.curate import CARD_ID,curate_card,read_json\nroot=Path.cwd()\nbase=read_json(root/'artifacts/phase2/s11/preservation-before.json')\nchanged=[]\nfor f in base['files']:\n p=root/f['path']; data=p.read_bytes()\n if len(data)!=f['bytes'] or hashlib.sha256(data).hexdigest()!=f['sha256']: changed.append(f['path'])\ndraft=curate_card(CARD_ID,root/'content/phase2-healthy-v1/review-inputs.json')\nassert asdict(draft)==read_json(root/'content/phase2-healthy-v1-bundle/card-draft.json')\nr=subprocess.run([sys.executable,'scripts/knowledge/publish.py'],capture_output=True,text=True,encoding='utf-8')\nv=json.loads(r.stdout)\nassert r.returncode==2 and not r.stderr\nassert v['status']=='needs_check' and (v['claims'],v['sources'],v['lesson_ids'])==([],[],[])\nassert v['reasons']==['source_review_pending','translation_review_pending','rights_scope_review_pending','publication_not_authorized','positive_publisher_unimplemented']\nassert not changed\nprint(json.dumps({'protected_files':len(base['files']),'changed':changed,'draft_reproduced':True,'cli_exit':r.returncode,'cli':v},ensure_ascii=False))\n'@ | .venv-phase0/Scripts/python.exe -",
+      "chunk_id": "739bfb",
+      "wall_time_seconds": 0.9731217,
+      "exit_code": 0,
+      "original_token_count": 390
+    }
+  ],
+  "total_tests_passed": 74,
+  "raw_rescan": false,
+  "protected_files_unchanged": 122,
+  "story_complete": false
+}

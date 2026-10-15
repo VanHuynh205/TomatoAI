@@ -1,0 +1,43 @@
+# Approved 2026-10-14; table order is build order, IDs are stable. No execution status belongs here.
+
+[[epic]]
+id = "EPA"
+slug = "epic-governance-data"
+title = "Governance và dữ liệu có căn cứ"
+covers = ["CAP-1", "CAP-9"]
+after = []
+
+[[epic]]
+id = "EPD"
+slug = "epic-knowledge-learning"
+title = "Tri thức Việt hóa và nội dung học có nguồn"
+covers = ["CAP-4", "CAP-5", "CAP-6"]
+after = [{ epic = "EPA", needs = "S01 rights/policy decisions and S02 source/ID/provenance" }]
+
+[[epic]]
+id = "EPB"
+slug = "epic-model-comparison"
+title = "Hai mô hình và lựa chọn bằng validation"
+covers = ["CAP-2", "CAP-3"]
+after = [{ epic = "EPA", needs = "S04 approved benchmark/class manifest" }]
+
+[[epic]]
+id = "EPC"
+slug = "epic-desktop-slice"
+title = "Lát cắt desktop xuyên suốt"
+covers = ["CAP-3", "CAP-4", "CAP-7"]
+after = [{ epic = "EPA", needs = "S04 approved class/split manifest" }, { epic = "EPB", needs = "S05 student pilot checkpoint" }, { epic = "EPD", needs = "S11 first allowed card after S10" }]
+
+[[epic]]
+id = "EPE"
+slug = "epic-offline-release"
+title = "Desktop hoàn thiện, đánh giá cuối và phát hành offline"
+covers = ["CAP-2", "CAP-3", "CAP-4", "CAP-6", "CAP-7", "CAP-8", "CAP-9"]
+after = [{ epic = "EPC", needs = "S06 minimal runtime and contracts" }, { epic = "EPB", needs = "S09 validation winner/policy lock" }, { epic = "EPD", needs = "S12 lessons after S11 review" }]
+
+[[epic]]
+id = "EPF"
+slug = "epic-evidence-defense"
+title = "Evidence độc lập, đánh giá người dùng và bảo vệ"
+covers = ["CAP-4", "CAP-6", "CAP-8", "CAP-9"]
+after = [{ epic = "EPB", needs = "S09 locked model/policy" }, { epic = "EPD", needs = "S12 reviewed lessons" }, { epic = "EPE", needs = "S13 UI and S18 core release with S15 metrics" }]

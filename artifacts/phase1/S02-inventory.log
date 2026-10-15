@@ -1,0 +1,1 @@
+Stopped owned initial read-only run after observing repeated path resolution for 622899 WUR records; no completed data card claimed. Restart uses one path check per distinct processed table while preserving all per-record hash/provenance checks.

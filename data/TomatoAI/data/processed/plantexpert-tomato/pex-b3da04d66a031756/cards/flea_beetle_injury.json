@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+  "content_language": "en",
+  "source": {
+    "file": "disease_kb/tomato/flea_beetle_injury.json",
+    "pointer": "/",
+    "sha256": "7967340a5374beb4f5c5724e815b06115d92c329fa070f6f54dad24785500e2e",
+    "disease_id_original": "tomato.unknown.flea_beetle_injury"
+  },
+  "content_en": {
+    "schema_version": "1.0.0",
+    "disease_id": "tomato.unknown.flea_beetle_injury",
+    "aliases": [
+      "flea beetle damage",
+      "shot-hole feeding"
+    ],
+    "crop": {
+      "common_name": "tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "family": "Solanaceae"
+    },
+    "condition": {
+      "common_name": "flea beetle injury",
+      "scientific_name": "Epitrix spp.",
+      "alt_names": [
+        "flea beetle feeding damage"
+      ],
+      "pathogen": {
+        "type": "Insect",
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "Insecta",
+          "order": "Coleoptera",
+          "family": "Chrysomelidae",
+          "genus": "Epitrix",
+          "species": ""
+        }
+      }
+    },
+    "issue_type": "unknown",
+    "transmission": {
+      "vectors": [
+        "Adult flea beetles"
+      ],
+      "dispersal": [
+        "Flying",
+        "Jumping"
+      ],
+      "overwintering": [
+        "In soil",
+        "In plant debris",
+        "In weedy areas near fields"
+      ]
+    },
+    "environmental_risk": {
+      "risk_factors": [
+        "Presence of weedy hosts (e.g., nightshades, horsenettle)",
+        "Warm, sunny conditions, especially after transplanting",
+        "Fields adjacent to overwintering sites like woods or weedy borders"
+      ],
+      "temp_c_day": [
+        21,
+        29
+      ],
+      "temp_c_night": [],
+      "relative_humidity_pct": [],
+      "leaf_wetness_hours_threshold": 0
+    },
+    "severity_rubric": {
+      "unit": "percent_leaf_area",
+      "mild": "1-10% of leaf area on affected leaves shows small pits or holes. Damage is cosmetic.",
+      "moderate": "11-40% of leaf area is affected. Numerous holes are present, some may coalesce, causing a tattered appearance.",
+      "severe": ">40% of leaf area is affected. Significant defoliation or skeletonization, leading to stunted growth or death, especially in seedlings.",
+      "notes": "Severity is most critical on young seedlings which are highly vulnerable. Established plants can tolerate substantial foliar damage. The rubric measures the percentage of affected leaf area on the most symptomatic leaves."
+    },
+    "symptoms": {
+      "leaves": [
+        "Numerous small, round, 'shot-holes' (1-2 mm) that penetrate the leaf.",
+        "Small pits or scraped areas on the leaf surface that do not go all the way through.",
+        "Damage is most concentrated on cotyledons and the youngest leaves.",
+        "Heavy feeding can cause leaves to appear tattered, lace-like, or skeletonized.",
+        "Tissue immediately surrounding the feeding holes may turn yellow or brown.",
+        "Small (1.5-3 mm), dark, shiny beetles may be visible on leaves and will jump when disturbed."
+      ],
+      "stems": [
+        "Superficial pitting or feeding marks may occur on the stems of young seedlings."
+      ],
+      "fruit": [
+        "Feeding damage on fruit is uncommon and typically consists of minor, superficial scarring."
+      ],
+      "roots": [],
+      "whole_plant": [
+        "Stunted growth, wilting, or plant death in heavily infested seedlings.",
+        "Mature plants generally tolerate damage well unless pest populations are extremely high."
+      ],
+      "signs_microscopic_or_visible": [
+        "Presence of small, dark, often metallic-sheened beetles.",
+        "Beetles have characteristically large hind legs and jump like fleas when approached."
+      ]
+    },
+    "lookalikes": [
+      {
+        "condition_name": "bacterial_spot",
+        "condition_id": "tomato.bacterial.bacterial_spot",
+        "key_differences": [
+          "Bacterial spot lesions are initially water-soaked and often have a distinct yellow halo.",
+          "Lesions from bacterial spot are typically angular, constrained by leaf veins, not perfectly round holes.",
+          "Bacterial spot does not create a clean, 'punched-out' hole through the leaf."
+        ]
+      },
+      {
+        "condition_name": "septoria_leaf_spot",
+        "condition_id": "tomato.fungal.septoria_leaf_spot",
+        "key_differences": [
+          "Septoria lesions are circular spots with dark brown borders and tan or gray centers.",
+          "Tiny black specks (pycnidia, the fungal fruiting bodies) are often visible in the center of Septoria lesions.",
+          "Septoria spots are lesions within the leaf tissue, not complete holes passing through it."
+        ]
+      },
+      {
+        "condition_name": "spider_mites",
+        "condition_id": "tomato.pest.spider_mites",
+        "key_differences": [
+          "Spider mite damage appears as fine, yellowish or whitish stippling on the leaf surface, not distinct holes.",
+          "Fine webbing is often visible on the undersides of leaves or where leaves join the stem.",
+          "The causal agents are tiny arachnids, not jumping beetles."
+        ]
+      }
+    ],
+    "management": {
+      "cultural": [
+        "Use floating row covers to protect young transplants.",
+        "Control nearby weedy hosts, especially those in the nightshade family.",
+        "Delay planting until seedlings are larger and more vigorous.",
+        "Maintain good plant health with proper watering and fertilization to help them outgrow damage."
+      ],
+      "biological": [
+        "Encourage natural predators like predatory nematodes, braconid wasps, and big-eyed bugs.",
+        "Applications of entomopathogenic nematodes to the soil can target the larval stage."
+      ],
+      "chemical": [
+        "Apply insecticides such as spinosad, pyrethrins, or kaolin clay (as a suppressant).",
+        "Treatment is most effective and necessary when seedlings are young and damage is first observed."
+      ],
+      "notes": "Management is most critical during the first few weeks after transplanting. Mature, healthy plants can typically withstand significant flea beetle feeding without yield loss."
+    },
+    "qa_seeds": {
+      "verification_templates": [
+        "Are there small, round holes scattered across the tomato leaf?",
+        "Does the damage on the leaf look like it was hit by tiny buckshot?",
+        "Can you see any small, dark insects that jump away when the leaf is touched?",
+        "Are the holes completely through the leaf tissue?",
+        "Is the damage most severe on the newest leaves of a young plant?"
+      ],
+      "attribute_templates": [
+        "What is the shape of the blemishes on the leaves?",
+        "Describe the size of the holes on the leaves.",
+        "Are the edges of the holes discolored?",
+        "Is there any visible pest on the leaf surface?",
+        "Which leaves on the plant show the most damage?"
+      ],
+      "diagnosis_templates": [
+        "What pest causes numerous small, 'shot-hole' perforations on tomato leaves?",
+        "Based on the tattered leaves with many tiny, circular holes, what is wrong with this tomato plant?",
+        "A small, dark beetle that jumps when disturbed is feeding on my tomato leaves. What is it?"
+      ],
+      "counterfactual_templates": [
+        "If the spots were angular, water-soaked, and had yellow halos, what would be the likely issue?",
+        "What if the leaf damage was fine stippling and there was webbing on the underside of the leaves?",
+        "If the spots had tan centers with tiny black dots inside them, what disease would you suspect?"
+      ],
+      "severity_templates": [
+        "What percentage of the leaf surface is affected by feeding holes?",
+        "How would you classify the severity of the flea beetle injury: mild, moderate, or severe?",
+        "Is the feeding damage significant enough to stunt the growth of this seedling?"
+      ],
+      "confounders": [
+        "bacterial_spot",
+        "septoria_leaf_spot",
+        "spider_mites"
+      ]
+    },
+    "data_requirements": {
+      "min_resolution_px": 480,
+      "min_roi_fraction": 0.3,
+      "lighting_notes": "Use bright, even lighting. Avoid harsh shadows which can obscure the small holes. Backlighting can be effective in highlighting the 'shot-hole' pattern.",
+      "occlusion_notes": "Ensure a clear, unobstructed view of the symptomatic leaf surface. Damage can be hidden by overlapping leaves or debris. The pattern of holes is a key diagnostic feature."
+    },
+    "provenance": {
+      "created_by": "AI Plant Pathologist",
+      "reviewed_by": "Expert Reviewer",
+      "created_at": "2023-10-27T11:00:00Z",
+      "updated_at": "2023-10-27T11:00:00Z",
+      "sources": [
+        "University extension pest management guides",
+        "APS Compendium of Tomato Diseases and Pests",
+        "General entomology resources"
+      ]
+    }
+  },
+  "normalizations": [],
+  "flags": [
+    "domain_review_unverified",
+    "claim_sources_unverified",
+    "translation_pending",
+    "chemical_local_review_required",
+    "type_vocabulary_difference",
+    "issue_type_unknown",
+    "unresolved_reference"
+  ],
+  "review": {
+    "domain": "pending",
+    "translation": "not_translated",
+    "safe_for_advice": false,
+    "ready_for_training": false
+  }
+}

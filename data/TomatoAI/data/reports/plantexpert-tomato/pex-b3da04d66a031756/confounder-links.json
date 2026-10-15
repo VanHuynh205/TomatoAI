@@ -1,0 +1,610 @@
+[
+  {
+    "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "source_file": "disease_kb/tomato/bacterial_spot.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "septoria_leaf_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/septoria_leaf_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "source_file": "disease_kb/tomato/bacterial_spot.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "early_blight",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/early_blight.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "source_file": "disease_kb/tomato/bacterial_spot.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "flea_beetle_injury",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/flea_beetle_injury.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_file": "disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "septoria_leaf_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/septoria_leaf_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_file": "disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "early_blight",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/early_blight.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_file": "disease_kb/tomato/cercospora_leaf_spot.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "bacterial_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/bacterial_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/early_blight.json",
+    "source_file": "disease_kb/tomato/early_blight.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "septoria_leaf_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/septoria_leaf_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/early_blight.json",
+    "source_file": "disease_kb/tomato/early_blight.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "late_blight",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/late_blight.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/early_blight.json",
+    "source_file": "disease_kb/tomato/early_blight.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "target_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/target_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/early_blight.json",
+    "source_file": "disease_kb/tomato/early_blight.json",
+    "source_pointer": "/qa_seeds/confounders/3",
+    "slug_original": "bacterial_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/bacterial_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "bacterial_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/bacterial_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "septoria_leaf_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/septoria_leaf_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "source_file": "disease_kb/tomato/flea_beetle_injury.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "spider_mites",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/spider_mites.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "source_file": "disease_kb/tomato/fusarium_wilt.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "yellowing_symptom",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/yellowing_symptom.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "source_file": "disease_kb/tomato/fusarium_wilt.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "late_blight",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/late_blight.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "source_file": "disease_kb/tomato/fusarium_wilt.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "spider_mites",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/spider_mites.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/healthy.json",
+    "source_file": "disease_kb/tomato/healthy.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "early_blight",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/early_blight.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/healthy.json",
+    "source_file": "disease_kb/tomato/healthy.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "spider_mites",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/spider_mites.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/healthy.json",
+    "source_file": "disease_kb/tomato/healthy.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "yellowing_symptom",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/yellowing_symptom.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/healthy.json",
+    "source_file": "disease_kb/tomato/healthy.json",
+    "source_pointer": "/qa_seeds/confounders/3",
+    "slug_original": "septoria_leaf_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/septoria_leaf_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/late_blight.json",
+    "source_file": "disease_kb/tomato/late_blight.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "early_blight",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/early_blight.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/late_blight.json",
+    "source_file": "disease_kb/tomato/late_blight.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "septoria_leaf_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/septoria_leaf_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/late_blight.json",
+    "source_file": "disease_kb/tomato/late_blight.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "leaf_mold",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/leaf_mold.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "Could these symptoms be caused by herbicide damage?",
+    "candidate_record_ids": [],
+    "status": "unresolved_or_ambiguous_slug",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "How would you distinguish this from tomato mosaic virus?",
+    "candidate_record_ids": [],
+    "status": "unresolved_or_ambiguous_slug",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/leaf_curl_virus.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "Is it possible this is tomato yellow leaf curl virus instead of the general leaf curl virus?",
+    "candidate_record_ids": [],
+    "status": "unresolved_or_ambiguous_slug",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "source_file": "disease_kb/tomato/leaf_miner.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "spider_mites",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/spider_mites.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "source_file": "disease_kb/tomato/leaf_miner.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "flea_beetle_injury",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/flea_beetle_injury.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "source_file": "disease_kb/tomato/leaf_miner.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "yellowing_symptom",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/yellowing_symptom.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "source_file": "disease_kb/tomato/leaf_mold.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "late_blight",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/late_blight.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "source_file": "disease_kb/tomato/leaf_mold.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "early_blight",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/early_blight.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "source_file": "disease_kb/tomato/leaf_mold.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "spider_mites",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/spider_mites.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "source_file": "disease_kb/tomato/leaf_mold.json",
+    "source_pointer": "/qa_seeds/confounders/3",
+    "slug_original": "yellowing_symptom",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/yellowing_symptom.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "yellow_leaf_curl_virus",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/yellow_leaf_curl_virus.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "spider_mites",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/spider_mites.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "fusarium_wilt",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/fusarium_wilt.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "source_file": "disease_kb/tomato/mosaic_virus.json",
+    "source_pointer": "/qa_seeds/confounders/3",
+    "slug_original": "herbicide_damage",
+    "candidate_record_ids": [],
+    "status": "unresolved_or_ambiguous_slug",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "flea_beetle_injury",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/flea_beetle_injury.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "spider_mites",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/spider_mites.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "bacterial_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/bacterial_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/pest_damage.json",
+    "source_file": "disease_kb/tomato/pest_damage.json",
+    "source_pointer": "/qa_seeds/confounders/3",
+    "slug_original": "septoria_leaf_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/septoria_leaf_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+    "source_file": "disease_kb/tomato/septoria_leaf_spot.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "early_blight",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/early_blight.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+    "source_file": "disease_kb/tomato/septoria_leaf_spot.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "bacterial_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/bacterial_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+    "source_file": "disease_kb/tomato/septoria_leaf_spot.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "flea_beetle_injury",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/flea_beetle_injury.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/spider_mites.json",
+    "source_file": "disease_kb/tomato/spider_mites.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "flea_beetle_injury",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/flea_beetle_injury.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/spider_mites.json",
+    "source_file": "disease_kb/tomato/spider_mites.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "yellowing_symptom",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/yellowing_symptom.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/spider_mites.json",
+    "source_file": "disease_kb/tomato/spider_mites.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "leaf_miner",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/leaf_miner.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/target_spot.json",
+    "source_file": "disease_kb/tomato/target_spot.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "early_blight",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/early_blight.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/target_spot.json",
+    "source_file": "disease_kb/tomato/target_spot.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "septoria_leaf_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/septoria_leaf_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/target_spot.json",
+    "source_file": "disease_kb/tomato/target_spot.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "bacterial_spot",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/bacterial_spot.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "mosaic_virus",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/mosaic_virus.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "spider_mites",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/spider_mites.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_file": "disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "fusarium_wilt",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/fusarium_wilt.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "source_file": "disease_kb/tomato/yellowing_symptom.json",
+    "source_pointer": "/qa_seeds/confounders/0",
+    "slug_original": "fusarium_wilt",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/fusarium_wilt.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "source_file": "disease_kb/tomato/yellowing_symptom.json",
+    "source_pointer": "/qa_seeds/confounders/1",
+    "slug_original": "spider_mites",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/spider_mites.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  },
+  {
+    "record_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "source_file": "disease_kb/tomato/yellowing_symptom.json",
+    "source_pointer": "/qa_seeds/confounders/2",
+    "slug_original": "mosaic_virus",
+    "candidate_record_ids": [
+      "pex:disease_kb/tomato/mosaic_virus.json"
+    ],
+    "status": "exact_filename_slug_candidate",
+    "candidates_applied": false
+  }
+]

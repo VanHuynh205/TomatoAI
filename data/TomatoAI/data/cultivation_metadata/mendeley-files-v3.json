@@ -1,0 +1,36 @@
+[
+  {
+    "filename": "tomato irrigation dataset.csv",
+    "id": "f3775086-fd5c-4710-973c-0bcf3b79b64e",
+    "content_details": {
+      "id": "30d9002e-f8cb-43d7-8541-0357c4e75cf0",
+      "sha256_hash": "376c12753e37c9803df4669ae9f8a99331e4d358a3c336ad3ba93d64a4ac01ca",
+      "content_type": "text/csv",
+      "size": 265150,
+      "created_date": "2024-11-12T02:06:54.962Z",
+      "download_url": "https://data.mendeley.com/public-files/datasets/33cngpcrmx/files/f3775086-fd5c-4710-973c-0bcf3b79b64e/file_downloaded",
+      "view_url": "https://data.mendeley.com/public-files/datasets/33cngpcrmx/files/f3775086-fd5c-4710-973c-0bcf3b79b64e/file_viewed",
+      "download_expiry_time": "2126-10-13T10:15:04.236634716Z"
+    },
+    "size": 265150,
+    "last_modified_date": "2024-11-12T02:06:54.962Z",
+    "status": "COMPLETED"
+  },
+  {
+    "filename": "tomato_water_sensor_data.json",
+    "id": "9cae1273-3922-4bce-9d8d-f86111e1b9d2",
+    "content_details": {
+      "id": "d3e61908-fe9f-4c65-afae-72f265d0543d",
+      "sha256_hash": "5f6d4182ea8382658dcf396a1a9ad1843508e60ad16ca578292e30984b89dd0e",
+      "content_type": "application/json",
+      "size": 555868,
+      "created_date": "2026-07-01T13:28:09.326Z",
+      "download_url": "https://data.mendeley.com/public-files/datasets/33cngpcrmx/files/9cae1273-3922-4bce-9d8d-f86111e1b9d2/file_downloaded",
+      "view_url": "https://data.mendeley.com/public-files/datasets/33cngpcrmx/files/9cae1273-3922-4bce-9d8d-f86111e1b9d2/file_viewed",
+      "download_expiry_time": "2126-10-13T10:15:04.236638997Z"
+    },
+    "size": 555868,
+    "last_modified_date": "2026-07-01T13:28:09.326Z",
+    "status": "COMPLETED"
+  }
+]

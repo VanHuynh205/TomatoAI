@@ -1,0 +1,20 @@
+{
+  "verified_utc": "2026-10-14T11:44:12.070619+00:00",
+  "passed": true,
+  "classifier_classes": 10,
+  "manifest_records": 18160,
+  "coverage_rows": 10,
+  "claim_sample": 12,
+  "inventory_pages": 128,
+  "deep_content_pages": 25,
+  "nonrights_pages_read": 26,
+  "rights_pages_read": 7,
+  "unopened_toc_links": 95,
+  "future_html_allowlist": 21,
+  "local_markdown_links_checked": true,
+  "protected_files_stat_checked": 54957,
+  "control_files_sha256_checked": 99,
+  "media_byte_hash_recheck": false,
+  "network_url_recheck": false,
+  "scope": "metadata/schema/IDs/references/protected local inputs; no product or pipeline tests"
+}

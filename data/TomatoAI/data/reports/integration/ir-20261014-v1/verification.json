@@ -1,0 +1,322 @@
+{
+  "version": "ir-20261014-v1",
+  "python": "3.14.5",
+  "test_command": "python -m unittest discover -s scripts/data -p test_review_integration.py -v",
+  "tests": 22,
+  "test_exit_code": 0,
+  "test_log_sha256": "96917f3f33c6d9588c2b9621f920f7003493d570834f797fdf191cb74aa5735c",
+  "real_lookups": [
+    {
+      "label_original": "Tomato___Bacterial_spot",
+      "status": "needs_check",
+      "reason": "card_not_approved",
+      "canonical_condition_id": "TOM_BACTERIAL_SPOT",
+      "guidance": []
+    },
+    {
+      "label_original": "Tomato___Early_blight",
+      "status": "needs_check",
+      "reason": "card_not_approved",
+      "canonical_condition_id": "TOM_EARLY_BLIGHT",
+      "guidance": []
+    },
+    {
+      "label_original": "Tomato___Late_blight",
+      "status": "needs_check",
+      "reason": "card_not_approved",
+      "canonical_condition_id": "TOM_LATE_BLIGHT",
+      "guidance": []
+    },
+    {
+      "label_original": "Tomato___Leaf_Mold",
+      "status": "needs_check",
+      "reason": "card_not_approved",
+      "canonical_condition_id": "TOM_LEAF_MOLD",
+      "guidance": []
+    },
+    {
+      "label_original": "Tomato___Septoria_leaf_spot",
+      "status": "needs_check",
+      "reason": "card_not_approved",
+      "canonical_condition_id": "TOM_SEPTORIA",
+      "guidance": []
+    },
+    {
+      "label_original": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "status": "needs_check",
+      "reason": "card_not_approved",
+      "canonical_condition_id": "TOM_SPIDER_MITE",
+      "guidance": []
+    },
+    {
+      "label_original": "Tomato___Target_Spot",
+      "status": "needs_check",
+      "reason": "card_not_approved",
+      "canonical_condition_id": "TOM_TARGET_SPOT",
+      "guidance": []
+    },
+    {
+      "label_original": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "status": "needs_check",
+      "reason": "card_not_approved",
+      "canonical_condition_id": "TOM_YELLOW_CURL",
+      "guidance": []
+    },
+    {
+      "label_original": "Tomato___Tomato_mosaic_virus",
+      "status": "needs_check",
+      "reason": "mapping_not_verified",
+      "canonical_condition_id": "TOM_MOSAIC",
+      "guidance": []
+    },
+    {
+      "label_original": "Tomato___healthy",
+      "status": "needs_check",
+      "reason": "card_not_approved",
+      "canonical_condition_id": "TOM_HEALTHY",
+      "guidance": []
+    }
+  ],
+  "threshold_fixture_only": 0.7,
+  "source_and_processed_before_after_equal": true,
+  "planning": [
+    {
+      "path": "planning/tomato-desktop/architecture.md",
+      "sha256_before": "c56946373331cace5b798d224478f81b116025640d2051f07a8f173c10afd68a",
+      "sha256_after": "c56946373331cace5b798d224478f81b116025640d2051f07a8f173c10afd68a",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/data-audit.md",
+      "sha256_before": "33402276b9709fb83f77270b21c3dce78fefd01a3a71cc729d2004fc206856e2",
+      "sha256_after": "33402276b9709fb83f77270b21c3dce78fefd01a3a71cc729d2004fc206856e2",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/delivery-plan.md",
+      "sha256_before": "7ea221be401cc3fb8cc9bf014b5ce37de570ad5dcab4f9befb238b6d85a899d8",
+      "sha256_after": "7ea221be401cc3fb8cc9bf014b5ce37de570ad5dcab4f9befb238b6d85a899d8",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/experiments.md",
+      "sha256_before": "6cfe379b28cf69fdee3a4d4ff528b5feb7d2828b30b4a86325db6d9e9e459425",
+      "sha256_after": "6cfe379b28cf69fdee3a4d4ff528b5feb7d2828b30b4a86325db6d9e9e459425",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/knowledge-localization-edtech.md",
+      "sha256_before": "4f33e5692bd7c2620590792847b6528400d081c05f7ff16fb0e0bd03cbae18c1",
+      "sha256_after": "4f33e5692bd7c2620590792847b6528400d081c05f7ff16fb0e0bd03cbae18c1",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/planning-spec.md",
+      "sha256_before": "35c9cd003582f5d0436a5e49474945d3ae971c46c7dff80222f9e2472a9ff5f5",
+      "sha256_after": "35c9cd003582f5d0436a5e49474945d3ae971c46c7dff80222f9e2472a9ff5f5",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/prd.md",
+      "sha256_before": "48950dc374fe616b5cdc8d5385cddc3202221b19fc8777179d57235433f4f481",
+      "sha256_after": "48950dc374fe616b5cdc8d5385cddc3202221b19fc8777179d57235433f4f481",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/product-brief.md",
+      "sha256_before": "45648b1e9fcc945c3b57cee269f18dd693ae755a6206cdc6f6f687be19629212",
+      "sha256_after": "45648b1e9fcc945c3b57cee269f18dd693ae755a6206cdc6f6f687be19629212",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/README.md",
+      "sha256_before": "6ceff8acf6365345b1769c3dec8221fa24124c651977c75ed58a0a5623713cf0",
+      "sha256_after": "e01857c852bd9235cc1c01f03080811b7f4486de060cb0fa964031084c9dcf8a",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/research.md",
+      "sha256_before": "5fb383598c69cb9a235f87f51d2ac095e08f9d962d83251bd31fa195f58c2997",
+      "sha256_after": "5fb383598c69cb9a235f87f51d2ac095e08f9d962d83251bd31fa195f58c2997",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/security-testing.md",
+      "sha256_before": "abafd0b9e8079399ebcca394a6bd898e886aa0205645c3d32b889dbdc9db1590",
+      "sha256_after": "abafd0b9e8079399ebcca394a6bd898e886aa0205645c3d32b889dbdc9db1590",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/setup-report.md",
+      "sha256_before": "7a675f6ef297840a8392e995cec7390a09459bc90aa059e3fa94ef6ebb6a05bf",
+      "sha256_after": "7a675f6ef297840a8392e995cec7390a09459bc90aa059e3fa94ef6ebb6a05bf",
+      "ids_preserved": true
+    },
+    {
+      "path": "planning/tomato-desktop/ux-desktop.md",
+      "sha256_before": "898a154b58c14bb9b616efc790381728cec5485571b9221c9154b99508f6f4cc",
+      "sha256_after": "898a154b58c14bb9b616efc790381728cec5485571b9221c9154b99508f6f4cc",
+      "ids_preserved": true
+    }
+  ],
+  "inherited_queue_items_equal": true,
+  "local_links": [
+    {
+      "file": "mapping.md",
+      "target": "../../../processed/plantexpert-tomato/pex-b3da04d66a031756/cards/bacterial_spot.json",
+      "exists": true
+    },
+    {
+      "file": "mapping.md",
+      "target": "../../../processed/plantexpert-tomato/pex-b3da04d66a031756/cards/early_blight.json",
+      "exists": true
+    },
+    {
+      "file": "mapping.md",
+      "target": "../../../processed/plantexpert-tomato/pex-b3da04d66a031756/cards/late_blight.json",
+      "exists": true
+    },
+    {
+      "file": "mapping.md",
+      "target": "../../../processed/plantexpert-tomato/pex-b3da04d66a031756/cards/leaf_mold.json",
+      "exists": true
+    },
+    {
+      "file": "mapping.md",
+      "target": "../../../processed/plantexpert-tomato/pex-b3da04d66a031756/cards/septoria_leaf_spot.json",
+      "exists": true
+    },
+    {
+      "file": "mapping.md",
+      "target": "../../../processed/plantexpert-tomato/pex-b3da04d66a031756/cards/spider_mites.json",
+      "exists": true
+    },
+    {
+      "file": "mapping.md",
+      "target": "../../../processed/plantexpert-tomato/pex-b3da04d66a031756/cards/target_spot.json",
+      "exists": true
+    },
+    {
+      "file": "mapping.md",
+      "target": "../../../processed/plantexpert-tomato/pex-b3da04d66a031756/cards/mosaic_virus.json",
+      "exists": true
+    },
+    {
+      "file": "mapping.md",
+      "target": "../../../processed/plantexpert-tomato/pex-b3da04d66a031756/cards/yellow_leaf_curl_virus.json",
+      "exists": true
+    },
+    {
+      "file": "mapping.md",
+      "target": "../../../processed/plantexpert-tomato/pex-b3da04d66a031756/cards/healthy.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "C:/Users/admin/.agents/skills/bmad-review/SKILL.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "review-input.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "lens-findings.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "structure-findings.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "findings.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "C:/Users/admin/.agents/skills/bmad/SKILL.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "C:/Users/admin/Downloads/DACN_CayCaChua/.dsh/skills/ponytail/SKILL.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "bmad-status.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "integrity-before.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "integrity-after.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "mapping.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "mapping.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "mapping.csv",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "aliases.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "reference-link-review.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "class-manifest.proposed.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "claim-ledger.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "tests.txt",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "review-queue.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "provenance.json",
+      "exists": true
+    }
+  ],
+  "archived_snapshot_link_base": "planning/tomato-desktop/; archive preserves original bytes and is excluded from relocated link checks",
+  "e2e": "not_run: no e2e.config.ts, frontend/package.json, app URL or implemented native flow",
+  "limits": "No actual model, calibration, OOD detector or expert approval validated.",
+  "syntax_check": {
+    "command": "python -m py_compile scripts/data/review_integration.py scripts/data/test_review_integration.py",
+    "exit_code": 0
+  }
+}

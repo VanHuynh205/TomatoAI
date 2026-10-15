@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "version": "phase2-healthy-v1",
+  "card_id": "pex:disease_kb/tomato/healthy.json",
+  "author": {
+    "actor": "Codex (GPT-6), AI assistant",
+    "role": "AI drafting and source-checking assistant; not independent reviewer",
+    "date": "2026-10-15"
+  },
+  "review": {
+    "status": "draft",
+    "domain_review": "pending",
+    "translation_review": "pending",
+    "domain_reviewer": null,
+    "translation_reviewer": null,
+    "display_allowed": false,
+    "c3": "pending",
+    "redistribution": "pending"
+  },
+  "inputs": {
+    "raw": {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/healthy.json",
+      "sha256": "89a50caefe302b04ac61b3ccfd35f43054335be3ad5bf63eb8a9cd0025cddb83"
+    },
+    "card": {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/healthy.json",
+      "sha256": "67293d2b1407563f69165391997f2abc979e67a82653399b0b1f352797bbe7cf"
+    },
+    "integration": {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/lookup-bundle.json",
+      "sha256": "65e920ce9da63ad74d325564d04e9316120ef1cc3c7c2e7c8aabc34a0fedb61d"
+    },
+    "seal": {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/artifact-seal.json",
+      "sha256": "ca11dc07099852635a52af7b9eb01a169c3d5de2b44a6fbf1bd99ccb16980837"
+    },
+    "registry": {
+      "path": "data/TomatoAI/data/dataset-registry.json",
+      "sha256": "d962b34f3b4d0a66129b1e0d16fb360339d01d6d1d3326f3f9c5e3ddc7a4682a"
+    },
+    "rights": {
+      "path": "docs/development/assets-rights.json",
+      "sha256": "031ff6b6686f862fee917ef9e2e591821d59dda2c26a28a1002b3ff4715d214a"
+    },
+    "validator": {
+      "path": "scripts/data/review_integration.py",
+      "sha256": "2e868470c6dfbaf9675a6ca4f29a8ae9ef8bf404279c34df9626695d3d236aad"
+    },
+    "localization": {
+      "path": "planning/tomato-desktop/knowledge-localization-edtech.md",
+      "sha256": "4f33e5692bd7c2620590792847b6528400d081c05f7ff16fb0e0bd03cbae18c1"
+    }
+  },
+  "claim_sha256": "8938a649106aee1c0e20b559038f8ffdb3f92260c767cdae369b8a4430aaad13",
+  "claims": [
+    {
+      "claim_id": "ir-claim:healthy:cultural:2",
+      "canonical_condition_id": "TOM_HEALTHY",
+      "pointer": "/content_en/management/cultural/2",
+      "text_vi": "Tưới vào gốc cây để giữ lá khô.",
+      "required_context": {},
+      "term_ids": [
+        "base-of-plant",
+        "foliage"
+      ],
+      "source_ids": [
+        "healthy"
+      ]
+    }
+  ],
+  "glossary": {
+    "version": "healthy-vi-glossary-v1",
+    "status": "draft",
+    "terms": [
+      {
+        "id": "healthy-leaf",
+        "en": "healthy (leaf class)",
+        "vi": "lá khỏe (nhãn lớp lá)",
+        "scientific_name": null,
+        "source_ids": [
+          "card:healthy",
+          "project:localization"
+        ]
+      },
+      {
+        "id": "base-of-plant",
+        "en": "base of the plant",
+        "vi": "gốc cây",
+        "scientific_name": null,
+        "source_ids": [
+          "healthy"
+        ]
+      },
+      {
+        "id": "foliage",
+        "en": "foliage",
+        "vi": "lá",
+        "scientific_name": null,
+        "source_ids": [
+          "healthy"
+        ]
+      },
+      {
+        "id": "tomato",
+        "en": "tomato",
+        "vi": "cà chua",
+        "scientific_name": "Solanum lycopersicum",
+        "source_ids": [
+          "card:healthy"
+        ]
+      }
+    ]
+  },
+  "glossary_sha256": "1c6afa45ace9f5124158a130b6367784d50d87ef53ee1b27306e182274af9a7c",
+  "source_checks": [
+    {
+      "source_id": "healthy",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+      "sections": [
+        "Watering",
+        "Diseases"
+      ],
+      "accessed": "2026-10-15",
+      "actor": "Codex (GPT-6), AI assistant",
+      "role": "AI drafting and source-checking assistant; not independent reviewer",
+      "note": "AI đối chiếu trang UMN: mục Diseases nêu tưới ở gốc; mục Watering nêu hạn chế làm ướt lá. Hỗ trợ nguyên tắc claim đã chọn; không phải phê duyệt áp dụng ở Việt Nam.",
+      "limits": "Nguồn hướng tới làm vườn ở Minnesota. Không nhập lịch tưới, lượng nước, dinh dưỡng, hiệu quả, chẩn đoán toàn cây hoặc review chuyên môn; quyền nội dung bên thứ ba còn pending."
+    }
+  ],
+  "lesson": {
+    "lesson_id": "lesson:healthy-leaf-watering:vi:v1",
+    "status": "draft",
+    "display_allowed": false,
+    "title_vi": "Quan sát lá và đọc nguyên tắc tưới có nguồn",
+    "objectives": [
+      "Nhận ra màu xanh phù hợp giống và không thấy đốm là hai dấu hiệu tham khảo của lá.",
+      "Nêu được giới hạn: nhãn lá khỏe không bảo đảm toàn cây khỏe hoặc đất, nước, phân đã phù hợp.",
+      "Chọn được nguyên tắc tưới vào gốc để giữ lá khô và nêu nguồn; không suy lượng hoặc lịch tưới."
+    ],
+    "sections": [
+      {
+        "id": "observe",
+        "text_vi": "Thẻ EN mô tả lá xanh phù hợp giống và không thấy đốm hoặc tổn thương. Đây là dấu hiệu quan sát tham khảo, không phải chẩn đoán toàn cây.",
+        "source_ids": [
+          "card:healthy"
+        ],
+        "card_pointers": [
+          "/content_en/symptoms/leaves/0",
+          "/content_en/symptoms/leaves/2"
+        ],
+        "claim_ids": [],
+        "project_sections": []
+      },
+      {
+        "id": "understand",
+        "text_vi": "Healthy trong bài chỉ là nhãn lớp lá. Ảnh lá không xác nhận tình trạng đất, rễ, nước, dinh dưỡng hoặc toàn cây. Chưa có review độc lập cho bài này.",
+        "source_ids": [
+          "project:localization"
+        ],
+        "card_pointers": [],
+        "claim_ids": [],
+        "project_sections": [
+          "Hướng dẫn có ngữ cảnh và giới hạn"
+        ]
+      },
+      {
+        "id": "care",
+        "text_vi": "Bản dịch nháp: Tưới vào gốc cây để giữ lá khô. Nguồn UMN nêu nguyên tắc hạn chế làm ướt lá; bài không đưa lượng nước, tần suất hay lịch bón phân. Chưa được phép hiển thị như lời khuyên.",
+        "source_ids": [
+          "healthy",
+          "card:healthy"
+        ],
+        "card_pointers": [
+          "/content_en/management/cultural/2"
+        ],
+        "claim_ids": [
+          "ir-claim:healthy:cultural:2"
+        ],
+        "project_sections": []
+      }
+    ],
+    "questions": [
+      {
+        "question_id": "q:healthy-observation:v1",
+        "prompt_vi": "Mô tả nào khớp dấu hiệu lá tham khảo trong thẻ EN?",
+        "choices": [
+          {
+            "id": "a",
+            "text_vi": "Có nhiều đốm và tổn thương trên lá."
+          },
+          {
+            "id": "b",
+            "text_vi": "Màu xanh phù hợp giống và không thấy đốm hoặc tổn thương."
+          },
+          {
+            "id": "c",
+            "text_vi": "Lá xanh bảo đảm toàn cây không có bệnh."
+          }
+        ],
+        "correct_option_id": "b",
+        "explanation_vi": "Thẻ mô tả màu xanh phù hợp giống và không thấy đốm hoặc tổn thương. Chỉ những dấu hiệu ở lá không chứng minh toàn cây khỏe.",
+        "source_ids": [
+          "card:healthy",
+          "project:localization"
+        ],
+        "claim_ids": [],
+        "project_sections": [
+          "Hướng dẫn có ngữ cảnh và giới hạn"
+        ],
+        "card_pointers": [
+          "/content_en/symptoms/leaves/0",
+          "/content_en/symptoms/leaves/2"
+        ]
+      },
+      {
+        "question_id": "q:healthy-watering:v1",
+        "prompt_vi": "Nguyên tắc nào được claim và nguồn UMN hỗ trợ để giữ lá khô?",
+        "choices": [
+          {
+            "id": "a",
+            "text_vi": "Tưới vào gốc cây."
+          },
+          {
+            "id": "b",
+            "text_vi": "Luôn phun nước trực tiếp lên lá."
+          },
+          {
+            "id": "c",
+            "text_vi": "Suy lịch tưới cố định chỉ từ nhãn lá khỏe."
+          }
+        ],
+        "correct_option_id": "a",
+        "explanation_vi": "Claim nêu tưới vào gốc để giữ lá khô; UMN đối chiếu nguyên tắc tưới tránh làm ướt lá. Không suy lượng, lịch tưới hoặc mức phù hợp cho mọi địa phương.",
+        "source_ids": [
+          "healthy",
+          "card:healthy"
+        ],
+        "claim_ids": [
+          "ir-claim:healthy:cultural:2"
+        ],
+        "project_sections": [],
+        "card_pointers": [
+          "/content_en/management/cultural/2"
+        ]
+      }
+    ]
+  },
+  "lesson_sha256": "b6f27b5b3aca369faf021948d67135c4edbbbc4e00fd049995b00d67556b507f"
+}

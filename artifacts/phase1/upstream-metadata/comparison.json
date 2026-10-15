@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-15T15:53:50.521322+00:00",
+  "github_commit": "7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+  "hf_commit": "9e97599868962bd0079b8db4b7f1efa9185fa1e7",
+  "github_map_identical_to_selected_raw": true,
+  "github_target_csv_identical_to_selected_raw": true,
+  "github_tomato_csv_files": [
+    "Tomato___Bacterial_spot.csv",
+    "Tomato___Early_blight.csv",
+    "Tomato___Late_blight.csv",
+    "Tomato___Leaf_Mold.csv",
+    "Tomato___Septoria_leaf_spot.csv",
+    "Tomato___Spider_mites Two-spotted_spider_mite.csv",
+    "Tomato___Target_Spot.csv",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus.csv",
+    "Tomato___healthy.csv"
+  ],
+  "hf_map_identical_to_selected_raw": true,
+  "raw_writes": 0,
+  "approvals_added": 0
+}

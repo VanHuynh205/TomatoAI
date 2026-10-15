@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Scripts\\python.exe",
+    "scripts/data/prepare_benchmark.py",
+    "--group-decisions",
+    "artifacts/phase1/group-decisions.json",
+    "--split-policy",
+    "artifacts/phase1/split-policy.pending.json"
+  ],
+  "exit_code": 2,
+  "elapsed_seconds": 51.28,
+  "expected_exit_code": 2,
+  "meaning": "C2 blocked; no approved real split"
+}

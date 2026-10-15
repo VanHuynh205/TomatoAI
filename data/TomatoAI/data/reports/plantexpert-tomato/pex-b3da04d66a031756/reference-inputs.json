@@ -1,0 +1,10 @@
+{
+  "image_label_mapping": {
+    "path": "data/TomatoAI/data/processed/plantvillage/pv-d9e4c21eec8e9172/label-mapping.json",
+    "sha256": "5e2fbd2f101ae490a7f7d2705f243da4a6da5723c392b71ea3a33e9266b13e83"
+  },
+  "mapping_basis": {
+    "path": "planning/tomato-desktop/data-audit.md",
+    "sha256": "33402276b9709fb83f77270b21c3dce78fefd01a3a71cc729d2004fc206856e2"
+  }
+}

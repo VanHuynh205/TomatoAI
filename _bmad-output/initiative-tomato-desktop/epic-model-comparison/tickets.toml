@@ -1,0 +1,61 @@
+# Approved 2026-10-14; entries planned, no leaf/build plan yet.
+
+[[entry]]
+id = "S05"
+type = "story"
+title = "pilot/head checkpoint"
+description = "Huấn luyện pilot/head hai model và bàn giao harness, config convention, golden input/eval oracle cùng checkpoint/class-order/preprocessing/hash cho S06."
+verify = "Đo pilot/VRAM/batch/logs, kiểm class manifest và eval-side golden output T04/partial T05/partial T16; full app parity T05 kiểm ở S06, metrics cuối ở S15."
+risk = "high"
+covers = ["CAP-2"]
+after = ["EPA.S04"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md", "planning/tomato-desktop/experiments.md"]
+hitl = false
+optional = false
+known_uncertainty = "C1: B0/framework/budget/weights rights and future training authorization pending."
+unknown = "C1: B0/framework/budget/weights rights and future training authorization pending."
+
+[[entry]]
+id = "S07"
+type = "story"
+title = "fine-tune EfficientNet-B0"
+description = "Dùng harness S05 và config/run B0 riêng để fine-tune EfficientNet-B0 theo split/budget đã duyệt."
+verify = "Same split/budget; train-only fit, val selection; test chưa mở; T16"
+risk = "high"
+covers = ["CAP-2"]
+after = ["S05"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md", "planning/tomato-desktop/experiments.md"]
+hitl = false
+optional = false
+known_uncertainty = "C1 pilot budget/config/weights permission must be recorded before training."
+unknown = "C1 pilot budget/config/weights permission must be recorded before training."
+
+[[entry]]
+id = "S08"
+type = "story"
+title = "fine-tune ResNet50"
+description = "Dùng harness S05 và config/run ResNet50 riêng để fine-tune ResNet50 theo split/budget đã duyệt."
+verify = "Same split/budget; V1.5/weights recipe log thật, không thêm CNN; T16"
+risk = "high"
+covers = ["CAP-2"]
+after = ["S05"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md", "planning/tomato-desktop/experiments.md"]
+hitl = false
+optional = false
+known_uncertainty = "C1 pilot budget/config/weights permission must be recorded before training."
+unknown = "C1 pilot budget/config/weights permission must be recorded before training."
+
+[[entry]]
+id = "S09"
+type = "story"
+title = "chọn winner/policy bằng validation"
+description = "Chọn winner/policy bằng validation và CPU/resource profile sơ bộ trên eval harness S05 trước khi khóa, không đợi final test S15."
+verify = "Winner/config/threshold chọn validation; thiếu negatives không claim detector OOD đáng tin; T06/T16; đo CPU latency/RSS hai model bằng validation/fixture trước lock, chưa coi là end-to-end app benchmark."
+risk = "high"
+covers = ["CAP-2", "CAP-3"]
+after = ["S07", "S08"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md", "planning/tomato-desktop/experiments.md"]
+hitl = false
+optional = false
+known_uncertainty = "Negative validation/calibration scope and selection rule approval pending; no OOD effectiveness claim."
+unknown = "Negative validation/calibration scope and selection rule approval pending; no OOD effectiveness claim."

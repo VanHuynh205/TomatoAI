@@ -1,0 +1,15 @@
+{
+  "status": "technical_complete_review_pending",
+  "run_id": "mendeley-61d459ec1f46cef3",
+  "training_ready": false,
+  "research_only": true,
+  "blocked_files": [],
+  "blockers": [
+    "units/calibration and CSV preprocessing lineage",
+    "source formula/actuator semantics and outcome validation",
+    "timezone/device/session independence",
+    "cross-format join key absent",
+    "no domain approval of optimal/configuration claims"
+  ],
+  "next_action": "review evidence; all five requested datasets now have checkpoints; Prompt 3 only if separately authorized"
+}

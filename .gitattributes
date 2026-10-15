@@ -1,0 +1,5 @@
+# Dataset seals and phase evidence require exact original bytes on every OS.
+* -text
+
+# Large dataset manifest is stored through Git LFS.
+data/TomatoAI/data/processed/wur/wur-7439c4f996527052/manifest.csv filter=lfs diff=lfs merge=lfs -text

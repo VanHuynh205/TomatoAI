@@ -1,0 +1,42 @@
+test_changed_sealed_output_rejected (test_benchmark.InventoryTest.test_changed_sealed_output_rejected) ... ok
+test_missing_checkpoint_names_exact_artifact_without_fallback (test_benchmark.InventoryTest.test_missing_checkpoint_names_exact_artifact_without_fallback) ... ok
+test_missing_provenance_rejected (test_benchmark.InventoryTest.test_missing_provenance_rejected) ... ok
+test_missing_rights_is_error_not_approval (test_benchmark.InventoryTest.test_missing_rights_is_error_not_approval) ... ok
+test_nonstandard_json_rejected (test_benchmark.InventoryTest.test_nonstandard_json_rejected) ... ok
+test_raw_change_rejected (test_benchmark.InventoryTest.test_raw_change_rejected) ... ok
+test_reference_hash_change_rejected (test_benchmark.InventoryTest.test_reference_hash_change_rejected) ... FAIL
+test_registry_count_drift_rejected (test_benchmark.InventoryTest.test_registry_count_drift_rejected) ... ok
+test_run_mismatch_rejected (test_benchmark.InventoryTest.test_run_mismatch_rejected) ... ok
+test_selected_run_counts_provenance_and_no_raw_writes (test_benchmark.InventoryTest.test_selected_run_counts_provenance_and_no_raw_writes) ... ok
+test_source_config_outside_registry_source_rejected (test_benchmark.InventoryTest.test_source_config_outside_registry_source_rejected) ... FAIL
+test_traversal_in_registry_rejected (test_benchmark.InventoryTest.test_traversal_in_registry_rejected) ... ok
+test_unrecorded_raw_file_rejected (test_benchmark.InventoryTest.test_unrecorded_raw_file_rejected) ... FAIL
+
+======================================================================
+FAIL: test_reference_hash_change_rejected (test_benchmark.InventoryTest.test_reference_hash_change_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 137, in test_reference_hash_change_rejected
+    self.assertIn("reference hash", " ".join(self.inventory().errors))
+AssertionError: 'reference hash' not found in ''
+
+======================================================================
+FAIL: test_source_config_outside_registry_source_rejected (test_benchmark.InventoryTest.test_source_config_outside_registry_source_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 142, in test_source_config_outside_registry_source_rejected
+    self.assertIn("source root", " ".join(self.inventory().errors))
+AssertionError: 'source root' not found in 'PlantVillage: raw baseline mismatch: C:\\Users\\admin\\AppData\\Local\\Temp\\tmpdxlvb32z\\docs\\image.txt'
+
+======================================================================
+FAIL: test_unrecorded_raw_file_rejected (test_benchmark.InventoryTest.test_unrecorded_raw_file_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 129, in test_unrecorded_raw_file_rejected
+    self.assertIn("raw file set", " ".join(self.inventory().errors))
+AssertionError: 'raw file set' not found in ''
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.589s
+
+FAILED (failures=3)

@@ -1,0 +1,52 @@
+{
+  "version": "ir-20261014-v1",
+  "accessed": "2026-10-14",
+  "actor": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt",
+  "sources": {
+    "bacterial": {"title": "UF/IFAS PP353 Bacterial Spot of Tomato", "url": "https://ask.ifas.ufl.edu/publication/PP353", "section": "Causal organisms; Cultural Practices", "limit": "Florida; không xác nhận đăng ký hóa chất tại Việt Nam; rotation không chứng minh thời lượng 3–4 năm của card."},
+    "early": {"title": "University of Minnesota Extension: Early blight in tomato and potato", "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato", "section": "Causal pathogens; Cultural management", "limit": "Khuyến nông Minnesota; loại lá có điều kiện và giới hạn; không chứng minh mọi chế phẩm hay lịch Việt Nam."},
+    "late": {"title": "University of Minnesota Extension: Late blight", "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight", "section": "Pathogen; How to manage late blight", "limit": "Water mold; khuyến cáo home/farm khác nhau; loại cây chỉ áp dụng theo tình trạng đã xác minh."},
+    "mold": {"title": "University of Minnesota Extension: Tomato leaf mold", "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold", "section": "Passalora fulva; Cultural management", "limit": "Greenhouse/high tunnel; resistance phụ thuộc chủng; không xác nhận hiệu quả mọi chế phẩm."},
+    "septoria": {"title": "University of Maryland Extension: Septoria Leaf Spot of Tomatoes", "url": "https://www.extension.umd.edu/resource/septoria-leaf-spot-tomatoes", "section": "Prevention and management", "limit": "Garden guidance; không xác nhận số năm rotation hay hoạt chất tại Việt Nam."},
+    "diagnosis": {"title": "University of Minnesota Extension: Tomato leaves with spots", "url": "https://apps.extension.umn.edu/garden/diagnose/plant/vegetable/tomato/leavesspots.html", "section": "Septoria; Early blight; Late blight; Bacterial spot", "limit": "Dấu hiệu tham khảo; không xác minh nhãn từng ảnh PlantVillage."},
+    "mite": {"title": "UC IPM: Spider Mites", "url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/", "section": "Identification; Cultural control; Natural enemies", "limit": "Nhận diện loài cần quan sát; rửa bằng nước ở quy mô vườn không tương đương lịch phun/misting định kỳ."},
+    "target": {"title": "UF/IFAS PP351 Target Spot of Tomato in Florida", "url": "https://ask.ifas.ufl.edu/publication/PP351", "section": "Corynespora cassiicola; Integrated Management; leaf wetness", "limit": "Florida; phổ ký chủ rộng; 16–44 giờ leaf wetness không phải ngưỡng phổ quát để bác bỏ 8 giờ trong mọi điều kiện."},
+    "mosaic": {"title": "University of Minnesota Extension: Tomato viruses", "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses", "section": "ToMV/TMV; Symptoms; Prevention and management", "limit": "ToMV và TMV khác nhau; xét nghiệm cần cho kết luận chắc chắn; không suy ra virus cụ thể từ triệu chứng lá."},
+    "yellow": {"title": "UC IPM: Tomato Yellow Leaf Curl", "url": "https://ipm.ucanr.edu/agriculture/tomato/tomato-yellow-leaf-curl/", "section": "Symptoms; Comments; Management", "limit": "California; loại cây khi incidence thấp; host-free period cần phối hợp địa phương, không tự gán từ một ảnh."},
+    "healthy": {"title": "University of Minnesota Extension: Growing tomatoes", "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes", "section": "Planting; Watering; Managing diseases", "limit": "Chăm sóc cơ bản theo điều kiện trồng; dinh dưỡng cần căn cứ đất; nhãn lá khỏe không bảo đảm toàn cây không bệnh."},
+    "gray": {"title": "UConn IPM: Tomato Stemphylium (Gray Leaf Spot)", "url": "https://ipm.cahnr.uconn.edu/tomato-stemphylium/", "section": "Pathogen; Gray leaf spot", "limit": "Không đủ để đồng nhất alias gray leaf spot trong card Cercospora; cần bằng chứng phân loại riêng."},
+    "pv": {"title": "PlantVillage Dataset official repository", "url": "https://github.com/spMohanty/PlantVillage-Dataset", "section": "README: labels, grouping and variants", "limit": "Nhãn nguồn, không phải kiểm duyệt lại từng ảnh; license chính xác của phân phối local cần rà soát README_HF và attribution."},
+    "pex": {"title": "PlantExpertVQA official dataset card", "url": "https://huggingface.co/datasets/SyedNazmusSakib/PlantExpertVQA/blob/main/README.md", "section": "License; dataset sources; annotation process", "limit": "CC-BY-4.0 khai báo cho dataset; thành phần có license khác; không xác nhận quyền của mọi câu trích hay chuyên gia phê duyệt local."}
+  },
+  "identity_sources": {
+    "bacterial_spot": ["bacterial"], "early_blight": ["early"], "late_blight": ["late"],
+    "leaf_mold": ["mold"], "septoria_leaf_spot": ["diagnosis", "septoria"], "spider_mites": ["mite"],
+    "target_spot": ["target"], "mosaic_virus": ["mosaic"], "yellow_leaf_curl_virus": ["yellow"], "healthy": ["healthy"]
+  },
+  "source_checked_claims": {
+    "bacterial_spot": {"cultural": [0,4]},
+    "early_blight": {"cultural": [1,2,3,5]},
+    "late_blight": {"cultural": [2,4]},
+    "leaf_mold": {"cultural": [1,2,4]},
+    "septoria_leaf_spot": {"cultural": [2,3,4,5]},
+    "spider_mites": {"cultural": [0]},
+    "target_spot": {"cultural": [4,5]},
+    "mosaic_virus": {"cultural": [0,3]},
+    "yellow_leaf_curl_virus": {"cultural": [0,4]},
+    "healthy": {"cultural": [1,2,4,5]}
+  },
+  "partial_claims": {
+    "bacterial_spot": {"cultural": [1,2,3,5]}, "early_blight": {"cultural": [0,4,6]},
+    "late_blight": {"cultural": [0,1,3]}, "leaf_mold": {"cultural": [0,3,5]},
+    "septoria_leaf_spot": {"cultural": [0,1]}, "spider_mites": {"cultural": [1,2,3], "biological": [0,1]},
+    "target_spot": {"cultural": [0,1,2,3]}, "mosaic_virus": {"cultural": [2,4,5], "biological": [1]},
+    "yellow_leaf_curl_virus": {"cultural": [1,2,3], "biological": [0]}, "healthy": {"cultural": [0,3], "notes": [0]}
+  },
+  "special_holds": {
+    "late_blight/biological/0": "Copper hydroxide là hóa chất nằm trong biological; chặn cả câu hỗn hợp, không duyệt bằng tên field.",
+    "mosaic_virus/cultural/1": "Có bleach 10%; chưa xác minh nồng độ, thời gian tiếp xúc và an toàn địa phương. Không đưa vào hướng dẫn.",
+    "mosaic_virus/biological/0": "Cross-protection đưa chủng virus vào cây; ngoài MVP, cần chuyên môn và điều kiện thương mại.",
+    "mosaic_virus/chemical/1": "Aphids không chứng minh là vector ToMV; danh tính card đang mâu thuẫn TMV/ToMV.",
+    "spider_mites/cultural/1": "Rửa mites trong vườn không chứng minh lịch overhead/misting; xung đột giữ lá khô, cần ngữ cảnh." 
+  }
+}

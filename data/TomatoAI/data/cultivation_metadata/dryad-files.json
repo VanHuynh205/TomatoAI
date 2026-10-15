@@ -1,0 +1,179 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/versions/446657/files"
+    },
+    "first": {
+      "href": "/api/v2/versions/446657/files"
+    },
+    "last": {
+      "href": "/api/v2/versions/446657/files?page=1"
+    }
+  },
+  "count": 5,
+  "total": 5,
+  "_embedded": {
+    "stash:files": [
+      {
+        "_links": {
+          "self": {
+            "href": "/api/v2/files/4803597"
+          },
+          "stash:dataset": {
+            "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wm37pvn33"
+          },
+          "stash:version": {
+            "href": "/api/v2/versions/446657"
+          },
+          "stash:files": {
+            "href": "/api/v2/versions/446657/files"
+          },
+          "stash:download": {
+            "href": "/api/v2/files/4803597/download"
+          },
+          "curies": [
+            {
+              "name": "stash",
+              "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+              "templated": "true"
+            }
+          ]
+        },
+        "path": "2024.06.05_Quality_Determination.xlsx",
+        "size": 97500,
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "status": "copied",
+        "digest": "add5a6b11f1c4082254e69ab371f6bb76c3857a0e32a1e003bce5eb6c5d52067",
+        "digestType": "sha-256"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "/api/v2/files/4803598"
+          },
+          "stash:dataset": {
+            "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wm37pvn33"
+          },
+          "stash:version": {
+            "href": "/api/v2/versions/446657"
+          },
+          "stash:files": {
+            "href": "/api/v2/versions/446657/files"
+          },
+          "stash:download": {
+            "href": "/api/v2/files/4803598/download"
+          },
+          "curies": [
+            {
+              "name": "stash",
+              "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+              "templated": "true"
+            }
+          ]
+        },
+        "path": "Irrigation_Data_1-4.xlsx",
+        "size": 18262,
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "status": "copied",
+        "digest": "6259e1c55b3671057dd324f6dc97ce6b919fad47366aae839b4ecddb0d9399c4",
+        "digestType": "sha-256"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "/api/v2/files/4803599"
+          },
+          "stash:dataset": {
+            "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wm37pvn33"
+          },
+          "stash:version": {
+            "href": "/api/v2/versions/446657"
+          },
+          "stash:files": {
+            "href": "/api/v2/versions/446657/files"
+          },
+          "stash:download": {
+            "href": "/api/v2/files/4803599/download"
+          },
+          "curies": [
+            {
+              "name": "stash",
+              "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+              "templated": "true"
+            }
+          ]
+        },
+        "path": "Photosynthetic_Data.xlsx",
+        "size": 15266,
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "status": "copied",
+        "digest": "16ca6bf993dcf315c09c9178d5f4e51016d79b273689b13db22241ed07152434",
+        "digestType": "sha-256"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "/api/v2/files/4803608"
+          },
+          "stash:dataset": {
+            "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wm37pvn33"
+          },
+          "stash:version": {
+            "href": "/api/v2/versions/446657"
+          },
+          "stash:files": {
+            "href": "/api/v2/versions/446657/files"
+          },
+          "stash:download": {
+            "href": "/api/v2/files/4803608/download"
+          },
+          "curies": [
+            {
+              "name": "stash",
+              "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+              "templated": "true"
+            }
+          ]
+        },
+        "path": "README.md",
+        "size": 4928,
+        "mimeType": "text/markdown",
+        "status": "created",
+        "digest": "05c8943245d022037f1e559872855c300b57c9aa3688eab9957a763165a47f4c",
+        "digestType": "sha-256"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "/api/v2/files/4803600"
+          },
+          "stash:dataset": {
+            "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wm37pvn33"
+          },
+          "stash:version": {
+            "href": "/api/v2/versions/446657"
+          },
+          "stash:files": {
+            "href": "/api/v2/versions/446657/files"
+          },
+          "stash:download": {
+            "href": "/api/v2/files/4803600/download"
+          },
+          "curies": [
+            {
+              "name": "stash",
+              "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+              "templated": "true"
+            }
+          ]
+        },
+        "path": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+        "size": 23169,
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "status": "copied",
+        "digest": "52c16e117f76a27acf5709ab4bf530d93d5faeefa77a6e7b826e31632905f3be",
+        "digestType": "sha-256"
+      }
+    ]
+  }
+}

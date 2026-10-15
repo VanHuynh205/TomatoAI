@@ -1,0 +1,45 @@
+{
+  "version": "pi-20261014-v1",
+  "checked_at": "2026-10-14T21:56:10.1627299+07:00",
+  "caps": 9,
+  "intents": 9,
+  "successes": 9,
+  "companions": 12,
+  "requirements": 24,
+  "original_story_ids_preserved": 20,
+  "stories": 22,
+  "epics": 6,
+  "state": "22planned",
+  "ready_to_start": [
+    "EPA.S01"
+  ],
+  "blocked": 21,
+  "missing_links": [],
+  "input_files_checked": 42,
+  "intentional_changed_inputs": [
+    "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\data\\TomatoAI\\data\\dataset-registry.json",
+    "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\initiative-tomato-desktop.md"
+  ],
+  "unexpected_input_changes": [],
+  "sealed_files": 25,
+  "seal_mismatches": [],
+  "registry_dataset_subtree_equal": true,
+  "official_planning_imported": true,
+  "errors": [],
+  "scope": "Planning structure/runtime store/referenced snapshot integrity only. No raw corpus rehash, model/UI/clean-machine/OOD/advice/expert efficacy validation.",
+  "companion_paths": [
+    "data-readiness.md",
+    "requirements-traceability.md",
+    "../../../planning/tomato-desktop/product-brief.md",
+    "../../../planning/tomato-desktop/data-audit.md",
+    "../../../planning/tomato-desktop/research.md",
+    "../../../planning/tomato-desktop/prd.md",
+    "../../../planning/tomato-desktop/ux-desktop.md",
+    "../../../planning/tomato-desktop/architecture.md",
+    "../../../planning/tomato-desktop/experiments.md",
+    "../../../planning/tomato-desktop/knowledge-localization-edtech.md",
+    "../../../planning/tomato-desktop/security-testing.md",
+    "../../../planning/tomato-desktop/delivery-plan.md"
+  ],
+  "verification_correction": "Initial inline regex consumed indentation of first companion; explicit YAML section line parser confirms all12existing paths. Document unchanged, acceptance not relaxed."
+}

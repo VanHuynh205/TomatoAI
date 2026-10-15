@@ -1,0 +1,121 @@
+{
+  "scope": "final implementation, review, derivative outputs and BMAD plan evidence; raw separately baseline-checked",
+  "files": [
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/app-development-plan/app-development-plan.md",
+      "sha256": "8c8bc14f70acf017ab83d83f957589cc1e24bcea60add9610b8032e93a2ab426"
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/epic-governance-data/story-chot-scope-va-quyen-dung-plan.md",
+      "sha256": "9c3ea917dadfcb5c060c2b771961326db425729108153c1bdd68a0de46edf862"
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/epic-governance-data/story-giai-grouping-va-trung-plan.md",
+      "sha256": "65df9250f6c635eeb157111e9f671b4e2cee386214b1e7ed2ede2a4e59e82963"
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/epic-governance-data/story-inventory-provenance-ay-u-plan.md",
+      "sha256": "164514d30cb99fa15815aefde6ef8b71c61ba0201e142c7af432d27ab29ff71e"
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/epic-governance-data/story-split-benchmark-khoa-plan.md",
+      "sha256": "d891339e8e4d9154c6a6c2acbc98206140b1b34b883554a712eebf70d2cf508e"
+    },
+    {
+      "path": "artifacts/data-card.json",
+      "sha256": "8070c221074c49b606afa9ad1463e78b9f3d8435c0cbea4398597e5fe4150b83"
+    },
+    {
+      "path": "artifacts/group-resolution.json",
+      "sha256": "e304a64e439e9404b2b45b6d228af10a6980e2ebbc9573035cd207a8263860c7"
+    },
+    {
+      "path": "artifacts/metadata-investigation.json",
+      "sha256": "fa0d724fa415a524057bc93254f329ccbfc6eed2a7676e4cb99b32abdac52366"
+    },
+    {
+      "path": "artifacts/phase1/README.md",
+      "sha256": "33ac8406b34f23bd7aab4bdc3da985f368b984b98aa7806f402151573c3fd3d6"
+    },
+    {
+      "path": "artifacts/phase1/final-review.md",
+      "sha256": "906ec816e3a00d406bfe56c228934f3a39ab70cc8101f7a1d7f60ff910774855"
+    },
+    {
+      "path": "artifacts/phase1/progress.md",
+      "sha256": "beb2f3190bf685fdfc93d8d5448361d08b9f277e291354e182d470a667e9225d"
+    },
+    {
+      "path": "artifacts/phase1/review-package.md",
+      "sha256": "26a3f0c0c06e53fbbfa6d80f289683958e5ec035a32c15415e3f029ced15a05b"
+    },
+    {
+      "path": "artifacts/phase1/upstream-grouping-audit.md",
+      "sha256": "3776fe867d3c5720cfc5c9feea2845d3229a7fb4d7784c50ba159be451b0780d"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/Target-Spot.csv",
+      "sha256": "cb51d8fe5be0b7ea9f8c3232615d6d47f8d40f0088efb8bba83467f63a9cbdc2"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/comparison.json",
+      "sha256": "2b25d15b317315cc79d29ed35ed97b4900afe312872a126ca23be8694ef66544"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/fetch-evidence.json",
+      "sha256": "125d836bcbf0ba386ab8563562184ef256781de3fb1d8e86e425cbd0595cfe72"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/github-head.json",
+      "sha256": "b43c6c67f929853c5c498ce58224890ca2fd113a72e8ba7e2be3c7907f858d88"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/hf-head.json",
+      "sha256": "9fdf9c4394c2401eb2e95714c379959c57360a3e37ffcf08da5217eb8e9a8a56"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/hf-leaf-map.json",
+      "sha256": "3b4b253683c6911744959a3870a92509b1faa1ee34e9f8585e21d0fe6337a25b"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/hf-plant_village.py.txt",
+      "sha256": "872c207c874ad96e3a2e470299abf67e82b15c66e23f9e4e5b1ed784c69567d8"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/leaf-map.json",
+      "sha256": "3b4b253683c6911744959a3870a92509b1faa1ee34e9f8585e21d0fe6337a25b"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/leafmap-listing.json",
+      "sha256": "1f175356c41fce3c89eb193a8161d02fe28aea536559b70652e9759784bac0cc"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/plant_village.py.txt",
+      "sha256": "872c207c874ad96e3a2e470299abf67e82b15c66e23f9e4e5b1ed784c69567d8"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/scripts-listing.json",
+      "sha256": "62caec41566723d13d4a7344415bad691b6199b5a0103cad0b19b44288711631"
+    },
+    {
+      "path": "artifacts/phase1/upstream-metadata/upload_to_hf.py.txt",
+      "sha256": "25fd6dca19161c42b22f17d38d9409c8bac10d5cb3f917070877ec27ede98160"
+    },
+    {
+      "path": "artifacts/phase1/verify_evidence.py",
+      "sha256": "58f8bf3891e3a42db7c710f0c10112818cb94cc26cd7f2876ac120a65915a656"
+    },
+    {
+      "path": "artifacts/split-manifest.json",
+      "sha256": "cd421abe8d06bd21e76f953e6d376c28dd668309eeb1914c85e4ecb822e3b90c"
+    },
+    {
+      "path": "scripts/data/prepare_benchmark.py",
+      "sha256": "098039e1976a36a8739318c204f9916a07dff1cbd093e26f3a0194169ad3df52"
+    },
+    {
+      "path": "tests/data/test_benchmark.py",
+      "sha256": "a12297d56edba925794dbb116c67daff64c9a6a5e556a2c270e6d3075108125b"
+    }
+  ]
+}

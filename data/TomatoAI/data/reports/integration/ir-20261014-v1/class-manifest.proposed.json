@@ -1,0 +1,31 @@
+{
+  "version": "tomato-classes-proposed-v1",
+  "status": "proposed_not_training_checkpoint",
+  "ordering_basis": "lexicographically sorted current PlantVillage labels; requires approval before training",
+  "dataset_run": "pv-d9e4c21eec8e9172",
+  "ordered_labels": [
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___Spider_mites Two-spotted_spider_mite",
+    "Tomato___Target_Spot",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___Tomato_mosaic_virus",
+    "Tomato___healthy"
+  ],
+  "condition_by_label": {
+    "Tomato___Bacterial_spot": "TOM_BACTERIAL_SPOT",
+    "Tomato___Early_blight": "TOM_EARLY_BLIGHT",
+    "Tomato___Late_blight": "TOM_LATE_BLIGHT",
+    "Tomato___Leaf_Mold": "TOM_LEAF_MOLD",
+    "Tomato___Septoria_leaf_spot": "TOM_SEPTORIA",
+    "Tomato___Spider_mites Two-spotted_spider_mite": "TOM_SPIDER_MITE",
+    "Tomato___Target_Spot": "TOM_TARGET_SPOT",
+    "Tomato___Tomato_mosaic_virus": "TOM_MOSAIC",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": "TOM_YELLOW_CURL",
+    "Tomato___healthy": "TOM_HEALTHY"
+  },
+  "sha256": "74231c185cf71c567024d5aa674f8a20b069427cc07dd22cc49de195ed7c01b4"
+}

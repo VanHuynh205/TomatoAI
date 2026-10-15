@@ -1,0 +1,806 @@
+{
+  "scope": "development diagnostic binary hashes/provenance; not release license clearance",
+  "binary_count": 113,
+  "binaries": [
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_asyncio.pyd",
+      "sha256": "3797580a504f0ff84ea7aed8df7b8d61f8519408604b520c75ca79266599ef12",
+      "bytes": 59392,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_asyncio.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_bz2.pyd",
+      "sha256": "e43567beb7f3f9b9b89c6a40e21790170cf0fc98efcad25e6b074c60b73240eb",
+      "bytes": 73216,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_bz2.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_ctypes.pyd",
+      "sha256": "ce2f528d5d3b91d8ccc4963c7c1685537581304585c9a309dcfbdd5a1a43eaa9",
+      "bytes": 116224,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_ctypes.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_decimal.pyd",
+      "sha256": "471630e0098c6b610bef10ff015dd95d95894048e8f3b74032ccef317da0ae05",
+      "bytes": 248320,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_decimal.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_elementtree.pyd",
+      "sha256": "bb48410256c0d81f1ab0493103f8d1a0daa1afaad2cba7cf23a069922fd8e6db",
+      "bytes": 121856,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_elementtree.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_hashlib.pyd",
+      "sha256": "1c69cdfde46e4c235f8b4ff9d059d752de288a7f4a1c7f1df0927c9925984f5b",
+      "bytes": 54784,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_hashlib.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_lzma.pyd",
+      "sha256": "61fdbdee731bc3493014b64d14f0c7a6b6950913a40fae3f561dbee9fa078658",
+      "bytes": 152576,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_lzma.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_multiprocessing.pyd",
+      "sha256": "56440369c73cc7378adcfff3da6338e2e7c937ed62fd60dbcb92bcda0699b8f6",
+      "bytes": 24064,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_multiprocessing.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_overlapped.pyd",
+      "sha256": "9b631b8f3d78d32e93d2cf31bd4f0988823632ae856c2fb4b6ea9471b20a6f72",
+      "bytes": 44032,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_overlapped.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_queue.pyd",
+      "sha256": "cad613e5524c053dc0e5c497cd4bfde569c3583dc1866c9e4b041b3afccd47da",
+      "bytes": 20480,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_queue.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_socket.pyd",
+      "sha256": "8aa5ab82bc2908e122754380b56a92fc92f88e0752f63e3db483d7c43b5cb6f5",
+      "bytes": 71680,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_socket.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_sqlite3.pyd",
+      "sha256": "4e7c647350cf4cffec72191e4aa4d51bbe2bb2e8ae79fe9e1135857909067cc7",
+      "bytes": 112128,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_sqlite3.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_ssl.pyd",
+      "sha256": "c6871ffbfcc17b66d2b495c9b44fed192fe83e22f7b2f94b00f207525e19559b",
+      "bytes": 164864,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_ssl.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_uuid.pyd",
+      "sha256": "14f024dd8fe2490109f812522daebf61a2f5f8cff80513813db246d6455fcf3f",
+      "bytes": 13824,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_uuid.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/_wmi.pyd",
+      "sha256": "b767ab02b35f5d691142b488807b405663c957e90b84377e639056b84a3288ef",
+      "bytes": 25600,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_wmi.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/libcrypto-3-x64.dll",
+      "sha256": "5a4e8f115a4caada73c5f890513b058509885bbb1012f0cb7ab9b5bddedae1dd",
+      "bytes": 7987712,
+      "file_version": "3.5.8.0",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\libcrypto-3-x64.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/libffi-8.dll",
+      "sha256": "cf07f9f0b1c635bdc20a5c81e0808986e14eede4329d2994ccab417f59550638",
+      "bytes": 28160,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\libffi-8.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/libssl-3-x64.dll",
+      "sha256": "cc99a27ecf92c748730827904a6f24e8d70844b69416c989097a67531c35ff83",
+      "bytes": 1583616,
+      "file_version": "3.5.8.0",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\libssl-3-x64.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/markupsafe/_speedups.cp312-win_amd64.pyd",
+      "sha256": "a1bf1fb566f920b5670dca3b31acb0148636cfff8aa8108d938f91550358b231",
+      "bytes": 11776,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\markupsafe\\_speedups.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/msvcp140.dll",
+      "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+      "bytes": 643512,
+      "file_version": "14.51.36247.0",
+      "collected_source": "C:\\WINDOWS\\System32\\msvcp140.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/MSVCP140_ATOMIC_WAIT.dll",
+      "sha256": "3d0cbfaa1bf3eecf5a3f4491d2960ee803cb994f30292c6adc4a07c498f60e2b",
+      "bytes": 57792,
+      "file_version": "14.51.36247.0",
+      "collected_source": "C:\\WINDOWS\\System32\\MSVCP140_ATOMIC_WAIT.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/_core/_multiarray_tests.cp312-win_amd64.pyd",
+      "sha256": "f09f60242eaed510e1af6384284f53ff56ae42770a62e630bd415bc2b6854d66",
+      "bytes": 65536,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\_core\\_multiarray_tests.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/_core/_multiarray_umath.cp312-win_amd64.pyd",
+      "sha256": "9c10617e66e992b5ac6d9f78fe7cedd0011618e1c2f89d09a185bb63073e2c90",
+      "bytes": 3855872,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/fft/_pocketfft_umath.cp312-win_amd64.pyd",
+      "sha256": "4f008612d6b9e2ab3820ee17a1c758c499e45e80a36764c9dfb7bf304b066f03",
+      "bytes": 276480,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\fft\\_pocketfft_umath.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/linalg/_umath_linalg.cp312-win_amd64.pyd",
+      "sha256": "03bc9de2d6d8e2d9ea3ec781f3c16bcbc9960095cc02ca588f4229cd1560c661",
+      "bytes": 112640,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/random/_bounded_integers.cp312-win_amd64.pyd",
+      "sha256": "927c1673ba698a85e6253b4d8d2223eb019b021792c54604489767c694d2ab93",
+      "bytes": 208896,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/random/_common.cp312-win_amd64.pyd",
+      "sha256": "712a7bb4b2d3e56548cdf255eb4e6c1ca0737d7d81d76f09bdccebb0703ae572",
+      "bytes": 174080,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\random\\_common.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/random/_generator.cp312-win_amd64.pyd",
+      "sha256": "0fa509dcf5ae21910cb2b3c74271977d0fac7fab15ffd5f32017e08b97e71de6",
+      "bytes": 624640,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\random\\_generator.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/random/_mt19937.cp312-win_amd64.pyd",
+      "sha256": "e6938df4dd3a193b7d9171d3e192702be3a70de2ebe866cf6fcd92f9e368349d",
+      "bytes": 92672,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\random\\_mt19937.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/random/_pcg64.cp312-win_amd64.pyd",
+      "sha256": "8eb5569b221d40884093def83d897376bddd99c9279f182b9db3145b9b897d34",
+      "bytes": 105984,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\random\\_pcg64.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/random/_philox.cp312-win_amd64.pyd",
+      "sha256": "cc0c03e2c1443e8981300ddb9cc5ceb504e7f8494323d4ec0a1ad95ae16fbf75",
+      "bytes": 89088,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\random\\_philox.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/random/_sfc64.cp312-win_amd64.pyd",
+      "sha256": "20c551734cd2b2be2425c8773b795f1e92de8826ebbe6c1103cd0fa6b5c94408",
+      "bytes": 64000,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\random\\_sfc64.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/random/bit_generator.cp312-win_amd64.pyd",
+      "sha256": "c7f637df1fa0db9fe4bba6c05dac680d89aed245401423f1ffd16d93366a35a7",
+      "bytes": 173056,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\random\\bit_generator.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy/random/mtrand.cp312-win_amd64.pyd",
+      "sha256": "e8bdaf22830ceaabc596854a816d39d96d1d60e96c2e12a9a17950b624d480a1",
+      "bytes": 522752,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy\\random\\mtrand.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy.libs/libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "sha256": "ed4f167a5330424524f45258e7ca2c8d7f03c0cba1f30ee4985553ac1f88ecf8",
+      "bytes": 20589056,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+      "sha256": "a4c2229bdc2a2a630acdc095b4d86008e5c3e3bc7773174354f3da4f5beb9cde",
+      "bytes": 575056,
+      "file_version": "14.40.33810.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy.libs\\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PIL/_avif.cp312-win_amd64.pyd",
+      "sha256": "6731dce52baab0b96b0eeb3c664844b5b42c2168ea8668af2430e2fbdd2dfbd8",
+      "bytes": 7893504,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PIL\\_avif.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PIL/_imaging.cp312-win_amd64.pyd",
+      "sha256": "c8c519ec72bf75b2945b4fc4afa854af2fca8b970a403134f9ddda3e164d85e9",
+      "bytes": 2632704,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PIL\\_imaging.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PIL/_imagingcms.cp312-win_amd64.pyd",
+      "sha256": "c89c633ae1bf3f26a327d14ff688db66628e19c9866ab925479f27dcb60a2d6f",
+      "bytes": 272384,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PIL\\_imagingcms.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PIL/_imagingft.cp312-win_amd64.pyd",
+      "sha256": "77c6d37de41733df40fb36d9af47644989ac17da036515e759303969edb22c48",
+      "bytes": 2174976,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PIL\\_imagingft.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PIL/_imagingmath.cp312-win_amd64.pyd",
+      "sha256": "82ac45c41a008854d05f67deda298b65a7bed850d0d79a3af861ed583f6e7d62",
+      "bytes": 21504,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PIL\\_imagingmath.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PIL/_imagingtk.cp312-win_amd64.pyd",
+      "sha256": "690cc1cae4a2dc8594a342b9241e691dcc89d81dad4cddcefdf285275365a2b1",
+      "bytes": 14848,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PIL\\_imagingtk.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PIL/_webp.cp312-win_amd64.pyd",
+      "sha256": "9823cebb84f425af3ac1e7437259bc176e7ad7e25d7fa829b0e1a3e55c11be70",
+      "bytes": 416256,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PIL\\_webp.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/pyexpat.pyd",
+      "sha256": "6bb4d145099a62c3c4d6718a0fd7e0525d9736d7e584171506c2731fec674dc0",
+      "bytes": 210432,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\pyexpat.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/MSVCP140.dll",
+      "sha256": "f6f1d55bfd64027820ddce48f9cd8cf46d53bfa34047e6acf4ef348d492a05cb",
+      "bytes": 549176,
+      "file_version": "14.44.35211.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\MSVCP140.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/MSVCP140_1.dll",
+      "sha256": "2be87527c41e1ba8aff48e326e0adcd4743516e0bbcc9304986c726e27de6aca",
+      "bytes": 27448,
+      "file_version": "14.44.35211.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\MSVCP140_1.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/MSVCP140_2.dll",
+      "sha256": "6a72ed8a87eae1671640bd1ca98eccb989f1772ae46ab84594e385bf6d4ac4fb",
+      "bytes": 271672,
+      "file_version": "14.44.35211.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\MSVCP140_2.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/opengl32sw.dll",
+      "sha256": "18aedc7a4b610f53bcc7b7a5c5ed9293c7e86f030e3273ad54ed3bb1ebd36702",
+      "bytes": 20639544,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\opengl32sw.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/generic/qtuiotouchplugin.dll",
+      "sha256": "8565656807db29cfb6170e6803181f24e0bed3aa1b14684d29694e375cc5ee96",
+      "bytes": 102712,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/iconengines/qsvgicon.dll",
+      "sha256": "f9e21af351bd5d5629bc00e8e3796b552eca92d1a9645438c865b9c53af1714f",
+      "bytes": 72504,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/imageformats/qgif.dll",
+      "sha256": "77782de4aa4f7b75a7cc4d3f24aee49da935c312ea13d25f4cda3a98d180145c",
+      "bytes": 48440,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/imageformats/qicns.dll",
+      "sha256": "93e2e588cd1036af3c6300b539d648b3825625788e59a3f0f1863d9901c9759f",
+      "bytes": 56632,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/imageformats/qico.dll",
+      "sha256": "a0e4d0d0319e075f6cc5f774084bf390f7af83600f38685c6bc9c407681cc22c",
+      "bytes": 47416,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/imageformats/qjpeg.dll",
+      "sha256": "dd42bdcd229744a9515db82ba9a802c74b6589cc508c3e85fb30f06ba24b9da6",
+      "bytes": 592696,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/imageformats/qsvg.dll",
+      "sha256": "b63f97ed0ae60aa5bc332c37e429c1f31154e1eee358352b2c49598c5269843b",
+      "bytes": 40248,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/imageformats/qtga.dll",
+      "sha256": "ce95aa019d940533341b4f08a10ddd3b0393162678c47904251da77aeadfd34e",
+      "bytes": 39224,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/imageformats/qtiff.dll",
+      "sha256": "ce696a2dd2e57b8852f7d01834725f54a4d0be66c3d2c491df60fd907fece907",
+      "bytes": 991032,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/imageformats/qwbmp.dll",
+      "sha256": "e118243bd3528aa5fe6378a8839abe0efc200e891af06ee369b97b2ff239b89c",
+      "bytes": 36664,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/imageformats/qwebp.dll",
+      "sha256": "02ae5555b688f78aade5cedcd66c646b73d519460c008c23e75ad408bd152668",
+      "bytes": 566072,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/networkinformation/qnetworklistmanager.dll",
+      "sha256": "2bd047476183c76004221fb44adb7ada9b4b6ce5c2929d63ff67a5305b430f1a",
+      "bytes": 79160,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/platforms/qdirect2d.dll",
+      "sha256": "18213464be5a5a1d39af6a2c876ce21a6bb6a634c814651d09f0ef7e4719edc2",
+      "bytes": 1082168,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/platforms/qminimal.dll",
+      "sha256": "c9025bc5f4653c5aadac87f06ab391763e82adf792f6759c6027a78a5efcaf5c",
+      "bytes": 62264,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/platforms/qoffscreen.dll",
+      "sha256": "d24ef380ab0882d39f21539dcf57ab4213875a6fc658a53012f2d2fd275c6f69",
+      "bytes": 111928,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/platforms/qwindows.dll",
+      "sha256": "ddd5cf6a96f058cfafcbc901ddeb5df010d755f0716beacfb557f8b27b733afe",
+      "bytes": 1001784,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/styles/qmodernwindowsstyle.dll",
+      "sha256": "74d4c47b56a942afb3723bb105900501bb8f91a46a8b592fa722cc4fdb2ce9bf",
+      "bytes": 241464,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\styles\\qmodernwindowsstyle.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/tls/qcertonlybackend.dll",
+      "sha256": "87574d467b6f9640a15e37bf4183179c6a7cefc4dc84346b8f4cffb989cf1e12",
+      "bytes": 105784,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/tls/qopensslbackend.dll",
+      "sha256": "94b3492bc4087da2818e2749a5a03f7d810611b2e3648bd8d580ad087363046f",
+      "bytes": 317752,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/plugins/tls/qschannelbackend.dll",
+      "sha256": "2915a86a2531e65fd4905f0cc1c8dc353772a4f52aeda5100725dd9249db54d1",
+      "bytes": 249144,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/pyside6.abi3.dll",
+      "sha256": "d5b87ccb0a7c305854bd120242b0a75002d0b50a35532d0f6171e4ed0f3cc82a",
+      "bytes": 262968,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\pyside6.abi3.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/Qt6Core.dll",
+      "sha256": "f57ed38afd95d0306cca9d88d997f639f70c7628a4f1f064eae291d579487121",
+      "bytes": 10472760,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\Qt6Core.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/Qt6Gui.dll",
+      "sha256": "abd20026e190e8cc69667d1bea042db05cd353cc05e7da74b063c20b7da3f6cd",
+      "bytes": 9683256,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\Qt6Gui.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/Qt6Network.dll",
+      "sha256": "1c7c393b264ae78f4dee211656377a086c4be714bf768d3135f94f11c1d0be61",
+      "bytes": 1780536,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\Qt6Network.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/Qt6Svg.dll",
+      "sha256": "8f1de5b28aab1eedb415c751c81f9cfaa2804242868c0ceea5f3fdb4b2babca4",
+      "bytes": 608056,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\Qt6Svg.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/Qt6Test.dll",
+      "sha256": "794b3e98d8f30e5dc88f886a501bddf752066d411e5ac45c67a839ce6c32bdb4",
+      "bytes": 383800,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\Qt6Test.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/Qt6Widgets.dll",
+      "sha256": "2f62cbe2869fff4e20df7369c2786e1ec7ec290d5a63d1371b7f70cf06909c3f",
+      "bytes": 6520120,
+      "file_version": "6.12.0.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/QtCore.pyd",
+      "sha256": "6486f6f0a2fec42fc8c652c0b76bb3ad0d44eaccad9c72e577116a075681eebb",
+      "bytes": 3521336,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\QtCore.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/QtGui.pyd",
+      "sha256": "9ac544d1bcf8a26c408c63090d05506f8382d5378ee3a204e29a3ac5449c5b2b",
+      "bytes": 3936056,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\QtGui.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/QtNetwork.pyd",
+      "sha256": "22bffdb2a431b5a986de255f7eb0fcd1fd7d9e85c53967978e2ab479b33a13c5",
+      "bytes": 1039672,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\QtNetwork.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/QtTest.pyd",
+      "sha256": "76a3b2c00414d8050c3cc97951b0ce64de8454ad0a2eb93342044524edc281f6",
+      "bytes": 186168,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\QtTest.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/QtWidgets.pyd",
+      "sha256": "a8e323e56a93c1a8a70981c36a409c0a2546e7a08da5be8ca4e03dfd27febc2a",
+      "bytes": 4911416,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\QtWidgets.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/VCRUNTIME140.dll",
+      "sha256": "a36e0cb185eb89533ed96d4568138f86a1315756a8b2644c5963a8ce23e32101",
+      "bytes": 116024,
+      "file_version": "14.44.35211.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\VCRUNTIME140.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/PySide6/VCRUNTIME140_1.dll",
+      "sha256": "302b1e160e858602490a55e32ae2e29ddfc0bec2a188e19550cb655cdaa58f9c",
+      "bytes": 41272,
+      "file_version": "14.44.35211.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/python3.dll",
+      "sha256": "cd42200fb3a7d5bda472d617e1e7a5515798ff0a0a827b9e3aef42acc87347ed",
+      "bytes": 56320,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\python3.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/python312.dll",
+      "sha256": "46561f1d4e29afed8db6b8bcde7be110d56d6598ae78cc0cf10b2db8360d9c5e",
+      "bytes": 6969856,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\python312.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/select.pyd",
+      "sha256": "3472a0d2b8c3c6a3f80ea75deb4a8f41c159be541be7fa16337dd18c9067c0e8",
+      "bytes": 18944,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\select.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/shiboken6/MSVCP140.dll",
+      "sha256": "1ba4d7c0a95d375da138a057a57593b33510ad5bda6c5e2686afd68faa5b4231",
+      "bytes": 549176,
+      "file_version": "14.44.35211.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\shiboken6\\MSVCP140.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/shiboken6/Shiboken.pyd",
+      "sha256": "8ccf415b2cefb5b6462504581ab1993fb41afe04e415931d8a72049f1c79b267",
+      "bytes": 33080,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\shiboken6\\Shiboken.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/shiboken6/shiboken6.abi3.dll",
+      "sha256": "07c318c02be5a3a9f1475f5a2d0cd438f4d4ea3288c28e2e10bc5ebbbec8de86",
+      "bytes": 399672,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/shiboken6/VCRUNTIME140.dll",
+      "sha256": "e7be9112ee9a5b9f44b44bff24cb761cca9b1ed7550b612f77b70edfcf5fdabf",
+      "bytes": 116024,
+      "file_version": "14.44.35211.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\shiboken6\\VCRUNTIME140.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/shiboken6/VCRUNTIME140_1.dll",
+      "sha256": "f02cd4a862b85a9a3153d27e15e5a213f5df8e3d77004ed2e87b8a7e8873d97c",
+      "bytes": 41272,
+      "file_version": "14.44.35211.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\shiboken6\\VCRUNTIME140_1.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/sqlite3.dll",
+      "sha256": "7a424a26235c29e00417fe5e720cb66e107113fdc84a1d0148816ad0b4613bf2",
+      "bytes": 1607680,
+      "file_version": "3.53.1.0",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\sqlite3.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torch/_C.cp312-win_amd64.pyd",
+      "sha256": "8a3091bd709072e94be73eab71d330924d2dd9c4deda44a5346ab64e987b8e9d",
+      "bytes": 9728,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\_C.cp312-win_amd64.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torch/bin/protoc.exe",
+      "sha256": "1cbe3f0b2982c176fe94b30cb0662fde45dce4ef5773fc65d5d71c699ca8d000",
+      "bytes": 2809856,
+      "file_version": "3.21.12.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\bin\\protoc.exe"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torch/lib/c10.dll",
+      "sha256": "6337930e5825b830242d8470577b52fb333e02926d5b7608221ac6a2a813a57c",
+      "bytes": 1113600,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\lib\\c10.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torch/lib/libiomp5md.dll",
+      "sha256": "de6d18b2dec5811f7932950282a4c8218c5f287db04ff320dcbaa74733d6fcce",
+      "bytes": 1617536,
+      "file_version": "5.0.2026.213",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torch/lib/libiompstubs5md.dll",
+      "sha256": "c477314c1b489c75455b9738452760cd275a254822762079e001e27f79eb25cb",
+      "bytes": 44160,
+      "file_version": "5.0.2026.213",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torch/lib/shm.dll",
+      "sha256": "6a98ce447e49bd3cb5d1c87790193de4bd24b4811694eca9342f27bb5fc84ce5",
+      "bytes": 15360,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\lib\\shm.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torch/lib/torch.dll",
+      "sha256": "276fabc182514d5b09b708d90994a2ce84980a0dd89999ffc555cb58b8eb210d",
+      "bytes": 9728,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\lib\\torch.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torch/lib/torch_cpu.dll",
+      "sha256": "420caca3c1b198126dc74487a5525356c789b473749f5079e8f14c142a3a53da",
+      "bytes": 305887744,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\lib\\torch_cpu.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torch/lib/torch_global_deps.dll",
+      "sha256": "1f0e049098512be5edad11cab57587453aea05f96868d0491a8e96711037f44f",
+      "bytes": 9728,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\lib\\torch_global_deps.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torch/lib/torch_python.dll",
+      "sha256": "5539b241a5ca8a9a5403c789cf2c468966e4e03284f5b5e1efc6a30415b4ace7",
+      "bytes": 20270080,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\lib\\torch_python.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torch/lib/uv.dll",
+      "sha256": "fa569e682fc5fb7a8eb94c6829af9f30a569748dbbc6bce39735d48bc960bcf8",
+      "bytes": 195072,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\lib\\uv.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torchvision/_C_stable.pyd",
+      "sha256": "c2dd1345542fe3defb00ff2fca89e37528bb7a6a6bbe3760e98ac857079db27c",
+      "bytes": 359936,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torchvision\\_C_stable.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torchvision/image_stable.pyd",
+      "sha256": "42502993f1eed3a8e32856cb272a7b07e2f466c472e2dc4cffd7c4842c8161fd",
+      "bytes": 129536,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torchvision\\image_stable.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torchvision/jpeg8.dll",
+      "sha256": "e7c16e1e0330d747aec1cd161f6d54816f71e4172c14f41f76d5a2b2191c93a3",
+      "bytes": 688456,
+      "file_version": "8.3.2.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torchvision\\jpeg8.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torchvision/libpng16.dll",
+      "sha256": "5befe1f2a614da8049da94ef252a9300d1bc75a9b2468750cdbe817f9c60d237",
+      "bytes": 209736,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torchvision\\libpng16.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torchvision/libsharpyuv.dll",
+      "sha256": "5b9781467bae1b30a5df0707ab745730c98ad96a1db2a825b8f135f3cd6cf946",
+      "bytes": 37192,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torchvision\\libsharpyuv.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torchvision/libwebp.dll",
+      "sha256": "e9ebf8ca707ad2e964f8cdd9892c9e536517856696547c4671f62a7cd4d394f6",
+      "bytes": 387912,
+      "file_version": null,
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torchvision\\libwebp.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/torchvision/zlib.dll",
+      "sha256": "a2e123cc624634d08200b4e5ee6a2828d2df88fd9573b5b5fdd9da336f5738a6",
+      "bytes": 102728,
+      "file_version": "1.3.2.0",
+      "collected_source": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torchvision\\zlib.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/unicodedata.pyd",
+      "sha256": "8e7401064e85754b8cb27de94c7098b7d798a33c207cec532996036fafbcf429",
+      "bytes": 1127936,
+      "file_version": "3.12.14150.1013",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\unicodedata.pyd"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/vcruntime140.dll",
+      "sha256": "d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066",
+      "bytes": 124544,
+      "file_version": "14.44.35211.0",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\vcruntime140.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/_internal/vcruntime140_1.dll",
+      "sha256": "1f2d41c4aa5db0bc33ebf7b66d72943a817d7ce6cbe880502a9403823633093f",
+      "bytes": 49792,
+      "file_version": "14.44.35211.0",
+      "collected_source": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\vcruntime140_1.dll"
+    },
+    {
+      "path": "artifacts/S01/dist/phase0_smoke/phase0_smoke.exe",
+      "sha256": "9b4a407906f0d8033ca97b5e2b66a6e4477a5f245b09a3b5ef2b2dc8acabe084",
+      "bytes": 38971177,
+      "file_version": null,
+      "collected_source": "entrypoint/bootloader; see build spec and PyInstaller license"
+    }
+  ],
+  "python_license": {
+    "path": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\LICENSE.txt",
+    "sha256": "886a0ead2d89030ee62dbff52b04e47ab91998341295bb9c56fb952b4e081c7a"
+  },
+  "host_windows_icu": {
+    "path": "C:/Windows/System32/icuuc.dll",
+    "sha256": "59d134ddc15ae0594f0a328979f8201662fc82634ddb7c537b156e7cf871f5eb",
+    "bundled": false
+  }
+}

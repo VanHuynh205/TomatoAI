@@ -1,0 +1,217 @@
+{
+  "version": "pi-20261014-v1",
+  "checked_at": "2026-10-14T21:57:22.2201466+07:00",
+  "scope": "Official local planning artifacts/store and history snapshots only; hashes do not establish expert approval",
+  "files": [
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-desktop-slice\\epic-desktop-slice.md",
+      "bytes": 3512,
+      "sha256": "ea3666d74816396b7172ba12a49a4f6aa990b6dbc1419d7ae195d7568d134ed4"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-desktop-slice\\tickets.toml",
+      "bytes": 1305,
+      "sha256": "3a1341bdeef17e0106721f8ef21f5c8f559e8fa2ab928da29b062a62d5531c37"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-evidence-defense\\epic-evidence-defense.md",
+      "bytes": 3952,
+      "sha256": "a9d4370fdf49127ba65b42270df7ee45481aa1b2af9729abe099f4988abeddf0"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-evidence-defense\\tickets.toml",
+      "bytes": 2298,
+      "sha256": "64182a9eeb045a95a96fbfa7d7c0d2f32298bcbdedc56ac1c42e043012a42b99"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-governance-data\\epic-governance-data.md",
+      "bytes": 3706,
+      "sha256": "8be402e2d15b1fa007d930c3b1dc76c0ab7ade59813a6231251c4bbdf2afb03c"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-governance-data\\tickets.toml",
+      "bytes": 3187,
+      "sha256": "cced24aa075b2c4d5ce7e6be7be6c5518c17b29edc744b5ee305232f68156cd7"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-knowledge-learning\\epic-knowledge-learning.md",
+      "bytes": 4062,
+      "sha256": "2516d6b55434050e18ace81bdbb21007382f98ea81f29b2343151e0eaa205d85"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-knowledge-learning\\tickets.toml",
+      "bytes": 4640,
+      "sha256": "899a341c5d1b9d58f48bae4ad1f4f319c19e847ee506da47f063c7c4838d8626"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-model-comparison\\epic-model-comparison.md",
+      "bytes": 3636,
+      "sha256": "295f5f4c3fda70b9b292f9c5812017a9526890a1bce1e77579285a8ee76b02d3"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-model-comparison\\tickets.toml",
+      "bytes": 3611,
+      "sha256": "d8a2a7482c6f7238d17dba9816041bd11cbe0d81a7bb07b8cbe19ce6ce870e2a"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-offline-release\\epic-offline-release.md",
+      "bytes": 4373,
+      "sha256": "0ae6bf09c9e043f042b8ea993782dc61a016203b541c0c3fc129887adab84b7a"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\epic-offline-release\\tickets.toml",
+      "bytes": 4150,
+      "sha256": "eb3de99daed825e0543bf7462b2ee693d505107535e025b26c4fae4a6cce1420"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\initiative-tomato-desktop.md",
+      "bytes": 5223,
+      "sha256": "c612d30151922ad05e1cfc0b4b00dd52342cec47f7ab13db563fc741a916cf9c"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\bmad-status.json",
+      "bytes": 2322,
+      "sha256": "e52b38eb39b6def80e87c5cdc77fb8c67ec2cbce13b6fa45829942803de170ea"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\checkpoint.json",
+      "bytes": 1325,
+      "sha256": "4d9691e5e9ad5a738779a113d7a9fa652dcca4ac78be008206680db9d8d0e6af"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\continuation-integrity.json",
+      "bytes": 328,
+      "sha256": "39a0f270c67d2d9ac3c63e11150eddbbf50898c1cd61d916734cf5ef28f9c73c"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\draft-dependency-check.json",
+      "bytes": 583,
+      "sha256": "2f8c5159602903f8ef352f2d948c1add0ee84503859888d103fe39812efd8155"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\history\\spec-approved-before-ticket\\data-readiness.md",
+      "bytes": 9061,
+      "sha256": "51899132ce9f702e22c6ec0282131a7292a0c62742b4b109099be055988457f9"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\history\\spec-approved-before-ticket\\requirements-traceability.csv",
+      "bytes": 2558,
+      "sha256": "5deada3199ba8ebb674a2eb435f8349ae3eea557c5d688261abb7974f51b4a55"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\history\\spec-approved-before-ticket\\requirements-traceability.md",
+      "bytes": 9659,
+      "sha256": "81580253e63a3592a9e8795dce3996bf398b74bd48ebda2d06a15a13ddd0d98f"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\history\\spec-approved-before-ticket\\spec-tomato-desktop.md",
+      "bytes": 7760,
+      "sha256": "ece57f35a4420ca78319a09745f2963b3cea8f7eb2d76c43d844bc8481da3bb6"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\initiative-before.md",
+      "bytes": 133,
+      "sha256": "dce38914af6295e74be4dc1adb8da32d16b3980943e19a5edfb085ec9c73010d"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\inputs-before.json",
+      "bytes": 10054,
+      "sha256": "c09dabf1b7ebaacc1ff21efbecffab3fdf3bd7113478408707e8de8b2e30dcab"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\README.md",
+      "bytes": 9182,
+      "sha256": "e5bfd9fc66733aa2f8f1adbfd51c49abc3fce25fcdf94ee7d33462bbe990cd75"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\registry-before-official-import.json",
+      "bytes": 14882,
+      "sha256": "1cd57210d1dbd1fbe1d80f28f6ea000db0e2538526e9ac7b462aa3ed24fb8753"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\ticket-next-final.json",
+      "bytes": 10962,
+      "sha256": "8b763232c8c361f7d3436899d29622d1d9cbfecb6fac5b241ba1e16ecc2eee1a"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\ticket-proposal.json",
+      "bytes": 27979,
+      "sha256": "55cf9d9aa2a653d9f99f49232bf829c7268b70ce99789fec5e9bbde50d82262c"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\ticket-proposal.md",
+      "bytes": 13472,
+      "sha256": "284ccd8df550f35ab14fb095e259f442f1307c2097e13641ac1d8f8569f92569"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\ticket-runtime-compatibility.json",
+      "bytes": 2039,
+      "sha256": "fa696f90afc0acb3826d11a846dea39afbef53d130ca51b53642c8552332d440"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\ticket-status-before.json",
+      "bytes": 210,
+      "sha256": "7ad4d87c057161946106ebd5ee9da77fde04a05d1408f29efb5ab4648e0eff59"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\ticket-status-continuation.json",
+      "bytes": 210,
+      "sha256": "7ad4d87c057161946106ebd5ee9da77fde04a05d1408f29efb5ab4648e0eff59"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\ticket-status-final.json",
+      "bytes": 12641,
+      "sha256": "22729a467862041ad3b9ddf80551e5c65f4110e139fc213c02d1e6675edc5c46"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\ticket-validation.json",
+      "bytes": 2365,
+      "sha256": "3df822c4385e59e9a5fed57de39cae60a72a07f5f27b53a2df770a8af0069646"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\ticket-validation.md",
+      "bytes": 5853,
+      "sha256": "4076fa662cc840262537967a6078ccb50a923fa89ecfcb3911ad9cc605d5de13"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\verification-final.json",
+      "bytes": 1879,
+      "sha256": "b1beb0c33c289e12011dcb391e5141e02bf69ecfc18f048d5f7b6ffe217ae32e"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\planning-import-20261014-v1\\verification.json",
+      "bytes": 1891,
+      "sha256": "6519a2c55c9f54ec84059d9966ebeddaa0beff909131009508a18f32bfe52569"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\spec-tomato-desktop\\.memlog.md",
+      "bytes": 8298,
+      "sha256": "4614f4859f9b1e51b0cefc3161bb8c7bd70f989ef4be755c5f7355173e71f8a5"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\spec-tomato-desktop\\data-readiness.md",
+      "bytes": 9910,
+      "sha256": "f1014db202c58abcc9b6c276784b7a6381dd366cbc58728b37a9cb1cf421b7a1"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\spec-tomato-desktop\\requirements-traceability.csv",
+      "bytes": 2601,
+      "sha256": "a420a5ca4632029ec7f8f05762eac066563111e3af125098c3ead6739555561a"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\spec-tomato-desktop\\requirements-traceability.md",
+      "bytes": 17469,
+      "sha256": "35f29ab3bb05a452be62c8649b47f5cc2c8dd3083a5340110f6a47a70c3246a1"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\spec-tomato-desktop\\spec-tomato-desktop.md",
+      "bytes": 7969,
+      "sha256": "5dac9ff5afbaaaa0e7446ac595bc2fd7676a1a8536b84719ce97889477e594e0"
+    },
+    {
+      "path": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\_bmad-output\\initiative-tomato-desktop\\tickets.toml",
+      "bytes": 1781,
+      "sha256": "11f32aea00837ab0a9287990ef04a631592ecf95bf22039f7e783f9034634523"
+    }
+  ]
+}

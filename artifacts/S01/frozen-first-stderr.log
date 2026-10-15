@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "phase0_smoke.py", line 84, in <module>
+  File "phase0_smoke.py", line 33, in main
+ImportError: DLL load failed while importing QtCore: The specified procedure could not be found.
+[PYI-17536:ERROR] Failed to execute script 'phase0_smoke' due to unhandled exception!

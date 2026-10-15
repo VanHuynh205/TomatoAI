@@ -1,0 +1,38 @@
+[
+  {
+    "file": "2024.06.05_Quality_Determination.xlsx",
+    "parts": 17,
+    "uncompressed_bytes": 672077,
+    "calculation_properties": {
+      "calcId": "191029"
+    },
+    "warnings": []
+  },
+  {
+    "file": "Irrigation_Data_1-4.xlsx",
+    "parts": 17,
+    "uncompressed_bytes": 105835,
+    "calculation_properties": {
+      "calcId": "191029"
+    },
+    "warnings": []
+  },
+  {
+    "file": "Photosynthetic_Data.xlsx",
+    "parts": 17,
+    "uncompressed_bytes": 60901,
+    "calculation_properties": {
+      "calcId": "191029"
+    },
+    "warnings": []
+  },
+  {
+    "file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "parts": 18,
+    "uncompressed_bytes": 93872,
+    "calculation_properties": {
+      "calcId": "191029"
+    },
+    "warnings": []
+  }
+]

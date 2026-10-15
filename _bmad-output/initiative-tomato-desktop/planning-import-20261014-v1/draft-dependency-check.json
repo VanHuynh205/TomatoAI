@@ -1,0 +1,32 @@
+{
+  "revision": 2,
+  "entries": 22,
+  "epics": 6,
+  "original_ids_preserved": 20,
+  "problems": [],
+  "topological_order": [
+    "EP-A.S01",
+    "EP-A.S02",
+    "EP-A.S03",
+    "EP-D.S10",
+    "EP-A.S04",
+    "EP-D.S11",
+    "EP-B.S05",
+    "EP-D.S10b",
+    "EP-B.S07",
+    "EP-B.S08",
+    "EP-C.S06",
+    "EP-D.S11b",
+    "EP-B.S09",
+    "EP-D.S12",
+    "EP-E.S13",
+    "EP-F.S16",
+    "EP-E.S14",
+    "EP-F.S17",
+    "EP-E.S15",
+    "EP-E.S18",
+    "EP-E.S20",
+    "EP-F.S19"
+  ],
+  "scope": "Draft only; no runtime ticket store or product tests"
+}

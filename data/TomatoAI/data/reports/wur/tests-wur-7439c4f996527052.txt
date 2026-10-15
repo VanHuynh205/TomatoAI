@@ -1,0 +1,18 @@
+test_actual_reference_header_repair_requires_evidence_and_eight_values (test_clean_wur.WurChecks.test_actual_reference_header_repair_requires_evidence_and_eight_values) ... ok
+test_cli_flow_count_provenance_quarantine_raw_and_idempotency (test_clean_wur.WurChecks.test_cli_flow_count_provenance_quarantine_raw_and_idempotency) ... ok
+test_colliding_or_unknown_headers_rejected (test_clean_wur.WurChecks.test_colliding_or_unknown_headers_rejected) ... ok
+test_empty_trailing_columns_require_all_row_proof (test_clean_wur.WurChecks.test_empty_trailing_columns_require_all_row_proof) ... ok
+test_intake_hash_mismatch_blocks_before_derivation (test_clean_wur.WurChecks.test_intake_hash_mismatch_blocks_before_derivation) ... ok
+test_missing_and_zero_stay_distinct_no_numeric_rounding (test_clean_wur.WurChecks.test_missing_and_zero_stay_distinct_no_numeric_rounding) ... ok
+test_output_cannot_overlap_raw (test_clean_wur.WurChecks.test_output_cannot_overlap_raw) ... ok
+test_output_tampering_refuses_overwrite (test_clean_wur.WurChecks.test_output_tampering_refuses_overwrite) ... ok
+test_partial_failure_checkpoint_retained_and_retry_blocked (test_clean_wur.WurChecks.test_partial_failure_checkpoint_retained_and_retry_blocked) ... ok
+test_temporal_flags_do_not_correct_or_sort (test_clean_wur.WurChecks.test_temporal_flags_do_not_correct_or_sort) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.273s
+
+OK
+{"status": "complete", "run_id": "wur-d54e1815d23ebb16", "source_records": 4, "retained_normalized_records": 3, "quarantined_records": 1, "excluded_records": 0, "needs_review_retained_records": 3}
+{"status": "idempotent_existing_verified", "run_id": "wur-d54e1815d23ebb16"}
+{"status": "complete", "run_id": "wur-d54e1815d23ebb16", "source_records": 4, "retained_normalized_records": 3, "quarantined_records": 1, "excluded_records": 0, "needs_review_retained_records": 3}

@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0",
+  "updated_local_date": "2026-10-14",
+  "timezone": "Asia/Bangkok",
+  "project_title": "Ứng dụng thẩm định và nhận diện dịch bệnh cho giống cây cà chua",
+  "official_planning_imported": false,
+  "datasets": {
+    "PlantVillage": {
+      "scope": "tomato; source images and grouping metadata only",
+      "source_root": "raw/plantvillage",
+      "status": "needs_review",
+      "technical_status": "cleaned_technical",
+      "split_status": "partial_ready_for_split; no split created",
+      "training_ready": false,
+      "current_run": "pv-d9e4c21eec8e9172",
+      "processed": "processed/plantvillage/pv-d9e4c21eec8e9172",
+      "report": "reports/plantvillage/README.md",
+      "checkpoint": "reports/plantvillage/pv-d9e4c21eec8e9172/checkpoint.json",
+      "counts": {
+        "source_images": 18160,
+        "retained_copies": 18146,
+        "ready_for_split_technical": 11411,
+        "needs_review_retained": 6735,
+        "excluded_byte_duplicates": 14,
+        "excluded_invalid": 0
+      },
+      "blockers": [
+        "6749 source images lack evidenced leaf grouping (including 14 excluded duplicate records)",
+        "1404 Target Spot prefix aliases remain candidates",
+        "373 mosaic images have no grouping metadata",
+        "near candidates and independent domain/label review pending",
+        "no approved full 10-class benchmark or split"
+      ],
+      "next_action": "review evidence and grouping queue; do not train or import official PRD/spec/tickets",
+      "history": [
+        {
+          "date": "2026-10-13",
+          "stage": "read_only_planning_audit",
+          "evidence": "../../../planning/tomato-desktop/data-audit.md",
+          "status": "historical preliminary inventory"
+        },
+        {
+          "date": "2026-10-14",
+          "run_id": "pv-018f15e5f3a9b2a1",
+          "status": "superseded_checkpoint",
+          "reason": "numeric-only parser falsely flagged non-tomato prefixed leaf IDs; tomato counts unaffected; outputs retained"
+        },
+        {
+          "date": "2026-10-14",
+          "run_id": "pv-d9e4c21eec8e9172",
+          "status": "current",
+          "reason": "opaque and zero group IDs retained; regression test and production verification"
+        }
+      ]
+    },
+    "PlantExpertVQA-tomato": {
+      "source_root": "raw/plantexpert/disease_kb/tomato",
+      "source_integrity_scope": "raw/plantexpert including README and local HF cache/intake metadata",
+      "status": "needs_review",
+      "technical_status": "cleaned_technical; 17/17 parsed and schema-valid",
+      "domain_review": "pending",
+      "translation_review": "EN retained; 10 VI glossary terms are unapproved drafts",
+      "evidence": "../../../planning/tomato-desktop/data-audit.md",
+      "training_ready": false,
+      "safe_for_advice": false,
+      "current_run": "pex-b3da04d66a031756",
+      "processed": "processed/plantexpert-tomato/pex-b3da04d66a031756",
+      "report": "reports/plantexpert-tomato/README.md",
+      "checkpoint": "reports/plantexpert-tomato/pex-b3da04d66a031756/checkpoint.json",
+      "counts": {
+        "source_cards": 17,
+        "retained_normalized_cards": 17,
+        "excluded": 0,
+        "quarantined_technical": 0,
+        "needs_review_cards": 17,
+        "unresolved_lookalike_links": 24,
+        "total_lookalike_links": 47,
+        "draft_image_label_links": 10,
+        "glossary_vi_draft_terms": 10
+      },
+      "blockers": [
+        "24 lookalike IDs unresolved; candidates not applied",
+        "4 confounder entries need interpretation (3 questions and 1 absent herbicide_damage card)",
+        "taxonomy/alias checkpoints and claim citations need review",
+        "no independently verified domain review or Vietnamese translation",
+        "16 cards contain chemical advice with local applicability unverified",
+        "no supervised advisory QA/outcome dataset available locally"
+      ],
+      "next_action": "review links, taxonomy, claim-level sources and VI glossary; do not translate dataset, train or import official planning in this session",
+      "history": [
+        {
+          "date": "2026-10-13",
+          "stage": "read_only_planning_audit",
+          "evidence": "../../../planning/tomato-desktop/data-audit.md",
+          "status": "historical preliminary inventory; original report retained"
+        },
+        {
+          "date": "2026-10-14",
+          "run_id": "pex-b3da04d66a031756",
+          "status": "technical_complete_review_pending",
+          "reason": "strict JSON/schema audit, versioned EN derivation, 39 source files hash-identical, 14 tests passed; no domain approval"
+        }
+      ],
+      "registry_backup": "reports/plantexpert-tomato/registry-before-20261014.json"
+    },
+    "WUR": {
+      "source_root": "raw/cultivation/wur_greenhouse_2019_v2",
+      "status": "research_only; needs_review",
+      "technical_status": "cleaned_technical; 43/43 parse-normalized tables",
+      "mvp_dependency": false,
+      "training_ready": false,
+      "current_run": "wur-7439c4f996527052",
+      "processed": "processed/wur/wur-7439c4f996527052",
+      "report": "reports/wur/README.md",
+      "checkpoint": "reports/wur/wur-7439c4f996527052/checkpoint.json",
+      "validation": "reports/wur/validation-wur-7439c4f996527052.json",
+      "evidence": "cultivation_metadata/README.md",
+      "source_integrity": "46 files including archive/PDFs match intake and before/after SHA-256; metadata unchanged",
+      "counts": {
+        "tables": 43,
+        "source_records": 622899,
+        "retained_normalized_records": 622899,
+        "excluded_records": 0,
+        "quarantined_records": 0,
+        "needs_review_retained_records": 622899,
+        "missing_cells": 1413536,
+        "zero_cells_preserved": 3818128,
+        "review_items": 134
+      },
+      "blockers": [
+        "Excel epoch/timezone unverified; serial retained",
+        "Reference/Production record 1 serial 43510 outside compartment climate span",
+        "12 water interval unit aliases unresolved; PDF extraction/timestamp dictionary review",
+        "48 cadence flags and missingness need context; no imputation",
+        "experimental independence, agronomic plausibility and future task/split not approved"
+      ],
+      "next_action": "review WUR evidence checkpoint; Dryad only in separately requested session; no cultivation optimization model or training",
+      "history": [
+        {
+          "date": "2026-10-14",
+          "stage": "intake_status_preserved",
+          "prior_entry": {
+            "source_root": "raw/cultivation/wur_greenhouse_2019_v2",
+            "status": "research_only; received_not_cleaned",
+            "evidence": "cultivation_metadata/README.md",
+            "mvp_dependency": false,
+            "training_ready": false,
+            "next_action": "separate requested cleaning session; no cultivation optimization model"
+          }
+        },
+        {
+          "date": "2026-10-14",
+          "run_id": "wur-7439c4f996527052",
+          "status": "technical_complete_review_pending",
+          "reason": "43 tables; full source/value/provenance verification; raw immutable; no training/optimization"
+        }
+      ],
+      "registry_backup": "reports/wur/registry-before-20261014T141208.json"
+    },
+    "Dryad": {
+      "source_root": "raw/cultivation/dryad_water_nitrogen_2024_v5",
+      "status": "research_only; needs_review",
+      "technical_status": "cleaned_technical; 8 normalized tables; formula caches separated",
+      "evidence": "cultivation_metadata/README.md",
+      "mvp_dependency": false,
+      "training_ready": false,
+      "current_run": "dryad-8b0f7c218098bfdf",
+      "processed": "processed/dryad/dryad-8b0f7c218098bfdf",
+      "report": "reports/dryad/README.md",
+      "checkpoint": "reports/dryad/dryad-8b0f7c218098bfdf/checkpoint.json",
+      "validation": "reports/dryad/validation-dryad-8b0f7c218098bfdf.json",
+      "source_integrity": "5 raw files match intake and before/after SHA-256; 5 reference files unchanged",
+      "counts": {
+        "workbooks": 4,
+        "worksheets": 5,
+        "derived_tables": 8,
+        "source_physical_rows": 253,
+        "retained_table_records": 508,
+        "needs_review_records": 508,
+        "excluded_records": 0,
+        "quarantined_records": 0,
+        "formula_cells": 108,
+        "formula_cache_missing": 0,
+        "missing_table_cells": 0,
+        "invalid_table_cells": 0,
+        "numeric_zero_cells_preserved": 254,
+        "review_items": 79
+      },
+      "blockers": [
+        "treatment/replicate/irrigation-block mapping unverified",
+        "quality units and nutrient proportion scale unresolved",
+        "formula cache freshness unverified; no recalculation",
+        "meter timing, repeated measurements and cross-table experimental independence unverified",
+        "no agronomic approval; fruit sample mass is not seasonal yield"
+      ],
+      "next_action": "review queue with source evidence; Mendeley only in separately requested session; no optimization, official planning import or training",
+      "history": [
+        {
+          "date": "2026-10-14",
+          "stage": "intake_status_preserved",
+          "prior_entry": {
+            "source_root": "raw/cultivation/dryad_water_nitrogen_2024_v5",
+            "status": "research_only; received_not_cleaned",
+            "evidence": "cultivation_metadata/README.md",
+            "mvp_dependency": false,
+            "training_ready": false,
+            "next_action": "separate requested cleaning session; no cultivation optimization model"
+          }
+        },
+        {
+          "date": "2026-10-14",
+          "run_id": "dryad-07a66a01524acebb",
+          "status": "superseded_preserved",
+          "reason": "same counts; initial independent verifier passed; stronger XML/raw-output guards in current pipeline"
+        },
+        {
+          "date": "2026-10-14",
+          "run_id": "dryad-8b0f7c218098bfdf",
+          "status": "technical_complete_review_pending",
+          "reason": "12 tests; independent cell/formula/cache/provenance verification; raw immutable"
+        }
+      ],
+      "registry_backup": "reports/dryad/registry-before-20261014T080721Z.json"
+    },
+    "Mendeley": {
+      "source_root": "raw/cultivation/mendeley_irrigation_33cngpcrmx_v3",
+      "status": "research_only; needs_review",
+      "technical_status": "cleaned_technical; separate CSV and JSON derivations",
+      "evidence": "cultivation_metadata/README.md",
+      "mvp_dependency": false,
+      "training_ready": false,
+      "current_run": "mendeley-61d459ec1f46cef3",
+      "processed": "processed/mendeley/mendeley-61d459ec1f46cef3",
+      "report": "reports/mendeley/README.md",
+      "checkpoint": "reports/mendeley/mendeley-61d459ec1f46cef3/checkpoint.json",
+      "validation": "reports/mendeley/validation-mendeley-61d459ec1f46cef3.json",
+      "source_integrity": "2 raw files match intake and before/after SHA-256; 6 reference files unchanged",
+      "counts": {
+        "source_records": 3393,
+        "retained_records": 3393,
+        "quarantined_records": 0,
+        "excluded_records": 0,
+        "needs_review_retained_records": 3393,
+        "missing_cells": 0,
+        "zero_cells_preserved": 1535,
+        "review_items": 103,
+        "csv_records": 3000,
+        "json_records": 393,
+        "csv_duplicate_value_surplus_retained": 28,
+        "json_duplicate_value_surplus_retained": 92,
+        "json_unique_timestamps": 30,
+        "json_duplicate_timestamp_groups": 23
+      },
+      "blockers": [
+        "CSV preprocessing lineage and field units/calibration unverified",
+        "JSON source formulas, optimal/configuration and actuator state not validated outcomes",
+        "CSV-JSON join key absent; no join",
+        "timezone/device/session independence and duplicate acquisition context unresolved",
+        "no agronomic review or cultivation optimization target approval"
+      ],
+      "next_action": "review source evidence and queues; all five datasets have checkpoints; Prompt 3 only if separately requested; no app/training/optimization",
+      "history": [
+        {
+          "date": "2026-10-14",
+          "stage": "intake_status_preserved",
+          "prior_entry": {
+            "source_root": "raw/cultivation/mendeley_irrigation_33cngpcrmx_v3",
+            "status": "research_only; received_not_cleaned",
+            "evidence": "cultivation_metadata/README.md",
+            "mvp_dependency": false,
+            "training_ready": false,
+            "next_action": "separate requested cleaning session; no inferred optimal target"
+          }
+        },
+        {
+          "date": "2026-10-14",
+          "run_id": "mendeley-61d459ec1f46cef3",
+          "status": "technical_complete_review_pending",
+          "reason": "8 tests; full 3393-record/56541-field source verification; raw immutable; no join or training"
+        }
+      ],
+      "registry_backup": "reports/mendeley/registry-before-20261014T083022Z.json"
+    }
+  }
+}

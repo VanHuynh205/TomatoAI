@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "run_id": "pex-b3da04d66a031756",
+  "created_utc": "2026-10-14T05:45:49.127751+00:00",
+  "dataset": "PlantExpertVQA-tomato",
+  "status": "cleaned_technical; needs_review; not_training_ready",
+  "fingerprint": "b3da04d66a031756bb9042f97928898d4ca6908f85d5ae6a0a82ce1a9d36b46d",
+  "pipeline_sha256": "13084f96ff8025f407e27e703ec3b43d81677d4ec8746fdf15b895e727be217c",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": "stdlib only"
+  },
+  "source_url": "https://huggingface.co/datasets/SyedNazmusSakib/PlantExpertVQA/tree/main/disease_kb/tomato",
+  "license_declared": "CC-BY-4.0; local README declaration, distribution review pending",
+  "cache_revision_observations": {
+    "e21eacc1eff9e1db38966d78d0e8af2f22706313": 18
+  },
+  "source_file_count_including_cache": 39,
+  "source_bytes_including_cache": 3298343,
+  "source_card_records": 17,
+  "parse_ok": 17,
+  "schema_ok": 17,
+  "retained_source_copies": 17,
+  "retained_normalized_records": 17,
+  "excluded_records": 0,
+  "record_status_counts": {
+    "needs_review": 17
+  },
+  "flags_overlapping": {
+    "domain_review_unverified": 17,
+    "claim_sources_unverified": 17,
+    "translation_pending": 17,
+    "chemical_local_review_required": 16,
+    "unresolved_reference": 12,
+    "domain_checkpoint": 4,
+    "type_vocabulary_difference": 9,
+    "issue_type_unknown": 2,
+    "confounder_slug_review": 2
+  },
+  "reference_link_counts": {
+    "exact_reference": 23,
+    "unresolved_reference": 24
+  },
+  "reference_link_total": 47,
+  "duplicate_groups": 0,
+  "confounder_link_counts": {
+    "exact_filename_slug_candidate": 52,
+    "unresolved_or_ambiguous_slug": 4
+  },
+  "alias_collisions": 0,
+  "shared_text_groups_retained": 17,
+  "unicode_value_changes": 0,
+  "field_occurrences": 2677,
+  "empty_occurrences": {
+    "empty_array": 55,
+    "empty_string": 31,
+    "null": 2
+  },
+  "numeric_zero_occurrences_preserved": 11,
+  "label_mapping_counts": {
+    "explicit_draft_schema_match": 10
+  },
+  "glossary_draft_terms": 10,
+  "review_items": 110,
+  "raw_integrity": "all_sha256_equal",
+  "reference_inputs_unchanged": true,
+  "training_ready": false,
+  "safe_for_advice": false,
+  "translation_performed": false,
+  "domain_review_performed": false,
+  "qa_pairs_available": false,
+  "invocation": [
+    "scripts/data/clean_plantexpert.py",
+    "--config",
+    "scripts/data/plantexpert-config.json",
+    "--project-root",
+    "C:\\Users\\admin\\Downloads\\DACN_CayCaChua"
+  ]
+}

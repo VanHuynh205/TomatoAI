@@ -1,0 +1,824 @@
+[
+  {
+    "reason": "treatment_replicate_group_mapping_unverified",
+    "table": "quality",
+    "source_rows": [
+      3,
+      14
+    ],
+    "affected_records": 12,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "unit_semantics_unverified",
+    "table": "quality",
+    "source_rows": [
+      3,
+      14
+    ],
+    "affected_records": 12,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "treatment_replicate_group_mapping_unverified",
+    "table": "photosynthetic",
+    "source_rows": [
+      2,
+      61
+    ],
+    "affected_records": 60,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "unit_semantics_unverified",
+    "table": "photosynthetic",
+    "source_rows": [
+      2,
+      61
+    ],
+    "affected_records": 60,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "treatment_replicate_group_mapping_unverified",
+    "table": "leaf_stem",
+    "source_rows": [
+      2,
+      37
+    ],
+    "affected_records": 36,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "unit_semantics_unverified",
+    "table": "leaf_stem",
+    "source_rows": [
+      2,
+      37
+    ],
+    "affected_records": 36,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "treatment_replicate_group_mapping_unverified",
+    "table": "fruit",
+    "source_rows": [
+      2,
+      61
+    ],
+    "affected_records": 60,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "unit_semantics_unverified",
+    "table": "fruit",
+    "source_rows": [
+      2,
+      61
+    ],
+    "affected_records": 60,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      3,
+      4,
+      5
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      31,
+      32,
+      33,
+      34
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      36,
+      37
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      39,
+      40,
+      41
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      64,
+      65,
+      66
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      68,
+      69,
+      70
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      79,
+      80
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      82,
+      83,
+      84
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_1",
+    "rows": [
+      86,
+      87
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "treatment_replicate_group_mapping_unverified",
+    "table": "irrigation_1",
+    "source_rows": [
+      3,
+      87
+    ],
+    "affected_records": 85,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "unit_semantics_unverified",
+    "table": "irrigation_1",
+    "source_rows": [
+      3,
+      87
+    ],
+    "affected_records": 85,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      3,
+      4,
+      5
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      31,
+      32,
+      33,
+      34
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      36,
+      37
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      39,
+      40
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      43,
+      44
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      59,
+      60,
+      61
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      64,
+      65,
+      66
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      68,
+      69,
+      70
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      79,
+      80
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      82,
+      83,
+      84
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_2",
+    "rows": [
+      86,
+      87
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "treatment_replicate_group_mapping_unverified",
+    "table": "irrigation_2",
+    "source_rows": [
+      3,
+      87
+    ],
+    "affected_records": 85,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "unit_semantics_unverified",
+    "table": "irrigation_2",
+    "source_rows": [
+      3,
+      87
+    ],
+    "affected_records": 85,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      3,
+      4,
+      5
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      7,
+      8
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      31,
+      32,
+      33,
+      34
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      36,
+      37
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      39,
+      40,
+      41
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      64,
+      65,
+      66
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      68,
+      69,
+      70
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      79,
+      80
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_3",
+    "rows": [
+      82,
+      83,
+      84
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "treatment_replicate_group_mapping_unverified",
+    "table": "irrigation_3",
+    "source_rows": [
+      3,
+      87
+    ],
+    "affected_records": 85,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "unit_semantics_unverified",
+    "table": "irrigation_3",
+    "source_rows": [
+      3,
+      87
+    ],
+    "affected_records": 85,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      3,
+      4,
+      5
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      31,
+      32,
+      33,
+      34
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      36,
+      37
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      39,
+      40,
+      41
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      43,
+      44
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      64,
+      65,
+      66
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      68,
+      69,
+      70
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      73,
+      74,
+      75
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      77,
+      78,
+      79,
+      80
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      82,
+      83,
+      84
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "repeated_measurement_vector_retained",
+    "table": "irrigation_4",
+    "rows": [
+      86,
+      87
+    ],
+    "action": "verify context; repetition is not automatically an error"
+  },
+  {
+    "reason": "treatment_replicate_group_mapping_unverified",
+    "table": "irrigation_4",
+    "source_rows": [
+      3,
+      87
+    ],
+    "affected_records": 85,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "unit_semantics_unverified",
+    "table": "irrigation_4",
+    "source_rows": [
+      3,
+      87
+    ],
+    "affected_records": 85,
+    "action": "review source metadata/article; no guessed mapping or conversion"
+  },
+  {
+    "reason": "unmapped_nonempty_cell_retained",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "coordinate": "S1",
+    "raw_value": " ",
+    "action": "retain in ledger; do not trim whitespace away"
+  },
+  {
+    "reason": "formula_caches_not_recalculated_or_verified_current",
+    "affected_cells": 108,
+    "action": "verify against documented computations separately; no execution in this pipeline"
+  },
+  {
+    "reason": "quality_unit_conflicts",
+    "details": "README solids °Brix; average headers %. Article methods VC mg/100g and sugar mg/g; several sheet headers %. No unit conversion.",
+    "action": "verify per-field scale and units from author/source"
+  },
+  {
+    "reason": "nutrient_proportion_scale_unverified",
+    "details": "Proportion headers % include fractional-looking values. Keep exact numbers; no multiplication/division by 100.",
+    "action": "confirm original scale"
+  },
+  {
+    "reason": "irrigation_meter_timing_unverified",
+    "details": "Daily volume and meter reading may refer to different sampling times; no enforced same-row difference.",
+    "action": "verify measurement timing before consistency correction"
+  },
+  {
+    "reason": "cross_table_join_and_independence_unverified",
+    "details": "Exact Code collisions are candidates only; T1-1, T1-1-1 and four irrigation blocks do not establish a treatment crosswalk.",
+    "action": "obtain verified table/plant/replicate mapping; no join or random row split"
+  },
+  {
+    "reason": "fruit_mass_is_not_seasonal_yield",
+    "details": "Fresh fruit weight(g) is sample-level; no supported seasonal yield conversion.",
+    "action": "retain original meaning; no optimization targets"
+  }
+]

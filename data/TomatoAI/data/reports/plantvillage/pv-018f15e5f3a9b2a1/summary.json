@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "run_id": "pv-018f15e5f3a9b2a1",
+  "created_utc": "2026-10-13T17:59:05.246129+00:00",
+  "dataset": "PlantVillage-tomato",
+  "dataset_status": "cleaned_technical; needs_review; not_training_ready",
+  "source_url": "https://github.com/spMohanty/PlantVillage-Dataset",
+  "license_declared": "CC-BY-SA-3.0 (README_HF.md); redistribution review pending",
+  "git_head": "7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+  "pipeline_sha256": "e0597e4c9b156af24582dbf6d2fb5a3ecc0435792878e0b3c6a4cf66f33032df",
+  "fingerprint": "018f15e5f3a9b2a1e207681573d57dbb8e49821d0eaf9fbaa0a5b71626af1639",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "Pillow": "12.3.0",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "source_file_count": 18270,
+  "source_bytes": 298942097,
+  "raw_integrity": "all_sha256_equal",
+  "variants_present": [
+    "color"
+  ],
+  "source_records": 18160,
+  "decode_ok": 18160,
+  "image_formats": {
+    "JPEG": 18160
+  },
+  "dimensions_modes": {
+    "256x256:RGB": 18160
+  },
+  "record_status_counts": {
+    "ready_for_split": 11411,
+    "needs_review": 6735,
+    "excluded_exact_duplicate": 14
+  },
+  "retained_copies": 18146,
+  "flags_overlapping": {
+    "leaf_group_missing": 6749,
+    "cross_component_near_candidate": 12
+  },
+  "per_class": {
+    "Tomato___Bacterial_spot": {
+      "source_records": 2127,
+      "decode_ok": 2127,
+      "group_resolved": 2127,
+      "distinct_evidenced_leaf_groups": 532,
+      "ready_for_split": 2127
+    },
+    "Tomato___Early_blight": {
+      "source_records": 1000,
+      "decode_ok": 1000,
+      "group_resolved": 999,
+      "distinct_evidenced_leaf_groups": 250,
+      "ready_for_split": 999,
+      "needs_review": 1
+    },
+    "Tomato___Late_blight": {
+      "source_records": 1909,
+      "decode_ok": 1909,
+      "group_resolved": 920,
+      "distinct_evidenced_leaf_groups": 230,
+      "ready_for_split": 920,
+      "needs_review": 981,
+      "excluded_exact_duplicate": 8
+    },
+    "Tomato___Leaf_Mold": {
+      "source_records": 952,
+      "decode_ok": 952,
+      "group_resolved": 952,
+      "distinct_evidenced_leaf_groups": 238,
+      "ready_for_split": 952
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "source_records": 1771,
+      "decode_ok": 1771,
+      "group_resolved": 1000,
+      "distinct_evidenced_leaf_groups": 250,
+      "needs_review": 771,
+      "ready_for_split": 1000
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "source_records": 1676,
+      "decode_ok": 1676,
+      "group_resolved": 1676,
+      "distinct_evidenced_leaf_groups": 419,
+      "ready_for_split": 1676
+    },
+    "Tomato___Target_Spot": {
+      "source_records": 1404,
+      "decode_ok": 1404,
+      "group_resolved": 0,
+      "distinct_evidenced_leaf_groups": 0,
+      "needs_review": 1404
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "source_records": 5357,
+      "decode_ok": 5357,
+      "group_resolved": 2738,
+      "distinct_evidenced_leaf_groups": 685,
+      "ready_for_split": 2738,
+      "needs_review": 2619
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "source_records": 373,
+      "decode_ok": 373,
+      "group_resolved": 0,
+      "distinct_evidenced_leaf_groups": 0,
+      "needs_review": 373
+    },
+    "Tomato___healthy": {
+      "source_records": 1591,
+      "decode_ok": 1591,
+      "group_resolved": 999,
+      "distinct_evidenced_leaf_groups": 250,
+      "needs_review": 586,
+      "ready_for_split": 999,
+      "excluded_exact_duplicate": 6
+    }
+  },
+  "grouping": {
+    "maps_semantically_equal": true,
+    "csv_rows": 12820,
+    "metadata_issues": 7930,
+    "orphan_csv_rows": 1409,
+    "resolved_records": 11411,
+    "alias_candidates_not_applied": 1404,
+    "split_component_count": 9589
+  },
+  "near_candidates": {
+    "method": "64-bit comparisons on 9x8 samples of original coordinates; unvalidated",
+    "radius": 4,
+    "pairs": 10,
+    "scanned_valid_records": 18160,
+    "truncated": false,
+    "within_evidenced_component_skipped": true
+  },
+  "training_ready": false,
+  "split_created": false,
+  "domain_review": "not_performed",
+  "invocation": [
+    "scripts\\data\\clean_plantvillage.py",
+    "--config",
+    "scripts\\data\\plantvillage-config.json",
+    "--project-root",
+    "C:\\Users\\admin\\Downloads\\DACN_CayCaChua"
+  ]
+}

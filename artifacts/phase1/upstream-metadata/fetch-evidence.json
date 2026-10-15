@@ -1,0 +1,83 @@
+{
+  "checked_at_utc": "2026-10-15T15:53:21.657252+00:00",
+  "scope": "public metadata/source only; no images/weights; no raw or selected-run writes",
+  "requests": [
+    {
+      "url": "https://api.github.com/repos/spMohanty/PlantVillage-Dataset/commits/master",
+      "status": 200,
+      "bytes": 5961,
+      "sha256": "b43c6c67f929853c5c498ce58224890ca2fd113a72e8ba7e2be3c7907f858d88",
+      "etag": "W/\"f50d38e5ae61203fff86489484a0510dc7a6741a0d0f8f71d68d1080ef976200\"",
+      "artifact": "artifacts\\phase1\\upstream-metadata\\github-head.json"
+    },
+    {
+      "url": "https://api.github.com/repos/spMohanty/PlantVillage-Dataset/contents/leaf_grouping/filtered_leafmaps?ref=7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+      "status": 200,
+      "bytes": 41151,
+      "sha256": "1f175356c41fce3c89eb193a8161d02fe28aea536559b70652e9759784bac0cc",
+      "etag": "\"606168eef52319513159dda8532832b11e77c911\"",
+      "artifact": "artifacts\\phase1\\upstream-metadata\\leafmap-listing.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/spMohanty/PlantVillage-Dataset/7f7ecc7e1eaca78107e3affe7cb5abd9427e139a/plant_village.py",
+      "status": 200,
+      "bytes": 7949,
+      "sha256": "872c207c874ad96e3a2e470299abf67e82b15c66e23f9e4e5b1ed784c69567d8",
+      "etag": "\"7ada9d35df66716c4e886270d9025b1034b31f66db39f502164bb99b044d4e2d\"",
+      "artifact": "artifacts\\phase1\\upstream-metadata\\plant_village.py.txt"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/spMohanty/PlantVillage-Dataset/7f7ecc7e1eaca78107e3affe7cb5abd9427e139a/leaf_grouping/leaf-map.json",
+      "status": 200,
+      "bytes": 2429879,
+      "sha256": "3b4b253683c6911744959a3870a92509b1faa1ee34e9f8585e21d0fe6337a25b",
+      "etag": "\"530412c917f101ef65eafd4a0193c1aed0f7463a663934a9188589ce7a22e454\"",
+      "artifact": "artifacts\\phase1\\upstream-metadata\\leaf-map.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/spMohanty/PlantVillage-Dataset/7f7ecc7e1eaca78107e3affe7cb5abd9427e139a/leaf_grouping/filtered_leafmaps/Tomato___Target_Spot.csv",
+      "status": 200,
+      "bytes": 40306,
+      "sha256": "cb51d8fe5be0b7ea9f8c3232615d6d47f8d40f0088efb8bba83467f63a9cbdc2",
+      "etag": "\"31d90d9cef2b1686b7644adba91711fcaa9aa7a6ee72eebad0859ad64c0d57c9\"",
+      "artifact": "artifacts\\phase1\\upstream-metadata\\Target-Spot.csv"
+    },
+    {
+      "url": "https://api.github.com/repos/spMohanty/PlantVillage-Dataset/contents/scripts?ref=7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+      "status": 200,
+      "bytes": 21227,
+      "sha256": "62caec41566723d13d4a7344415bad691b6199b5a0103cad0b19b44288711631",
+      "etag": "\"606168eef52319513159dda8532832b11e77c911\"",
+      "artifact": "artifacts\\phase1\\upstream-metadata\\scripts-listing.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/spMohanty/PlantVillage-Dataset/7f7ecc7e1eaca78107e3affe7cb5abd9427e139a/scripts/upload_to_hf.py",
+      "status": 200,
+      "bytes": 4543,
+      "sha256": "25fd6dca19161c42b22f17d38d9409c8bac10d5cb3f917070877ec27ede98160",
+      "artifact": "artifacts\\phase1\\upstream-metadata\\upload_to_hf.py.txt"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/mohanty/PlantVillage/revision/main",
+      "status": 200,
+      "bytes": 3486,
+      "sha256": "9fdf9c4394c2401eb2e95714c379959c57360a3e37ffcf08da5217eb8e9a8a56",
+      "artifact": "artifacts\\phase1\\upstream-metadata\\hf-head.json"
+    },
+    {
+      "url": "https://huggingface.co/datasets/mohanty/PlantVillage/resolve/9e97599868962bd0079b8db4b7f1efa9185fa1e7/leaf_grouping/leaf-map.json",
+      "status": 200,
+      "bytes": 2429879,
+      "sha256": "3b4b253683c6911744959a3870a92509b1faa1ee34e9f8585e21d0fe6337a25b",
+      "artifact": "artifacts\\phase1\\upstream-metadata\\hf-leaf-map.json"
+    },
+    {
+      "url": "https://huggingface.co/datasets/mohanty/PlantVillage/resolve/9e97599868962bd0079b8db4b7f1efa9185fa1e7/plant_village.py",
+      "status": 200,
+      "bytes": 7949,
+      "sha256": "872c207c874ad96e3a2e470299abf67e82b15c66e23f9e4e5b1ed784c69567d8",
+      "artifact": "artifacts\\phase1\\upstream-metadata\\hf-plant_village.py.txt"
+    }
+  ],
+  "hf_commit": "9e97599868962bd0079b8db4b7f1efa9185fa1e7"
+}

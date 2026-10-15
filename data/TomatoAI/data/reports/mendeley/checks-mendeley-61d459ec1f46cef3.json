@@ -1,0 +1,52 @@
+[
+  {
+    "check": "tests",
+    "command": [
+      "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts/data",
+      "-p",
+      "test_clean_mendeley.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_bad_row_quarantined_without_loss (test_clean_mendeley.MendeleyTests.test_bad_row_quarantined_without_loss) ... ok\ntest_exact_number_tokens_and_string_distinction (test_clean_mendeley.MendeleyTests.test_exact_number_tokens_and_string_distinction) ... ok\ntest_json_strictness_and_limit (test_clean_mendeley.MendeleyTests.test_json_strictness_and_limit) ... ok\ntest_missing_not_zero_and_invalid_numeric (test_clean_mendeley.MendeleyTests.test_missing_not_zero_and_invalid_numeric) ... ok\ntest_naive_timestamp_and_nfc (test_clean_mendeley.MendeleyTests.test_naive_timestamp_and_nfc) ... ok\ntest_output_and_source_guards (test_clean_mendeley.MendeleyTests.test_output_and_source_guards) ... ok\ntest_preservation_duplicates_idempotency_tamper_and_no_join (test_clean_mendeley.MendeleyTests.test_preservation_duplicates_idempotency_tamper_and_no_join) ... ok\ntest_schema_blocked_file_does_not_block_other_format (test_clean_mendeley.MendeleyTests.test_schema_blocked_file_does_not_block_other_format) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.651s\n\nOK\n"
+  },
+  {
+    "check": "verify",
+    "command": [
+      "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "scripts/data/verify_mendeley.py",
+      "--config",
+      "scripts/data/mendeley-config.json",
+      "--run-id",
+      "mendeley-61d459ec1f46cef3",
+      "--output",
+      "data\\TomatoAI\\data\\reports\\mendeley\\validation-mendeley-61d459ec1f46cef3.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"passed\", \"run_id\": \"mendeley-61d459ec1f46cef3\", \"source_files_verified\": 2, \"reference_files_verified\": 6, \"records_verified\": 3393, \"field_values_verified\": 56541, \"numeric_zeros_preserved\": 1535, \"raw_unchanged\": true, \"no_join_or_guessed_group\": true, \"training_ready\": false, \"semantics_or_optimality_approved\": false}\n",
+    "stderr": ""
+  },
+  {
+    "check": "idempotency",
+    "command": [
+      "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "scripts/data/clean_mendeley.py",
+      "--config",
+      "scripts/data/mendeley-config.json",
+      "--project-root",
+      "."
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"idempotent_existing_verified\", \"run_id\": \"mendeley-61d459ec1f46cef3\"}\n",
+    "stderr": ""
+  }
+]

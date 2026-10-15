@@ -1,0 +1,502 @@
+[
+  {
+    "scope": "processed",
+    "path": "manifest.csv",
+    "sha256": "b45641d2bf7412a729cd491af056f96837ddb3e498d76585d55528c4bc86d8d8"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/AICU/CropParameters.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/AICU/GreenhouseClimate.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/AICU/GrodanSens.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/AICU/LabAnalysis.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/AICU/Production.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/AICU/Resources.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/AICU/TomQuality.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Automatoes/CropParameters.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Automatoes/GreenhouseClimate.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Automatoes/GrodanSens.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Automatoes/LabAnalysis.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Automatoes/Production.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Automatoes/Resources.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Automatoes/TomQuality.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Digilog/CropParameters.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Digilog/GreenhouseClimate.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Digilog/GrodanSens.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Digilog/LabAnalysis.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Digilog/Production.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Digilog/Resources.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Digilog/TomQuality.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/IUACAAS/CropParameters.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/IUACAAS/GreenhouseClimate.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/IUACAAS/GrodanSens.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/IUACAAS/LabAnalysis.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/IUACAAS/Production.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/IUACAAS/Resources.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/IUACAAS/TomQuality.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Reference/CropParameters.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Reference/GreenhouseClimate.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Reference/GrodanSens.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Reference/LabAnalysis.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Reference/Production.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Reference/Resources.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Reference/TomQuality.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/TheAutomators/CropParameters.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/TheAutomators/GreenhouseClimate.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/TheAutomators/GrodanSens.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/TheAutomators/LabAnalysis.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/TheAutomators/Production.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/TheAutomators/Resources.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/TheAutomators/TomQuality.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "quarantine/Weather/Weather.csv.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/AICU/CropParameters.csv",
+    "sha256": "a49523690f845d3f59b46d0282a7593ee2a8d23c347ed10c76f4a7435fda5783"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/AICU/GreenhouseClimate.csv",
+    "sha256": "445700cd45e1f9a4be44c1c14bd8a58c8483b191ee54aa2feb146f364ec734b7"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/AICU/GrodanSens.csv",
+    "sha256": "dd14cb70ad32177832edc584a8cf63f2c655494aa41c1fcce02a9ccce4d2da41"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/AICU/LabAnalysis.csv",
+    "sha256": "86a0afc2027b7cf8db0691450511e4271b3dbdc175f7c758065ea3967eaa9f73"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/AICU/Production.csv",
+    "sha256": "8ea47d0c5fcba04870c7c26a0119f4ac656288c578af9d582770c3fbe24e84c6"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/AICU/Resources.csv",
+    "sha256": "62bbc7ee52a4c01d66918826fe515204a0230d1bf44cbd764204f3d135377949"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/AICU/TomQuality.csv",
+    "sha256": "419ccad4daae99dd69341ba4b75c900203e663d732a6f54f52f321f9bf1134eb"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Automatoes/CropParameters.csv",
+    "sha256": "e78e32bc4365d62651370bbdb20d348ddba61c830b11bbc9844e990073f22aeb"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Automatoes/GreenhouseClimate.csv",
+    "sha256": "0acbd9d4515cf34194533115c4e755a7a747715f66f4121edf70599d644a0a40"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Automatoes/GrodanSens.csv",
+    "sha256": "5122527bab0f9167cccc8da3838ea7f27e9d61ac026ed693223e9d3c104bd5fe"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Automatoes/LabAnalysis.csv",
+    "sha256": "2efa122c5f4a2a0fa1671568dbc5ab9f5aa996a84fe5da4bab6435852f6e7a29"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Automatoes/Production.csv",
+    "sha256": "5ed0439c87fc9066d5b9c2626fdf0d93121455bd8cb304c5fd69a894f6fba40b"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Automatoes/Resources.csv",
+    "sha256": "5aeb8b54c0af946e0a83404b5136d046ea42faf7c570e6556fdcbbd4550a83b7"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Automatoes/TomQuality.csv",
+    "sha256": "038b609ccf33b0029384724a453c6b106180f7356424be0c6889c641032c48b2"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Digilog/CropParameters.csv",
+    "sha256": "0710bfa53a53d61bf14b88fab63012104fc3178d45d454749f4b81d0453d06bd"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Digilog/GreenhouseClimate.csv",
+    "sha256": "807de500b6346bb81bcc4c70b46ee611e805ff940f8e03c8b057af9cb427d3f1"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Digilog/GrodanSens.csv",
+    "sha256": "25c4cd5e3793673f81a4818b9b798127070756d71fdf6fba1d0e598362e3762b"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Digilog/LabAnalysis.csv",
+    "sha256": "e7dc289ad58a9784632c0c4db4ed20935e8bbac89d0b59c20f903f117891615f"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Digilog/Production.csv",
+    "sha256": "b349ccc028338db6f4054e0423899b6506fd868bf03ef444c45bbfd5d98af644"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Digilog/Resources.csv",
+    "sha256": "4c5e5c1206c4e9e9259df9d4eaeb3ae1b7d7762cc14833285c19675244d84bef"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Digilog/TomQuality.csv",
+    "sha256": "46cd85507ce1425a2d450b460581ae1156962b51c81a176b0c70da11c22f1230"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/IUACAAS/CropParameters.csv",
+    "sha256": "41cc20c7f988e849647d46b27d7010fe449a05b5d2b6901ae4cb976499a72a85"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/IUACAAS/GreenhouseClimate.csv",
+    "sha256": "eff007b35bdb88c7a6dee85f0d8ab10dcab4946e084bde6c2ffcec6c28846295"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/IUACAAS/GrodanSens.csv",
+    "sha256": "86557c4dcd512bf37dc7f6a8f9c24630ee2adda22a2a7f123c2bd8017af5292e"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/IUACAAS/LabAnalysis.csv",
+    "sha256": "3ca1b218e52520d5919300038d69d9c59b8ec949c1d8a7669789ac68ad250cb3"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/IUACAAS/Production.csv",
+    "sha256": "5effed9e43d0b9de055bb5502862f2f327875bf122b386d265f9b892afc26df1"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/IUACAAS/Resources.csv",
+    "sha256": "b4f5340897171f08cc9a1db142ac63089e8f55a111177b6c42fe535fb3bc100f"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/IUACAAS/TomQuality.csv",
+    "sha256": "07e0b7aca8871c5e4ef94a06deeef3454ff0f7618bc2dd31cabf090a4645a14c"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Reference/CropParameters.csv",
+    "sha256": "afc583b0b03321301689c013a4e11dbae2d77875532ff55ee65106dfaddae063"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Reference/GreenhouseClimate.csv",
+    "sha256": "9232ce07c183ae82503ddb5228c5162c1dfd9b1bb194e097389686a763817fa9"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Reference/GrodanSens.csv",
+    "sha256": "7aa9aa432e177a8aee63dac4d7c0d61e3418080de4f2beda392892060fe0627f"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Reference/LabAnalysis.csv",
+    "sha256": "0fa37616cd3234a8fbe58d9f95ddb27f58ddd005ea25a313aad3e562166d4c7f"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Reference/Production.csv",
+    "sha256": "83cf5988f0fbc7cf080dacf48c9e2820f4c1a9f68e7d8f660d96f2b67fd764c4"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Reference/Resources.csv",
+    "sha256": "331a01d5b05c7b74a3d5c98cb66bc10c399ebded001aac6db5c29ef4d7883faf"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Reference/TomQuality.csv",
+    "sha256": "b87ab3af3c44026b09f3547038d3343de2a6c7ee196843b91b02c29dc70b9077"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/TheAutomators/CropParameters.csv",
+    "sha256": "27340d746441451246b82dd2e579ed7f207448792a6dc251588f1fd0a8d2cca8"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/TheAutomators/GreenhouseClimate.csv",
+    "sha256": "1b4016e8e66114dc6ee85eadf2f2490b1eeba2cb5242f510db88d5ef15e17b3e"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/TheAutomators/GrodanSens.csv",
+    "sha256": "82c05500bc82d4815591db6f957b2517703e6659155076b37686cbc17f9f2fb3"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/TheAutomators/LabAnalysis.csv",
+    "sha256": "69a1058ac328ad9de36aa7d252c894580cc05673b20f9762f145253ee84cab7e"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/TheAutomators/Production.csv",
+    "sha256": "d860f201568107fc3db8d2bacb077f3d37008516834e81c7510f1a6718b2789b"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/TheAutomators/Resources.csv",
+    "sha256": "ca43bb88ea8f331cd23891e26de791d2f614b17d164188fe5fc7f800af40c032"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/TheAutomators/TomQuality.csv",
+    "sha256": "b9854bdb10fc9949de76a5b94a0e346dc4d7d49705c9aa4a8d8cee531f1bc6fc"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/Weather/Weather.csv",
+    "sha256": "d0db9db10ee10b8f22ecc8814a2cbe166b99f466bcf5e2a6236c67290c6d7669"
+  },
+  {
+    "scope": "report",
+    "path": "checkpoint.json",
+    "sha256": "2216f44269b489b6b3938fbdfe36f6fc351c798cf007eb8b4c5a93c287510d09"
+  },
+  {
+    "scope": "report",
+    "path": "cross-team-schemas.json",
+    "sha256": "de6de70d822f3bcf15e45429dcc27cee3b3b2e98306e19afb76c6292f7c057c5"
+  },
+  {
+    "scope": "report",
+    "path": "data-dictionary.json",
+    "sha256": "b648c36e95770cf047b12c43e434f9b270e540227bde77dd636b375d4240d2c6"
+  },
+  {
+    "scope": "report",
+    "path": "duplicate-files.json",
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  },
+  {
+    "scope": "report",
+    "path": "fingerprint-inputs.json",
+    "sha256": "c88ef9ba3a384c0ff622a167d6bd151ee239969a3855a78ee5386770cc175cbb"
+  },
+  {
+    "scope": "report",
+    "path": "pdf-evidence.json",
+    "sha256": "28d0132cba19a164c21a1a5148dcec5475d8dc447981c45dd6f7a17c6d391d31"
+  },
+  {
+    "scope": "report",
+    "path": "raw-after.csv",
+    "sha256": "5eff7429291c66c797af06242dafdf3ef8d670dd3373d11e590b6f8f1d05d250"
+  },
+  {
+    "scope": "report",
+    "path": "raw-before.csv",
+    "sha256": "5eff7429291c66c797af06242dafdf3ef8d670dd3373d11e590b6f8f1d05d250"
+  },
+  {
+    "scope": "report",
+    "path": "review-queue.json",
+    "sha256": "bcb585e187f5fe3145cac0c429abcf64b4d72744bd88e226b153a8694c34b2b8"
+  },
+  {
+    "scope": "report",
+    "path": "source-unit-dictionary.json",
+    "sha256": "2416b5af31f2d123075e862d80018cc70cde37e20b6ae780b05970eef5f26551"
+  },
+  {
+    "scope": "report",
+    "path": "summary.json",
+    "sha256": "be7435d4a81701f77fdc3c388fa662c23d5c35d47df031ddbbe358987c70f553"
+  },
+  {
+    "scope": "report",
+    "path": "tables.json",
+    "sha256": "812ffa25b5bf6c95c62aeaf83f71aac39a5c8881a0ce45f4c8122b4acead44b2"
+  },
+  {
+    "scope": "report",
+    "path": "transformation-log.json",
+    "sha256": "8ae37b6b482e7d6c3318bc9de4cbeff208d292490870ac523d9f739a15eee09a"
+  }
+]

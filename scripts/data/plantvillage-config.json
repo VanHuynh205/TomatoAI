@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "source_root": "data/TomatoAI/data/raw/plantvillage",
+  "processed_root": "data/TomatoAI/data/processed/plantvillage",
+  "report_root": "data/TomatoAI/data/reports/plantvillage",
+  "source_url": "https://github.com/spMohanty/PlantVillage-Dataset",
+  "license_declared": "CC-BY-SA-3.0 (README_HF.md); redistribution review pending",
+  "near_hash_radius": 4,
+  "near_pair_limit": 200000,
+  "labels": {
+    "Tomato___Bacterial_spot": "TOM_BACTERIAL_SPOT",
+    "Tomato___Early_blight": "TOM_EARLY_BLIGHT",
+    "Tomato___Late_blight": "TOM_LATE_BLIGHT",
+    "Tomato___Leaf_Mold": "TOM_LEAF_MOLD",
+    "Tomato___Septoria_leaf_spot": "TOM_SEPTORIA",
+    "Tomato___Spider_mites Two-spotted_spider_mite": "TOM_SPIDER_MITE",
+    "Tomato___Target_Spot": "TOM_TARGET_SPOT",
+    "Tomato___Tomato_mosaic_virus": "TOM_MOSAIC",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": "TOM_YELLOW_CURL",
+    "Tomato___healthy": "TOM_HEALTHY"
+  }
+}

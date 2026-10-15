@@ -1,0 +1,7 @@
+Skill and references/running.md read.
+frontend/node_modules/e2e/package.json: installed version 0.16.0
+frontend/node_modules/.bin/e2e.cmd: present
+e2e.config.ts/.mts: not found in project rg inventory
+root and frontend package.json: absent
+Frontend URL / Qt app: none for S10 JSON/CLI pipeline.
+UI E2E: not run; no target/config or affected UI flow.

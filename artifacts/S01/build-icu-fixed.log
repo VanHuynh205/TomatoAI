@@ -1,0 +1,137 @@
+386 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+386 INFO: Python: 3.12.14
+417 INFO: Platform: Windows-11-10.0.26200-SP0
+418 INFO: Python environment: C:\Users\admin\Downloads\DACN_CayCaChua\.venv-phase0
+418 INFO: wrote artifacts/S01\phase0_smoke.spec
+422 INFO: Removing temporary files and cleaning cache in C:\Users\admin\AppData\Local\pyinstaller
+447 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\admin\\Downloads\\DACN_CayCaChua',
+ 'C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\python312.zip',
+ 'C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\DLLs',
+ 'C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\Lib',
+ 'C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none',
+ 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0',
+ 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages',
+ 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\scripts\\checks']
+1214 INFO: Appending 'datas' from .spec
+1269 INFO: checking Analysis
+1269 INFO: Building Analysis because Analysis-00.toc is non existent
+1269 INFO: Looking for Python shared library...
+1269 INFO: Using Python shared library: C:\Users\admin\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\python312.dll
+1269 INFO: Running Analysis Analysis-00.toc
+1269 INFO: Target bytecode optimization level: 0
+1269 INFO: Initializing module dependency graph...
+1273 INFO: Initializing module graph hook caches...
+1334 INFO: Analyzing modules for base_library.zip ...
+2976 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+3083 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+4673 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+4862 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+7665 INFO: Caching module dependency graph...
+7699 INFO: Analyzing C:\Users\admin\Downloads\DACN_CayCaChua\scripts\checks\phase0_smoke.py
+7780 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+7972 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+8284 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+8385 INFO: Processing standard module hook 'hook-torch.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+2028 WARNING: Failed to collect submodules for 'torch.utils.tensorboard' because importing 'torch.utils.tensorboard' raised: ModuleNotFoundError: No module named 'tensorboard'
+C:\Users\admin\Downloads\DACN_CayCaChua\.venv-phase0\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._sharding_spec` will be deprecated, use `torch.distributed._shard.sharding_spec` instead
+  __import__(name)
+C:\Users\admin\Downloads\DACN_CayCaChua\.venv-phase0\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._sharded_tensor` will be deprecated, use `torch.distributed._shard.sharded_tensor` instead
+  __import__(name)
+C:\Users\admin\Downloads\DACN_CayCaChua\.venv-phase0\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._shard.checkpoint` will be deprecated, use `torch.distributed.checkpoint` instead
+  __import__(name)
+22399 INFO: hook-torch: this torch build does not depend on MKL...
+22429 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+22434 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+22437 INFO: SetuptoolsInfo: initializing cached setuptools info...
+24389 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+24965 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+25202 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+26475 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+41445 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+41559 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+42205 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+42408 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+44102 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+49721 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+49765 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+49849 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+49850 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+49867 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+49868 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+50036 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+50077 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+50440 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+50442 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+50458 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+50459 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+51674 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+51675 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+52903 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+52905 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+52993 INFO: Processing pre-safe-import-module hook 'hook-win32com.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+53349 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+66251 INFO: Processing standard module hook 'hook-torchvision.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+66374 INFO: Processing standard module hook 'hook-torchvision.io.image.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+83060 INFO: Processing standard module hook 'hook-jinja2.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+90789 INFO: Processing standard module hook 'hook-fsspec.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+99967 INFO: Processing standard module hook 'hook-PySide6.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+100242 INFO: Processing standard module hook 'hook-shiboken6.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+100389 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+106139 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+110795 INFO: Processing standard module hook 'hook-PySide6.QtTest.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+113045 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+141894 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+148241 INFO: Processing module hooks (post-graph stage)...
+152285 INFO: Processing pre-safe-import-module hook 'hook-tensorflow.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+159135 WARNING: Hidden import "torchvision.image" not found!
+159135 WARNING: Hidden import "torchvision._C" not found!
+159772 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+159987 INFO: Performing binary vs. data reclassification (337 entries)
+161463 INFO: Looking for ctypes DLLs
+161542 WARNING: Ignoring /usr/lib64/libgomp.so.1 imported from C:\Users\admin\Downloads\DACN_CayCaChua\.venv-phase0\Lib\site-packages\torch\_inductor\codecache.py - only basenames are supported with ctypes imports!
+161875 INFO: Analyzing run-time hooks ...
+161893 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+161904 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+161913 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+161924 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks'
+161940 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+161951 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+161961 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+162047 INFO: Creating base_library.zip...
+162067 INFO: Looking for dynamic libraries
+C:\Users\admin\Downloads\DACN_CayCaChua\.venv-phase0\Lib\site-packages\PyInstaller\building\build_main.py:227: DeprecationWarning: `torch.distributed._sharding_spec` will be deprecated, use `torch.distributed._shard.sharding_spec` instead
+  __import__(package)
+C:\Users\admin\Downloads\DACN_CayCaChua\.venv-phase0\Lib\site-packages\PyInstaller\building\build_main.py:227: DeprecationWarning: `torch.distributed._sharded_tensor` will be deprecated, use `torch.distributed._shard.sharded_tensor` instead
+  __import__(package)
+C:\Users\admin\Downloads\DACN_CayCaChua\.venv-phase0\Lib\site-packages\PyInstaller\building\build_main.py:227: DeprecationWarning: `torch.distributed._shard.checkpoint` will be deprecated, use `torch.distributed.checkpoint` instead
+  __import__(package)
+170836 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\shiboken6', 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torch\\lib', 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\numpy.libs', 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torchvision', 'C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\torchvision']
+170836 INFO: Extra DLL search directories (PATH): ['C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Lib\\site-packages\\PySide6']
+172604 INFO: Warnings written to C:\Users\admin\Downloads\DACN_CayCaChua\artifacts\S01\build\phase0_smoke\warn-phase0_smoke.txt
+172994 INFO: Graph cross-reference written to C:\Users\admin\Downloads\DACN_CayCaChua\artifacts\S01\build\phase0_smoke\xref-phase0_smoke.html
+173172 INFO: checking PYZ
+173172 INFO: Building PYZ because PYZ-00.toc is non existent
+173172 INFO: Building PYZ (ZlibArchive) C:\Users\admin\Downloads\DACN_CayCaChua\artifacts\S01\build\phase0_smoke\PYZ-00.pyz
+176670 INFO: Building PYZ (ZlibArchive) C:\Users\admin\Downloads\DACN_CayCaChua\artifacts\S01\build\phase0_smoke\PYZ-00.pyz completed successfully.
+176747 INFO: checking PKG
+176747 INFO: Building PKG because PKG-00.toc is non existent
+176747 INFO: Building PKG (CArchive) phase0_smoke.pkg
+176798 INFO: Building PKG (CArchive) phase0_smoke.pkg completed successfully.
+176799 INFO: Bootloader C:\Users\admin\Downloads\DACN_CayCaChua\.venv-phase0\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\run.exe
+176799 INFO: checking EXE
+176800 INFO: Building EXE because EXE-00.toc is non existent
+176800 INFO: Building EXE from EXE-00.toc
+176800 INFO: Copying bootloader EXE to C:\Users\admin\Downloads\DACN_CayCaChua\artifacts\S01\build\phase0_smoke\phase0_smoke.exe
+176876 INFO: Copying icon to EXE
+176921 INFO: Copying 0 resources to EXE
+176921 INFO: Embedding manifest in EXE
+176957 INFO: Appending PKG archive to EXE
+177040 INFO: Fixing EXE headers
+177368 INFO: Building EXE from EXE-00.toc completed successfully.
+177391 INFO: checking COLLECT
+177391 INFO: Building COLLECT because COLLECT-00.toc is non existent
+177391 INFO: Removing dir C:\Users\admin\Downloads\DACN_CayCaChua\artifacts\S01\dist\phase0_smoke
+178410 INFO: Building COLLECT COLLECT-00.toc
+181621 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+181674 INFO: Build complete! The results are available in: C:\Users\admin\Downloads\DACN_CayCaChua\artifacts\S01\dist

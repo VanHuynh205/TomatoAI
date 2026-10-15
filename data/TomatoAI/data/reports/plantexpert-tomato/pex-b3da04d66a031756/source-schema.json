@@ -1,0 +1,141 @@
+{
+  "schema_version": "string",
+  "disease_id": "string",
+  "aliases": [
+    "string"
+  ],
+  "crop": {
+    "common_name": "string",
+    "scientific_name": "string",
+    "family": "string"
+  },
+  "condition": {
+    "common_name": "string",
+    "scientific_name": "nullable_string",
+    "alt_names": [
+      "string"
+    ],
+    "pathogen": {
+      "type": "string",
+      "taxonomy": {
+        "kingdom": "string",
+        "phylum": "string",
+        "class": "string",
+        "order": "string",
+        "family": "string",
+        "genus": "string",
+        "species": "string"
+      }
+    }
+  },
+  "issue_type": "string",
+  "transmission": {
+    "vectors": [
+      "string"
+    ],
+    "dispersal": [
+      "string"
+    ],
+    "overwintering": [
+      "string"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "string"
+    ],
+    "temp_c_day": [
+      "number"
+    ],
+    "temp_c_night": [
+      "number"
+    ],
+    "relative_humidity_pct": [
+      "number"
+    ],
+    "leaf_wetness_hours_threshold": "number"
+  },
+  "severity_rubric": {
+    "unit": "string",
+    "mild": "string",
+    "moderate": "string",
+    "severe": "string",
+    "notes": "string"
+  },
+  "symptoms": {
+    "leaves": [
+      "string"
+    ],
+    "stems": [
+      "string"
+    ],
+    "fruit": [
+      "string"
+    ],
+    "roots": [
+      "string"
+    ],
+    "whole_plant": [
+      "string"
+    ],
+    "signs_microscopic_or_visible": [
+      "string"
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "string",
+      "condition_id": "string",
+      "key_differences": [
+        "string"
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "string"
+    ],
+    "biological": [
+      "string"
+    ],
+    "chemical": [
+      "string"
+    ],
+    "notes": "string"
+  },
+  "qa_seeds": {
+    "verification_templates": [
+      "string"
+    ],
+    "attribute_templates": [
+      "string"
+    ],
+    "diagnosis_templates": [
+      "string"
+    ],
+    "counterfactual_templates": [
+      "string"
+    ],
+    "severity_templates": [
+      "string"
+    ],
+    "confounders": [
+      "string"
+    ]
+  },
+  "data_requirements": {
+    "min_resolution_px": "integer",
+    "min_roi_fraction": "number",
+    "lighting_notes": "string",
+    "occlusion_notes": "string"
+  },
+  "provenance": {
+    "created_by": "string",
+    "reviewed_by": "string",
+    "created_at": "string",
+    "updated_at": "string",
+    "sources": [
+      "string"
+    ]
+  }
+}

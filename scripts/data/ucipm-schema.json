@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UC IPM research structural text document; no advice or training approval",
+  "type": "object",
+  "required": ["schema_version", "record_id", "source_id", "publication_id", "document_part", "URL", "title", "authors", "credits", "accessed_at", "updated_original", "parsed_date", "snapshot_sha256", "source", "text_en", "section_locator", "blocks", "context", "rights", "transformation_log", "flags", "review", "processing"],
+  "properties": {
+    "schema_version": {"const": "ucipm-research-1.0"},
+    "source_id": {"type": "string", "pattern": "^ucipm:"},
+    "record_id": {"type": "string", "pattern": "^ucipm:"},
+    "publication_id": {"type": ["string", "null"]},
+    "document_part": {"type": "string"},
+    "URL": {"type": "string", "pattern": "^https://ipm\\.ucanr\\.edu/"},
+    "title": {"type": "string", "minLength": 1},
+    "authors": {"type": "array", "items": {"type": "string"}},
+    "credits": {"type": "array", "items": {"type": "string"}},
+    "accessed_at": {"type": "string", "pattern": "(Z|[+-][0-9]{2}:[0-9]{2})$"},
+    "updated_original": {"type": ["string", "null"]},
+    "parsed_date": {"type": "null"},
+    "snapshot_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "text_en": {"type": "string", "minLength": 1},
+    "section_locator": {"type": "string"},
+    "source": {"type": "object", "required": ["file", "sha256"]},
+    "context": {"type": "object"},
+    "rights": {"type": "object", "required": ["scope", "license", "by_use", "basis", "restrictions", "reviewer"], "properties": {
+      "license": {"type": "null"},
+      "by_use": {"type": "object", "required": ["research_copy", "technical_processing", "adaptation_translation", "app_repo_demo_distribution", "media_ml"], "additionalProperties": {"enum": ["pending", "conditional_allowed"]}},
+      "reviewer": {"type": "null"}
+    }},
+    "blocks": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["kind", "section_path", "section_locator", "text_en", "categories", "flags", "links", "emphasis"], "properties": {
+      "kind": {"type": "string"}, "section_path": {"type": "array", "items": {"type": "string"}},
+      "section_locator": {"type": ["string", "null"]}, "text_en": {"type": "string"},
+      "categories": {"type": "array", "items": {"type": "string"}},
+      "flags": {"type": "array", "items": {"type": "string"}},
+      "links": {"type": "array"}, "emphasis": {"type": "array"}
+    }}},
+    "flags": {"type": "array"},
+    "transformation_log": {"type": "array", "minItems": 1},
+    "processing": {"enum": ["cleaned_technical", "failed"]},
+    "review": {"type": "object", "required": ["domain", "translation", "reviewer", "display_allowed", "safe_for_advice", "ready_for_training"], "properties": {
+      "domain": {"const": "pending"}, "translation": {"const": "not_translated"},
+      "reviewer": {"type": "null"}, "display_allowed": {"const": false},
+      "safe_for_advice": {"const": false}, "ready_for_training": {"const": false}
+    }}
+  }
+}

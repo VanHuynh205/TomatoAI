@@ -1,0 +1,825 @@
+[
+  {
+    "card_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "alias_original": "bacterial leaf spot",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "UF/IFAS PP353 Bacterial Spot of Tomato",
+        "url": "https://ask.ifas.ufl.edu/publication/PP353",
+        "section": "Causal organisms; Cultural Practices",
+        "limit": "Florida; không xác nhận đăng ký hóa chất tại Việt Nam; rotation không chứng minh thời lượng 3–4 năm của card.",
+        "source_id": "bacterial",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "alias_original": "Xanthomonas spot",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "UF/IFAS PP353 Bacterial Spot of Tomato",
+        "url": "https://ask.ifas.ufl.edu/publication/PP353",
+        "section": "Causal organisms; Cultural Practices",
+        "limit": "Florida; không xác nhận đăng ký hóa chất tại Việt Nam; rotation không chứng minh thời lượng 3–4 năm của card.",
+        "source_id": "bacterial",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+    "alias_original": "Gray leaf spot",
+    "pointer": "/content_en/aliases/0",
+    "status": "blocked",
+    "evidence": [],
+    "reason": "Stemphylium usage prevents automatic Cercospora equivalence",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+    "alias_original": "Gray leaf spot",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "blocked",
+    "evidence": [],
+    "reason": "Stemphylium usage prevents automatic Cercospora equivalence",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/early_blight.json",
+    "alias_original": "Alternaria leaf spot",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Early blight in tomato and potato",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato",
+        "section": "Causal pathogens; Cultural management",
+        "limit": "Khuyến nông Minnesota; loại lá có điều kiện và giới hạn; không chứng minh mọi chế phẩm hay lịch Việt Nam.",
+        "source_id": "early",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/early_blight.json",
+    "alias_original": "target spot of tomato",
+    "pointer": "/content_en/aliases/1",
+    "status": "blocked",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Early blight in tomato and potato",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato",
+        "section": "Causal pathogens; Cultural management",
+        "limit": "Khuyến nông Minnesota; loại lá có điều kiện và giới hạn; không chứng minh mọi chế phẩm hay lịch Việt Nam.",
+        "source_id": "early",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "early/target distinct pathogens",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/early_blight.json",
+    "alias_original": "Alternaria tomatophila",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Early blight in tomato and potato",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato",
+        "section": "Causal pathogens; Cultural management",
+        "limit": "Khuyến nông Minnesota; loại lá có điều kiện và giới hạn; không chứng minh mọi chế phẩm hay lịch Việt Nam.",
+        "source_id": "early",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "alias_original": "flea beetle damage",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "alias_original": "shot-hole feeding",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "alias_original": "flea beetle feeding damage",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "alias_original": "Tomato wilt",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "alias_original": "Fusarium wilt of tomato",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/healthy.json",
+    "alias_original": "normal",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Growing tomatoes",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+        "section": "Planting; Watering; Managing diseases",
+        "limit": "Chăm sóc cơ bản theo điều kiện trồng; dinh dưỡng cần căn cứ đất; nhãn lá khỏe không bảo đảm toàn cây không bệnh.",
+        "source_id": "healthy",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/healthy.json",
+    "alias_original": "unaffected",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Growing tomatoes",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+        "section": "Planting; Watering; Managing diseases",
+        "limit": "Chăm sóc cơ bản theo điều kiện trồng; dinh dưỡng cần căn cứ đất; nhãn lá khỏe không bảo đảm toàn cây không bệnh.",
+        "source_id": "healthy",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/healthy.json",
+    "alias_original": "asymptomatic",
+    "pointer": "/content_en/aliases/2",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Growing tomatoes",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+        "section": "Planting; Watering; Managing diseases",
+        "limit": "Chăm sóc cơ bản theo điều kiện trồng; dinh dưỡng cần căn cứ đất; nhãn lá khỏe không bảo đảm toàn cây không bệnh.",
+        "source_id": "healthy",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/healthy.json",
+    "alias_original": "no disease",
+    "pointer": "/content_en/aliases/3",
+    "status": "blocked",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Growing tomatoes",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+        "section": "Planting; Watering; Managing diseases",
+        "limit": "Chăm sóc cơ bản theo điều kiện trồng; dinh dưỡng cần căn cứ đất; nhãn lá khỏe không bảo đảm toàn cây không bệnh.",
+        "source_id": "healthy",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "leaf class cannot certify whole-plant absence of disease",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/healthy.json",
+    "alias_original": "normal growth",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Growing tomatoes",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+        "section": "Planting; Watering; Managing diseases",
+        "limit": "Chăm sóc cơ bản theo điều kiện trồng; dinh dưỡng cần căn cứ đất; nhãn lá khỏe không bảo đảm toàn cây không bệnh.",
+        "source_id": "healthy",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/late_blight.json",
+    "alias_original": "Phytophthora blight",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Late blight",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight",
+        "section": "Pathogen; How to manage late blight",
+        "limit": "Water mold; khuyến cáo home/farm khác nhau; loại cây chỉ áp dụng theo tình trạng đã xác minh.",
+        "source_id": "late",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/late_blight.json",
+    "alias_original": "potato blight on tomato",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Late blight",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight",
+        "section": "Pathogen; How to manage late blight",
+        "limit": "Water mold; khuyến cáo home/farm khác nhau; loại cây chỉ áp dụng theo tình trạng đã xác minh.",
+        "source_id": "late",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/late_blight.json",
+    "alias_original": "Phytophthora blight",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Late blight",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight",
+        "section": "Pathogen; How to manage late blight",
+        "limit": "Water mold; khuyến cáo home/farm khác nhau; loại cây chỉ áp dụng theo tình trạng đã xác minh.",
+        "source_id": "late",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "alias_original": "TLCV",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "alias_original": "Tomato leaf curl disease",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "alias_original": "TLCV",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "alias_original": "Tomato leaf curl",
+    "pointer": "/content_en/condition/alt_names/1",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "alias_original": "Serpentine leafminer",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "alias_original": "Vegetable leafminer",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "alias_original": "Serpentine leafminer",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "alias_original": "Liriomyza leafminer",
+    "pointer": "/content_en/condition/alt_names/1",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "alias_original": "Fulvia fulva",
+    "pointer": "/content_en/aliases/0",
+    "status": "accepted_identity_alias",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato leaf mold",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold",
+        "section": "Passalora fulva; Cultural management",
+        "limit": "Greenhouse/high tunnel; resistance phụ thuộc chủng; không xác nhận hiệu quả mọi chế phẩm.",
+        "source_id": "mold",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "historical pathogen synonym, no cross-condition merge",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "alias_original": "Cladosporium fulvum",
+    "pointer": "/content_en/aliases/1",
+    "status": "accepted_identity_alias",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato leaf mold",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold",
+        "section": "Passalora fulva; Cultural management",
+        "limit": "Greenhouse/high tunnel; resistance phụ thuộc chủng; không xác nhận hiệu quả mọi chế phẩm.",
+        "source_id": "mold",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "historical pathogen synonym, no cross-condition merge",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "alias_original": "Fulvia fulva",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "accepted_identity_alias",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato leaf mold",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold",
+        "section": "Passalora fulva; Cultural management",
+        "limit": "Greenhouse/high tunnel; resistance phụ thuộc chủng; không xác nhận hiệu quả mọi chế phẩm.",
+        "source_id": "mold",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "historical pathogen synonym, no cross-condition merge",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "alias_original": "Cladosporium fulvum",
+    "pointer": "/content_en/condition/alt_names/1",
+    "status": "accepted_identity_alias",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato leaf mold",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold",
+        "section": "Passalora fulva; Cultural management",
+        "limit": "Greenhouse/high tunnel; resistance phụ thuộc chủng; không xác nhận hiệu quả mọi chế phẩm.",
+        "source_id": "mold",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "historical pathogen synonym, no cross-condition merge",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "alias_original": "Tomato Mosaic Virus",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato viruses",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses",
+        "section": "ToMV/TMV; Symptoms; Prevention and management",
+        "limit": "ToMV và TMV khác nhau; xét nghiệm cần cho kết luận chắc chắn; không suy ra virus cụ thể từ triệu chứng lá.",
+        "source_id": "mosaic",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "alias_original": "ToMV",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato viruses",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses",
+        "section": "ToMV/TMV; Symptoms; Prevention and management",
+        "limit": "ToMV và TMV khác nhau; xét nghiệm cần cho kết luận chắc chắn; không suy ra virus cụ thể từ triệu chứng lá.",
+        "source_id": "mosaic",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "alias_original": "Tobacco Mosaic Virus on tomato",
+    "pointer": "/content_en/aliases/2",
+    "status": "blocked",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato viruses",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses",
+        "section": "ToMV/TMV; Symptoms; Prevention and management",
+        "limit": "ToMV và TMV khác nhau; xét nghiệm cần cho kết luận chắc chắn; không suy ra virus cụ thể từ triệu chứng lá.",
+        "source_id": "mosaic",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "TMV and ToMV distinct viruses",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "alias_original": "ToMV",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato viruses",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses",
+        "section": "ToMV/TMV; Symptoms; Prevention and management",
+        "limit": "ToMV và TMV khác nhau; xét nghiệm cần cho kết luận chắc chắn; không suy ra virus cụ thể từ triệu chứng lá.",
+        "source_id": "mosaic",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "alias_original": "Tobacco mosaic virus (TMV)",
+    "pointer": "/content_en/condition/alt_names/1",
+    "status": "blocked",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato viruses",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses",
+        "section": "ToMV/TMV; Symptoms; Prevention and management",
+        "limit": "ToMV và TMV khác nhau; xét nghiệm cần cho kết luận chắc chắn; không suy ra virus cụ thể từ triệu chứng lá.",
+        "source_id": "mosaic",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "TMV and ToMV distinct viruses",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/pest_damage.json",
+    "alias_original": "insect damage",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/pest_damage.json",
+    "alias_original": "arthropod injury",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/pest_damage.json",
+    "alias_original": "bug damage",
+    "pointer": "/content_en/aliases/2",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/pest_damage.json",
+    "alias_original": "Insect Injury",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/pest_damage.json",
+    "alias_original": "Mite Damage",
+    "pointer": "/content_en/condition/alt_names/1",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+    "alias_original": "Septoria blight",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "University of Minnesota Extension: Tomato leaves with spots",
+        "url": "https://apps.extension.umn.edu/garden/diagnose/plant/vegetable/tomato/leavesspots.html",
+        "section": "Septoria; Early blight; Late blight; Bacterial spot",
+        "limit": "Dấu hiệu tham khảo; không xác minh nhãn từng ảnh PlantVillage.",
+        "source_id": "diagnosis",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      },
+      {
+        "title": "University of Maryland Extension: Septoria Leaf Spot of Tomatoes",
+        "url": "https://www.extension.umd.edu/resource/septoria-leaf-spot-tomatoes",
+        "section": "Prevention and management",
+        "limit": "Garden guidance; không xác nhận số năm rotation hay hoạt chất tại Việt Nam.",
+        "source_id": "septoria",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/spider_mites.json",
+    "alias_original": "Two-spotted spider mite",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "UC IPM: Spider Mites",
+        "url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/",
+        "section": "Identification; Cultural control; Natural enemies",
+        "limit": "Nhận diện loài cần quan sát; rửa bằng nước ở quy mô vườn không tương đương lịch phun/misting định kỳ.",
+        "source_id": "mite",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/spider_mites.json",
+    "alias_original": "TSSM",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "UC IPM: Spider Mites",
+        "url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/",
+        "section": "Identification; Cultural control; Natural enemies",
+        "limit": "Nhận diện loài cần quan sát; rửa bằng nước ở quy mô vườn không tương đương lịch phun/misting định kỳ.",
+        "source_id": "mite",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/spider_mites.json",
+    "alias_original": "Red spider mite",
+    "pointer": "/content_en/aliases/2",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "UC IPM: Spider Mites",
+        "url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/",
+        "section": "Identification; Cultural control; Natural enemies",
+        "limit": "Nhận diện loài cần quan sát; rửa bằng nước ở quy mô vườn không tương đương lịch phun/misting định kỳ.",
+        "source_id": "mite",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/target_spot.json",
+    "alias_original": "Corynespora leaf spot",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "UF/IFAS PP351 Target Spot of Tomato in Florida",
+        "url": "https://ask.ifas.ufl.edu/publication/PP351",
+        "section": "Corynespora cassiicola; Integrated Management; leaf wetness",
+        "limit": "Florida; phổ ký chủ rộng; 16–44 giờ leaf wetness không phải ngưỡng phổ quát để bác bỏ 8 giờ trong mọi điều kiện.",
+        "source_id": "target",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/target_spot.json",
+    "alias_original": "Corynespora leaf spot",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "UF/IFAS PP351 Target Spot of Tomato in Florida",
+        "url": "https://ask.ifas.ufl.edu/publication/PP351",
+        "section": "Corynespora cassiicola; Integrated Management; leaf wetness",
+        "limit": "Florida; phổ ký chủ rộng; 16–44 giờ leaf wetness không phải ngưỡng phổ quát để bác bỏ 8 giờ trong mọi điều kiện.",
+        "source_id": "target",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "alias_original": "TYLCV",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "UC IPM: Tomato Yellow Leaf Curl",
+        "url": "https://ipm.ucanr.edu/agriculture/tomato/tomato-yellow-leaf-curl/",
+        "section": "Symptoms; Comments; Management",
+        "limit": "California; loại cây khi incidence thấp; host-free period cần phối hợp địa phương, không tự gán từ một ảnh.",
+        "source_id": "yellow",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "alias_original": "Tomato yellow leaf curl",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "UC IPM: Tomato Yellow Leaf Curl",
+        "url": "https://ipm.ucanr.edu/agriculture/tomato/tomato-yellow-leaf-curl/",
+        "section": "Symptoms; Comments; Management",
+        "limit": "California; loại cây khi incidence thấp; host-free period cần phối hợp địa phương, không tự gán từ một ảnh.",
+        "source_id": "yellow",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "alias_original": "TYLCV",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "pending",
+    "evidence": [
+      {
+        "title": "UC IPM: Tomato Yellow Leaf Curl",
+        "url": "https://ipm.ucanr.edu/agriculture/tomato/tomato-yellow-leaf-curl/",
+        "section": "Symptoms; Comments; Management",
+        "limit": "California; loại cây khi incidence thấp; host-free period cần phối hợp địa phương, không tự gán từ một ảnh.",
+        "source_id": "yellow",
+        "accessed": "2026-10-14",
+        "checked_by": "Codex: đối chiếu nguồn, không phải chuyên gia phê duyệt"
+      }
+    ],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "alias_original": "chlorosis",
+    "pointer": "/content_en/aliases/0",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "alias_original": "tomato chlorosis",
+    "pointer": "/content_en/aliases/1",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "alias_original": "nutrient deficiency yellowing",
+    "pointer": "/content_en/aliases/2",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "alias_original": "Chlorosis",
+    "pointer": "/content_en/condition/alt_names/0",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "alias_original": "Nutrient Deficiency",
+    "pointer": "/content_en/condition/alt_names/1",
+    "status": "pending",
+    "evidence": [],
+    "reason": "no explicit alias acceptance in this review; retain source unchanged",
+    "expert_approved": false
+  }
+]

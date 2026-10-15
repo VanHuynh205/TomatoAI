@@ -1,0 +1,228 @@
+{
+  "story": "EPA.S01",
+  "scope": "all five Phase 0 tasks; external blockers explicitly allowed by its gate",
+  "requirements": [
+    {
+      "item": 1,
+      "requirement": "C0/team/rubric/deadline/scope decisions or real blockers with owner/trigger",
+      "result": "delivered; exact date/rubric/hours not invented",
+      "evidence": [
+        "docs/development/decisions.md"
+      ]
+    },
+    {
+      "item": 2,
+      "requirement": "no-login direction; stack/B0/weights/targets/budget decisions or explicit pending inputs",
+      "result": "no-login and B0/CPU versions chosen; compute/weight rights/targets remain gated",
+      "evidence": [
+        "docs/development/decisions.md",
+        "artifacts/S01/weights-metadata.json"
+      ]
+    },
+    {
+      "item": 3,
+      "requirement": "isolated compatibility matrix; real CPU forward, Qt event loop and frozen executable worker spawn",
+      "result": "verified source/frozen 2/2 pass with documented build constraints; not product release proof",
+      "evidence": [
+        "docs/development/compatibility.json",
+        "artifacts/S01/native-test.log",
+        "artifacts/S01/frozen-smoke.json",
+        "artifacts/S01/build.log"
+      ]
+    },
+    {
+      "item": 4,
+      "requirement": "rights/source/revision/use/redistribution/attribution ledger per dataset/content/weights/software; expert separate",
+      "result": "51 inventoried assets; 17 cards and 162 installed license files hash checked; no rights/expert clearance invented",
+      "evidence": [
+        "docs/development/assets-rights.json",
+        "artifacts/S01/governance-verification.json",
+        "artifacts/S01/software-inventory.json",
+        "artifacts/S01/native-runtime-inventory.json"
+      ]
+    },
+    {
+      "item": 5,
+      "requirement": "two actual grouped/missing records through source/hash/rights to eligibility or refusal; raw preserved",
+      "result": "technical grouping differs; both training-ineligible; no new split; 34 protected files unchanged",
+      "evidence": [
+        "artifacts/S01/governance-trace.json",
+        "artifacts/S01/preservation-after.json"
+      ]
+    }
+  ],
+  "protected_count": 34,
+  "new_document_links": [
+    {
+      "from": "docs/development/decisions.md",
+      "target": "../../_bmad-output/initiative-tomato-desktop/app-development-plan/app-development-plan.md",
+      "exists": true
+    },
+    {
+      "from": "docs/development/decisions.md",
+      "target": "assets-rights.json",
+      "exists": true
+    },
+    {
+      "from": "docs/development/decisions.md",
+      "target": "../../artifacts/S01/",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "../../docs/development/decisions.md",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "../../docs/development/assets-rights.json",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "../../docs/development/compatibility.json",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "../../requirements-app.lock",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "governance-trace.json",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "red-check.txt",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "native-test.log",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "data-regressions.log",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "collector-regressions.log",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "preservation-after.json",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "../../docs/development/compatibility.json",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "frozen-smoke.json",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "build.log",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "../../docs/development/decisions.md",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "native-runtime-inventory.json",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "governance-verification.json",
+      "exists": true
+    },
+    {
+      "from": "artifacts/S01/README.md",
+      "target": "final-review.md",
+      "exists": true
+    },
+    {
+      "from": "_bmad-output/initiative-tomato-desktop/epic-governance-data/story-chot-scope-va-quyen-dung-plan.md",
+      "target": "../../../docs/development/decisions.md",
+      "exists": true
+    },
+    {
+      "from": "_bmad-output/initiative-tomato-desktop/epic-governance-data/story-chot-scope-va-quyen-dung-plan.md",
+      "target": "../../../docs/development/assets-rights.json",
+      "exists": true
+    },
+    {
+      "from": "_bmad-output/initiative-tomato-desktop/epic-governance-data/story-chot-scope-va-quyen-dung-plan.md",
+      "target": "../../../docs/development/compatibility.json",
+      "exists": true
+    },
+    {
+      "from": "_bmad-output/initiative-tomato-desktop/epic-governance-data/story-chot-scope-va-quyen-dung-plan.md",
+      "target": "../../../artifacts/S01/",
+      "exists": true
+    },
+    {
+      "from": "_bmad-output/initiative-tomato-desktop/epic-governance-data/story-chot-scope-va-quyen-dung-plan.md",
+      "target": "../../../artifacts/S01/governance-trace.json",
+      "exists": true
+    },
+    {
+      "from": "_bmad-output/initiative-tomato-desktop/epic-governance-data/story-chot-scope-va-quyen-dung-plan.md",
+      "target": "../../../artifacts/S01/preservation-after.json",
+      "exists": true
+    }
+  ],
+  "remaining_phase0_execution_work": [],
+  "external_gates_still_open": [
+    "C0 exact rubric/date/hours",
+    "C1 compute/rights/budget",
+    "C2 benchmark grouping/split",
+    "C3 domain/content/VI approval",
+    "C5 redistribution/notices/clean machine"
+  ],
+  "not_executed": [
+    "later phases",
+    "training",
+    "pretrained download",
+    "product E2E",
+    "clean-machine/offline acceptance"
+  ],
+  "git": "no repository; no commit or rollback claimed",
+  "phase0_execution_complete": true,
+  "bmad_status": {
+    "ref": "EPA.S01",
+    "status": "built",
+    "state": "review",
+    "done_approval": false,
+    "other_tickets_planned": 21,
+    "evidence": "artifacts/S01/ticket-status-final.json"
+  },
+  "final_review": {
+    "artifact": "artifacts/S01/final-review.md",
+    "independent": true,
+    "critical": 0,
+    "important": 0,
+    "minor_deferred": 2,
+    "fix_pass_required": false,
+    "declined_judgments_ledgered": 8
+  },
+  "final_checks": {
+    "protected_hashes": 34,
+    "local_document_links": 26,
+    "requirements_with_evidence": 5,
+    "ticket_graph_issues": 0,
+    "executable_sha256": "9b4a407906f0d8033ca97b5e2b66a6e4477a5f245b09a3b5ef2b2dc8acabe084"
+  }
+}

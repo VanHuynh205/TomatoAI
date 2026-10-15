@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "record_id": "pex:disease_kb/tomato/leaf_mold.json",
+  "content_language": "en",
+  "source": {
+    "file": "disease_kb/tomato/leaf_mold.json",
+    "pointer": "/",
+    "sha256": "52a8c08a99e4e7349e711e937698a06f9eddb7083956503ba14e483a92961945",
+    "disease_id_original": "tomato.disease_fungal.leaf_mold"
+  },
+  "content_en": {
+    "schema_version": "1.0.0",
+    "disease_id": "tomato.disease_fungal.leaf_mold",
+    "aliases": [
+      "Fulvia fulva",
+      "Cladosporium fulvum"
+    ],
+    "crop": {
+      "common_name": "tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "family": "Solanaceae"
+    },
+    "condition": {
+      "common_name": "leaf mold",
+      "scientific_name": "Passalora fulva",
+      "alt_names": [
+        "Fulvia fulva",
+        "Cladosporium fulvum"
+      ],
+      "pathogen": {
+        "type": "disease_fungal",
+        "taxonomy": {
+          "kingdom": "Fungi",
+          "phylum": "Ascomycota",
+          "class": "Dothideomycetes",
+          "order": "Capnodiales",
+          "family": "Mycosphaerellaceae",
+          "genus": "Passalora",
+          "species": "P. fulva"
+        }
+      }
+    },
+    "issue_type": "disease_fungal",
+    "transmission": {
+      "vectors": [],
+      "dispersal": [
+        "wind",
+        "rain splash",
+        "contaminated tools",
+        "clothing",
+        "infected seeds"
+      ],
+      "overwintering": [
+        "infected plant debris",
+        "soil",
+        "infected seeds",
+        "greenhouse structures"
+      ]
+    },
+    "environmental_risk": {
+      "risk_factors": [
+        "high relative humidity",
+        "poor air circulation",
+        "greenhouse or high tunnel production",
+        "extended periods of leaf wetness",
+        "dense plant canopy"
+      ],
+      "temp_c_day": [
+        22,
+        24
+      ],
+      "temp_c_night": [
+        15,
+        21
+      ],
+      "relative_humidity_pct": [
+        85,
+        100
+      ],
+      "leaf_wetness_hours_threshold": 10
+    },
+    "severity_rubric": {
+      "unit": "percent_leaf_area",
+      "mild": "1-10% of total plant foliage affected. A few pale yellow spots on upper surfaces of lower leaves, with corresponding light, sparse mold growth on the undersides.",
+      "moderate": "11-40% of total plant foliage affected. Numerous spots, some coalescing. Obvious, dense olive-green mold on undersides. Some lower leaves are bright yellow and beginning to die back.",
+      "severe": ">40% of total plant foliage affected. Widespread leaf yellowing, browning, and necrosis. Significant defoliation progressing up the plant. Mold growth is extensive and may be visible on stems or petioles.",
+      "notes": "Severity is assessed on the whole plant, not a single leaf. The combination of upper-surface chlorosis and lower-surface sporulation is key. The upward progression from older to younger leaves is a typical indicator of increasing severity."
+    },
+    "symptoms": {
+      "leaves": [
+        "Initial symptoms are pale green or yellowish spots on the upper surface of older, lower leaves.",
+        "Spots have indefinite, diffuse borders, unlike the sharp borders of other leaf spots.",
+        "As spots enlarge, the upper surface becomes a brighter yellow, but typically does not become necrotic (brown) until late stages.",
+        "The lower leaf surface, directly beneath the yellow spots, develops patches of olive-green to grayish-purple, velvety mold.",
+        "This velvety growth consists of the fungal spores (conidia) and is the most definitive diagnostic sign.",
+        "Infected leaves eventually turn brown, shrivel, curl upwards, and drop prematurely.",
+        "The disease progresses from the bottom of the plant upwards."
+      ],
+      "stems": [
+        "Stem and petiole infections are uncommon but can occur under severe disease pressure, appearing as dark, moldy patches."
+      ],
+      "fruit": [
+        "Blossom infections can occur, leading to a dark, leathery rot at the stem end of the fruit.",
+        "Direct infection of mature green or ripe fruit is rare."
+      ],
+      "roots": [],
+      "whole_plant": [
+        "Stunted growth and reduced yield due to loss of photosynthetic area from defoliation.",
+        "In severe cases, significant defoliation occurs, starting from the base of the plant."
+      ],
+      "signs_microscopic_or_visible": [
+        "The key visible sign is the velvety, olive-green to grayish-purple mold (sporulation) on the abaxial (lower) leaf surface."
+      ]
+    },
+    "lookalikes": [
+      {
+        "condition_name": "late blight",
+        "condition_id": "tomato.disease_oomycete.late_blight",
+        "key_differences": [
+          "Leaf mold has olive-green/grayish, velvety mold on the leaf *underside*; late blight has white, fuzzy/downy mold, often at the lesion edge.",
+          "Leaf mold lesions are pale yellow on top; late blight lesions are large, water-soaked, dark-green to black, and greasy-looking.",
+          "Late blight aggressively attacks stems and fruit with large, dark, firm lesions; leaf mold rarely affects these parts as severely."
+        ]
+      },
+      {
+        "condition_name": "early blight",
+        "condition_id": "tomato.disease_fungal.early_blight",
+        "key_differences": [
+          "Leaf mold spots are pale yellow with diffuse borders; early blight lesions are dark brown and have a characteristic 'target-like' pattern of concentric rings.",
+          "Leaf mold has prominent, visible mold on the leaf underside; early blight lesions do not have visible mold.",
+          "Early blight lesions are often surrounded by a distinct yellow halo, which is less defined in leaf mold."
+        ]
+      }
+    ],
+    "management": {
+      "cultural": [
+        "Plant resistant cultivars, as this is the most effective control method.",
+        "Increase plant spacing and prune lower leaves to improve air circulation and reduce humidity within the canopy.",
+        "Use drip irrigation instead of overhead watering to keep foliage dry.",
+        "In greenhouses, ensure adequate ventilation to lower relative humidity, especially in the morning.",
+        "Remove and destroy infected plant debris after harvest.",
+        "Practice crop rotation with non-solanaceous crops."
+      ],
+      "biological": [
+        "Bio-fungicides containing *Bacillus subtilis* or *Trichoderma harzianum* can be used preventatively to suppress fungal growth."
+      ],
+      "chemical": [
+        "Apply preventative fungicides, especially when environmental conditions are favorable.",
+        "Effective active ingredients include chlorothalonil, mancozeb, and copper-based compounds.",
+        "For established infections, fungicides with systemic or translaminar activity may be required. Always follow label instructions and rotate fungicide classes to prevent resistance."
+      ],
+      "notes": "Integrated management combining resistant varieties, cultural practices to reduce humidity, and timely fungicide applications is crucial for effective control, particularly in protected cultivation systems."
+    },
+    "qa_seeds": {
+      "verification_templates": [
+        "Is there velvety, olive-green mold on the underside of the tomato leaf?",
+        "Does the top of the leaf show pale yellow blotches with indistinct edges?",
+        "Are the symptoms worse on the lower, older leaves?",
+        "Can you confirm the presence of fungal growth on the abaxial (lower) leaf surface?",
+        "Is the plant losing its lower leaves?"
+      ],
+      "attribute_templates": [
+        "What color is the mold on the bottom of the leaf?",
+        "Describe the appearance of the spots on the upper leaf surface.",
+        "Where on the plant are the symptoms most severe?",
+        "What is the texture of the growth on the leaf underside?",
+        "Do the yellow spots on the leaf top have sharp, defined borders or are they diffuse?"
+      ],
+      "diagnosis_templates": [
+        "What disease causes yellow spots on top of tomato leaves and olive-green mold underneath?",
+        "Given the velvety mold on the leaf underside, what is wrong with this tomato plant?",
+        "Is this tomato plant infected with leaf mold?"
+      ],
+      "counterfactual_templates": [
+        "If the lesions had dark, target-like rings, what disease might it be instead of leaf mold?",
+        "If the mold on the underside was white and fuzzy instead of olive-green, what would be the likely diagnosis?"
+      ],
+      "severity_templates": [
+        "What percentage of the plant's total foliage shows symptoms of leaf mold?",
+        "On a scale of mild, moderate, or severe, how would you classify this infection?",
+        "Is the infection limited to just a few spots on the lowest leaves?"
+      ],
+      "confounders": [
+        "late_blight",
+        "early_blight",
+        "spider_mites",
+        "yellowing_symptom"
+      ]
+    },
+    "data_requirements": {
+      "min_resolution_px": 600,
+      "min_roi_fraction": 0.3,
+      "lighting_notes": "Use even, diffuse light. Avoid hard shadows or direct sun, which can obscure the subtle yellowing on the upper surface and the true color of the mold on the underside.",
+      "occlusion_notes": "A clear, in-focus view of both the upper (adaxial) and lower (abaxial) surfaces of a symptomatic leaf is critical. The view of the underside is essential for a definitive diagnosis."
+    },
+    "provenance": {
+      "created_by": "Expert Plant Pathologist VQA Dataset Designer",
+      "reviewed_by": "",
+      "created_at": "2023-10-27T11:00:00Z",
+      "updated_at": "2023-10-27T11:00:00Z",
+      "sources": [
+        "University Extension Plant Disease Fact Sheets",
+        "APS Compendium of Tomato Diseases and Pests",
+        "General Plant Pathology Textbooks"
+      ]
+    }
+  },
+  "normalizations": [],
+  "flags": [
+    "domain_review_unverified",
+    "claim_sources_unverified",
+    "translation_pending",
+    "chemical_local_review_required",
+    "unresolved_reference"
+  ],
+  "review": {
+    "domain": "pending",
+    "translation": "not_translated",
+    "safe_for_advice": false,
+    "ready_for_training": false
+  }
+}

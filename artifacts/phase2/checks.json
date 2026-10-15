@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-10-15",
+  "status": "S10 built and Quick-reviewed; C3 limited demo direction selected; S11 blocked on source/VI/rights reviews; Phase2 incomplete",
+  "interpreter": "C:\\Users\\admin\\Downloads\\DACN_CayCaChua\\.venv-phase0\\Scripts\\python.exe",
+  "python": "3.12.14",
+  "commands": [
+    {
+      "command": ".venv-phase0/Scripts/python.exe -m unittest discover -s tests/knowledge -p test_curation.py -v",
+      "exit_code": 1,
+      "status": "expected RED missing scripts.knowledge handler",
+      "report": "artifacts/phase2/tests-red.log"
+    },
+    {
+      "command": ".venv-phase0/Scripts/python.exe -m unittest discover -s tests/knowledge -p test_curation.py -v",
+      "exit_code": 0,
+      "tests": 8,
+      "status": "passed",
+      "report": "artifacts/phase2/tests-curation.log"
+    },
+    {
+      "command": ".venv-phase0/Scripts/python.exe -m unittest discover -s scripts/data -p test_review_integration.py -v",
+      "exit_code": 0,
+      "tests": 22,
+      "status": "passed",
+      "report": "artifacts/phase2/tests-integration.log"
+    },
+    {
+      "command": ".venv-phase0/Scripts/python.exe scripts/knowledge/curate.py --review-inputs content/phase2-healthy-v1/review-inputs.json --output content/phase2-healthy-v1-bundle",
+      "exit_code": 0,
+      "status": "passed",
+      "report": "artifacts/phase2/cli-output.json"
+    },
+    {
+      "command": "fresh SHA256 compare to preservation-before.json",
+      "exit_code": 0,
+      "files": 117,
+      "status": "passed",
+      "report": "artifacts/phase2/preservation-after.json"
+    },
+    {
+      "command": "installed e2e skill/config/runner inspection",
+      "status": "not_applicable_blocked",
+      "detail": "Installed e2e 0.16.0 and launcher found in frontend/node_modules; no e2e config, frontend package/URL or Qt app user flow. JSON/CLI preparation only; no UI tests selected/run or browser substitute."
+    }
+  ],
+  "input_sha256": {
+    "raw": {
+      "path": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/healthy.json",
+      "sha256": "89a50caefe302b04ac61b3ccfd35f43054335be3ad5bf63eb8a9cd0025cddb83"
+    },
+    "card": {
+      "path": "data/TomatoAI/data/processed/plantexpert-tomato/pex-b3da04d66a031756/cards/healthy.json",
+      "sha256": "67293d2b1407563f69165391997f2abc979e67a82653399b0b1f352797bbe7cf"
+    },
+    "integration": {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/lookup-bundle.json",
+      "sha256": "65e920ce9da63ad74d325564d04e9316120ef1cc3c7c2e7c8aabc34a0fedb61d"
+    },
+    "seal": {
+      "path": "data/TomatoAI/data/reports/integration/ir-20261014-v1/artifact-seal.json",
+      "sha256": "ca11dc07099852635a52af7b9eb01a169c3d5de2b44a6fbf1bd99ccb16980837"
+    },
+    "registry": {
+      "path": "data/TomatoAI/data/dataset-registry.json",
+      "sha256": "d962b34f3b4d0a66129b1e0d16fb360339d01d6d1d3326f3f9c5e3ddc7a4682a"
+    },
+    "rights": {
+      "path": "docs/development/assets-rights.json",
+      "sha256": "031ff6b6686f862fee917ef9e2e591821d59dda2c26a28a1002b3ff4715d214a"
+    },
+    "validator": {
+      "path": "scripts/data/review_integration.py",
+      "sha256": "2e868470c6dfbaf9675a6ca4f29a8ae9ef8bf404279c34df9626695d3d236aad"
+    },
+    "localization": {
+      "path": "planning/tomato-desktop/knowledge-localization-edtech.md",
+      "sha256": "4f33e5692bd7c2620590792847b6528400d081c05f7ff16fb0e0bd03cbae18c1"
+    }
+  },
+  "review_inputs_sha256": "71081c5a62f531114ae82a935db255b8001732448003fb3dac67706bb4c507e4",
+  "limits": [
+    "No expert review; limited educational-demo direction selected, but independent human source/VI reviews pending",
+    "Redistribution/per-claim rights pending",
+    "No learner study or effectiveness evidence",
+    "No app/frontend flow; e2e UI not run",
+    "No Git repository; no commit"
+  ],
+  "parent_verification": {
+    "curation_tests_passed": 8,
+    "historical_lookup_tests_passed": 22,
+    "draft_reproducible": true,
+    "all_real_classes_refused": 10,
+    "preserved_files": 117,
+    "hash_mismatches": [],
+    "quick_review": "no findings",
+    "deferred_findings": 0,
+    "decision_record": "artifacts/phase2/c3-policy-decision.json"
+  }
+}

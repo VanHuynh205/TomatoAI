@@ -1,0 +1,10 @@
+{
+  "e2e_package_present": true,
+  "e2e_version": "0.16.0",
+  "e2e_launcher_present": true,
+  "root_package_present": false,
+  "frontend_package_present": false,
+  "frontend_url": null,
+  "affected_flow": "read-only Python publication CLI; no UI target",
+  "e2e_config_files": []
+}

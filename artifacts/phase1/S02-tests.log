@@ -1,0 +1,18 @@
+test_changed_sealed_output_rejected (test_benchmark.InventoryTest.test_changed_sealed_output_rejected) ... ok
+test_missing_checkpoint_names_exact_artifact_without_fallback (test_benchmark.InventoryTest.test_missing_checkpoint_names_exact_artifact_without_fallback) ... ok
+test_missing_provenance_rejected (test_benchmark.InventoryTest.test_missing_provenance_rejected) ... ok
+test_missing_rights_is_error_not_approval (test_benchmark.InventoryTest.test_missing_rights_is_error_not_approval) ... ok
+test_nonstandard_json_rejected (test_benchmark.InventoryTest.test_nonstandard_json_rejected) ... ok
+test_raw_change_rejected (test_benchmark.InventoryTest.test_raw_change_rejected) ... ok
+test_reference_hash_change_rejected (test_benchmark.InventoryTest.test_reference_hash_change_rejected) ... ok
+test_registry_count_drift_rejected (test_benchmark.InventoryTest.test_registry_count_drift_rejected) ... ok
+test_run_mismatch_rejected (test_benchmark.InventoryTest.test_run_mismatch_rejected) ... ok
+test_selected_run_counts_provenance_and_no_raw_writes (test_benchmark.InventoryTest.test_selected_run_counts_provenance_and_no_raw_writes) ... ok
+test_source_config_outside_registry_source_rejected (test_benchmark.InventoryTest.test_source_config_outside_registry_source_rejected) ... ok
+test_traversal_in_registry_rejected (test_benchmark.InventoryTest.test_traversal_in_registry_rejected) ... ok
+test_unrecorded_raw_file_rejected (test_benchmark.InventoryTest.test_unrecorded_raw_file_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.625s
+
+OK

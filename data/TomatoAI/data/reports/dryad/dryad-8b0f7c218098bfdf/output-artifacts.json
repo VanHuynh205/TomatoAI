@@ -1,0 +1,122 @@
+[
+  {
+    "scope": "processed",
+    "path": "cell-ledger.jsonl",
+    "sha256": "6ece9346079641945477b7e9c32966745c4652732c36be30de73835e7aa93a1c"
+  },
+  {
+    "scope": "processed",
+    "path": "manifest.csv",
+    "sha256": "6fe5fff1420f345946654cb47c9f735c18b69aad8fdb260cb6967be46a5df425"
+  },
+  {
+    "scope": "processed",
+    "path": "manifest.json",
+    "sha256": "24cea4e4071b6f90d67e3bf9557bc0b4761b7b6eab46a3cb8fe80dd9566fcfbb"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/fruit.jsonl",
+    "sha256": "0d6fa058be7c7a44dcabc5c49ee762d0f5ea9980576841fc8870dbffff36bf47"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/irrigation_1.jsonl",
+    "sha256": "1fef126841a03d1bd5e1a9228d5119a717e7b947800a688f3effd3a5ab846f13"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/irrigation_2.jsonl",
+    "sha256": "8e0860de5c73fb21656d18d6f6dcbe4fedfb3ce4ad647219385ffac898bf8552"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/irrigation_3.jsonl",
+    "sha256": "f0be4b4a65e95b7e57fb0f92d60675f5f8612427ce734ff4d6bd97504c3dc7b8"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/irrigation_4.jsonl",
+    "sha256": "9d193dad75e89c1e352cec4fc87b2c55d03d09ee1c89409520487d2181c4a5d1"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/leaf_stem.jsonl",
+    "sha256": "9c4bb48bae9d2cc8ec2e9843a22b7ed4ec1df06b0bfb5f5ecbb5a6af72424f0c"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/photosynthetic.jsonl",
+    "sha256": "eddd55dbb57c12625589c87e791bee6e2e0e85cc99a23ba999432120d3faf83a"
+  },
+  {
+    "scope": "processed",
+    "path": "tables/quality.jsonl",
+    "sha256": "55cd82c9b3d8e1776ae08080e80b4cc480d8bc2e62bc20980c293abad26e198a"
+  },
+  {
+    "scope": "report",
+    "path": "checkpoint.json",
+    "sha256": "e412af0336fb446329fb5b02465fb801a3f278fa5bed32e4cbd509fda691767e"
+  },
+  {
+    "scope": "report",
+    "path": "cross-table-key-candidates.json",
+    "sha256": "9b970f9245e0f865c80ed81eea670bbcc43c3d87555becf3833c9bbc04fdc31a"
+  },
+  {
+    "scope": "report",
+    "path": "data-dictionary.json",
+    "sha256": "90e7f4cf828e681fa7f042288e954ecf5e0d4f47c94f23dd5faa0327d1b93b59"
+  },
+  {
+    "scope": "report",
+    "path": "fingerprint-inputs.json",
+    "sha256": "aaeb8f01732017383c65e92d4e019a8c9d63088d22b7dbfbbd2b28480e7b3846"
+  },
+  {
+    "scope": "report",
+    "path": "package-inventory.json",
+    "sha256": "aa69a4eabc0234a58220d0ba9e919a2f8e3d8b9c30718e7df15bdea51d000a4e"
+  },
+  {
+    "scope": "report",
+    "path": "raw-after.csv",
+    "sha256": "3466eea1034e00cde9844c1c4e9cb88665790cd1cdbdbf200fb8f793890f8ccc"
+  },
+  {
+    "scope": "report",
+    "path": "raw-before.csv",
+    "sha256": "3466eea1034e00cde9844c1c4e9cb88665790cd1cdbdbf200fb8f793890f8ccc"
+  },
+  {
+    "scope": "report",
+    "path": "review-queue.json",
+    "sha256": "c95372a61754f96a9724a54ea220220cfe969be1d121fa75db99c009e0c68776"
+  },
+  {
+    "scope": "report",
+    "path": "summary.json",
+    "sha256": "7797d246c2738333f0010833046613e39d55ff2c72aa18a08602b4753dd26ed1"
+  },
+  {
+    "scope": "report",
+    "path": "tables.json",
+    "sha256": "718cf3d802192f93a6e89e7d288c8cee7ddf687ebf67735271dc967d671382c2"
+  },
+  {
+    "scope": "report",
+    "path": "transformation-log.json",
+    "sha256": "88e78687eed29d5353cd065a1d7870ec118534bf9a1b82623463dbdc4edd9451"
+  },
+  {
+    "scope": "report",
+    "path": "unmapped-cells.json",
+    "sha256": "f4839b6b175b0b5fc2cbd94782528261c6d1a7ac574658700223aad85cdda17c"
+  },
+  {
+    "scope": "report",
+    "path": "worksheet-inventory.json",
+    "sha256": "8938baa069ae9c3902626de589d68b4006bdd419bf614ba49d4eb9bb4972dafa"
+  }
+]

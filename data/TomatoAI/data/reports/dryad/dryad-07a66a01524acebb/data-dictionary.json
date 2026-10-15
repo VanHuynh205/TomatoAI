@@ -1,0 +1,1573 @@
+[
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "A",
+    "header_levels": [
+      {
+        "source_cell": "A1",
+        "merged_anchor": "A1",
+        "value": "Soluble Solids"
+      },
+      {
+        "source_cell": "A2",
+        "merged_anchor": "A2",
+        "value": "Code"
+      }
+    ],
+    "expected_kind": "opaque_id",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "B",
+    "header_levels": [
+      {
+        "source_cell": "B1",
+        "merged_anchor": "A1",
+        "value": "Soluble Solids"
+      },
+      {
+        "source_cell": "B2",
+        "merged_anchor": "B2",
+        "value": "1"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "C",
+    "header_levels": [
+      {
+        "source_cell": "C1",
+        "merged_anchor": "A1",
+        "value": "Soluble Solids"
+      },
+      {
+        "source_cell": "C2",
+        "merged_anchor": "C2",
+        "value": "2"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "D",
+    "header_levels": [
+      {
+        "source_cell": "D1",
+        "merged_anchor": "A1",
+        "value": "Soluble Solids"
+      },
+      {
+        "source_cell": "D2",
+        "merged_anchor": "D2",
+        "value": "3"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "E",
+    "header_levels": [
+      {
+        "source_cell": "E1",
+        "merged_anchor": "A1",
+        "value": "Soluble Solids"
+      },
+      {
+        "source_cell": "E2",
+        "merged_anchor": "E2",
+        "value": "4"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "F",
+    "header_levels": [
+      {
+        "source_cell": "F1",
+        "merged_anchor": "A1",
+        "value": "Soluble Solids"
+      },
+      {
+        "source_cell": "F2",
+        "merged_anchor": "F2",
+        "value": "5"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "G",
+    "header_levels": [
+      {
+        "source_cell": "G1",
+        "merged_anchor": "A1",
+        "value": "Soluble Solids"
+      },
+      {
+        "source_cell": "G2",
+        "merged_anchor": "G2",
+        "value": "6"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "H",
+    "header_levels": [
+      {
+        "source_cell": "H1",
+        "merged_anchor": "A1",
+        "value": "Soluble Solids"
+      },
+      {
+        "source_cell": "H2",
+        "merged_anchor": "H2",
+        "value": "Average value (%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "I",
+    "header_levels": [
+      {
+        "source_cell": "I1",
+        "merged_anchor": "I1",
+        "value": "VC"
+      },
+      {
+        "source_cell": "I2",
+        "merged_anchor": "I2",
+        "value": "1"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "J",
+    "header_levels": [
+      {
+        "source_cell": "J1",
+        "merged_anchor": "I1",
+        "value": "VC"
+      },
+      {
+        "source_cell": "J2",
+        "merged_anchor": "J2",
+        "value": "2"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "K",
+    "header_levels": [
+      {
+        "source_cell": "K1",
+        "merged_anchor": "I1",
+        "value": "VC"
+      },
+      {
+        "source_cell": "K2",
+        "merged_anchor": "K2",
+        "value": "3"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "L",
+    "header_levels": [
+      {
+        "source_cell": "L1",
+        "merged_anchor": "I1",
+        "value": "VC"
+      },
+      {
+        "source_cell": "L2",
+        "merged_anchor": "L2",
+        "value": "Average value (%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "M",
+    "header_levels": [
+      {
+        "source_cell": "M1",
+        "merged_anchor": "M1",
+        "value": "Soluble Acids"
+      },
+      {
+        "source_cell": "M2",
+        "merged_anchor": "M2",
+        "value": "1"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "N",
+    "header_levels": [
+      {
+        "source_cell": "N1",
+        "merged_anchor": "M1",
+        "value": "Soluble Acids"
+      },
+      {
+        "source_cell": "N2",
+        "merged_anchor": "N2",
+        "value": "2"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "O",
+    "header_levels": [
+      {
+        "source_cell": "O1",
+        "merged_anchor": "M1",
+        "value": "Soluble Acids"
+      },
+      {
+        "source_cell": "O2",
+        "merged_anchor": "O2",
+        "value": "3"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "P",
+    "header_levels": [
+      {
+        "source_cell": "P1",
+        "merged_anchor": "M1",
+        "value": "Soluble Acids"
+      },
+      {
+        "source_cell": "P2",
+        "merged_anchor": "P2",
+        "value": "Average value (%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "Q",
+    "header_levels": [
+      {
+        "source_cell": "Q1",
+        "merged_anchor": "Q1",
+        "value": "Soluble Sugars"
+      },
+      {
+        "source_cell": "Q2",
+        "merged_anchor": "Q2",
+        "value": "1"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "R",
+    "header_levels": [
+      {
+        "source_cell": "R1",
+        "merged_anchor": "Q1",
+        "value": "Soluble Sugars"
+      },
+      {
+        "source_cell": "R2",
+        "merged_anchor": "R2",
+        "value": "2"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "S",
+    "header_levels": [
+      {
+        "source_cell": "S1",
+        "merged_anchor": "Q1",
+        "value": "Soluble Sugars"
+      },
+      {
+        "source_cell": "S2",
+        "merged_anchor": "S2",
+        "value": "3"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "T",
+    "header_levels": [
+      {
+        "source_cell": "T1",
+        "merged_anchor": "Q1",
+        "value": "Soluble Sugars"
+      },
+      {
+        "source_cell": "T2",
+        "merged_anchor": "T2",
+        "value": "Average value (%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "U",
+    "header_levels": [
+      {
+        "source_cell": "U1",
+        "merged_anchor": "U1",
+        "value": "Sugar-Acid Ratio"
+      },
+      {
+        "source_cell": "U2",
+        "merged_anchor": "U2",
+        "value": "Sugar content (%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "V",
+    "header_levels": [
+      {
+        "source_cell": "V1",
+        "merged_anchor": "U1",
+        "value": "Sugar-Acid Ratio"
+      },
+      {
+        "source_cell": "V2",
+        "merged_anchor": "V2",
+        "value": "Acid content (%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "quality",
+    "source_file": "2024.06.05_Quality_Determination.xlsx",
+    "sheet": "Sheet1",
+    "field": "W",
+    "header_levels": [
+      {
+        "source_cell": "W1",
+        "merged_anchor": "U1",
+        "value": "Sugar-Acid Ratio"
+      },
+      {
+        "source_cell": "W2",
+        "merged_anchor": "W2",
+        "value": "Sugar-acid ratio"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "photosynthetic",
+    "source_file": "Photosynthetic_Data.xlsx",
+    "sheet": "Sheet1",
+    "field": "A",
+    "header_levels": [
+      {
+        "source_cell": "A1",
+        "merged_anchor": "A1",
+        "value": "code"
+      }
+    ],
+    "expected_kind": "opaque_id",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "photosynthetic",
+    "source_file": "Photosynthetic_Data.xlsx",
+    "sheet": "Sheet1",
+    "field": "B",
+    "header_levels": [
+      {
+        "source_cell": "B1",
+        "merged_anchor": "B1",
+        "value": "Transpiration rate"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "photosynthetic",
+    "source_file": "Photosynthetic_Data.xlsx",
+    "sheet": "Sheet1",
+    "field": "C",
+    "header_levels": [
+      {
+        "source_cell": "C1",
+        "merged_anchor": "C1",
+        "value": "Net photosynthetic rate"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "photosynthetic",
+    "source_file": "Photosynthetic_Data.xlsx",
+    "sheet": "Sheet1",
+    "field": "D",
+    "header_levels": [
+      {
+        "source_cell": "D1",
+        "merged_anchor": "D1",
+        "value": "Intercellular CO₂ concentration"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "photosynthetic",
+    "source_file": "Photosynthetic_Data.xlsx",
+    "sheet": "Sheet1",
+    "field": "E",
+    "header_levels": [
+      {
+        "source_cell": "E1",
+        "merged_anchor": "E1",
+        "value": "Stomatal conductance"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "A",
+    "header_levels": [
+      {
+        "source_cell": "A1",
+        "merged_anchor": "A1",
+        "value": "code"
+      }
+    ],
+    "expected_kind": "opaque_id",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "B",
+    "header_levels": [
+      {
+        "source_cell": "B1",
+        "merged_anchor": "B1",
+        "value": "Leaf(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "C",
+    "header_levels": [
+      {
+        "source_cell": "C1",
+        "merged_anchor": "C1",
+        "value": "Nitrogen proportion(%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "D",
+    "header_levels": [
+      {
+        "source_cell": "D1",
+        "merged_anchor": "D1",
+        "value": "Nitrogen content(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "E",
+    "header_levels": [
+      {
+        "source_cell": "E1",
+        "merged_anchor": "E1",
+        "value": "Phosphorus proportion(%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "F",
+    "header_levels": [
+      {
+        "source_cell": "F1",
+        "merged_anchor": "F1",
+        "value": "Phosphorus content(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "G",
+    "header_levels": [
+      {
+        "source_cell": "G1",
+        "merged_anchor": "G1",
+        "value": "Potassium proportion(%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "H",
+    "header_levels": [
+      {
+        "source_cell": "H1",
+        "merged_anchor": "H1",
+        "value": "Potassium content(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "J",
+    "header_levels": [
+      {
+        "source_cell": "J1",
+        "merged_anchor": "J1",
+        "value": "Stem(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "K",
+    "header_levels": [
+      {
+        "source_cell": "K1",
+        "merged_anchor": "K1",
+        "value": "Nitrogen proportion(%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "L",
+    "header_levels": [
+      {
+        "source_cell": "L1",
+        "merged_anchor": "L1",
+        "value": "Nitrogen content(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "M",
+    "header_levels": [
+      {
+        "source_cell": "M1",
+        "merged_anchor": "M1",
+        "value": "Phosphorus proportion(%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "N",
+    "header_levels": [
+      {
+        "source_cell": "N1",
+        "merged_anchor": "N1",
+        "value": "Phosphorus content(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "O",
+    "header_levels": [
+      {
+        "source_cell": "O1",
+        "merged_anchor": "O1",
+        "value": "Potassium proportion(%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "leaf_stem",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "Leaf and stem ",
+    "field": "P",
+    "header_levels": [
+      {
+        "source_cell": "P1",
+        "merged_anchor": "P1",
+        "value": "Potassium content(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "fruit",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "fruit",
+    "field": "A",
+    "header_levels": [
+      {
+        "source_cell": "A1",
+        "merged_anchor": "A1",
+        "value": "code"
+      }
+    ],
+    "expected_kind": "opaque_id",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "fruit",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "fruit",
+    "field": "B",
+    "header_levels": [
+      {
+        "source_cell": "B1",
+        "merged_anchor": "B1",
+        "value": "Fresh fruit weight(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "fruit",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "fruit",
+    "field": "C",
+    "header_levels": [
+      {
+        "source_cell": "C1",
+        "merged_anchor": "C1",
+        "value": "Nitrogen proportion(%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "fruit",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "fruit",
+    "field": "D",
+    "header_levels": [
+      {
+        "source_cell": "D1",
+        "merged_anchor": "D1",
+        "value": "Nitrogen content(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "fruit",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "fruit",
+    "field": "E",
+    "header_levels": [
+      {
+        "source_cell": "E1",
+        "merged_anchor": "E1",
+        "value": "Phosphorus proportion(%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "fruit",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "fruit",
+    "field": "F",
+    "header_levels": [
+      {
+        "source_cell": "F1",
+        "merged_anchor": "F1",
+        "value": "Phosphorus content(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "fruit",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "fruit",
+    "field": "G",
+    "header_levels": [
+      {
+        "source_cell": "G1",
+        "merged_anchor": "G1",
+        "value": "Potassium proportion(%)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "%"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "fruit",
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "sheet": "fruit",
+    "field": "H",
+    "header_levels": [
+      {
+        "source_cell": "H1",
+        "merged_anchor": "H1",
+        "value": "Potassium content(g)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "g"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_1",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "A",
+    "header_levels": [
+      {
+        "source_cell": "A1",
+        "merged_anchor": "A1",
+        "value": "Date"
+      },
+      {
+        "source_cell": "A2",
+        "merged_anchor": "A1",
+        "value": "Date"
+      }
+    ],
+    "expected_kind": "calendar_date",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_1",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "B",
+    "header_levels": [
+      {
+        "source_cell": "B1",
+        "merged_anchor": "B1",
+        "value": "Irrigation Data 1"
+      },
+      {
+        "source_cell": "B2",
+        "merged_anchor": "B2",
+        "value": "Irrigation Status"
+      }
+    ],
+    "expected_kind": "irrigation_status",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_1",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "C",
+    "header_levels": [
+      {
+        "source_cell": "C1",
+        "merged_anchor": "B1",
+        "value": "Irrigation Data 1"
+      },
+      {
+        "source_cell": "C2",
+        "merged_anchor": "C2",
+        "value": "Daily Irrigation Volume (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_1",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "D",
+    "header_levels": [
+      {
+        "source_cell": "D1",
+        "merged_anchor": "B1",
+        "value": "Irrigation Data 1"
+      },
+      {
+        "source_cell": "D2",
+        "merged_anchor": "D2",
+        "value": "Water Meter Reading (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_1",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "E",
+    "header_levels": [
+      {
+        "source_cell": "E1",
+        "merged_anchor": "B1",
+        "value": "Irrigation Data 1"
+      },
+      {
+        "source_cell": "E2",
+        "merged_anchor": "E2",
+        "value": "Cumulative Water Consumption of Site (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_2",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "A",
+    "header_levels": [
+      {
+        "source_cell": "A1",
+        "merged_anchor": "A1",
+        "value": "Date"
+      },
+      {
+        "source_cell": "A2",
+        "merged_anchor": "A1",
+        "value": "Date"
+      }
+    ],
+    "expected_kind": "calendar_date",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_2",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "F",
+    "header_levels": [
+      {
+        "source_cell": "F1",
+        "merged_anchor": "F1",
+        "value": "Irrigation Data 2"
+      },
+      {
+        "source_cell": "F2",
+        "merged_anchor": "F2",
+        "value": "Irrigation Status"
+      }
+    ],
+    "expected_kind": "irrigation_status",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_2",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "G",
+    "header_levels": [
+      {
+        "source_cell": "G1",
+        "merged_anchor": "F1",
+        "value": "Irrigation Data 2"
+      },
+      {
+        "source_cell": "G2",
+        "merged_anchor": "G2",
+        "value": "Daily Irrigation Volume (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_2",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "H",
+    "header_levels": [
+      {
+        "source_cell": "H1",
+        "merged_anchor": "F1",
+        "value": "Irrigation Data 2"
+      },
+      {
+        "source_cell": "H2",
+        "merged_anchor": "H2",
+        "value": "Water Meter Reading (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_2",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "I",
+    "header_levels": [
+      {
+        "source_cell": "I1",
+        "merged_anchor": "F1",
+        "value": "Irrigation Data 2"
+      },
+      {
+        "source_cell": "I2",
+        "merged_anchor": "I2",
+        "value": "Cumulative Water Consumption of Site (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_3",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "A",
+    "header_levels": [
+      {
+        "source_cell": "A1",
+        "merged_anchor": "A1",
+        "value": "Date"
+      },
+      {
+        "source_cell": "A2",
+        "merged_anchor": "A1",
+        "value": "Date"
+      }
+    ],
+    "expected_kind": "calendar_date",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_3",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "J",
+    "header_levels": [
+      {
+        "source_cell": "J1",
+        "merged_anchor": "J1",
+        "value": "Irrigation Data 3"
+      },
+      {
+        "source_cell": "J2",
+        "merged_anchor": "J2",
+        "value": "Irrigation Status"
+      }
+    ],
+    "expected_kind": "irrigation_status",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_3",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "K",
+    "header_levels": [
+      {
+        "source_cell": "K1",
+        "merged_anchor": "J1",
+        "value": "Irrigation Data 3"
+      },
+      {
+        "source_cell": "K2",
+        "merged_anchor": "K2",
+        "value": "Daily Irrigation Volume (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_3",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "L",
+    "header_levels": [
+      {
+        "source_cell": "L1",
+        "merged_anchor": "J1",
+        "value": "Irrigation Data 3"
+      },
+      {
+        "source_cell": "L2",
+        "merged_anchor": "L2",
+        "value": "Water Meter Reading (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_3",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "M",
+    "header_levels": [
+      {
+        "source_cell": "M1",
+        "merged_anchor": "J1",
+        "value": "Irrigation Data 3"
+      },
+      {
+        "source_cell": "M2",
+        "merged_anchor": "M2",
+        "value": "Cumulative Water Consumption of Site (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_4",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "A",
+    "header_levels": [
+      {
+        "source_cell": "A1",
+        "merged_anchor": "A1",
+        "value": "Date"
+      },
+      {
+        "source_cell": "A2",
+        "merged_anchor": "A1",
+        "value": "Date"
+      }
+    ],
+    "expected_kind": "calendar_date",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_4",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "N",
+    "header_levels": [
+      {
+        "source_cell": "N1",
+        "merged_anchor": "N1",
+        "value": "Irrigation Data 4"
+      },
+      {
+        "source_cell": "N2",
+        "merged_anchor": "N2",
+        "value": "Irrigation Status"
+      }
+    ],
+    "expected_kind": "irrigation_status",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_4",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "O",
+    "header_levels": [
+      {
+        "source_cell": "O1",
+        "merged_anchor": "N1",
+        "value": "Irrigation Data 4"
+      },
+      {
+        "source_cell": "O2",
+        "merged_anchor": "O2",
+        "value": "Daily Irrigation Volume (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_4",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "P",
+    "header_levels": [
+      {
+        "source_cell": "P1",
+        "merged_anchor": "N1",
+        "value": "Irrigation Data 4"
+      },
+      {
+        "source_cell": "P2",
+        "merged_anchor": "P2",
+        "value": "Water Meter Reading (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  },
+  {
+    "table": "irrigation_4",
+    "source_file": "Irrigation_Data_1-4.xlsx",
+    "sheet": "历史数据",
+    "field": "Q",
+    "header_levels": [
+      {
+        "source_cell": "Q1",
+        "merged_anchor": "N1",
+        "value": "Irrigation Data 4"
+      },
+      {
+        "source_cell": "Q2",
+        "merged_anchor": "Q2",
+        "value": "Cumulative Water Consumption of Site (m³)"
+      }
+    ],
+    "expected_kind": "numeric",
+    "unit_status": "source_header_retained_semantics_needs_review",
+    "unit_tokens_from_header": [
+      "m³"
+    ],
+    "unit_conversion": false,
+    "type_note": "formulas keep cache separately; missing is null; numeric values are decimal strings"
+  }
+]

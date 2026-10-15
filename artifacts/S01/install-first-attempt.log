@@ -1,0 +1,16 @@
+Using Python 3.12.14 environment at: .venv-phase0
+Resolved 21 packages in 10ms
+Downloading torch (118.3MiB)
+Downloading torchvision (1.3MiB)
+Downloading sympy (6.0MiB)
+Downloading pyinstaller (1.4MiB)
+Downloading shiboken6 (1.2MiB)
+Downloading pyside6-essentials (78.3MiB)
+Downloading numpy (12.0MiB)
+ Downloaded torchvision
+ Downloaded torch
+ Downloaded shiboken6
+ Downloaded pyinstaller
+ Downloaded sympy
+Downloading numpy (12.0MiB)
+Downloading pyside6-essentials (78.3MiB)

@@ -1,0 +1,245 @@
+[
+  {
+    "card_id": "pex:disease_kb/tomato/bacterial_spot.json",
+    "file": "bacterial_spot.json",
+    "issue_type_original": "disease_bacterial",
+    "classifier_link": "exact_source_checked",
+    "claims": 11,
+    "source_checks": {
+      "source_checked_candidate": 2,
+      "partial_support_context_pending": 4,
+      "unverified": 5
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+    "file": "cercospora_leaf_spot.json",
+    "issue_type_original": "disease_fungal",
+    "classifier_link": "knowledge_only_no_image_class",
+    "claims": 11,
+    "source_checks": {
+      "unverified": 11
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/early_blight.json",
+    "file": "early_blight.json",
+    "issue_type_original": "disease_fungal",
+    "classifier_link": "exact_source_checked",
+    "claims": 11,
+    "source_checks": {
+      "partial_support_context_pending": 3,
+      "source_checked_candidate": 4,
+      "unverified": 4
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+    "file": "flea_beetle_injury.json",
+    "issue_type_original": "unknown",
+    "classifier_link": "knowledge_only_no_image_class",
+    "claims": 9,
+    "source_checks": {
+      "unverified": 9
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/fusarium_wilt.json",
+    "file": "fusarium_wilt.json",
+    "issue_type_original": "disease_fungal",
+    "classifier_link": "knowledge_only_no_image_class",
+    "claims": 11,
+    "source_checks": {
+      "unverified": 11
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/healthy.json",
+    "file": "healthy.json",
+    "issue_type_original": "healthy",
+    "classifier_link": "exact_source_checked",
+    "claims": 7,
+    "source_checks": {
+      "partial_support_context_pending": 3,
+      "source_checked_candidate": 4
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/late_blight.json",
+    "file": "late_blight.json",
+    "issue_type_original": "disease_fungal",
+    "classifier_link": "exact_source_checked",
+    "claims": 9,
+    "source_checks": {
+      "partial_support_context_pending": 3,
+      "source_checked_candidate": 2,
+      "held_specific_risk": 1,
+      "unverified": 3
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+    "file": "leaf_curl_virus.json",
+    "issue_type_original": "disease_viral",
+    "classifier_link": "knowledge_only_no_image_class",
+    "claims": 10,
+    "source_checks": {
+      "unverified": 10
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_miner.json",
+    "file": "leaf_miner.json",
+    "issue_type_original": "pest_insect",
+    "classifier_link": "knowledge_only_no_image_class",
+    "claims": 11,
+    "source_checks": {
+      "unverified": 11
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/leaf_mold.json",
+    "file": "leaf_mold.json",
+    "issue_type_original": "disease_fungal",
+    "classifier_link": "exact_source_checked",
+    "claims": 11,
+    "source_checks": {
+      "partial_support_context_pending": 3,
+      "source_checked_candidate": 3,
+      "unverified": 5
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/mosaic_virus.json",
+    "file": "mosaic_virus.json",
+    "issue_type_original": "disease_viral",
+    "classifier_link": "candidate",
+    "claims": 11,
+    "source_checks": {
+      "source_checked_candidate": 2,
+      "held_specific_risk": 3,
+      "partial_support_context_pending": 4,
+      "unverified": 2
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/pest_damage.json",
+    "file": "pest_damage.json",
+    "issue_type_original": "unknown",
+    "classifier_link": "knowledge_only_no_image_class",
+    "claims": 11,
+    "source_checks": {
+      "unverified": 11
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+    "file": "septoria_leaf_spot.json",
+    "issue_type_original": "disease_fungal",
+    "classifier_link": "exact_source_checked",
+    "claims": 11,
+    "source_checks": {
+      "partial_support_context_pending": 2,
+      "source_checked_candidate": 4,
+      "unverified": 5
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/spider_mites.json",
+    "file": "spider_mites.json",
+    "issue_type_original": "pest_mite",
+    "classifier_link": "exact_source_checked",
+    "claims": 9,
+    "source_checks": {
+      "source_checked_candidate": 1,
+      "held_specific_risk": 1,
+      "partial_support_context_pending": 4,
+      "unverified": 3
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/target_spot.json",
+    "file": "target_spot.json",
+    "issue_type_original": "disease_fungal",
+    "classifier_link": "exact_source_checked",
+    "claims": 11,
+    "source_checks": {
+      "partial_support_context_pending": 4,
+      "source_checked_candidate": 2,
+      "unverified": 5
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+    "file": "yellow_leaf_curl_virus.json",
+    "issue_type_original": "disease_viral",
+    "classifier_link": "exact_source_checked",
+    "claims": 10,
+    "source_checks": {
+      "source_checked_candidate": 2,
+      "partial_support_context_pending": 4,
+      "unverified": 4
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  },
+  {
+    "card_id": "pex:disease_kb/tomato/yellowing_symptom.json",
+    "file": "yellowing_symptom.json",
+    "issue_type_original": "physiological_symptom",
+    "classifier_link": "knowledge_only_no_image_class",
+    "claims": 8,
+    "source_checks": {
+      "unverified": 8
+    },
+    "domain_review": "pending",
+    "translation_review": "not_translated",
+    "safe_for_advice": false
+  }
+]

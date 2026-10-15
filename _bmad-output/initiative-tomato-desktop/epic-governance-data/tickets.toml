@@ -1,0 +1,58 @@
+# Approved 2026-10-14; entries planned, no leaf/build plan yet.
+
+[[entry]]
+id = "S01"
+type = "story"
+title = "chốt scope và quyền dùng"
+description = "Khóa scope/asset decisions bằng ledger và tracer hai record manifest hiện có qua source/hash/license tới eligibility hoặc refusal có lý do."
+verify = "Ghi quyết định thật, license từng asset, scope sử dụng/phân phối; không coi setup thay AC; T20; tracer một grouped record và một missing-group record dùng nguồn hiện có, không tạo split hoặc tự xác minh nhãn."
+risk = "high"
+covers = ["CAP-9"]
+after = []
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = true
+optional = false
+known_uncertainty = "C0/C1/rubric/rights/release policy chưa chốt; S01 ghi quyết định hoặc blocker thật, không giả phê duyệt."
+
+[[entry]]
+id = "S02"
+type = "story"
+title = "inventory/provenance đầy đủ"
+description = "Tiếp nhận data card/provenance hiện có và delta evidence"
+verify = "Registry chỉ đúng run; tái dùng manifests/queues/hash, không rerun toàn cleaning; label verification riêng; T15/T18"
+risk = "high"
+covers = ["CAP-1"]
+after = ["S01"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = false
+optional = false
+known_uncertainty = "Nhãn chưa xác minh chuyên môn; provenance/integrity chỉ trong baseline scope; tái dùng run hiện hành."
+
+[[entry]]
+id = "S03"
+type = "story"
+title = "giải grouping và trùng"
+description = "Giải grouping/near/alias trong bản dẫn xuất hoặc quarantine"
+verify = "6.749 source missing/6.735 retained review phân biệt; Target 1.404/mosaic 373 không singleton đoán; unresolved không vào approved split; T15"
+risk = "high"
+covers = ["CAP-1"]
+after = ["S02"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = true
+optional = false
+known_uncertainty = "C2 grouping Target/mosaic/near chưa đủ; điều tra có căn cứ hoặc quarantine, không đoán nhóm."
+
+[[entry]]
+id = "S04"
+type = "story"
+title = "split benchmark khóa"
+description = "Versioned class/group/split manifest và supports"
+verify = "Giao group/component=∅, khóa class order; full 10 lớp thiếu group thì blocked; subset pilot cần duyệt và không gọi full benchmark; T15"
+risk = "high"
+covers = ["CAP-1"]
+after = ["S03"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = true
+optional = false
+known_uncertainty = "C2: full10-class grouping/near/label evidence and class manifest approval pending."
+unknown = "C2: full10-class grouping/near/label evidence and class manifest approval pending."

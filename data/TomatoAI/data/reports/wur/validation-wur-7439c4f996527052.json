@@ -1,0 +1,25 @@
+{
+  "run_id": "wur-7439c4f996527052",
+  "status": "passed",
+  "tables_checked": 43,
+  "raw_files_sha256_checked": 46,
+  "records_and_all_cells_compared": 622899,
+  "totals": {
+    "missing_cells": 1413536,
+    "records": 622899,
+    "zero_cells": 3818128,
+    "omitted_proven_empty_cells": 830
+  },
+  "per_kind": {
+    "CropParameters": 138,
+    "GreenhouseClimate": 286854,
+    "GrodanSens": 286854,
+    "LabAnalysis": 60,
+    "Production": 140,
+    "Resources": 996,
+    "TomQuality": 48,
+    "Weather": 47809
+  },
+  "source_and_output_hashes_valid": true,
+  "no_canonical_epoch_or_timezone_assigned": true
+}

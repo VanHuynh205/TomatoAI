@@ -1,0 +1,16 @@
+[
+  {
+    "source_file": "Statistics_Table_of_Leaf__Stem_and_Fruit_Weight.xlsx",
+    "source_sheet": "Leaf and stem ",
+    "coordinate": "S1",
+    "xml_attributes": {
+      "r": "S1",
+      "t": "s"
+    },
+    "raw_v": "9",
+    "raw_kind": "text",
+    "raw_value": " ",
+    "formula": null,
+    "raw_cell_xml": "<ns0:c xmlns:ns0=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\" r=\"S1\" t=\"s\"><ns0:v>9</ns0:v></ns0:c>"
+  }
+]

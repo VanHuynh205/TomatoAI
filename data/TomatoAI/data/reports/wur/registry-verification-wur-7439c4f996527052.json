@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "registry_backup": "reports/wur/registry-before-20261014T141208.json",
+  "backup_sha256": "1685d3fe32d7421f207a78ba737195e98b8a1f9174e1f3efe2a746005bac6841",
+  "registry_sha256_after": "2422f51202d1ff2fc9a786a0890cfbcfa15abcc8e117ede3876e60ea33cd36f0",
+  "only_WUR_entry_changed": true,
+  "official_planning_imported": false,
+  "verified_utc": "2026-10-14T07:12:09.008026+00:00"
+}

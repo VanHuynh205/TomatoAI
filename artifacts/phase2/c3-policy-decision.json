@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "decision_id": "C3-educational-demo-direction-v1",
+  "date_local": "2026-10-15",
+  "status": "direction_selected_publication_blocked",
+  "mode": "source_checked_educational_demo",
+  "selected_by": {
+    "actor": "Project owner (user in this conversation)",
+    "role": "project scope decision maker",
+    "evidence": "Demo giáo dục giới hạn, ghi rõ chưa được chuyên gia duyệt (khuyến nghị)."
+  },
+  "scope": {
+    "draft_version": "phase2-healthy-v1",
+    "card_id": "pex:disease_kb/tomato/healthy.json",
+    "condition_id": "TOM_HEALTHY",
+    "claim_ids": [
+      "ir-claim:healthy:cultural:2"
+    ],
+    "lesson_id": "lesson:healthy-leaf-watering:vi:v1",
+    "draft_sha256": "9c7aca79597fa3bc44353fc4ec472fcee43d3b24927dd3f0d51f04fd2a623d45",
+    "claim_sha256": "c169d318c514e57e53ad2287169832d8c0a2d28582ef53e60183a2a84a1a3cba",
+    "translation_sha256": "a8f2a4428cb8f4856fcd13e9c02f8cebcaa1757b8196005eae8561b41f6e64a1",
+    "glossary_sha256": "1c6afa45ace9f5124158a130b6367784d50d87ef53ee1b27306e182274af9a7c",
+    "lesson_sha256": "b6f27b5b3aca369faf021948d67135c4edbbbc4e00fd049995b00d67556b507f"
+  },
+  "required_label_vi": "Demo giáo dục giới hạn — nội dung chưa được chuyên gia duyệt.",
+  "limits": [
+    "Healthy is a leaf class only, not proof of whole-plant health or irrigation/nutrition suitability.",
+    "Only the selected nonchemical watering principle and linked reviewed educational material may be considered.",
+    "No numeric irrigation/fertilizer schedule, pesticide/dose/PHI, personalized treatment or public-release approval."
+  ],
+  "required_before_publication": [
+    "Identified human student/peer reviews the exact source and context.",
+    "Identified human reviews EN–VI meaning, glossary, lesson and both quiz keys separately from source review.",
+    "Document permitted use/packaging scope and outstanding per-claim rights.",
+    "Implement and verify the versioned S11 publisher/gate with a genuine approved card; preserve the old sealed gate."
+  ],
+  "source_review": {
+    "status": "pending",
+    "actor": null
+  },
+  "translation_review": {
+    "status": "pending",
+    "actor": null
+  },
+  "rights_scope_review": {
+    "status": "pending",
+    "actor": null
+  },
+  "expert_review": {
+    "status": "not_available",
+    "actor": null,
+    "required_for_this_limited_demo": false
+  },
+  "publication_authorized": false,
+  "display_allowed": false,
+  "note": "The human selected policy direction, not source/translation/rights approval. AI source checks and drafting are recorded in S10 and do not replace independent human review. Historical S10 pending metadata is intentionally preserved."
+}

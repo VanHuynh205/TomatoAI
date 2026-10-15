@@ -1,0 +1,67 @@
+{
+  "plan_version": "adp-20261014-v1",
+  "created_local": "2026-10-15T00:04:11",
+  "scope": "Final planning artifacts and actual verification outputs; historical import/review evidence is preserved separately.",
+  "files": [
+    {
+      "path": "PRODUCT.md",
+      "sha256": "fb816e227e1ee6e36d67aa683fecae6a90633f59a335fb51d543cd350d84c32d",
+      "bytes": 4180
+    },
+    {
+      "path": "planning/tomato-desktop/README.md",
+      "sha256": "96181afbc0336ea1b82aae6fd16eb66d6bffd82debec297e3d6bdd587c0f4692",
+      "bytes": 15437
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/initiative-tomato-desktop.md",
+      "sha256": "1a664aeff35dbe20e7342c1f23d0b5c2f9b66df2a1bb814034c5c328612aeefc",
+      "bytes": 5894
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/spec-tomato-desktop.md",
+      "sha256": "18520e04735046437045bf9966b9e063a36f259195a103c7dbc0fb2d35e25598",
+      "bytes": 9178
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/.memlog.md",
+      "sha256": "813d68f5fdba7d5cf4e3c4acee367723860d6cd7de08a2f2d9ad7bcd8caba452",
+      "bytes": 11638
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/app-development-plan/app-development-plan.md",
+      "sha256": "963bcbab7fc0460cb83dc6c28f456cdc48c12701d0e11e87a3d73216b4dd3e03",
+      "bytes": 43150
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/app-development-plan/engineering-contracts.md",
+      "sha256": "2de71c7b0aec2159c6f9670c88309afb4518538b99e5fd547711a4320364aa14",
+      "bytes": 16672
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/app-development-plan/ux-security.md",
+      "sha256": "5db954fe9e225a2a1763e80684f2a0632b12559669913556c7fe1825a5672b6d",
+      "bytes": 15438
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/app-development-plan/requirements-phase.csv",
+      "sha256": "f48ae9f3e6d228ee58b9bed54b15f02473488f424b6f83164253932d0ce3b7f2",
+      "bytes": 3608
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/app-development-plan/evidence/status.json",
+      "sha256": "dad50fbe9c27f846f2ca2409ff08123d93f09a58935c1c30a309793bfebeba44",
+      "bytes": 18656
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/app-development-plan/evidence/next.json",
+      "sha256": "b760b950b80a067d2094dcce4875f092b3c8bb6b7e11b6fbacdba1162a3436b3",
+      "bytes": 16026
+    },
+    {
+      "path": "_bmad-output/initiative-tomato-desktop/app-development-plan/evidence/verification.json",
+      "sha256": "ac88ccacaa42932201c161796caece464491950fda95069af7c101a9dc11baad",
+      "bytes": 3825
+    }
+  ]
+}

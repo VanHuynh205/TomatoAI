@@ -1,0 +1,1949 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-10-15",
+  "scope": "S01 rights inventory; no legal clearance or domain approval",
+  "software_inventory": "artifacts/S01/software-inventory.json",
+  "assets": [
+    {
+      "id": "dataset:PlantVillage",
+      "kind": "dataset",
+      "source": "https://github.com/spMohanty/PlantVillage-Dataset",
+      "revision": "7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+      "selected_run": "pv-d9e4c21eec8e9172",
+      "declared_license": "CC BY-SA 3.0 declared in local README_HF; per-asset scope pending",
+      "license_evidence": "data/TomatoAI/data/raw/plantvillage/README_HF.md",
+      "license_evidence_sha256": "dc70d48f21e142ae9f82070607a6cbf9f761c91446c3edc4b0a752737115be02",
+      "existing_manifest": "processed/plantvillage/pv-d9e4c21eec8e9172",
+      "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+      "attribution_required_or_to_verify": [
+        "authors",
+        "source URL/DOI",
+        "version",
+        "license notice",
+        "changes"
+      ],
+      "redistribution_status": "pending",
+      "training_approved": false,
+      "outstanding": [
+        "per-asset rights/scope review",
+        "scientific readiness is separate from declared license"
+      ]
+    },
+    {
+      "id": "dataset:PlantExpertVQA-tomato",
+      "kind": "dataset",
+      "source": "https://huggingface.co/datasets/SyedNazmusSakib/PlantExpertVQA",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313",
+      "selected_run": "pex-b3da04d66a031756",
+      "declared_license": "CC BY 4.0 declared in local README; embedded sources separate",
+      "license_evidence": "data/TomatoAI/data/raw/plantexpert/README.md",
+      "license_evidence_sha256": "c654e0585666f4b9b258a14cd16d9ae5dac71be3313f3be71873d9bf53e52807",
+      "existing_manifest": "processed/plantexpert-tomato/pex-b3da04d66a031756",
+      "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+      "attribution_required_or_to_verify": [
+        "authors",
+        "source URL/DOI",
+        "version",
+        "license notice",
+        "changes"
+      ],
+      "redistribution_status": "pending",
+      "training_approved": false,
+      "outstanding": [
+        "per-asset rights/scope review",
+        "scientific readiness is separate from declared license"
+      ]
+    },
+    {
+      "id": "dataset:WUR",
+      "kind": "dataset",
+      "source": "https://data.4tu.nl/articles/dataset/Autonomous_Greenhouse_Challenge_Second_Edition_2019_/12764777/2",
+      "revision": "version 2",
+      "selected_run": "wur-7439c4f996527052",
+      "declared_license": "CC0 1.0 reported in saved intake metadata",
+      "license_evidence": "data/TomatoAI/data/cultivation_metadata/README.md",
+      "license_evidence_sha256": "fd1aaa5900ac64f1f69e823098cc2cf36785ac2437c421e1f1d757939c8fb79a",
+      "existing_manifest": "processed/wur/wur-7439c4f996527052",
+      "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+      "attribution_required_or_to_verify": [
+        "authors",
+        "source URL/DOI",
+        "version",
+        "license notice",
+        "changes"
+      ],
+      "redistribution_status": "excluded_from_MVP",
+      "training_approved": false,
+      "outstanding": [
+        "per-asset rights/scope review",
+        "scientific readiness is separate from declared license"
+      ]
+    },
+    {
+      "id": "dataset:Dryad",
+      "kind": "dataset",
+      "source": "https://datadryad.org/dataset/doi:10.5061/dryad.wm37pvn33",
+      "revision": "version 5; version ID 446657",
+      "selected_run": "dryad-8b0f7c218098bfdf",
+      "declared_license": "CC0 1.0 reported in saved intake metadata",
+      "license_evidence": "data/TomatoAI/data/cultivation_metadata/README.md",
+      "license_evidence_sha256": "fd1aaa5900ac64f1f69e823098cc2cf36785ac2437c421e1f1d757939c8fb79a",
+      "existing_manifest": "processed/dryad/dryad-8b0f7c218098bfdf",
+      "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+      "attribution_required_or_to_verify": [
+        "authors",
+        "source URL/DOI",
+        "version",
+        "license notice",
+        "changes"
+      ],
+      "redistribution_status": "excluded_from_MVP",
+      "training_approved": false,
+      "outstanding": [
+        "per-asset rights/scope review",
+        "scientific readiness is separate from declared license"
+      ]
+    },
+    {
+      "id": "dataset:Mendeley",
+      "kind": "dataset",
+      "source": "https://data.mendeley.com/datasets/33cngpcrmx/3",
+      "revision": "version 3",
+      "selected_run": "mendeley-61d459ec1f46cef3",
+      "declared_license": "CC BY 4.0 reported in saved intake metadata",
+      "license_evidence": "data/TomatoAI/data/cultivation_metadata/README.md",
+      "license_evidence_sha256": "fd1aaa5900ac64f1f69e823098cc2cf36785ac2437c421e1f1d757939c8fb79a",
+      "existing_manifest": "processed/mendeley/mendeley-61d459ec1f46cef3",
+      "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+      "attribution_required_or_to_verify": [
+        "authors",
+        "source URL/DOI",
+        "version",
+        "license notice",
+        "changes"
+      ],
+      "redistribution_status": "excluded_from_MVP",
+      "training_approved": false,
+      "outstanding": [
+        "per-asset rights/scope review",
+        "scientific readiness is separate from declared license"
+      ]
+    },
+    {
+      "id": "dataset:UC-IPM-Tomato",
+      "kind": "dataset",
+      "source": "https://ucanr.edu/dept/anr-publishing/permissions",
+      "revision": "ucipm-20261014-acq-v1",
+      "selected_run": "ucipm-20261014-acq-v1",
+      "declared_license": "not cleared; acquisition blocked HTTP 403",
+      "license_evidence": "data/TomatoAI/data/reports/uc-ipm-tomato/ucipm-20261014-acq-v1/checkpoint.json",
+      "license_evidence_sha256": "ea34a3a4bf2145364e6105518691693e948ddd9ee62282a326fc7ed050288126",
+      "existing_manifest": "processed/uc-ipm-tomato/ucipm-20261014-acq-v1",
+      "allowed_session_scope": "read-only governance/traceability; no new data training or redistribution",
+      "attribution_required_or_to_verify": [
+        "authors",
+        "source URL/DOI",
+        "version",
+        "license notice",
+        "changes"
+      ],
+      "redistribution_status": "excluded_from_MVP",
+      "training_approved": false,
+      "outstanding": [
+        "per-asset rights/scope review",
+        "scientific readiness is separate from declared license"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/bacterial_spot.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/bacterial_spot.json",
+      "source_sha256": "6e4d26ee491a342186ceed4eeb4ee462910e52a958d8703fb91710d219ce4d4a",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [
+        "https://ask.ifas.ufl.edu/publication/PP353"
+      ],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/cercospora_leaf_spot.json",
+      "source_sha256": "2a2abe4dd771ddac0c449c9132d1499a0ae5a52f28e84d2da02e29ad7e5e3981",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/early_blight.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/early_blight.json",
+      "source_sha256": "116b99489eb11c4fdaafbc5bf1f3eadfde8f97da089cbfa8005d0c47ef19df22",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [
+        "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato"
+      ],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/flea_beetle_injury.json",
+      "source_sha256": "7967340a5374beb4f5c5724e815b06115d92c329fa070f6f54dad24785500e2e",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/fusarium_wilt.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/fusarium_wilt.json",
+      "source_sha256": "0ffcaaf3d97b0c57763855c429bb0c62e467fe29b18d6e9151b75329d0fd5e9b",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/healthy.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/healthy.json",
+      "source_sha256": "89a50caefe302b04ac61b3ccfd35f43054335be3ad5bf63eb8a9cd0025cddb83",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [
+        "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes"
+      ],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/late_blight.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/late_blight.json",
+      "source_sha256": "7dd880416b12b60d2e8f7f8caf4ca5c2c09a47530a016e12b3965a2c9b0dacf6",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [
+        "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight"
+      ],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/leaf_curl_virus.json",
+      "source_sha256": "ac7434ae5f3e8cb9e567eb63b1e46856dda08db1544be45fc25729c78d86e1d5",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/leaf_miner.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/leaf_miner.json",
+      "source_sha256": "a00d17f2ca603210b9bef36bcdfad9dc745cc6836a9df45edf3a95312885b062",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/leaf_mold.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/leaf_mold.json",
+      "source_sha256": "52a8c08a99e4e7349e711e937698a06f9eddb7083956503ba14e483a92961945",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [
+        "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold"
+      ],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/mosaic_virus.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/mosaic_virus.json",
+      "source_sha256": "e1c41cff82cb18471ecf6a2be5aa0376515cb2d8cced2ac04f341d9255fb4549",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [
+        "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses"
+      ],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/pest_damage.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/pest_damage.json",
+      "source_sha256": "d3a9f98fce44373a6f7eebd21f9f80cf56615601c7a80d209fef5be2e7274e14",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/septoria_leaf_spot.json",
+      "source_sha256": "ed9c0a7e796960ef1c0000e15b186858b6a836f78fc7b734a5dd3dc2ecdf8984",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [
+        "https://apps.extension.umn.edu/garden/diagnose/plant/vegetable/tomato/leavesspots.html",
+        "https://www.extension.umd.edu/resource/septoria-leaf-spot-tomatoes"
+      ],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/spider_mites.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/spider_mites.json",
+      "source_sha256": "dc45aaba7b03aaf74db32b2a0a5333a1f9056f010725bb73e55a27310604e22a",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [
+        "https://ipm.ucanr.edu/home-and-landscape/spider-mites/"
+      ],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/target_spot.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/target_spot.json",
+      "source_sha256": "45dce16d0bf9a3e743565785a647e5d40856b0f8903439ff3291a816ea546724",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [
+        "https://ask.ifas.ufl.edu/publication/PP351"
+      ],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "source_sha256": "44e771c051a46c3418ead39cabd341c8a739fdce7b0c3981f38753b104349167",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [
+        "https://ipm.ucanr.edu/agriculture/tomato/tomato-yellow-leaf-curl/"
+      ],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "pex:disease_kb/tomato/yellowing_symptom.json",
+      "kind": "knowledge_card",
+      "source": "data/TomatoAI/data/raw/plantexpert/disease_kb/tomato/yellowing_symptom.json",
+      "source_sha256": "819e32f37dce0d4010fb85719afbe2b2bb99864ba4f1b7d6675c1a5be42a63eb",
+      "revision": "e21eacc1eff9e1db38966d78d0e8af2f22706313 / pex-b3da04d66a031756",
+      "declared_license": "parent repository declares CC BY 4.0; embedded claims/third-party excerpts not thereby cleared",
+      "source_references_observed_in_integration": [],
+      "attribution_required_or_to_verify": [
+        "repository author",
+        "original source authors",
+        "locator/revision",
+        "license",
+        "changes"
+      ],
+      "allowed_session_scope": "read-only rights/provenance inventory",
+      "redistribution_status": "pending",
+      "display_allowed": false,
+      "expert_approved": false,
+      "translation_approved": false,
+      "outstanding": [
+        "per-claim rights and source scope",
+        "domain reviewer unavailable",
+        "Vietnamese review pending",
+        "C3 policy decision pending"
+      ]
+    },
+    {
+      "id": "weights:efficientnet_b0",
+      "kind": "pretrained_weights_candidate",
+      "source": "https://docs.pytorch.org/vision/stable/models.html",
+      "revision": "EfficientNet_B0_Weights.IMAGENET1K_V1 / torchvision 0.29.1",
+      "sha256": null,
+      "downloaded": false,
+      "declared_license": "code license does not establish pretrained model/training-data rights",
+      "allowed_session_scope": "enum/recipe metadata inspection only; random initialization in smoke",
+      "redistribution_status": "pending",
+      "attribution_required_or_to_verify": [
+        "torchvision model recipe",
+        "original authors",
+        "weights/data notices",
+        "checkpoint provenance"
+      ],
+      "outstanding": [
+        "asset-specific rights/terms",
+        "download authorization in later training phase",
+        "full SHA-256 after legitimate acquisition"
+      ],
+      "metadata_evidence": "artifacts/S01/weights-metadata.json",
+      "metadata_evidence_sha256": "07592c716024d4b5de53d4255ccb425f7e953e15a8feb0b3a5e47faeb52281e0",
+      "candidate_url": "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth"
+    },
+    {
+      "id": "weights:resnet50",
+      "kind": "pretrained_weights_candidate",
+      "source": "https://docs.pytorch.org/vision/stable/models.html",
+      "revision": "ResNet50_Weights.IMAGENET1K_V2 / torchvision 0.29.1",
+      "sha256": null,
+      "downloaded": false,
+      "declared_license": "code license does not establish pretrained model/training-data rights",
+      "allowed_session_scope": "enum/recipe metadata inspection only; random initialization in smoke",
+      "redistribution_status": "pending",
+      "attribution_required_or_to_verify": [
+        "torchvision model recipe",
+        "original authors",
+        "weights/data notices",
+        "checkpoint provenance"
+      ],
+      "outstanding": [
+        "asset-specific rights/terms",
+        "download authorization in later training phase",
+        "full SHA-256 after legitimate acquisition"
+      ],
+      "metadata_evidence": "artifacts/S01/weights-metadata.json",
+      "metadata_evidence_sha256": "07592c716024d4b5de53d4255ccb425f7e953e15a8feb0b3a5e47faeb52281e0",
+      "candidate_url": "https://download.pytorch.org/models/resnet50-11ad3fa6.pth"
+    },
+    {
+      "id": "asset:system-font",
+      "kind": "font",
+      "source": "Windows system font via native Qt; no font file copied",
+      "revision": "host OS font",
+      "declared_license": "not inventoried for redistribution because no font bundled",
+      "allowed_session_scope": "native diagnostic window",
+      "redistribution_status": "not_bundled",
+      "outstanding": [
+        "if custom font is added, record its license before packaging"
+      ],
+      "attribution_required_or_to_verify": [
+        "no font files intentionally redistributed; verify final OS-font usage and Windows terms"
+      ]
+    },
+    {
+      "id": "code:project",
+      "kind": "project_source",
+      "source": "local project; no Git repository",
+      "revision": "Phase 0 snapshot hashes",
+      "declared_license": "project distribution license not supplied",
+      "allowed_session_scope": "user-authorized local development and checks",
+      "redistribution_status": "pending",
+      "outstanding": [
+        "team ownership/attribution and release license before S18"
+      ],
+      "attribution_required_or_to_verify": [
+        "project authors",
+        "license selection and copyright notice before redistribution"
+      ]
+    },
+    {
+      "id": "software:altgraph",
+      "kind": "software_dependency",
+      "source": [
+        "Documentation, https://altgraph.readthedocs.io/en/latest/",
+        "Issue tracker, https://github.com/ronaldoussoren/altgraph/issues",
+        "Repository, https://github.com/ronaldoussoren/altgraph"
+      ],
+      "revision": "0.17.5",
+      "declared_license": [
+        "MIT"
+      ],
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/altgraph-0.17.5.dist-info/LICENSE",
+          "sha256": "6c194d6db0c64d45535d10c95142b9b0cda7b7dcc7f1ddee302b3d536f3dbe46"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:filelock",
+      "kind": "software_dependency",
+      "source": [
+        "Documentation, https://py-filelock.readthedocs.io",
+        "Homepage, https://github.com/tox-dev/py-filelock",
+        "Source, https://github.com/tox-dev/py-filelock",
+        "Tracker, https://github.com/tox-dev/py-filelock/issues"
+      ],
+      "revision": "4.2.0",
+      "declared_license": "MIT",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/filelock-4.2.0.dist-info/licenses/LICENSE",
+          "sha256": "608c89d5060ae9921adccf3236695bc654a9946e12323ef6c021dfa04e294d48"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:fsspec",
+      "kind": "software_dependency",
+      "source": [
+        "Changelog, https://filesystem-spec.readthedocs.io/en/latest/changelog.html",
+        "Documentation, https://filesystem-spec.readthedocs.io/en/latest/",
+        "Homepage, https://github.com/fsspec/filesystem_spec"
+      ],
+      "revision": "2026.9.0",
+      "declared_license": "BSD-3-Clause",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/fsspec-2026.9.0.dist-info/licenses/LICENSE",
+          "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:Jinja2",
+      "kind": "software_dependency",
+      "source": [
+        "Changes, https://jinja.palletsprojects.com/changes/",
+        "Chat, https://discord.gg/pallets",
+        "Documentation, https://jinja.palletsprojects.com/",
+        "Donate, https://palletsprojects.com/donate",
+        "Source, https://github.com/pallets/jinja/"
+      ],
+      "revision": "3.1.6",
+      "declared_license": "verify installed license files",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/jinja2-3.1.6.dist-info/licenses/LICENSE.txt",
+          "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:MarkupSafe",
+      "kind": "software_dependency",
+      "source": [
+        "Donate, https://palletsprojects.com/donate",
+        "Documentation, https://markupsafe.palletsprojects.com/",
+        "Changes, https://markupsafe.palletsprojects.com/page/changes/",
+        "Source, https://github.com/pallets/markupsafe/",
+        "Chat, https://discord.gg/pallets"
+      ],
+      "revision": "3.0.4",
+      "declared_license": "BSD-3-Clause",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/markupsafe-3.0.4.dist-info/licenses/LICENSE.txt",
+          "sha256": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:mpmath",
+      "kind": "software_dependency",
+      "source": [
+        "Source, https://github.com/fredrik-johansson/mpmath",
+        "Tracker, https://github.com/fredrik-johansson/mpmath/issues",
+        "Documentation, http://mpmath.org/doc/current/"
+      ],
+      "revision": "1.3.0",
+      "declared_license": [
+        "BSD"
+      ],
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/mpmath-1.3.0.dist-info/LICENSE",
+          "sha256": "c26cae81da4508e5e249985777a33821f183223ebb74d7f8cfbf90fe7eef2fb7"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:networkx",
+      "kind": "software_dependency",
+      "source": [
+        "Homepage, https://networkx.org/",
+        "Bug Tracker, https://github.com/networkx/networkx/issues",
+        "Documentation, https://networkx.org/documentation/stable/",
+        "Source Code, https://github.com/networkx/networkx"
+      ],
+      "revision": "3.7",
+      "declared_license": "BSD-3-Clause",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/networkx-3.7.dist-info/licenses/LICENSE.txt",
+          "sha256": "6025f323ea29dc2f0ee0abd9523bf910186f55b0e148e6ebf646c55566278e2e"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:numpy",
+      "kind": "software_dependency",
+      "source": [
+        "homepage, https://numpy.org",
+        "documentation, https://numpy.org/doc/",
+        "source, https://github.com/numpy/numpy",
+        "download, https://pypi.org/project/numpy/#files",
+        "tracker, https://github.com/numpy/numpy/issues",
+        "release notes, https://numpy.org/doc/stable/release"
+      ],
+      "revision": "2.5.4",
+      "declared_license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/LICENSE.txt",
+          "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+          "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+          "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+          "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+          "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+          "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE",
+          "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md",
+          "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+          "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+          "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+          "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+          "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+          "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+          "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy/_core/include/numpy/random/LICENSE.txt",
+          "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy/ma/LICENSE",
+          "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/numpy/random/LICENSE.md",
+          "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:packaging",
+      "kind": "software_dependency",
+      "source": [
+        "Documentation, https://packaging.pypa.io/",
+        "Source, https://github.com/pypa/packaging"
+      ],
+      "revision": "26.3",
+      "declared_license": "Apache-2.0 OR BSD-2-Clause",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/packaging-26.3.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/packaging/licenses/__init__.py",
+          "sha256": "590d12eee73ddbec53b4e9ee5bfc64d9cb3aacb4940e8ebcba260757ce56740b"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/packaging/licenses/_spdx.py",
+          "sha256": "596ec35e2ca0ebcba9fd8343ff0a51625af548786257815f24b41f7e08613314"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:pefile",
+      "kind": "software_dependency",
+      "source": "https://github.com/erocarrera/pefile",
+      "revision": "2024.8.26",
+      "declared_license": [
+        "MIT"
+      ],
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/pefile-2024.8.26.dist-info/LICENSE",
+          "sha256": "b44409c067c6da52bfb54bb6624fb11a7b52157c3a13ae1400232f8196e86ad3"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:pillow",
+      "kind": "software_dependency",
+      "source": [
+        "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "Changelog, https://github.com/python-pillow/Pillow/releases",
+        "Documentation, https://pillow.readthedocs.io",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+        "Homepage, https://python-pillow.github.io",
+        "Mastodon, https://fosstodon.org/@pillow",
+        "Source, https://github.com/python-pillow/Pillow"
+      ],
+      "revision": "12.3.0",
+      "declared_license": "MIT-CMU",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/pillow-12.3.0.dist-info/licenses/LICENSE",
+          "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:pyinstaller",
+      "kind": "software_dependency",
+      "source": [
+        "Homepage, https://pyinstaller.org",
+        "Documentation, https://pyinstaller.org",
+        "Source Code, https://github.com/pyinstaller/pyinstaller",
+        "Release Notes, https://pyinstaller.org/en/stable/CHANGES.html"
+      ],
+      "revision": "6.22.3",
+      "declared_license": [
+        "GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)"
+      ],
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/pyinstaller-6.22.3.dist-info/licenses/COPYING.txt",
+          "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:pyinstaller-hooks-contrib",
+      "kind": "software_dependency",
+      "source": "https://github.com/pyinstaller/pyinstaller-hooks-contrib",
+      "revision": "2026.8",
+      "declared_license": "verify installed license files",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/pyinstaller_hooks_contrib-2026.8.dist-info/licenses/LICENSE",
+          "sha256": "91d0baaff00773038e72c0a1fc9d5d2d38706b7a2b9c04f34296608f931b9cd0"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:PySide6_Essentials",
+      "kind": "software_dependency",
+      "source": [
+        "Homepage, https://pyside.org",
+        "Documentation, https://doc.qt.io/qtforpython",
+        "Repository, https://code.qt.io/cgit/pyside/pyside-setup.git/",
+        "Changelog, https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs",
+        "Tracker, https://qt-project.atlassian.net/browse/PYSIDE"
+      ],
+      "revision": "6.12.0",
+      "declared_license": [
+        "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only"
+      ],
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/pyside6_essentials-6.12.0.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+          "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:pywin32-ctypes",
+      "kind": "software_dependency",
+      "source": "https://github.com/enthought/pywin32-ctypes",
+      "revision": "0.2.3",
+      "declared_license": [
+        "BSD-3-Clause"
+      ],
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/pywin32_ctypes-0.2.3.dist-info/LICENSE.txt",
+          "sha256": "dfa83b3e2709adfcdb838d9ad55823ca674abb780e60563d9dd9544ccbf785e9"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:setuptools",
+      "kind": "software_dependency",
+      "source": [
+        "Source, https://github.com/pypa/setuptools",
+        "Documentation, https://setuptools.pypa.io/",
+        "Changelog, https://setuptools.pypa.io/en/stable/history.html"
+      ],
+      "revision": "84.0.0",
+      "declared_license": "MIT",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools-84.0.0.dist-info/licenses/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+          "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+          "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+          "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+          "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+          "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/packaging/licenses/__init__.py",
+          "sha256": "4f05cb1d9097c1281d17044b3f15bad364fa99289eba74851cce9fa7ca605bbf"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/packaging/licenses/_spdx.py",
+          "sha256": "596ec35e2ca0ebcba9fd8343ff0a51625af548786257815f24b41f7e08613314"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+          "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+          "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+          "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+          "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/config/NOTICE",
+          "sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/setuptools/config/_validate_pyproject/NOTICE",
+          "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:shiboken6",
+      "kind": "software_dependency",
+      "source": [
+        "Homepage, https://pyside.org",
+        "Documentation, https://doc.qt.io/qtforpython",
+        "Repository, https://code.qt.io/cgit/pyside/pyside-setup.git/",
+        "Changelog, https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs",
+        "Tracker, https://qt-project.atlassian.net/browse/PYSIDE"
+      ],
+      "revision": "6.12.0",
+      "declared_license": [
+        "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only"
+      ],
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/shiboken6-6.12.0.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+          "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:sympy",
+      "kind": "software_dependency",
+      "source": [
+        "Source, https://github.com/sympy/sympy"
+      ],
+      "revision": "1.14.0",
+      "declared_license": [
+        "BSD"
+      ],
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/sympy-1.14.0.dist-info/licenses/AUTHORS",
+          "sha256": "82b1038521b0696c63c90b31ed4a0a2c9c4c16871c648b157b07ca44b6f18f8d"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/sympy-1.14.0.dist-info/licenses/LICENSE",
+          "sha256": "07a5e9819f727b4986ad2829c7a29a6320d42575f720eb24d71b7fef573a0286"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/sympy/parsing/latex/LICENSE.txt",
+          "sha256": "007bc30a58fa40a996e772047120de4eaf31f5110e4f9c3b5f93fcdfbe2eaca1"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:torch",
+      "kind": "software_dependency",
+      "source": [
+        "Homepage, https://pytorch.org",
+        "Repository, https://github.com/pytorch/pytorch",
+        "Documentation, https://pytorch.org/docs",
+        "Issue Tracker, https://github.com/pytorch/pytorch/issues",
+        "Forum, https://discuss.pytorch.org"
+      ],
+      "revision": "2.14.1+cpu",
+      "declared_license": "Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/LICENSE",
+          "sha256": "0fc92425d130d9c87a5eb7427082e3afdbff6ef169bc678e15abba4c2d37c934"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/FP16/LICENSE",
+          "sha256": "68349589306bdfa3631ac7f84633956bf21b6a448ed5e43383ea75a8a5f54e4c"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/FXdiv/LICENSE",
+          "sha256": "9e7b48284b1aef91999d1967d093711bab8f3bbbaf31e0670ab7a3af077c0a2b"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/NNPACK/LICENSE",
+          "sha256": "a4dadeb3d59219de6cdf5cb6bf920760103eed9ae5af2e71b0e8462645397b66"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/NVTX/LICENSE.txt",
+          "sha256": "c3b19baa37cf18bac07b65700824acadcfa617316f02af10d3852ed20f4f6ab8"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/NVTX/docs/LICENSE.txt",
+          "sha256": "c3b19baa37cf18bac07b65700824acadcfa617316f02af10d3852ed20f4f6ab8"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/NVTX/python/LICENSE.txt",
+          "sha256": "c3b19baa37cf18bac07b65700824acadcfa617316f02af10d3852ed20f4f6ab8"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/NVTX/rust/LICENSE",
+          "sha256": "4baebe905073b57ce85f6a0aeb242cac589181f6574c0dc87993c25d9bcf4775"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/NVTX/tools/docs/github-markdown-css/license",
+          "sha256": "fcf1a18be2e25ba82acf2c59821b030d8ee764e4e201db6ef3c51900d385515f"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/VulkanMemoryAllocator/LICENSE.txt",
+          "sha256": "e5fc8b0b0357a75d63649c8f2552576aaa6941c361a013710bb53afc64d3a8aa"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/XNNPACK/LICENSE",
+          "sha256": "4805a18e3c617424da5b7f6d8b9fde3df2fb6a5e26a6b6663a6cdb66db664d8c"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/aiter/3rdparty/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/aiter/3rdparty/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/aiter/LICENSE",
+          "sha256": "844e3a38ca6f748e10eb63f07eb343ddca3b5a0a6bb40b0f621fcc54ea03deb3"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/benchmark/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/cpp-httplib/LICENSE",
+          "sha256": "bb546eae5924d8ee842e0e567e6d533c5824bdebccf605f99a5b3429034e6697"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/cpuinfo/LICENSE",
+          "sha256": "8477bdd6a4d9f5178e5dfda1e32239c7b09c9d6da3804ae3e5c1a80210c0dd21"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/cpuinfo/deps/clog/LICENSE",
+          "sha256": "8c29231fd0034d4b1caaae8c0a63bce71f95cd8c4b0494c8588930b75c3d2155"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/cudnn_frontend/LICENSE.txt",
+          "sha256": "b6fe452605fe29245f0cbafa724b42df94a5e170bedb9d45bc9cfaa4883ad907"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/cutlass/LICENSE.txt",
+          "sha256": "10e174914fb737aec2d32762bd2e45861acb5ebf1656bee6cf575a6019a08cf0"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/cutlass/python/LICENSE.txt",
+          "sha256": "932c16f6c4f0187eda3af18df07300f8807eda85ca974bf46c5ed11fd91e5c2f"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/LICENSE",
+          "sha256": "5d5d5b022ecf828c796a64ad7afcfd62971bf58a52b71668cd48137ca02824c5"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/external/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/external/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/external/cpuinfo/LICENSE",
+          "sha256": "8477bdd6a4d9f5178e5dfda1e32239c7b09c9d6da3804ae3e5c1a80210c0dd21"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/external/cpuinfo/deps/clog/LICENSE",
+          "sha256": "8c29231fd0034d4b1caaae8c0a63bce71f95cd8c4b0494c8588930b75c3d2155"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/external/cutlass/LICENSE.txt",
+          "sha256": "3288ff56f62ade1ef032bd860b6d92482f83f1d3073ad5125b87228b9c11e0a8"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/external/cutlass/python/LICENSE.txt",
+          "sha256": "6b9e8b964c2a90f7743107a23bccec9ebc6f5a47d4a8fa3d986aa6f51f86da68"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/external/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/external/hipify_torch/LICENSE.txt",
+          "sha256": "e63d8a0f5ab5cc02d848c6ef51b7bea58644a07223aa0acdb905260a1031b2e6"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/docs/src/general/License.rst",
+          "sha256": "4f8f489489bc1ac9608b13243e6dbeb28070cefd6da94de0784cc919afbf10f6"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/experimental/hstu/LICENSE",
+          "sha256": "c364d38c8ee8070159ad68f56a8bab4917b8d020548da33a01e036505c8e4add"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/src/quantize_ops/mx/LICENSE",
+          "sha256": "9906940f61b1f0b533fa7d99baf55178b2808fbe113ea51dfbfad8572ccd5f2b"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/test/quantize/mx/LICENSE",
+          "sha256": "9906940f61b1f0b533fa7d99baf55178b2808fbe113ea51dfbfad8572ccd5f2b"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flash-attention/LICENSE",
+          "sha256": "c364d38c8ee8070159ad68f56a8bab4917b8d020548da33a01e036505c8e4add"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flash-attention/csrc/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flash-attention/csrc/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flash-attention/csrc/cutlass/LICENSE.txt",
+          "sha256": "3288ff56f62ade1ef032bd860b6d92482f83f1d3073ad5125b87228b9c11e0a8"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flash-attention/csrc/cutlass/python/LICENSE.txt",
+          "sha256": "6b9e8b964c2a90f7743107a23bccec9ebc6f5a47d4a8fa3d986aa6f51f86da68"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flash-attention/flash_attn/cute/LICENSE",
+          "sha256": "c364d38c8ee8070159ad68f56a8bab4917b8d020548da33a01e036505c8e4add"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flash-attention/third_party/aiter/3rdparty/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flash-attention/third_party/aiter/3rdparty/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flash-attention/third_party/aiter/LICENSE",
+          "sha256": "844e3a38ca6f748e10eb63f07eb343ddca3b5a0a6bb40b0f621fcc54ea03deb3"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flatbuffers/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flatbuffers/dart/LICENSE",
+          "sha256": "35cf0c0dca02767d12b9a8c12ae1b6a1c08045f220df4a52b0e01563a568fe6b"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/flatbuffers/swift/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/fmt/LICENSE",
+          "sha256": "e53b24254a17f6acdaf967557c287dca7e920b22cc6290f6a84d57c34d942a6e"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/gemmlowp/gemmlowp/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/gloo/LICENSE",
+          "sha256": "6247f690b423835966eba51cad47b4c7d6a72ca226733dd1c473e4624fe6bb23"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/ideep/LICENSE",
+          "sha256": "e1b43a11adfb7a5bd52089243a273ab85f0a695d0437bb34a418969501392573"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/ideep/mkl-dnn/LICENSE",
+          "sha256": "b1dd911e534a75dd4dfd8dbc11a3193bd177c8390e7fcf462f98d2c8c235e112"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/ideep/mkl-dnn/third_party/gtest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/ideep/mkl-dnn/third_party/opencl/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/kineto/LICENSE",
+          "sha256": "97729794764240cc12e0e22fe31b0cea824741c601bd09bd91b832e285e1f8c5"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/kineto/libkineto/third_party/dynolog_headers/LICENSE",
+          "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/kineto/libkineto/third_party/fmt/LICENSE",
+          "sha256": "25b5db04aa6070c12ac518b91cbd0a59725c050ecb091456e6ebc3d3eeb369cf"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/kineto/libkineto/third_party/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/llvm-openmp/LICENSE.txt",
+          "sha256": "eb3eab74fe9245818659556acf23e81b8c8a24915a4a244a23804f3fcdf1fd9c"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/mimalloc/LICENSE",
+          "sha256": "82ade5d7d9b029044b5fbbc326207fc47c2d44ee4dd71e8a559c36d728217de9"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/miniz-3.0.2/LICENSE",
+          "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/mslk/LICENSE",
+          "sha256": "322bba2f33f594948052de342fd7d5bd26892e2a92ba75fbb5a433eff0b229c7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/mslk/external/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/mslk/external/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/mslk/external/cutlass/LICENSE.txt",
+          "sha256": "3288ff56f62ade1ef032bd860b6d92482f83f1d3073ad5125b87228b9c11e0a8"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/mslk/external/cutlass/python/LICENSE.txt",
+          "sha256": "6b9e8b964c2a90f7743107a23bccec9ebc6f5a47d4a8fa3d986aa6f51f86da68"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/mslk/external/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/mslk/external/hipify_torch/LICENSE.txt",
+          "sha256": "e63d8a0f5ab5cc02d848c6ef51b7bea58644a07223aa0acdb905260a1031b2e6"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/mslk/mslk/attention/flash_attn/LICENSE",
+          "sha256": "c364d38c8ee8070159ad68f56a8bab4917b8d020548da33a01e036505c8e4add"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/onnx/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/onnx/third_party/pybind11/LICENSE",
+          "sha256": "5494773a5dcf654c0c3c844fbb11cfc4f898ea0ea44cf467f29e5c99097da6e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/perfetto/LICENSE",
+          "sha256": "6bef87f6b4eda6c3cf0f42f780967e192df6412e4933f0ffb106638629aa3364"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/protobuf/LICENSE",
+          "sha256": "f4df8b2457697851385d9ebb93267832c1dfa24e0e61881952f6b0c452663dc9"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/protobuf/third_party/benchmark/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/protobuf/third_party/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/protobuf/third_party/googletest/googlemock/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/protobuf/third_party/googletest/googlemock/scripts/generator/LICENSE",
+          "sha256": "e438ef741bf3660b5c54f4452d7c0b387c8557207cc3e9cda499e461a94df2b2"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/protobuf/third_party/googletest/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/protobuf/third_party/utf8_range/LICENSE",
+          "sha256": "2317ba964cb26897602b47271a156b2c9ee140d923fa25e8f2229f20d6f3a819"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/psimd/LICENSE",
+          "sha256": "6bc97741b2f00a1d0a2f8e9be4c8af7ff837f968fe8e494864caf57026cfdbcb"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/pthreadpool/LICENSE",
+          "sha256": "2aae36e3c88f88b5e8afff5ca8d05480745ba7ad7e8d62867293c604efc0ce46"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/pybind11/LICENSE",
+          "sha256": "5494773a5dcf654c0c3c844fbb11cfc4f898ea0ea44cf467f29e5c99097da6e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/python-peachpy/LICENSE.rst",
+          "sha256": "b74018ea5fe273c10868dec1c5b832865fa4cf5bc44715a004d172e0a49a3f23"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/sleef/LICENSE.txt",
+          "sha256": "beb8e42e9d6b4284e03304d05a81a0755200a965fc8d0a5e0aea1e84cf805d6e"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/tensorpipe/LICENSE.txt",
+          "sha256": "a51531fad20e44cae492c601bc0997d961c17a74f25f9473ff62eb70e108277d"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/tensorpipe/third_party/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/tensorpipe/third_party/googletest/googlemock/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/tensorpipe/third_party/googletest/googlemock/scripts/generator/LICENSE",
+          "sha256": "e438ef741bf3660b5c54f4452d7c0b387c8557207cc3e9cda499e461a94df2b2"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/tensorpipe/third_party/googletest/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/tensorpipe/third_party/libnop/LICENSE",
+          "sha256": "abd3ed80490d1d168f12f6ced5a558398640e6d375382c7b85d290689a222822"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/tensorpipe/third_party/libuv/LICENSE",
+          "sha256": "7aab26dd7e0e6661accc1fd9fc19410e01b466aa0ac36ea668b2013152a8ca23"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/tensorpipe/third_party/pybind11/LICENSE",
+          "sha256": "15619fd6ee80e905a159b8139f7791f5ae1dce142d5101d099404cc5cf1007ba"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch-2.14.1+cpu.dist-info/licenses/third_party/tensorpipe/third_party/pybind11/tools/clang/LICENSE.TXT",
+          "sha256": "dcd8a8d43f2dc19ba6f879f3a7e96f59e66ecb195099f700dfdcfb50641c10c9"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch/_vendor/packaging/LICENSE",
+          "sha256": "8ef81e4c883c5ccb2a08026cc74ba3193279dd5149b36839d976c0a896637d87"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch/_vendor/packaging/LICENSE.APACHE",
+          "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch/_vendor/packaging/LICENSE.BSD",
+          "sha256": "67daf15b478dbd91bcd83bff907efff68471d42d2138226b89f039d658d53435"
+        },
+        {
+          "path": ".venv-phase0/Lib/site-packages/torch/_vendor/quack/LICENSE",
+          "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:torchvision",
+      "kind": "software_dependency",
+      "source": "https://github.com/pytorch/vision",
+      "revision": "0.29.1+cpu",
+      "declared_license": [
+        "BSD"
+      ],
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/torchvision-0.29.1+cpu.dist-info/LICENSE",
+          "sha256": "c06363f9d33627dc5173b13522444cc85fbb4739f63e16d4587d5c0a165b5b1e"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "software:typing_extensions",
+      "kind": "software_dependency",
+      "source": [
+        "Bug Tracker, https://github.com/python/typing_extensions/issues",
+        "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+        "Documentation, https://typing-extensions.readthedocs.io/",
+        "Home, https://github.com/python/typing_extensions",
+        "Q & A, https://github.com/python/typing/discussions",
+        "Repository, https://github.com/python/typing_extensions"
+      ],
+      "revision": "4.16.0",
+      "declared_license": "PSF-2.0",
+      "license_evidence": "artifacts/S01/software-inventory.json",
+      "license_files": [
+        {
+          "path": ".venv-phase0/Lib/site-packages/typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+        }
+      ],
+      "allowed_session_scope": "isolated Phase 0 diagnostic; no release clearance",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "license files",
+        "copyright notices",
+        "applicable component obligations"
+      ],
+      "outstanding": [
+        "S18 distribution review; inventory is not legal clearance"
+      ]
+    },
+    {
+      "id": "runtime:CPython",
+      "kind": "native_runtime",
+      "source": "https://docs.python.org/3.12/license.html",
+      "revision": "3.12.14",
+      "declared_license": "PSF license and included historical/third-party notices; see installed LICENSE.txt",
+      "license_evidence": "C:\\Users\\admin\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\LICENSE.txt",
+      "license_evidence_sha256": "886a0ead2d89030ee62dbff52b04e47ab91998341295bb9c56fb952b4e081c7a",
+      "allowed_session_scope": "isolated Phase 0 diagnostic and local build",
+      "redistribution_status": "pending_notices_review",
+      "attribution_required_or_to_verify": [
+        "Python copyright/license",
+        "bundled component notices"
+      ],
+      "outstanding": [
+        "S18 notices and exact release binary inventory"
+      ]
+    },
+    {
+      "id": "runtime:MSVC",
+      "kind": "native_runtime",
+      "source": "CPython/PySide6 distributions and Windows runtime; exact collected files in artifacts/S01/native-runtime-inventory.json",
+      "revision": "see per-file versions/hashes in native runtime inventory",
+      "declared_license": "Microsoft runtime redistributable terms require review; not inferred from Qt/Python code licenses",
+      "allowed_session_scope": "local Phase 0 diagnostic only",
+      "redistribution_status": "pending_terms_review",
+      "attribution_required_or_to_verify": [
+        "Microsoft redistribution terms",
+        "source distribution/component provenance"
+      ],
+      "outstanding": [
+        "S18 approved redistribution source and notices; multiple bundled CRT versions must be checked"
+      ]
+    },
+    {
+      "id": "runtime:Windows-ICU",
+      "kind": "system_runtime",
+      "source": "C:/Windows/System32/icuuc.dll on the observed Windows 11 host",
+      "revision": "Windows 10.0.26200 host; other Windows versions not verified",
+      "declared_license": "Windows system component; no redistribution clearance claimed",
+      "allowed_session_scope": "use host Windows ICU for local compatibility diagnostic",
+      "redistribution_status": "not_intended_to_bundle",
+      "attribution_required_or_to_verify": [
+        "verify final Windows support and system component dependency"
+      ],
+      "outstanding": [
+        "S18 clean-machine support and component inventory; never substitute Poppler ICU by name"
+      ]
+    }
+  ],
+  "release_allowed": false,
+  "reviewer": null,
+  "notes": [
+    "Raw/processed and sealed integration reports are unchanged.",
+    "CC0/CC BY source declarations are recorded evidence, not proof of agronomic validity.",
+    "All 17 cards inventoried individually; no advice displayed or translated."
+  ]
+}

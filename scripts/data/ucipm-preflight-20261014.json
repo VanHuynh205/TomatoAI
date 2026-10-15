@@ -1,0 +1,63 @@
+{
+  "schema_version": "ucipm-preflight-observation-1.0",
+  "accessed_at": "2026-10-14T11:54:40.487902+00:00",
+  "method": "official_web_reader; no corpus bytes downloaded",
+  "batch_stop": true,
+  "blocker": {
+    "http_status": 403,
+    "url": "https://ucanr.edu/dept/anr-publishing/permissions",
+    "reason": "HTTP 403 Forbidden during permissions preflight; stop collection; do not bypass"
+  },
+  "observations": [
+    {
+      "url": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+      "content_read": true,
+      "http_status": null,
+      "archived": true,
+      "sections_checked": [
+        "TEXT",
+        "PHOTOGRAPHS",
+        "FIGURES"
+      ],
+      "finding": "Personal/educational textual copies conditional on retained credits/copyright; archived, no blanket license."
+    },
+    {
+      "url": "https://ucanr.edu/copyright",
+      "content_read": true,
+      "http_status": null,
+      "archived": false,
+      "sections_checked": [
+        "Use of Materials"
+      ],
+      "finding": "Educational reproduction with Regents notice and CC BY-NC-ND 4.0 reference; resource scope not verified."
+    },
+    {
+      "url": "https://ucanr.edu/dept/anr-publishing/permissions",
+      "content_read": false,
+      "http_status": 403
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.en",
+      "content_read": true,
+      "http_status": null,
+      "sections_checked": [
+        "1(a)",
+        "2(a)(1)",
+        "2(a)(4)",
+        "3",
+        "4"
+      ],
+      "finding": "Private noncommercial adaptations and necessary technical format changes differ from sharing; applies only to licensed material."
+    }
+  ],
+  "robots": {
+    "url": "https://ipm.ucanr.edu/robots.txt",
+    "current_check": "not_attempted_after_batch_stop",
+    "prior_evidence": "data/TomatoAI/data/reports/uc-ipm-tomato/ucipm-20261014-v1/acquisition-cleaning-plan.md",
+    "prior_date": "2026-10-14",
+    "not_current_authorization": true
+  },
+  "bytes_archived": false,
+  "snapshot_sha256": null,
+  "scope_limit": "Web reader policy checks were grouped; request cadence not measurable. No bounded corpus acquisition was started. HTTP 200 never inferred from readable content."
+}

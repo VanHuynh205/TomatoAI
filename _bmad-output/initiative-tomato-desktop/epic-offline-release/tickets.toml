@@ -1,0 +1,75 @@
+# Approved 2026-10-14; entries planned, no leaf/build plan yet.
+
+[[entry]]
+id = "S13"
+type = "story"
+title = "UI states/keyboard/DPI"
+description = "Nhận minimal runtime/contracts/QA harness S06 và allowed lesson bundle S12, hoàn thiện UI states/keyboard/DPI rồi bàn giao cho S14/S17."
+verify = "Uncertain/missing KB/pending review không mượn card gần tên; giới hạn/nguồn nhìn thấy; T07/T10/T14/T19"
+risk = "high"
+covers = ["CAP-3", "CAP-4", "CAP-6"]
+after = ["EPC.S06", "EPD.S12"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = false
+optional = false
+known_uncertainty = "UX visual direction and AD-1 remain proposed; knowledge/lesson release scope pending."
+unknown = "UX visual direction and AD-1 remain proposed; knowledge/lesson release scope pending."
+
+[[entry]]
+id = "S14"
+type = "story"
+title = "hardening worker/input/model"
+description = "Nhận UI S13 và shared runtime contracts S06, harden worker/input/model và bàn giao runtime chịu lỗi cho final benchmark S15."
+verify = "1 active/0 queued, stale render=0; safe loader fail closed, privacy/raw preservation; T02/T03/T10/T12/T18"
+risk = "high"
+covers = ["CAP-7"]
+after = ["S13"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = false
+optional = false
+known_uncertainty = "AD-4/AD-8 and image/resource/cancel limits need approval and product-stage authorization."
+unknown = "AD-4/AD-8 and image/resource/cancel limits need approval and product-stage authorization."
+
+[[entry]]
+id = "S15"
+type = "story"
+title = "final test và CPU benchmark"
+description = "Nhận winner/policy lock S09 và hardened runtime S14, đo final test/per-class/CPU metrics và xuất model card cho S18/S19."
+verify = "Test sau lock; không chọn winner bằng test; count/rejection mẫu số thật; T11/T16"
+risk = "high"
+covers = ["CAP-2", "CAP-8"]
+after = ["EPB.S09", "S14"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = false
+optional = false
+known_uncertainty = "C4 lock/CPU reference/metric targets và quyền đánh giá tương lai còn pending; final test sau winner lock, không tune lại."
+
+[[entry]]
+id = "S18"
+type = "story"
+title = "bundle Windows offline"
+description = "Nhận runtime S14, locked model và metrics S15 cùng allowed knowledge scope S11/S11b, xuất offline package/notices/release manifest/clean-machine evidence cho S19."
+verify = "Không đóng gói raw/17 pending cards như tư vấn approved; máy sạch offline/user thường; T12/T13/T18/T19"
+risk = "high"
+covers = ["CAP-7", "CAP-9"]
+after = ["S15"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = true
+optional = false
+known_uncertainty = "C5: distribution rights, allowed knowledge scope and clean Windows machine evidence pending."
+unknown = "C5: distribution rights, allowed knowledge scope and clean Windows machine evidence pending."
+
+[[entry]]
+id = "S20"
+type = "story"
+title = "history local, tùy chọn hoãn"
+description = "History opt-in/delete/export, nếu duyệt"
+verify = "Default off, không upload/raw deletion; optional parked, chưa approved; T18"
+risk = "high"
+covers = ["CAP-7"]
+after = ["S18"]
+references = ["_bmad-output/initiative-tomato-desktop/spec-tomato-desktop/requirements-traceability.md", "planning/tomato-desktop/delivery-plan.md", "planning/tomato-desktop/security-testing.md"]
+hitl = true
+optional = true
+known_uncertainty = "Optional history requires separate user approval and remaining budget; does not block core."
+unknown = "Optional history requires separate user approval and remaining budget; does not block core."

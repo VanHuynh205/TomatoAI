@@ -1,0 +1,21 @@
+test_benchmark (unittest.loader._FailedTest.test_benchmark) ... ERROR
+
+======================================================================
+ERROR: test_benchmark (unittest.loader._FailedTest.test_benchmark)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_benchmark
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\admin\Downloads\DACN_CayCaChua\tests\data\test_benchmark.py", line 11, in <module>
+    import prepare_benchmark as benchmark
+ModuleNotFoundError: No module named 'prepare_benchmark'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

@@ -1,0 +1,1082 @@
+{
+  "input_hash": "820e0fdfa7e1b9f89619d037e53cd0f3131a78eaafb50c5a3ebb5a7068cdfb30",
+  "status": "blocked",
+  "blocker": {
+    "http_status": 403,
+    "url": "https://ucanr.edu/dept/anr-publishing/permissions",
+    "reason": "HTTP 403 Forbidden during permissions preflight; stop collection; do not bypass"
+  },
+  "rows": [
+    {
+      "source_id": "ucipm:toc:001",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/introduction/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:002",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/preplanting/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:003",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/planting-to-prebloom/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:004",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/bloom-to-early-fruit-set/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:005",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/late-fruit-set/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:006",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/first-red-fruit/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:007",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/harvest-and-postharvest/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:011",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/variety-selection/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:012",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/fertilization/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:013",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/irrigation-of-processing-tomatoes/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:014",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/crop-rotation/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:037",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/whiteflies/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:045",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/bacterial-spot/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:050",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/early-blight/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:055",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/late-blight/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:062",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/tobacco-mosaic/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:069",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/tomato-yellow-leaf-curl/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:toc:114",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/authors-and-credits/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:extra:4d800d1cb1",
+      "original_url": "https://ipm.ucanr.edu/agriculture/tomato/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:extra:838f6cc53f",
+      "original_url": "https://ipm.ucanr.edu/home-and-landscape/tomato/cultural-tips/index.html",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    },
+    {
+      "source_id": "ucipm:extra:6bd269da62",
+      "original_url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/",
+      "final_url": null,
+      "accessed_at": null,
+      "http_status": null,
+      "snapshot_sha256": null,
+      "snapshot_file": null,
+      "bytes": null,
+      "acquisition": "not_attempted_batch_stopped",
+      "reason": "preflight_blocked",
+      "rights": {
+        "scope": "this HTML text only; resource-specific review; no domain-wide license assigned",
+        "license": null,
+        "by_use": {
+          "research_copy": "pending",
+          "technical_processing": "pending",
+          "adaptation_translation": "pending",
+          "app_repo_demo_distribution": "pending",
+          "media_ml": "pending"
+        },
+        "basis": {
+          "survey_rights_status": "not_cleared_for_translation_or_distribution; resource-level confirmation required",
+          "archived": "https://ipm.ucanr.edu/GENERAL/copyright.html",
+          "current": "https://ucanr.edu/copyright",
+          "technical_scope": "faithful research extraction only; no translation/editorial changes",
+          "observed_notices": []
+        },
+        "restrictions": [
+          "research_only",
+          "exclude_from_release",
+          "retain_copyright_credits",
+          "no_media_acquisition",
+          "no_advice_or_training_approval"
+        ],
+        "reviewer": null
+      },
+      "processing": "not_applicable",
+      "flags": [
+        "research_only",
+        "exclude_from_release"
+      ],
+      "review": {
+        "domain": "pending",
+        "translation": "not_translated",
+        "reviewer": null,
+        "display_allowed": false,
+        "safe_for_advice": false,
+        "ready_for_training": false
+      }
+    }
+  ]
+}

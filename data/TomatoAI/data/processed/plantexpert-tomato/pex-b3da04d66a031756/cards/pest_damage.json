@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "record_id": "pex:disease_kb/tomato/pest_damage.json",
+  "content_language": "en",
+  "source": {
+    "file": "disease_kb/tomato/pest_damage.json",
+    "pointer": "/",
+    "sha256": "d3a9f98fce44373a6f7eebd21f9f80cf56615601c7a80d209fef5be2e7274e14",
+    "disease_id_original": "tomato.unknown.pest_damage"
+  },
+  "content_en": {
+    "schema_version": "1.0.0",
+    "disease_id": "tomato.unknown.pest_damage",
+    "aliases": [
+      "insect damage",
+      "arthropod injury",
+      "bug damage"
+    ],
+    "crop": {
+      "common_name": "tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "family": "Solanaceae"
+    },
+    "condition": {
+      "common_name": "Pest Damage",
+      "scientific_name": null,
+      "alt_names": [
+        "Insect Injury",
+        "Mite Damage"
+      ],
+      "pathogen": {
+        "type": "arthropod",
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "class": "",
+          "order": "",
+          "family": "",
+          "genus": "",
+          "species": ""
+        }
+      }
+    },
+    "issue_type": "unknown",
+    "transmission": {
+      "vectors": [
+        "Direct feeding by adult or larval stages",
+        "Wind dispersal (for small pests like mites)",
+        "Movement on contaminated equipment or clothing"
+      ],
+      "dispersal": [
+        "Flight (for winged insects)",
+        "Crawling",
+        "Wind currents"
+      ],
+      "overwintering": [
+        "In crop debris",
+        "In soil as eggs, larvae, pupae, or adults",
+        "On nearby weeds or alternative host plants"
+      ]
+    },
+    "environmental_risk": {
+      "risk_factors": [
+        "Presence of alternative weed hosts",
+        "Monoculture planting",
+        "Warm, dry conditions (favors mites)",
+        "High humidity (can favor some chewing pests)",
+        "Lack of natural predators"
+      ],
+      "temp_c_day": [],
+      "temp_c_night": [],
+      "relative_humidity_pct": [],
+      "leaf_wetness_hours_threshold": 0
+    },
+    "severity_rubric": {
+      "unit": "percent_leaf_area",
+      "mild": "1-10% of leaf area affected by chewing, stippling, or mining.",
+      "moderate": "11-40% of leaf area affected; some leaf curling or distortion may be present.",
+      "severe": ">40% of leaf area affected; significant defoliation, stunted growth, or direct damage to a majority of fruit.",
+      "notes": "Severity is measured by the total percentage of photosynthetic area lost or damaged across the plant. For fruit damage, it can be qualitative based on marketability."
+    },
+    "symptoms": {
+      "leaves": [
+        "Irregularly shaped holes chewed in leaves, or skeletonization leaving only veins.",
+        "Fine, pale yellow or white speckles (stippling) on the upper leaf surface.",
+        "Winding, discolored trails or 'mines' within the leaf tissue.",
+        "Leaves are distorted, curled, or puckered.",
+        "Presence of sticky 'honeydew' which may be colonized by sooty mold.",
+        "Fine, silk-like webbing, especially on the underside of leaves and between stems."
+      ],
+      "stems": [
+        "Boring holes or tunnels visible in stems.",
+        "Girdling or chewing marks on the stem surface."
+      ],
+      "fruit": [
+        "Superficial scars, blemishes, or 'stings' on the fruit surface.",
+        "Deep holes or tunnels bored into the fruit, often with frass (excrement) present.",
+        "Deformed or cat-faced fruit development due to early feeding damage."
+      ],
+      "roots": [],
+      "whole_plant": [
+        "Wilting of the entire plant despite adequate water, if stem borers or root feeders are present.",
+        "Stunted or poor overall growth."
+      ],
+      "signs_microscopic_or_visible": [
+        "Visible insects, larvae (caterpillars), or mites on leaves, stems, or fruit.",
+        "Presence of eggs, often in clusters, on the underside of leaves.",
+        "Dark specks of frass (insect excrement) on leaves or near feeding sites."
+      ]
+    },
+    "lookalikes": [
+      {
+        "condition_name": "flea_beetle_injury",
+        "condition_id": "tomato.pest.flea_beetle_injury",
+        "key_differences": [
+          "Damage consists of numerous small, round 'shot-holes', rather than large irregular holes or stippling.",
+          "The pest responsible is a small, dark, jumping beetle, which may be visible.",
+          "Damage is most severe on young seedlings and lower leaves."
+        ]
+      },
+      {
+        "condition_name": "spider_mites",
+        "condition_id": "tomato.pest.spider_mites",
+        "key_differences": [
+          "Damage is primarily fine stippling (tiny yellow dots), not holes or mines.",
+          "Fine webbing is a key diagnostic sign, especially on leaf undersides.",
+          "The pests are tiny, mite-like arachnids, not insects.",
+          "Symptoms often start on lower leaves and progress upwards."
+        ]
+      },
+      {
+        "condition_name": "bacterial_spot",
+        "condition_id": "tomato.disease.bacterial_spot",
+        "key_differences": [
+          "Lesions are water-soaked initially, becoming dark, angular, and sometimes greasy in appearance.",
+          "Lesions may have a faint yellow halo, which is absent in pest damage.",
+          "No signs of chewing, mining, or insects/frass are present.",
+          "Symptoms are favored by high humidity and rain, unlike many mite pests."
+        ]
+      }
+    ],
+    "management": {
+      "cultural": [
+        "Use of floating row covers on young plants to create a physical barrier.",
+        "Regular scouting to detect pest presence early.",
+        "Removal of infested plant parts or entire plants.",
+        "Weed management in and around the garden to reduce alternative hosts.",
+        "Crop rotation to break pest life cycles."
+      ],
+      "biological": [
+        "Encourage natural predators like ladybugs, lacewings, and parasitic wasps by planting diverse flowers.",
+        "Release of commercially available predatory insects or mites."
+      ],
+      "chemical": [
+        "Application of insecticidal soaps or horticultural oils for soft-bodied insects and mites.",
+        "Use of Bacillus thuringiensis (Bt) for caterpillar control.",
+        "Application of broad-spectrum or systemic insecticides as a last resort, following label instructions."
+      ],
+      "notes": "The specific management strategy depends heavily on identifying the pest. Integrated Pest Management (IPM) is the recommended approach."
+    },
+    "qa_seeds": {
+      "verification_templates": [
+        "Is there evidence of chewing on the leaves?",
+        "Are there any holes, tunnels, or mines visible on the plant?",
+        "Can you see any insects, caterpillars, or webbing on the leaves or stems?",
+        "Is there sticky residue or black mold on the leaves?",
+        "Are the fruit damaged with holes or scars?",
+        "Does it look like something has been eating this plant?"
+      ],
+      "attribute_templates": [
+        "Describe the shape and pattern of the holes on the leaves.",
+        "What color are the spots on the leaves?",
+        "Is the damage concentrated on the top or bottom of the plant?",
+        "What type of damage is visible on the fruit?",
+        "Is there any webbing present? If so, where?",
+        "Describe any insects you can see."
+      ],
+      "diagnosis_templates": [
+        "What is causing the holes in these tomato leaves?",
+        "Based on the stippling and webbing, what pest is damaging this tomato?",
+        "Why is the fruit deformed and scarred?",
+        "What kind of bug is eating my tomato plant?"
+      ],
+      "counterfactual_templates": [
+        "If this were a fungal disease, what would the spots look like instead of holes?",
+        "What would a healthy, undamaged leaf from this plant look like?",
+        "If the damage was caused by hail, how would it differ from this chewing damage?"
+      ],
+      "severity_templates": [
+        "What percentage of the total leaf area on the plant is damaged?",
+        "How severe is the pest damage on this leaf?",
+        "On a scale of 1 to 5, how would you rate the insect damage to the fruit?"
+      ],
+      "confounders": [
+        "flea_beetle_injury",
+        "spider_mites",
+        "bacterial_spot",
+        "septoria_leaf_spot"
+      ]
+    },
+    "data_requirements": {
+      "min_resolution_px": 512,
+      "min_roi_fraction": 0.3,
+      "lighting_notes": "Good, even lighting is crucial. Avoid harsh shadows that can obscure small pests, webbing, or stippling. Overcast days are ideal.",
+      "occlusion_notes": "Ensure the primary symptoms (e.g., chewed holes, stippling) are not obscured by other leaves or branches. Multiple angles, including the underside of leaves, are highly beneficial."
+    },
+    "provenance": {
+      "created_by": "VQA Dataset Designer",
+      "reviewed_by": "Expert Plant Pathologist",
+      "created_at": "2023-10-27T10:00:00Z",
+      "updated_at": "2023-10-27T10:00:00Z",
+      "sources": [
+        "University Extension Pest Management Guides",
+        "APS Compendium of Tomato Diseases and Pests",
+        "General Entomology Textbooks"
+      ]
+    }
+  },
+  "normalizations": [],
+  "flags": [
+    "domain_review_unverified",
+    "claim_sources_unverified",
+    "translation_pending",
+    "chemical_local_review_required",
+    "type_vocabulary_difference",
+    "issue_type_unknown",
+    "unresolved_reference"
+  ],
+  "review": {
+    "domain": "pending",
+    "translation": "not_translated",
+    "safe_for_advice": false,
+    "ready_for_training": false
+  }
+}

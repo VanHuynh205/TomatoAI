@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "source_root": "data/TomatoAI/data/raw/plantexpert",
+  "card_directory": "disease_kb/tomato",
+  "processed_root": "data/TomatoAI/data/processed/plantexpert-tomato",
+  "report_root": "data/TomatoAI/data/reports/plantexpert-tomato",
+  "image_label_mapping": "data/TomatoAI/data/processed/plantvillage/pv-d9e4c21eec8e9172/label-mapping.json",
+  "mapping_basis": "planning/tomato-desktop/data-audit.md",
+  "source_url": "https://huggingface.co/datasets/SyedNazmusSakib/PlantExpertVQA/tree/main/disease_kb/tomato",
+  "license_declared": "CC-BY-4.0; local README declaration, distribution review pending",
+  "max_json_bytes": 2097152,
+  "labels": [
+    {
+      "label_original": "Tomato___Bacterial_spot",
+      "status_code": "TOM_BACTERIAL_SPOT",
+      "card": "bacterial_spot.json",
+      "name_vi_draft": "Đốm vi khuẩn",
+      "category_vi_draft": "Bệnh vi khuẩn"
+    },
+    {
+      "label_original": "Tomato___Early_blight",
+      "status_code": "TOM_EARLY_BLIGHT",
+      "card": "early_blight.json",
+      "name_vi_draft": "Đốm vòng (early blight)",
+      "category_vi_draft": "Bệnh nấm"
+    },
+    {
+      "label_original": "Tomato___Late_blight",
+      "status_code": "TOM_LATE_BLIGHT",
+      "card": "late_blight.json",
+      "name_vi_draft": "Mốc sương (late blight)",
+      "category_vi_draft": "Bệnh do oomycete; cần duyệt taxonomy"
+    },
+    {
+      "label_original": "Tomato___Leaf_Mold",
+      "status_code": "TOM_LEAF_MOLD",
+      "card": "leaf_mold.json",
+      "name_vi_draft": "Mốc lá",
+      "category_vi_draft": "Bệnh nấm"
+    },
+    {
+      "label_original": "Tomato___Septoria_leaf_spot",
+      "status_code": "TOM_SEPTORIA",
+      "card": "septoria_leaf_spot.json",
+      "name_vi_draft": "Đốm lá Septoria",
+      "category_vi_draft": "Bệnh nấm"
+    },
+    {
+      "label_original": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "status_code": "TOM_SPIDER_MITE",
+      "card": "spider_mites.json",
+      "name_vi_draft": "Nhện hai chấm gây hại",
+      "category_vi_draft": "Tác nhân gây hại"
+    },
+    {
+      "label_original": "Tomato___Target_Spot",
+      "status_code": "TOM_TARGET_SPOT",
+      "card": "target_spot.json",
+      "name_vi_draft": "Đốm bia (target spot)",
+      "category_vi_draft": "Bệnh nấm"
+    },
+    {
+      "label_original": "Tomato___Tomato_mosaic_virus",
+      "status_code": "TOM_MOSAIC",
+      "card": "mosaic_virus.json",
+      "name_vi_draft": "Khảm do virus",
+      "category_vi_draft": "Bệnh virus; cần duyệt ToMV/TMV"
+    },
+    {
+      "label_original": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "status_code": "TOM_YELLOW_CURL",
+      "card": "yellow_leaf_curl_virus.json",
+      "name_vi_draft": "Vàng xoăn lá do virus",
+      "category_vi_draft": "Bệnh virus"
+    },
+    {
+      "label_original": "Tomato___healthy",
+      "status_code": "TOM_HEALTHY",
+      "card": "healthy.json",
+      "name_vi_draft": "Lá khỏe theo lớp dữ liệu",
+      "category_vi_draft": "Khỏe mạnh"
+    }
+  ],
+  "domain_checkpoints": [
+    {
+      "card": "late_blight.json",
+      "pointer": "/condition/pathogen/type",
+      "reason": "ID and issue_type say disease_fungal; pathogen says disease_oomycete; retain all source values"
+    },
+    {
+      "card": "mosaic_virus.json",
+      "pointer": "/aliases",
+      "reason": "ToMV and TMV both appear; no assertion they are equivalent"
+    },
+    {
+      "card": "early_blight.json",
+      "pointer": "/aliases/1",
+      "reason": "Alias target spot of tomato overlaps another card concept; do not map by alias alone"
+    },
+    {
+      "card": "leaf_curl_virus.json",
+      "pointer": "/condition",
+      "reason": "Leaf curl virus and yellow leaf curl virus are distinct source cards; do not merge"
+    }
+  ]
+}

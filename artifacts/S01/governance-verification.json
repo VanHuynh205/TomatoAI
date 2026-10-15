@@ -1,0 +1,113 @@
+{
+  "rights_entries": 51,
+  "required_fields_present": true,
+  "unique_asset_ids": true,
+  "release_allowed": false,
+  "knowledge_cards": [
+    {
+      "id": "pex:disease_kb/tomato/bacterial_spot.json",
+      "source_sha256": "6e4d26ee491a342186ceed4eeb4ee462910e52a958d8703fb91710d219ce4d4a",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/cercospora_leaf_spot.json",
+      "source_sha256": "2a2abe4dd771ddac0c449c9132d1499a0ae5a52f28e84d2da02e29ad7e5e3981",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/early_blight.json",
+      "source_sha256": "116b99489eb11c4fdaafbc5bf1f3eadfde8f97da089cbfa8005d0c47ef19df22",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/flea_beetle_injury.json",
+      "source_sha256": "7967340a5374beb4f5c5724e815b06115d92c329fa070f6f54dad24785500e2e",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/fusarium_wilt.json",
+      "source_sha256": "0ffcaaf3d97b0c57763855c429bb0c62e467fe29b18d6e9151b75329d0fd5e9b",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/healthy.json",
+      "source_sha256": "89a50caefe302b04ac61b3ccfd35f43054335be3ad5bf63eb8a9cd0025cddb83",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/late_blight.json",
+      "source_sha256": "7dd880416b12b60d2e8f7f8caf4ca5c2c09a47530a016e12b3965a2c9b0dacf6",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/leaf_curl_virus.json",
+      "source_sha256": "ac7434ae5f3e8cb9e567eb63b1e46856dda08db1544be45fc25729c78d86e1d5",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/leaf_miner.json",
+      "source_sha256": "a00d17f2ca603210b9bef36bcdfad9dc745cc6836a9df45edf3a95312885b062",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/leaf_mold.json",
+      "source_sha256": "52a8c08a99e4e7349e711e937698a06f9eddb7083956503ba14e483a92961945",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/mosaic_virus.json",
+      "source_sha256": "e1c41cff82cb18471ecf6a2be5aa0376515cb2d8cced2ac04f341d9255fb4549",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/pest_damage.json",
+      "source_sha256": "d3a9f98fce44373a6f7eebd21f9f80cf56615601c7a80d209fef5be2e7274e14",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/septoria_leaf_spot.json",
+      "source_sha256": "ed9c0a7e796960ef1c0000e15b186858b6a836f78fc7b734a5dd3dc2ecdf8984",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/spider_mites.json",
+      "source_sha256": "dc45aaba7b03aaf74db32b2a0a5333a1f9056f010725bb73e55a27310604e22a",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/target_spot.json",
+      "source_sha256": "45dce16d0bf9a3e743565785a647e5d40856b0f8903439ff3291a816ea546724",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/yellow_leaf_curl_virus.json",
+      "source_sha256": "44e771c051a46c3418ead39cabd341c8a739fdce7b0c3981f38753b104349167",
+      "source_copy_matches": true,
+      "display_allowed": false
+    },
+    {
+      "id": "pex:disease_kb/tomato/yellowing_symptom.json",
+      "source_sha256": "819e32f37dce0d4010fb85719afbe2b2bb99864ba4f1b7d6675c1a5be42a63eb",
+      "source_copy_matches": true,
+      "display_allowed": false
+    }
+  ],
+  "installed_distribution_count": 21,
+  "installed_license_files_hash_checked": 162,
+  "scope": "17 raw knowledge cards plus source copies and installed license-file hashes; not expert review or whole raw corpus verification"
+}

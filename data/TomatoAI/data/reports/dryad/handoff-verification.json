@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "artifact_seal": "verified",
+  "source_and_references": "unchanged",
+  "pipeline_code_matches_run": true,
+  "registry_only_Dryad_changed": true,
+  "python_AST": "3 files passed",
+  "checks_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "training_ready": false
+}

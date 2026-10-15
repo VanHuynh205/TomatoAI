@@ -1,0 +1,6 @@
+{
+  "returncode": 1,
+  "elapsed_seconds": 0.8847010000008595,
+  "executable_sha256": "f864899ee451deea67b6fa9206465a8b88f10374143f942f00fc2edd6f478ad4",
+  "scope": "development machine only; not clean-machine/offline release validation"
+}

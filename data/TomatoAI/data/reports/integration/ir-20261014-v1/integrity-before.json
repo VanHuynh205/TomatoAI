@@ -1,0 +1,652 @@
+{
+  "review_version": "ir-20261014-v1",
+  "registry_sha256": "3062d84311ab8dd6f524d3807829b918fd5f4c303549ba6c94aa7d73e9df828a",
+  "datasets": [
+    {
+      "dataset": "PlantVillage",
+      "run_id": "pv-d9e4c21eec8e9172",
+      "source_root": "data/TomatoAI/data/raw/plantvillage",
+      "raw_files_checked": 18270,
+      "raw_baseline": "data/TomatoAI/data/reports/plantvillage/pv-d9e4c21eec8e9172/raw-before.csv",
+      "raw_equal": true,
+      "baseline_exclusions": [
+        ".git",
+        ".cache",
+        "__pycache__"
+      ],
+      "sealed_artifacts_checked": 18163,
+      "sealed_equal": true,
+      "reference_files_checked": 0,
+      "summary_sha256": "c58ed87efae704347810a063bbd5bbb92e32165cea61c2ff3d4db66ab9312eda",
+      "summary": {
+        "schema_version": "1.0",
+        "run_id": "pv-d9e4c21eec8e9172",
+        "created_utc": "2026-10-13T18:05:14.397320+00:00",
+        "dataset": "PlantVillage-tomato",
+        "dataset_status": "cleaned_technical; needs_review; not_training_ready",
+        "source_url": "https://github.com/spMohanty/PlantVillage-Dataset",
+        "license_declared": "CC-BY-SA-3.0 (README_HF.md); redistribution review pending",
+        "git_head": "7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+        "pipeline_sha256": "3f7ca6bd1c38cc5a1b1c82d59a58af82012ceb67984799fcbdabdbd79b787900",
+        "fingerprint": "d9e4c21eec8e917226abeba495ffcf30639a97d0fd2b470aa8de770043d3681c",
+        "environment": {
+          "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+          "executable": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "Pillow": "12.3.0",
+          "platform": "Windows-11-10.0.26200-SP0"
+        },
+        "source_file_count": 18270,
+        "source_bytes": 298942097,
+        "raw_integrity": "all_sha256_equal",
+        "variants_present": [
+          "color"
+        ],
+        "source_records": 18160,
+        "decode_ok": 18160,
+        "image_formats": {
+          "JPEG": 18160
+        },
+        "dimensions_modes": {
+          "256x256:RGB": 18160
+        },
+        "record_status_counts": {
+          "ready_for_split": 11411,
+          "needs_review": 6735,
+          "excluded_exact_duplicate": 14
+        },
+        "retained_copies": 18146,
+        "flags_overlapping": {
+          "leaf_group_missing": 6749,
+          "cross_component_near_candidate": 12
+        },
+        "per_class": {
+          "Tomato___Bacterial_spot": {
+            "source_records": 2127,
+            "decode_ok": 2127,
+            "group_resolved": 2127,
+            "distinct_evidenced_leaf_groups": 532,
+            "ready_for_split": 2127
+          },
+          "Tomato___Early_blight": {
+            "source_records": 1000,
+            "decode_ok": 1000,
+            "group_resolved": 999,
+            "distinct_evidenced_leaf_groups": 250,
+            "ready_for_split": 999,
+            "needs_review": 1
+          },
+          "Tomato___Late_blight": {
+            "source_records": 1909,
+            "decode_ok": 1909,
+            "group_resolved": 920,
+            "distinct_evidenced_leaf_groups": 230,
+            "ready_for_split": 920,
+            "needs_review": 981,
+            "excluded_exact_duplicate": 8
+          },
+          "Tomato___Leaf_Mold": {
+            "source_records": 952,
+            "decode_ok": 952,
+            "group_resolved": 952,
+            "distinct_evidenced_leaf_groups": 238,
+            "ready_for_split": 952
+          },
+          "Tomato___Septoria_leaf_spot": {
+            "source_records": 1771,
+            "decode_ok": 1771,
+            "group_resolved": 1000,
+            "distinct_evidenced_leaf_groups": 250,
+            "needs_review": 771,
+            "ready_for_split": 1000
+          },
+          "Tomato___Spider_mites Two-spotted_spider_mite": {
+            "source_records": 1676,
+            "decode_ok": 1676,
+            "group_resolved": 1676,
+            "distinct_evidenced_leaf_groups": 419,
+            "ready_for_split": 1676
+          },
+          "Tomato___Target_Spot": {
+            "source_records": 1404,
+            "decode_ok": 1404,
+            "group_resolved": 0,
+            "distinct_evidenced_leaf_groups": 0,
+            "needs_review": 1404
+          },
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+            "source_records": 5357,
+            "decode_ok": 5357,
+            "group_resolved": 2738,
+            "distinct_evidenced_leaf_groups": 685,
+            "ready_for_split": 2738,
+            "needs_review": 2619
+          },
+          "Tomato___Tomato_mosaic_virus": {
+            "source_records": 373,
+            "decode_ok": 373,
+            "group_resolved": 0,
+            "distinct_evidenced_leaf_groups": 0,
+            "needs_review": 373
+          },
+          "Tomato___healthy": {
+            "source_records": 1591,
+            "decode_ok": 1591,
+            "group_resolved": 999,
+            "distinct_evidenced_leaf_groups": 250,
+            "needs_review": 586,
+            "ready_for_split": 999,
+            "excluded_exact_duplicate": 6
+          }
+        },
+        "grouping": {
+          "maps_semantically_equal": true,
+          "csv_rows": 12820,
+          "metadata_issues": 0,
+          "orphan_csv_rows": 1409,
+          "resolved_records": 11411,
+          "alias_candidates_not_applied": 1404,
+          "split_component_count": 9589
+        },
+        "near_candidates": {
+          "method": "64-bit comparisons on 9x8 samples of original coordinates; unvalidated",
+          "radius": 4,
+          "pairs": 10,
+          "scanned_valid_records": 18160,
+          "truncated": false,
+          "within_evidenced_component_skipped": true
+        },
+        "training_ready": false,
+        "split_created": false,
+        "domain_review": "not_performed",
+        "invocation": [
+          "scripts\\data\\clean_plantvillage.py",
+          "--config",
+          "scripts\\data\\plantvillage-config.json",
+          "--project-root",
+          "C:\\Users\\admin\\Downloads\\DACN_CayCaChua"
+        ]
+      },
+      "observed": {
+        "manifest_records": 18160,
+        "record_status_counts": {
+          "ready_for_split": 11411,
+          "needs_review": 6735,
+          "excluded_exact_duplicate": 14
+        },
+        "per_class": {
+          "Tomato___Bacterial_spot": {
+            "ready_for_split": 2127
+          },
+          "Tomato___Early_blight": {
+            "ready_for_split": 999,
+            "needs_review": 1
+          },
+          "Tomato___Late_blight": {
+            "ready_for_split": 920,
+            "needs_review": 981,
+            "excluded_exact_duplicate": 8
+          },
+          "Tomato___Leaf_Mold": {
+            "ready_for_split": 952
+          },
+          "Tomato___Septoria_leaf_spot": {
+            "needs_review": 771,
+            "ready_for_split": 1000
+          },
+          "Tomato___Spider_mites Two-spotted_spider_mite": {
+            "ready_for_split": 1676
+          },
+          "Tomato___Target_Spot": {
+            "needs_review": 1404
+          },
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+            "ready_for_split": 2738,
+            "needs_review": 2619
+          },
+          "Tomato___Tomato_mosaic_virus": {
+            "needs_review": 373
+          },
+          "Tomato___healthy": {
+            "needs_review": 586,
+            "ready_for_split": 999,
+            "excluded_exact_duplicate": 6
+          }
+        },
+        "table_records": {},
+        "jsonl_records": {
+          "manifest.jsonl": 18160
+        }
+      }
+    },
+    {
+      "dataset": "PlantExpertVQA-tomato",
+      "run_id": "pex-b3da04d66a031756",
+      "source_root": "data/TomatoAI/data/raw/plantexpert",
+      "raw_files_checked": 39,
+      "raw_baseline": "data/TomatoAI/data/reports/plantexpert-tomato/pex-b3da04d66a031756/raw-before.csv",
+      "raw_equal": true,
+      "baseline_exclusions": [],
+      "sealed_artifacts_checked": 53,
+      "sealed_equal": true,
+      "reference_files_checked": 2,
+      "summary_sha256": "02ce34b7f3e24c3661694561c3509ea2078b32dd33ed741e6cb1bf91367bfd18",
+      "summary": {
+        "schema_version": "1.0",
+        "run_id": "pex-b3da04d66a031756",
+        "created_utc": "2026-10-14T05:45:49.127751+00:00",
+        "dataset": "PlantExpertVQA-tomato",
+        "status": "cleaned_technical; needs_review; not_training_ready",
+        "fingerprint": "b3da04d66a031756bb9042f97928898d4ca6908f85d5ae6a0a82ce1a9d36b46d",
+        "pipeline_sha256": "13084f96ff8025f407e27e703ec3b43d81677d4ec8746fdf15b895e727be217c",
+        "environment": {
+          "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+          "executable": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "platform": "Windows-11-10.0.26200-SP0",
+          "dependencies": "stdlib only"
+        },
+        "source_url": "https://huggingface.co/datasets/SyedNazmusSakib/PlantExpertVQA/tree/main/disease_kb/tomato",
+        "license_declared": "CC-BY-4.0; local README declaration, distribution review pending",
+        "cache_revision_observations": {
+          "e21eacc1eff9e1db38966d78d0e8af2f22706313": 18
+        },
+        "source_file_count_including_cache": 39,
+        "source_bytes_including_cache": 3298343,
+        "source_card_records": 17,
+        "parse_ok": 17,
+        "schema_ok": 17,
+        "retained_source_copies": 17,
+        "retained_normalized_records": 17,
+        "excluded_records": 0,
+        "record_status_counts": {
+          "needs_review": 17
+        },
+        "flags_overlapping": {
+          "domain_review_unverified": 17,
+          "claim_sources_unverified": 17,
+          "translation_pending": 17,
+          "chemical_local_review_required": 16,
+          "unresolved_reference": 12,
+          "domain_checkpoint": 4,
+          "type_vocabulary_difference": 9,
+          "issue_type_unknown": 2,
+          "confounder_slug_review": 2
+        },
+        "reference_link_counts": {
+          "exact_reference": 23,
+          "unresolved_reference": 24
+        },
+        "reference_link_total": 47,
+        "duplicate_groups": 0,
+        "confounder_link_counts": {
+          "exact_filename_slug_candidate": 52,
+          "unresolved_or_ambiguous_slug": 4
+        },
+        "alias_collisions": 0,
+        "shared_text_groups_retained": 17,
+        "unicode_value_changes": 0,
+        "field_occurrences": 2677,
+        "empty_occurrences": {
+          "empty_array": 55,
+          "empty_string": 31,
+          "null": 2
+        },
+        "numeric_zero_occurrences_preserved": 11,
+        "label_mapping_counts": {
+          "explicit_draft_schema_match": 10
+        },
+        "glossary_draft_terms": 10,
+        "review_items": 110,
+        "raw_integrity": "all_sha256_equal",
+        "reference_inputs_unchanged": true,
+        "training_ready": false,
+        "safe_for_advice": false,
+        "translation_performed": false,
+        "domain_review_performed": false,
+        "qa_pairs_available": false,
+        "invocation": [
+          "scripts/data/clean_plantexpert.py",
+          "--config",
+          "scripts/data/plantexpert-config.json",
+          "--project-root",
+          "C:\\Users\\admin\\Downloads\\DACN_CayCaChua"
+        ]
+      },
+      "observed": {
+        "manifest_records": 17,
+        "record_status_counts": {
+          "needs_review": 17
+        },
+        "table_records": {},
+        "jsonl_records": {
+          "manifest.jsonl": 17
+        }
+      }
+    },
+    {
+      "dataset": "WUR",
+      "run_id": "wur-7439c4f996527052",
+      "source_root": "data/TomatoAI/data/raw/cultivation/wur_greenhouse_2019_v2",
+      "raw_files_checked": 46,
+      "raw_baseline": "data/TomatoAI/data/reports/wur/wur-7439c4f996527052/raw-before.csv",
+      "raw_equal": true,
+      "baseline_exclusions": [],
+      "sealed_artifacts_checked": 100,
+      "sealed_equal": true,
+      "reference_files_checked": 6,
+      "summary_sha256": "be7435d4a81701f77fdc3c388fa662c23d5c35d47df031ddbbe358987c70f553",
+      "summary": {
+        "dataset": "WUR",
+        "run_id": "wur-7439c4f996527052",
+        "created_utc": "2026-10-14T07:06:59.311510+00:00",
+        "status": "cleaned_technical;needs_review;research_only",
+        "training_ready": false,
+        "mvp_dependency": false,
+        "source_url": "https://data.4tu.nl/articles/dataset/Autonomous_Greenhouse_Challenge_Second_Edition_2019_/12764777/2",
+        "doi": "10.4121/uuid:88d22c60-21b3-4ea8-90db-20249a5be2a7",
+        "license_declared": "CC0-1.0; saved intake metadata; no fresh remote verification",
+        "source_files": 46,
+        "source_bytes": 112101340,
+        "tables": 43,
+        "source_records": 622899,
+        "retained_normalized_records": 622899,
+        "quarantined_records": 0,
+        "excluded_records": 0,
+        "needs_review_retained_records": 622899,
+        "raw_integrity": "all_sha256_equal_to_intake_and_before",
+        "reference_inputs_unchanged": true,
+        "missing_cells": 1413536,
+        "zero_cells_preserved": 3818128,
+        "review_items": 134,
+        "review_reason_counts": {
+          "record_temporal_or_duplicate_flag": 49,
+          "missing_values_retained": 30,
+          "epoch_timezone_and_experiment_scope_unverified": 43,
+          "unit_or_alias_unresolved": 12
+        },
+        "flags_overlapping": {
+          "interval_differs_from_documented_cadence": 48,
+          "timestamp_outside_own_climate_span_retained": 1
+        },
+        "environment": {
+          "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+          "executable": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "platform": "Windows-11-10.0.26200-SP0",
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        },
+        "time_policy": "retain Excel serial Decimal; no canonical calendar date, epoch or timezone assigned",
+        "invocation": [
+          "scripts/data/clean_wur.py",
+          "--config",
+          "scripts/data/wur-config.json",
+          "--project-root",
+          "."
+        ],
+        "no_split_join_interpolation_imputation_scaling_training": true
+      },
+      "observed": {
+        "manifest_records": 622899,
+        "record_status_counts": {
+          "needs_review;research_only": 622899
+        },
+        "table_records": {
+          "tables/AICU/CropParameters.csv": 23,
+          "tables/AICU/GreenhouseClimate.csv": 47809,
+          "tables/AICU/GrodanSens.csv": 47809,
+          "tables/AICU/LabAnalysis.csv": 10,
+          "tables/AICU/Production.csv": 24,
+          "tables/AICU/Resources.csv": 166,
+          "tables/AICU/TomQuality.csv": 8,
+          "tables/Automatoes/CropParameters.csv": 23,
+          "tables/Automatoes/GreenhouseClimate.csv": 47809,
+          "tables/Automatoes/GrodanSens.csv": 47809,
+          "tables/Automatoes/LabAnalysis.csv": 10,
+          "tables/Automatoes/Production.csv": 23,
+          "tables/Automatoes/Resources.csv": 166,
+          "tables/Automatoes/TomQuality.csv": 8,
+          "tables/Digilog/CropParameters.csv": 23,
+          "tables/Digilog/GreenhouseClimate.csv": 47809,
+          "tables/Digilog/GrodanSens.csv": 47809,
+          "tables/Digilog/LabAnalysis.csv": 10,
+          "tables/Digilog/Production.csv": 23,
+          "tables/Digilog/Resources.csv": 166,
+          "tables/Digilog/TomQuality.csv": 8,
+          "tables/IUACAAS/CropParameters.csv": 23,
+          "tables/IUACAAS/GreenhouseClimate.csv": 47809,
+          "tables/IUACAAS/GrodanSens.csv": 47809,
+          "tables/IUACAAS/LabAnalysis.csv": 10,
+          "tables/IUACAAS/Production.csv": 23,
+          "tables/IUACAAS/Resources.csv": 166,
+          "tables/IUACAAS/TomQuality.csv": 8,
+          "tables/Reference/CropParameters.csv": 23,
+          "tables/Reference/GreenhouseClimate.csv": 47809,
+          "tables/Reference/GrodanSens.csv": 47809,
+          "tables/Reference/LabAnalysis.csv": 10,
+          "tables/Reference/Production.csv": 24,
+          "tables/Reference/Resources.csv": 166,
+          "tables/Reference/TomQuality.csv": 8,
+          "tables/TheAutomators/CropParameters.csv": 23,
+          "tables/TheAutomators/GreenhouseClimate.csv": 47809,
+          "tables/TheAutomators/GrodanSens.csv": 47809,
+          "tables/TheAutomators/LabAnalysis.csv": 10,
+          "tables/TheAutomators/Production.csv": 23,
+          "tables/TheAutomators/Resources.csv": 166,
+          "tables/TheAutomators/TomQuality.csv": 8,
+          "tables/Weather/Weather.csv": 47809
+        },
+        "jsonl_records": {
+          "quarantine/AICU/CropParameters.csv.jsonl": 0,
+          "quarantine/AICU/GreenhouseClimate.csv.jsonl": 0,
+          "quarantine/AICU/GrodanSens.csv.jsonl": 0,
+          "quarantine/AICU/LabAnalysis.csv.jsonl": 0,
+          "quarantine/AICU/Production.csv.jsonl": 0,
+          "quarantine/AICU/Resources.csv.jsonl": 0,
+          "quarantine/AICU/TomQuality.csv.jsonl": 0,
+          "quarantine/Automatoes/CropParameters.csv.jsonl": 0,
+          "quarantine/Automatoes/GreenhouseClimate.csv.jsonl": 0,
+          "quarantine/Automatoes/GrodanSens.csv.jsonl": 0,
+          "quarantine/Automatoes/LabAnalysis.csv.jsonl": 0,
+          "quarantine/Automatoes/Production.csv.jsonl": 0,
+          "quarantine/Automatoes/Resources.csv.jsonl": 0,
+          "quarantine/Automatoes/TomQuality.csv.jsonl": 0,
+          "quarantine/Digilog/CropParameters.csv.jsonl": 0,
+          "quarantine/Digilog/GreenhouseClimate.csv.jsonl": 0,
+          "quarantine/Digilog/GrodanSens.csv.jsonl": 0,
+          "quarantine/Digilog/LabAnalysis.csv.jsonl": 0,
+          "quarantine/Digilog/Production.csv.jsonl": 0,
+          "quarantine/Digilog/Resources.csv.jsonl": 0,
+          "quarantine/Digilog/TomQuality.csv.jsonl": 0,
+          "quarantine/IUACAAS/CropParameters.csv.jsonl": 0,
+          "quarantine/IUACAAS/GreenhouseClimate.csv.jsonl": 0,
+          "quarantine/IUACAAS/GrodanSens.csv.jsonl": 0,
+          "quarantine/IUACAAS/LabAnalysis.csv.jsonl": 0,
+          "quarantine/IUACAAS/Production.csv.jsonl": 0,
+          "quarantine/IUACAAS/Resources.csv.jsonl": 0,
+          "quarantine/IUACAAS/TomQuality.csv.jsonl": 0,
+          "quarantine/Reference/CropParameters.csv.jsonl": 0,
+          "quarantine/Reference/GreenhouseClimate.csv.jsonl": 0,
+          "quarantine/Reference/GrodanSens.csv.jsonl": 0,
+          "quarantine/Reference/LabAnalysis.csv.jsonl": 0,
+          "quarantine/Reference/Production.csv.jsonl": 0,
+          "quarantine/Reference/Resources.csv.jsonl": 0,
+          "quarantine/Reference/TomQuality.csv.jsonl": 0,
+          "quarantine/TheAutomators/CropParameters.csv.jsonl": 0,
+          "quarantine/TheAutomators/GreenhouseClimate.csv.jsonl": 0,
+          "quarantine/TheAutomators/GrodanSens.csv.jsonl": 0,
+          "quarantine/TheAutomators/LabAnalysis.csv.jsonl": 0,
+          "quarantine/TheAutomators/Production.csv.jsonl": 0,
+          "quarantine/TheAutomators/Resources.csv.jsonl": 0,
+          "quarantine/TheAutomators/TomQuality.csv.jsonl": 0,
+          "quarantine/Weather/Weather.csv.jsonl": 0
+        }
+      }
+    },
+    {
+      "dataset": "Dryad",
+      "run_id": "dryad-8b0f7c218098bfdf",
+      "source_root": "data/TomatoAI/data/raw/cultivation/dryad_water_nitrogen_2024_v5",
+      "raw_files_checked": 5,
+      "raw_baseline": "data/TomatoAI/data/reports/dryad/dryad-8b0f7c218098bfdf/raw-before.csv",
+      "raw_equal": true,
+      "baseline_exclusions": [],
+      "sealed_artifacts_checked": 24,
+      "sealed_equal": true,
+      "reference_files_checked": 5,
+      "summary_sha256": "7797d246c2738333f0010833046613e39d55ff2c72aa18a08602b4753dd26ed1",
+      "summary": {
+        "dataset": "Dryad",
+        "run_id": "dryad-8b0f7c218098bfdf",
+        "created_utc": "2026-10-14T08:01:37.496611+00:00",
+        "status": "cleaned_technical;needs_review;research_only",
+        "training_ready": false,
+        "mvp_dependency": false,
+        "doi": "10.5061/dryad.wm37pvn33",
+        "license_declared": "CC0-1.0",
+        "source_files": 5,
+        "source_bytes": 159125,
+        "workbooks": 4,
+        "worksheets": 5,
+        "derived_tables": 8,
+        "source_physical_rows": 253,
+        "retained_table_records": 508,
+        "needs_review_records": 508,
+        "excluded_records": 0,
+        "quarantined_records": 0,
+        "serialized_cells": 36223,
+        "nonempty_cells": 3119,
+        "formatting_blank_cells": 33104,
+        "formula_cells": 108,
+        "formula_cache_missing": 0,
+        "missing_table_cells": 0,
+        "invalid_table_cells": 0,
+        "numeric_zero_cells_preserved": 254,
+        "review_items": 79,
+        "review_reasons": {
+          "treatment_replicate_group_mapping_unverified": 8,
+          "unit_semantics_unverified": 8,
+          "repeated_measurement_vector_retained": 56,
+          "unmapped_nonempty_cell_retained": 1,
+          "formula_caches_not_recalculated_or_verified_current": 1,
+          "quality_unit_conflicts": 1,
+          "nutrient_proportion_scale_unverified": 1,
+          "irrigation_meter_timing_unverified": 1,
+          "cross_table_join_and_independence_unverified": 1,
+          "fruit_mass_is_not_seasonal_yield": 1
+        },
+        "cross_table_key_candidates": 60,
+        "unmapped_nonempty_cells": 1,
+        "raw_integrity": "all_sha256_equal_to_intake_and_before",
+        "reference_inputs_unchanged": true,
+        "environment": {
+          "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+          "executable": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "platform": "Windows-11-10.0.26200-SP0",
+          "dependencies": "stdlib only; existing helper"
+        },
+        "invocation": [
+          "scripts/data/clean_dryad.py",
+          "--config",
+          "scripts/data/dryad-config.json",
+          "--project-root",
+          "."
+        ],
+        "no_formula_execution_join_split_imputation_scaling_training": true
+      },
+      "observed": {
+        "manifest_records": 508,
+        "record_status_counts": {
+          "needs_review;research_only": 508
+        },
+        "table_records": {},
+        "jsonl_records": {
+          "cell-ledger.jsonl": 36223,
+          "tables/fruit.jsonl": 60,
+          "tables/irrigation_1.jsonl": 85,
+          "tables/irrigation_2.jsonl": 85,
+          "tables/irrigation_3.jsonl": 85,
+          "tables/irrigation_4.jsonl": 85,
+          "tables/leaf_stem.jsonl": 36,
+          "tables/photosynthetic.jsonl": 60,
+          "tables/quality.jsonl": 12
+        }
+      }
+    },
+    {
+      "dataset": "Mendeley",
+      "run_id": "mendeley-61d459ec1f46cef3",
+      "source_root": "data/TomatoAI/data/raw/cultivation/mendeley_irrigation_33cngpcrmx_v3",
+      "raw_files_checked": 2,
+      "raw_baseline": "data/TomatoAI/data/reports/mendeley/mendeley-61d459ec1f46cef3/raw-before.csv",
+      "raw_equal": true,
+      "baseline_exclusions": [],
+      "sealed_artifacts_checked": 19,
+      "sealed_equal": true,
+      "reference_files_checked": 6,
+      "summary_sha256": "c05aad76c976b9c809dcbe056d158ee39379dc172c772d94aef971893312c572",
+      "summary": {
+        "dataset": "Mendeley",
+        "run_id": "mendeley-61d459ec1f46cef3",
+        "created_utc": "2026-10-14T08:20:09.342559+00:00",
+        "status": "cleaned_technical;needs_review;research_only",
+        "training_ready": false,
+        "mvp_dependency": false,
+        "doi": "10.17632/33cngpcrmx.3",
+        "license_declared": "CC BY 4.0",
+        "source_files": 2,
+        "source_bytes": 821018,
+        "tables_completed": 2,
+        "blocked_files": [],
+        "source_records": 3393,
+        "retained_records": 3393,
+        "quarantined_records": 0,
+        "excluded_records": 0,
+        "needs_review_retained_records": 3393,
+        "raw_integrity": "all_sha256_equal_to_intake_and_before",
+        "reference_inputs_unchanged": true,
+        "missing_cells": 0,
+        "zero_cells_preserved": 1535,
+        "review_items": 103,
+        "review_reason_counts": {
+          "exact_value_duplicates_retained": 72,
+          "units_and_sensor_calibration_unverified": 2,
+          "experimental_independence_unverified": 2,
+          "duplicate_timestamp_retained": 23,
+          "CSV_JSON_join_not_verified": 1,
+          "computed_target_leakage_risk": 1,
+          "optimal_fields_not_ground_truth": 1,
+          "naive_timezone_and_sensor_identity_unverified": 1
+        },
+        "environment": {
+          "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+          "platform": "Windows-11-10.0.26200-SP0",
+          "executable": "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "dependencies": "stdlib; existing project helpers"
+        },
+        "invocation": [
+          "scripts/data/clean_mendeley.py",
+          "--config",
+          "scripts/data/mendeley-config.json",
+          "--project-root",
+          "."
+        ],
+        "no_join_split_imputation_scaling_training_or_optimal_labels": true
+      },
+      "observed": {
+        "manifest_records": 3393,
+        "record_status_counts": {
+          "needs_review;research_only": 3393
+        },
+        "table_records": {
+          "tables/csv-normalized.csv": 3000
+        },
+        "jsonl_records": {
+          "quarantine/csv.jsonl": 0,
+          "quarantine/json.jsonl": 0,
+          "tables/csv.jsonl": 3000,
+          "tables/json.jsonl": 393
+        }
+      }
+    }
+  ],
+  "limit": "Equality to cleaning baselines only; no proof of integrity before those baselines."
+}

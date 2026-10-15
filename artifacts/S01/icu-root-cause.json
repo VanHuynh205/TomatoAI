@@ -1,0 +1,15 @@
+{
+  "finding": "Qt requires unversioned Windows ICU symbols; original build collected foreign Poppler ICU from host PATH",
+  "dll_exports": [
+    {
+      "path": "artifacts\\S01\\dist\\phase0_smoke\\_internal\\icuuc.dll",
+      "ucnv_open_exported": false,
+      "ucnv_open_78_exported": true
+    },
+    {
+      "path": "C:\\Windows\\System32\\icuuc.dll",
+      "ucnv_open_exported": true,
+      "ucnv_open_78_exported": false
+    }
+  ]
+}

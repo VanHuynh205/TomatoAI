@@ -1,0 +1,52 @@
+[
+  {
+    "check": "tests",
+    "command": [
+      "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts/data",
+      "-p",
+      "test_clean_dryad.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_date_status_and_opaque_id (test_clean_dryad.DryadTests.test_date_status_and_opaque_id) ... ok\ntest_dtd_and_unsafe_package (test_clean_dryad.DryadTests.test_dtd_and_unsafe_package) ... ok\ntest_formula_cache_not_measured_value (test_clean_dryad.DryadTests.test_formula_cache_not_measured_value) ... ok\ntest_header_mismatch_is_blocked (test_clean_dryad.DryadTests.test_header_mismatch_is_blocked) ... ok\ntest_merged_header_provenance (test_clean_dryad.DryadTests.test_merged_header_provenance) ... ok\ntest_no_silent_merge_of_duplicate_ids (test_clean_dryad.DryadTests.test_no_silent_merge_of_duplicate_ids) ... ok\ntest_output_cannot_be_any_raw_directory (test_clean_dryad.DryadTests.test_output_cannot_be_any_raw_directory) ... ok\ntest_part_resource_limit_and_macro (test_clean_dryad.DryadTests.test_part_resource_limit_and_macro) ... ok\ntest_partial_checkpoint_is_not_overwritten (test_clean_dryad.DryadTests.test_partial_checkpoint_is_not_overwritten) ... ok\ntest_shared_formula_follower_and_whitespace (test_clean_dryad.DryadTests.test_shared_formula_follower_and_whitespace) ... ok\ntest_versioned_idempotency_and_tamper_refusal (test_clean_dryad.DryadTests.test_versioned_idempotency_and_tamper_refusal) ... ok\ntest_zero_precision_and_nonfinite (test_clean_dryad.DryadTests.test_zero_precision_and_nonfinite) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.576s\n\nOK\n"
+  },
+  {
+    "check": "verify",
+    "command": [
+      "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "scripts/data/verify_dryad.py",
+      "--config",
+      "scripts/data/dryad-config.json",
+      "--run-id",
+      "dryad-8b0f7c218098bfdf",
+      "--output",
+      "data\\TomatoAI\\data\\reports\\dryad\\validation-dryad-8b0f7c218098bfdf.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"passed\", \"run_id\": \"dryad-8b0f7c218098bfdf\", \"openpyxl\": \"3.1.5\", \"raw_files_verified\": 5, \"reference_files_verified\": 5, \"independent_nonempty_cells_verified\": 3119, \"serialized_ledger_cells\": 36223, \"formula_and_cache_cells_verified\": 108, \"records_verified\": 508, \"physical_source_rows\": 253, \"raw_unchanged\": true, \"no_formula_evaluation_or_workbook_save\": true, \"source_semantics_approved\": false}\n",
+    "stderr": ""
+  },
+  {
+    "check": "idempotency",
+    "command": [
+      "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "scripts/data/clean_dryad.py",
+      "--config",
+      "scripts/data/dryad-config.json",
+      "--project-root",
+      "."
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"idempotent_existing_verified\", \"run_id\": \"dryad-8b0f7c218098bfdf\"}\n",
+    "stderr": ""
+  }
+]
